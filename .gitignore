@@ -1,0 +1,8 @@
+public
+.DS_Store
+._.DS_Store
+._*
+.project
+.settings
+node_modules
+local.mk
