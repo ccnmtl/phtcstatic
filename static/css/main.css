@@ -1,3 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
 body {
     background-color: #eee;
+}
+
+#skippy {
+    display: block;
+    padding: 1em;
+    background-color: #fff;
+    outline: 0;
+}
+
+#skippy .skiplink-text {
+    padding: .5em;
+    outline: 1px dotted;
+}
+
+/* Header ------------------------------------------- */
+
+header .title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: #36c;
+}
+
+.module-name {
+    background-color: #b0d7ff;
+    color: #000;
+    font-size: 1rem;
+    line-height: 120%;
+}
+
+
+/* Sidebar navigation --------------------------------- */
+
+.nav-module {
+    font-size: 0.875rem;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-module .navbar-toggler {
+    font-size: 1rem;
+    color: #666;
+}
+
+.nav-module .navbar-toggler:focus {
+    outline: none;
+}
+
+.nav-module .nav-link {
+    display: inline-block;
+}
+
+/* Main content ------------------------------------- */
+
+main h1 {
+    font-weight: normal;
+    font-size: 1.625rem;
+}
+
+/* Page navigation----------------------------------- */
+
+.pagenav-item {
+    border: 1px solid #ccc;
+    border-radius: 1.5rem;
+    white-space: nowrap;
+    font-size: 0.75rem;
+}
+
+
+/* Footer ------------------------------------------- */
+
+footer p {
+    font-size: 0.75rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Responsive ---------------------------------------- */
+
+/* 
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up ) */
+@media (min-width: 768px) {
+    header .title {
+        height: 6.25rem;
+        line-height: 6.25rem;
+        font-size: 1.5rem;
+    }
+    .module-name {
+        font-size: 1.25rem;
+    }
+    .nav-module .navbar-toggler {
+        font-size: 1.25rem;
+    }
+    main h1 {
+        font-weight: normal;
+        font-size: 2rem;
+    }
+    footer p {
+        width: 75%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    header .title {
+        font-size: 2.25rem;
+    }
+    .module-name {
+        font-size: 1.5rem;
+    }
+    .nav-module {
+        border-right: 1px solid #ccc;
+        border-bottom: 0;
+    }
+    .nav-module .nav-link {
+        display: block;
+    }
+    main h1 {
+        font-weight: normal;
+        font-size: 2.5rem;
+    }
+    footer p {
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
