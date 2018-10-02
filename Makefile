@@ -1,4 +1,4 @@
-STAGING_URL=https://phtchugo.stage.ccnmtl.columbia.edu/
+STAGING_URL=https://phtcstatic.stage.ccnmtl.columbia.edu/
 PROD_URL=https://phtc.ctl.columbia.edu/
 STAGING_BUCKET=phtcstatic.stage.ccnmtl.columbia.edu
 PROD_BUCKET=phtc.ctl.columbia.edu
