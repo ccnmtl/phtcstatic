@@ -134,4 +134,4 @@ previous: "../engaging-participants-video/"
   }); // end doc.ready
   </script>
 <script src="js/quizshow.js"></script>
-</div><div class="submit-container"><input class="btn btn-info btn-submit-section" type="submit" value="Submit" /></div></form>
+</div></form>

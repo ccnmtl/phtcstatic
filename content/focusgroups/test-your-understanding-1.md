@@ -199,4 +199,4 @@ Capturing what people say in writing is the role of the note taker or recorder.<
   }); // end doc.ready
   </script>
 <script src="js/quizshow.js"></script>
-</div><div class="submit-container"><input class="btn btn-info btn-submit-section" type="submit" value="Submit" /></div></form>
+</div></form>
