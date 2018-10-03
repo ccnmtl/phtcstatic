@@ -1,6 +1,6 @@
 /* global alert: true */
 jQuery(document).ready(function() {
-    jQuery('.focusgroups a.moretoggle').click(function(evt) {
+    jQuery('a.moretoggle').click(function(evt) {
         evt.preventDefault();
         var $elt = jQuery(evt.currentTarget);
         var $answer = $elt.nextAll('.toggleable');
