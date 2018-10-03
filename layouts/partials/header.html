@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {{ .Hugo.Generator }}
+    
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}—{{ .Site.Params.shortTitle }}{{ end }}</title>
+
+    <!-- Bootstrap 4.1 CSS -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap/v4/bootstrap.min.css">
+    <!-- Fontawesome 5.3 CSS -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fontawesome/v5/css/all.min.css">
+    <!-- PHTC CSS -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+
+    <!-- Meta data -->
+    
+    <!-- Favicons -->
+
+    <!-- Privacy Cookies -->
+
+</head>
+<body{{ if .IsPage }} class="{{ .Type }}"{{ end }}>
+    <a id="skippy" class="sr-only sr-only-focusable container mx-auto" href="#maincontent">
+        <span class="skiplink-text">Skip to main content</span>
+    </a>
+    <header class="container p-0 my-0 bg-white">
+        <div class="phtc-brand text-center pb-2 d-flex flex-column flex-md-row justify-content-md-between">
+            <div class="logo order-1 order-md-2">
+                <img src="{{ .Site.BaseURL }}img/logo-phtc2.jpg" />
+            </div>
+            <div class="title order-2 order-md-1 pl-md-3">
+                Public Health Workforce Training
+            </div>
+        </div>
+        <div class="module-name px-1 py-2 px-md-3 text-center text-md-left">
+            {{ if .IsPage }}{{ .Title }}{{ end }} 
+        </div>
+    </header>
+
