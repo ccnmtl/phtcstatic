@@ -2,6 +2,7 @@
 
 body {
     background-color: #eee;
+    color: #000;
 }
 
 #skippy {
@@ -67,12 +68,79 @@ h3 {
     border: 0;
 }
 
+.video-player iframe {
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 560px;
+    max-height: 315px;
+}
 
 .pageblock {
     padding: 0;
     margin: 0;
     border: 0;
 }
+
+/* Quizzes ------------------------------------------ */
+
+.toggleable {
+    display: none;
+	padding: 0.625rem;
+    background-color: #fffefa;
+    -webkit-border-radius: 0.4rem;
+     -moz-border-radius: 0.4rem;
+    border-radius: 0.4rem;
+    border: 1px solid #e0e0e0;
+}
+
+.cases
+{
+	margin: 0 0 1.25rem 0;
+	padding: 0.625rem;
+	border: 1px solid #ffcc99;
+	background-color: #fcf8e3;
+    -webkit-border-radius: 0.4rem;
+     -moz-border-radius: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.casetitle
+{
+    font-weight: bold;
+    color: #cc6633;
+    font-style: italic;
+    margin-bottom: 0.4rem;
+}
+
+.casequestion p
+{
+	margin: 0 0 1.25rem 0;
+	padding: 0;
+	border: 0;
+    font-size: 1.25rem;
+    line-height: 120%;
+}
+
+.casequestion li
+{
+	margin: 0 0 0.875rem 0;
+	padding: 0;
+	border: 0;
+}
+
+.casequestion .answerchoices li
+{
+	margin: 0 0 0.875rem 0;
+	padding: 0;
+	border: 0;
+	list-style:none;
+}
+
+.case-feedback .well
+{
+    background-color: #fff;
+}
+
 
 /* Page navigation----------------------------------- */
 
@@ -86,7 +154,6 @@ h3 {
 .pagenav-item:hover {
     background-color: #e4f1fd;
 }
-
 
 /* Footer ------------------------------------------- */
 
@@ -157,7 +224,15 @@ No media query for `xs` since this is the default in Bootstrap
 @media (min-width: 1200px) {
 }
 
-/* Quizzes ---------------------------------------- */
-.toggleable {
-    display: none;
+@media print {
+    .print-alert {
+        font-weight: bold;
+        color: #000 !important;
+    }
+    .moretoggle {
+        display: none !important;
+    }
+    .toggleable {
+        display: block !important;
+    }
 }

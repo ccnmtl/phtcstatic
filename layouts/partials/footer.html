@@ -1,5 +1,5 @@
     <footer class="container p-0 pt-5 pb-3 my-0 bg-white text-center">
-        <ul class="nav d-flex justify-content-center">
+        <ul class="nav d-flex justify-content-center d-print-none">
             <li class="nav-item">
             <a class="nav-link" href="#">About</a>
             </li>
@@ -10,8 +10,15 @@
             <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
+        
+        <hr class="d-none d-print-block" />
+        
         <p class="m-auto">
         Principal support for the PHTC is provided through a grant from the Health Resources and Services Administration, U.S. Department of Health and Human Services.
+        </p>
+        
+        <p class="m-auto pt-4 d-none d-print-block">
+        Printed from: {{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}
         </p>
 
         <!-- Responsive indicator, to be removed before completion -->
