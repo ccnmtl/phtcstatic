@@ -10,7 +10,9 @@ menu:
     pre: 3
 depth: 3
 next: "../test-your-understanding-2/"
+next_title: "Test Your Understanding 2"
 previous: "../test-your-understanding-1/"
+previous_title: "Test Your Understanding 1"
 ---
 <div class="pageblock"><p>This video shows the process of participant introductions.</p>
 

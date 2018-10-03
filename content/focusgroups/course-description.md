@@ -10,6 +10,7 @@ menu:
     pre: 3
 depth: 3
 next: "../learning-objectives/"
+next_title: "Learning Objectives"
 ---
 <div class="pageblock"><h3>Overview</h3>
 <p>In this video-based training program, participants sit in on a mock focus group and watch as the moderator models different techniques to carry out the focus group. The program address techniques including ice-breaker exercises, validation techniques, and other strategies to probe group members for clarity and deeper meaning, while encouraging group interactions and active conversation.</p>

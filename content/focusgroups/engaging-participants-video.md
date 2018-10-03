@@ -10,7 +10,9 @@ menu:
     pre: 3
 depth: 3
 next: "../test-your-understanding-4/"
+next_title: "Test Your Understanding 4"
 previous: "../test-your-understanding-3/"
+previous_title: "Test Your Understanding 3"
 ---
 <div class="pageblock"><p>This video shows the moderator engaging the participants.</p>
 
