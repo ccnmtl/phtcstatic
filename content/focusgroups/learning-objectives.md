@@ -3,8 +3,8 @@ title: "Learning Objectives"
 module: "Facilitating Focus Groups"
 type: "module-page"
 menu:
-  facilitating_focus_groups:
-    parent: "facilitating_focus_groups"
+  focusgroups:
+    parent: "focusgroups"
     weight: 1
     identifier: "learning-objectives"
     pre: 3
@@ -14,10 +14,10 @@ next_title: "Introduction (Video)"
 previous: "../course-description/"
 previous_title: "Course Description"
 ---
-<div class="pageblock"><p>By the end of the module, you will be able to:</p>
+<div class="focusgroups"><div class="pageblock"><p>By the end of the module, you will be able to:</p>
 <ul>
 <li>Identify focus group standards for planning and logistics.</li>
 <li>Moderate a focus group utilizing listening, open-ended questioning, and probing techniques while encouraging active participation.</li>
 <li>Manage the logistical execution of the focus group with attention to conversation flow, group participation, and time-keeping.</li>
 </ul>
-</div>
+</div></div>

@@ -3,8 +3,8 @@ title: "Course Description"
 module: "Facilitating Focus Groups"
 type: "module-page"
 menu:
-  facilitating_focus_groups:
-    parent: "facilitating_focus_groups"
+  focusgroups:
+    parent: "focusgroups"
     weight: 0
     identifier: "course-description"
     pre: 3
@@ -12,7 +12,7 @@ depth: 3
 next: "../learning-objectives/"
 next_title: "Learning Objectives"
 ---
-<div class="pageblock"><h3>Overview</h3>
+<div class="focusgroups"><div class="pageblock"><h3>Overview</h3>
 <p>In this video-based training program, participants sit in on a mock focus group and watch as the moderator models different techniques to carry out the focus group. The program address techniques including ice-breaker exercises, validation techniques, and other strategies to probe group members for clarity and deeper meaning, while encouraging group interactions and active conversation.</p>
 <h3>Who should take this course?</h3>
 <p>This course is designed for individuals who have a background in designing or implementing quantitative research and who would like to expand their work to include conducting focus groups.  The course is ideal for those with a Masterâ€™s in public health or another social/behavioral or health science discipline or who have equivalent experience in the design or conduct of quantitative research.</p>
@@ -32,4 +32,4 @@ next_title: "Learning Objectives"
 <p>0.5 CPH credit. The New York City-Long Island-Lower Tri-County Public Health Training Center is a NBPHE pre-approved provider of CPH continuing education credits.  0.5 CPH CE will be awarded for participation in this activity.</p>
 <h3>Estimated time to complete</h3>
 <p>30 minutes</p>
-</div>
+</div></div>

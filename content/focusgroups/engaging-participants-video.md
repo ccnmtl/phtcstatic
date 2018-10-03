@@ -3,8 +3,8 @@ title: "Engaging Participants (Video)"
 module: "Facilitating Focus Groups"
 type: "module-page"
 menu:
-  facilitating_focus_groups:
-    parent: "facilitating_focus_groups"
+  focusgroups:
+    parent: "focusgroups"
     weight: 8
     identifier: "engaging-participants-video"
     pre: 3
@@ -14,6 +14,6 @@ next_title: "Test Your Understanding 4"
 previous: "../test-your-understanding-3/"
 previous_title: "Test Your Understanding 3"
 ---
-<div class="pageblock"><p>This video shows the moderator engaging the participants.</p>
+<div class="focusgroups"><div class="pageblock"><p>This video shows the moderator engaging the participants.</p>
 
-{{< youtube id="z2u8IiKvuNo" >}}</div>
+{{< youtube id="z2u8IiKvuNo" >}}</div></div>

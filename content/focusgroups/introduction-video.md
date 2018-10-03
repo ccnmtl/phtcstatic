@@ -3,8 +3,8 @@ title: "Introduction (Video)"
 module: "Facilitating Focus Groups"
 type: "module-page"
 menu:
-  facilitating_focus_groups:
-    parent: "facilitating_focus_groups"
+  focusgroups:
+    parent: "focusgroups"
     weight: 2
     identifier: "introduction-video"
     pre: 3
@@ -14,7 +14,7 @@ next_title: "Test Your Understanding 1"
 previous: "../learning-objectives/"
 previous_title: "Learning Objectives"
 ---
-<div class="pageblock"><p>The following videos will introduce you to the planning and logistical aspects of facilitating a focus group. You will get a see a focus group in action modeled by an expert in the field.</p>
+<div class="focusgroups"><div class="pageblock"><p>The following videos will introduce you to the planning and logistical aspects of facilitating a focus group. You will get a see a focus group in action modeled by an expert in the field.</p>
 <p>This first video discusses planning and getting started.</p>
 
-{{< youtube id="xPt3Yk3GAwc" >}}</div>
+{{< youtube id="xPt3Yk3GAwc" >}}</div></div>

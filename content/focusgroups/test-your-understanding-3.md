@@ -3,8 +3,8 @@ title: "Test Your Understanding 3"
 module: "Facilitating Focus Groups"
 type: "module-page"
 menu:
-  facilitating_focus_groups:
-    parent: "facilitating_focus_groups"
+  focusgroups:
+    parent: "focusgroups"
     weight: 7
     identifier: "test-your-understanding-3"
     pre: 3
@@ -14,7 +14,7 @@ next_title: "Engaging Participants (Video)"
 previous: "../the-icebreaker-activity-video/"
 previous_title: "The Icebreaker Activity (Video)"
 ---
-<form method="post" action="."><div class="pageblock"><div class="cases">
+<div class="focusgroups"><form method="post" action="."><div class="pageblock"><div class="cases">
 <div class="casetitle">
     Question 1:
   </div>
@@ -186,4 +186,4 @@ previous_title: "The Icebreaker Activity (Video)"
 </div>
 
 
-</div></form>
+</div></form></div>

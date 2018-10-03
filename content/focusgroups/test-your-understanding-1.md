@@ -3,8 +3,8 @@ title: "Test Your Understanding 1"
 module: "Facilitating Focus Groups"
 type: "module-page"
 menu:
-  facilitating_focus_groups:
-    parent: "facilitating_focus_groups"
+  focusgroups:
+    parent: "focusgroups"
     weight: 3
     identifier: "test-your-understanding-1"
     pre: 3
@@ -14,7 +14,7 @@ next_title: "Participant Introductions (Video)"
 previous: "../introduction-video/"
 previous_title: "Introduction (Video)"
 ---
-<form method="post" action="."><div class="pageblock"><div class="cases">
+<div class="focusgroups"><form method="post" action="."><div class="pageblock"><div class="cases">
 <div class="casetitle">
     Question 1:
   </div>
@@ -194,4 +194,4 @@ Capturing what people say in writing is the role of the note taker or recorder.<
 </div>
 
 
-</div></form>
+</div></form></div>

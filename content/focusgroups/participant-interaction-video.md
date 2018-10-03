@@ -3,8 +3,8 @@ title: "Participant Interaction (Video)"
 module: "Facilitating Focus Groups"
 type: "module-page"
 menu:
-  facilitating_focus_groups:
-    parent: "facilitating_focus_groups"
+  focusgroups:
+    parent: "focusgroups"
     weight: 10
     identifier: "participant-interaction-video"
     pre: 3
@@ -14,5 +14,5 @@ next_title: "Test Your Understanding 5"
 previous: "../test-your-understanding-4/"
 previous_title: "Test Your Understanding 4"
 ---
-<div class="pageblock">
-{{< youtube id="eIdRAO4fM5k" >}}</div>
+<div class="focusgroups"><div class="pageblock">
+{{< youtube id="eIdRAO4fM5k" >}}</div></div>
