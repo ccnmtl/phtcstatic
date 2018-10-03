@@ -182,13 +182,6 @@ previous: "../participant-interaction-video/"
 </div>
 </div>
 </div>
-<script>
-  jQuery(document).ready(function(){
-	  jQuery("button.reading-exercise").on('click', function(evt){
-		  jQuery(this).parent().parent().parent().find("div.question_response").css('display','block');
-	  });
-	  
-  }); // end doc.ready
-  </script>
-<script src="js/quizshow.js"></script>
+
+
 </div></form>
