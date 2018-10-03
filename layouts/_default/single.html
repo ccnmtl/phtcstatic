@@ -1,0 +1,51 @@
+{{ partial "header.html" . }}
+
+    <div class="container bg-white pt-0 pt-lg-4">
+        <div class="row">
+            <div class="col-lg-3 p-0 nav-module">
+                <div class="navbar navbar-expand-lg navbar-light bg-white py-1">
+                    <button class="navbar-toggler border-0 pl-0" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon mr-1"></span>
+                    In this module
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Page 1<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Page 2</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Page 3</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Very long title for this specific page number 4</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Back to short title page 5</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Continue to page N</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Conclusion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <main class="col-lg-9 pt-3 pt-lg-0" id="maincontent">
+            {{ .Content }}
+                
+                <nav>
+                <ul class="pagenav d-flex  p-0 mx-0 mt-5">
+                    <li class="pagenav-item d-block mr-auto"><a class="nav-link" href="#"><i class="fas fa-long-arrow-alt-left fa-lg"></i> <span class="d-none d-md-inline">Something</span><span class="d-inline d-md-none">Previous</span></a></li>
+                    <li class="pagenav-item d-block"><a class="nav-link" href="#"><span class="d-none d-md-inline">Something</span><span class="d-inline d-md-none">Next</span> <i class="fas fa-long-arrow-alt-right fa-lg"></i></a></li>
+                </ul>
+                </nav>
+            </main>
+        </div>
+    </div>
+
+{{ partial "footer.html" . }}

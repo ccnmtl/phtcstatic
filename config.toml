@@ -1,3 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Region 2 Public Health Training Center"
+
+[params]
+    shortTitle = "Region 2 PHTC"

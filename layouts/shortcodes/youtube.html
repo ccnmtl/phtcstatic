@@ -1,0 +1,12 @@
+<div class="video-player d-print-none">
+	<iframe src='https://www.youtube.com/embed/{{ .Get "id" }}' 
+		allowfullscreen
+		frameborder="0"
+		width="560"
+		height="315"
+	></iframe>
+</div>
+
+<div class="well d-print-block print-alert">
+<p>This segment of the page contains a video. The link to this video  is https://www.youtube.com/embed/{{ .Get "id" }}</p>
+</div>
