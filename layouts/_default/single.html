@@ -36,14 +36,24 @@
                 </div>
             </div>
             <main class="col-lg-9 pt-3 pt-lg-0" id="maincontent">
+            <h1 class="mb-4">{{ .Title }}</h1>
+            
             {{ .Content }}
-                
-                <nav>
-                <ul class="pagenav d-flex  p-0 mx-0 mt-5">
-                    <li class="pagenav-item d-block mr-auto"><a class="nav-link" href="#"><i class="fas fa-long-arrow-alt-left fa-lg"></i> <span class="d-none d-md-inline">Something</span><span class="d-inline d-md-none">Previous</span></a></li>
-                    <li class="pagenav-item d-block"><a class="nav-link" href="#"><span class="d-none d-md-inline">Something</span><span class="d-inline d-md-none">Next</span> <i class="fas fa-long-arrow-alt-right fa-lg"></i></a></li>
+
+            {{ $currentNode := . }}
+
+                {{ if eq .Type "module-page" }}
+                <nav class="d-print-none">
+                <ul class="pagenav d-flex p-0 mx-0 mt-5">
+                    {{ if .Params.previous }}
+                    <li class="pagenav-item d-block mr-auto"><a class="nav-link" href="{{.Params.previous}}"><i class="fas fa-long-arrow-alt-left fa-lg"></i> <span class="d-none d-md-inline">{{ .Params.previous_title }}</span><span class="d-inline d-md-none">Previous</span></a></li>
+                    {{ end }}
+                    {{ if .Params.next }}
+                    <li class="pagenav-item d-block ml-auto"><a class="nav-link" href="{{.Params.next}}"><span class="d-none d-md-inline">{{ .Params.next_title }}</span><span class="d-inline d-md-none">Next</span> <i class="fas fa-long-arrow-alt-right fa-lg"></i></a></li>
+                    {{ end }}
                 </ul>
                 </nav>
+                {{ end }}
             </main>
         </div>
     </div>
