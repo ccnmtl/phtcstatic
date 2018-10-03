@@ -18,10 +18,10 @@ jQuery(document).ready(function() {
         evt.preventDefault();
         var $parent = jQuery(evt.currentTarget).parent();
 
-        if ($parent.find('input').val().trim().length < 1) {
-            
+        if ($parent.prev().find('input').val().trim().length < 1) {
+            alert('Please complete your answer before continuing.');
         } else {
-            $parent().next().show();
+            $parent.next().show();
         }
         return false;
     });
