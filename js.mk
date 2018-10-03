@@ -16,14 +16,22 @@
 #
 # Using quotes here will cause eslint to ignore this argument.
 #
+JS_FILES ?= media/js
 
 NODE_MODULES ?= ./node_modules
 JS_SENTINAL ?= $(NODE_MODULES)/sentinal
+ESLINT ?= $(NODE_MODULES)/.bin/eslint
 
 $(JS_SENTINAL): package.json
 	rm -rf $(NODE_MODULES)
 	npm install
 	touch $(JS_SENTINAL)
 
+eslint: $(JS_SENTINAL)
+	$(ESLINT) $(JS_FILES)
 
-.PHONY: jstest
+jstest: $(JS_SENTINAL)
+	npm test
+
+.PHONY: eslint jstest
+

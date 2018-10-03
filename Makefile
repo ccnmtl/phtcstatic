@@ -7,7 +7,7 @@ HUGO=/usr/local/bin/hugo-0.47.1
 
 JS_FILES=static/js/src
 
-# commenting this out for now all: eslint
+all: eslint
 
 include *.mk
 
