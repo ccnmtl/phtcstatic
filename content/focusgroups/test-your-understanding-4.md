@@ -3,8 +3,8 @@ title: "Test Your Understanding 4"
 module: "Facilitating Focus Groups"
 type: "module-page"
 menu:
-  facilitating_focus_groups:
-    parent: "facilitating_focus_groups"
+  focusgroups:
+    parent: "focusgroups"
     weight: 9
     identifier: "test-your-understanding-4"
     pre: 3
@@ -14,7 +14,7 @@ next_title: "Participant Interaction (Video)"
 previous: "../engaging-participants-video/"
 previous_title: "Engaging Participants (Video)"
 ---
-<form method="post" action="."><div class="pageblock"><div class="cases">
+<div class="focusgroups"><form method="post" action="."><div class="pageblock"><div class="cases">
 <div class="casetitle">
     Question 1:
   </div>
@@ -129,4 +129,4 @@ previous_title: "Engaging Participants (Video)"
 </div>
 
 
-</div></form>
+</div></form></div>
