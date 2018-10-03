@@ -10,7 +10,9 @@ menu:
     pre: 3
 depth: 3
 next: "../post-test-module-evaluation/"
+next_title: "Completion &  Evaluation"
 previous: "../participant-interaction-video/"
+previous_title: "Participant Interaction (Video)"
 ---
 <form method="post" action="."><div class="pageblock"><div class="cases">
 <div class="casetitle">

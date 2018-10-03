@@ -10,7 +10,9 @@ menu:
     pre: 3
 depth: 3
 next: "../introduction-video/"
+next_title: "Introduction (Video)"
 previous: "../course-description/"
+previous_title: "Course Description"
 ---
 <div class="pageblock"><p>By the end of the module, you will be able to:</p>
 <ul>

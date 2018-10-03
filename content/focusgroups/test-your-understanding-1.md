@@ -10,7 +10,9 @@ menu:
     pre: 3
 depth: 3
 next: "../participant-introductions-video/"
+next_title: "Participant Introductions (Video)"
 previous: "../introduction-video/"
+previous_title: "Introduction (Video)"
 ---
 <form method="post" action="."><div class="pageblock"><div class="cases">
 <div class="casetitle">
