@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   focusgroups:
     parent: "focusgroups"
-    weight: 6
+    weight: 7
     identifier: "the-icebreaker-activity-video"
     pre: 3
 depth: 3
