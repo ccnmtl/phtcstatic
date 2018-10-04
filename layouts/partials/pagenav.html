@@ -1,0 +1,14 @@
+            {{ $currentPage := . }}
+
+                {{ if eq .Type "module-page" }}
+                <nav class="d-print-none">
+                <ul class="pagenav d-flex p-0 mx-0 mt-5">
+                    {{ if .Params.previous }}
+                    <li class="pagenav-item d-block mr-auto"><a class="nav-link" href="{{.Params.previous}}"><i class="fas fa-long-arrow-alt-left fa-lg"></i> <span class="d-none d-md-inline">{{ .Params.previous_title }}</span><span class="d-inline d-md-none">Previous</span></a></li>
+                    {{ end }}
+                    {{ if .Params.next }}
+                    <li class="pagenav-item d-block ml-auto"><a class="nav-link" href="{{.Params.next}}"><span class="d-none d-md-inline">{{ .Params.next_title }}</span><span class="d-inline d-md-none">Next</span> <i class="fas fa-long-arrow-alt-right fa-lg"></i></a></li>
+                    {{ end }}
+                </ul>
+                </nav>
+                {{ end }}

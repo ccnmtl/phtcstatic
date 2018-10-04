@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="module-name px-1 py-2 px-md-3 text-center text-md-left">
-            {{ if .IsPage }}{{ .Params.module }}{{ end }} 
+            {{ if .IsPage }}<a href="/{{ .Section }}/course-description/">{{ .Params.module }}</a>{{ end }} 
         </div>
     </header>
 
