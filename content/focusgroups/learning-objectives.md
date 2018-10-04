@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   focusgroups:
     parent: "focusgroups"
-    weight: 1
+    weight: 2
     identifier: "learning-objectives"
     pre: 3
 depth: 3

@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   focusgroups:
     parent: "focusgroups"
-    weight: 4
+    weight: 5
     identifier: "participant-introductions-video"
     pre: 3
 depth: 3

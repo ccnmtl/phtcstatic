@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   focusgroups:
     parent: "focusgroups"
-    weight: 9
+    weight: 10
     identifier: "test-your-understanding-4"
     pre: 3
 depth: 3

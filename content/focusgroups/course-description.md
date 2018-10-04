@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   focusgroups:
     parent: "focusgroups"
-    weight: 0
+    weight: 1
     identifier: "course-description"
     pre: 3
 depth: 3

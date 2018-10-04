@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   focusgroups:
     parent: "focusgroups"
-    weight: 12
+    weight: 13
     identifier: "post-test-module-evaluation"
     pre: 3
 depth: 3
