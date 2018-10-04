@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 25
+    weight: 26
     identifier: "instrument-design-sampling"
     pre: 4
 depth: 4

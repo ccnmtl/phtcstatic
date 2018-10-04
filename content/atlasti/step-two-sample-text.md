@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 9
+    weight: 10
     identifier: "step-two-sample-text"
     pre: 4
 depth: 4

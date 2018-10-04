@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 24
+    weight: 25
     identifier: "data-collection-methods"
     pre: 4
 depth: 4

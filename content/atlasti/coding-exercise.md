@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 15
+    weight: 16
     identifier: "coding-exercise"
     pre: 4
 depth: 4

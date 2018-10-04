@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 14
+    weight: 15
     identifier: "randomized-controlled-trials"
     pre: 4
 depth: 4

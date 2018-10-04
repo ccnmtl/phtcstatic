@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 9
+    weight: 10
     identifier: "process-questions"
     pre: 5
 depth: 5

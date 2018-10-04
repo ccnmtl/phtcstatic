@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 7
+    weight: 8
     identifier: "logic-model"
     pre: 4
 depth: 4

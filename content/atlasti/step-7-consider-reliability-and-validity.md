@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 23
+    weight: 24
     identifier: "step-7-consider-reliability-and-validity"
     pre: 4
 depth: 4

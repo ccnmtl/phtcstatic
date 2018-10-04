@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 2
+    weight: 3
     identifier: "atlasti-prep-work"
     pre: 4
 depth: 4

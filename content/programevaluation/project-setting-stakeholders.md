@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 5
+    weight: 6
     identifier: "project-setting-stakeholders"
     pre: 4
 depth: 4

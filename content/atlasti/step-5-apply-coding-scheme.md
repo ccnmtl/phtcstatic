@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 21
+    weight: 22
     identifier: "step-5-apply-coding-scheme"
     pre: 4
 depth: 4

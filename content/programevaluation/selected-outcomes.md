@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 22
+    weight: 23
     identifier: "selected-outcomes"
     pre: 4
 depth: 4

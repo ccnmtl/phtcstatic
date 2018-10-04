@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 22
+    weight: 23
     identifier: "step-six-refine-coding-scheme"
     pre: 4
 depth: 4

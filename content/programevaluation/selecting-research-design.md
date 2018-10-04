@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 13
+    weight: 14
     identifier: "selecting-research-design"
     pre: 3
 depth: 3

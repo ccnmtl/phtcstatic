@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 1
+    weight: 2
     identifier: "learning-objectives"
     pre: 3
 depth: 3

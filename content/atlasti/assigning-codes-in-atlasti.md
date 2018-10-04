@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 16
+    weight: 17
     identifier: "assigning-codes-in-atlasti"
     pre: 4
 depth: 4

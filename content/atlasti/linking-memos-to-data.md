@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 11
+    weight: 12
     identifier: "linking-memos-to-data"
     pre: 4
 depth: 4

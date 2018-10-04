@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 7
+    weight: 8
     identifier: "creating-quotations-in-atlasti"
     pre: 4
 depth: 4

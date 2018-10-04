@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 18
+    weight: 19
     identifier: "atlasti-code-manager"
     pre: 4
 depth: 4

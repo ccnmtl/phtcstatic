@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 21
+    weight: 22
     identifier: "final-research-design"
     pre: 3
 depth: 3

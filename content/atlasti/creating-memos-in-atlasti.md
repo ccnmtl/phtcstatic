@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 10
+    weight: 11
     identifier: "creating-memos-in-atlasti"
     pre: 4
 depth: 4

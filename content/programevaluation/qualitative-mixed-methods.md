@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 20
+    weight: 21
     identifier: "qualitative-mixed-methods"
     pre: 3
 depth: 3
