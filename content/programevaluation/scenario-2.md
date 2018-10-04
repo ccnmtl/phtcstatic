@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 18
+    weight: 19
     identifier: "scenario-2"
     pre: 4
 depth: 4

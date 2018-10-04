@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 20
+    weight: 21
     identifier: "sorting-codes"
     pre: 4
 depth: 4

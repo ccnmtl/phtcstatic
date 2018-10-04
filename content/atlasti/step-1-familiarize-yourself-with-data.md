@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 5
+    weight: 6
     identifier: "step-1-familiarize-yourself-with-data"
     pre: 4
 depth: 4

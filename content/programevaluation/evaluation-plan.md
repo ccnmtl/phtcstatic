@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 4
+    weight: 5
     identifier: "evaluation-plan"
     pre: 3
 depth: 3

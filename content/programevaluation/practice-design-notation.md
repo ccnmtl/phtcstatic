@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 16
+    weight: 17
     identifier: "practice-design-notation"
     pre: 3
 depth: 3

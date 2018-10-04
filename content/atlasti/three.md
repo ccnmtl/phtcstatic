@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 0
+    weight: 1
     identifier: "three"
     pre: 3
 depth: 3

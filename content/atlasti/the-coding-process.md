@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 14
+    weight: 15
     identifier: "the-coding-process"
     pre: 4
 depth: 4

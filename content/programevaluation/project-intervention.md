@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 6
+    weight: 7
     identifier: "project-intervention"
     pre: 4
 depth: 4

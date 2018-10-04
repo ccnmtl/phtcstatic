@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 6
+    weight: 7
     identifier: "reading-exercise"
     pre: 4
 depth: 4

@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 17
+    weight: 18
     identifier: "step-iv-generate-a-coding-manual"
     pre: 4
 depth: 4

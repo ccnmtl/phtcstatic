@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 12
+    weight: 13
     identifier: "step-three-group-margin-notes"
     pre: 4
 depth: 4

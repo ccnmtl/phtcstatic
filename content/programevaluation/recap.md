@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 29
+    weight: 30
     identifier: "recap"
     pre: 3
 depth: 3

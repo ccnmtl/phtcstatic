@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   atlasti:
     parent: "atlasti"
-    weight: 1
+    weight: 2
     identifier: "learning-objectives"
     pre: 4
 depth: 4

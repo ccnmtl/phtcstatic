@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 26
+    weight: 27
     identifier: "threats-to-validity"
     pre: 3
 depth: 3

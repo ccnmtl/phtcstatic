@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 3
+    weight: 4
     identifier: "cdc-framework"
     pre: 3
 depth: 3
