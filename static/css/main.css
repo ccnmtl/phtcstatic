@@ -33,6 +33,10 @@ header .title {
     line-height: 120%;
 }
 
+.module-name a {
+    color: #000;
+}
+
 
 /* Sidebar navigation --------------------------------- */
 
@@ -48,12 +52,21 @@ header .title {
 }
 
 .nav-module .navbar-toggler:focus {
-    outline: none;
+    outline: 1px dotted;
 }
 
 .nav-module .nav-link {
     display: inline-block;
 }
+
+.nav-module li.active {
+    background-color: #e4f1fd;
+}
+
+.nav-module li.active .nav-link {
+    color: #003366;
+}
+
 
 /* Main content ------------------------------------- */
 
@@ -66,6 +79,7 @@ h3 {
     padding: 0;
     margin: 2rem 0 0.5rem 0;
     border: 0;
+    font-size: 1.25rem;
 }
 
 .video-player iframe {
@@ -146,8 +160,6 @@ h3 {
     display: none;
 }
 
-
-
 /* Page navigation----------------------------------- */
 
 .pagenav-item {
@@ -197,6 +209,9 @@ No media query for `xs` since this is the default in Bootstrap
         font-weight: normal;
         font-size: 2rem;
     }
+    main h3 {
+        font-size: 1.5rem;
+    }
     footer p {
         width: 75%;
     }
@@ -220,6 +235,9 @@ No media query for `xs` since this is the default in Bootstrap
     main h1 {
         font-weight: normal;
         font-size: 2.5rem;
+    }
+    main h3 {
+        font-size: 1.75rem;
     }
     footer p {
         width: 50%;
