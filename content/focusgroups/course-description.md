@@ -2,6 +2,7 @@
 title: "Course Description"
 module: "Facilitating Focus Groups"
 type: "module-page"
+aliases: [/focusgroups/]
 menu:
   focusgroups:
     parent: "focusgroups"
