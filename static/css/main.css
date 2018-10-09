@@ -75,7 +75,7 @@ main h1 {
     font-size: 1.625rem;
 }
 
-h3 {
+h2 {
     padding: 0;
     margin: 2rem 0 0.5rem 0;
     border: 0;
@@ -126,13 +126,21 @@ h3 {
     margin-bottom: 0.4rem;
 }
 
-.casequestion p
+.casequestion
 {
 	margin: 0 0 1.25rem 0;
 	padding: 0;
 	border: 0;
     font-size: 1.25rem;
     line-height: 120%;
+}
+
+.answer-value
+{
+	margin: 0 0 0.875rem 0;
+	padding: 0;
+	border: 0;
+    font-size: 1rem;
 }
 
 .casequestion li
@@ -181,6 +189,84 @@ footer p {
     width: 100%;
 }
 
+
+/* Material design experiment */
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  50% {
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0);
+  }
+}
+.md-radio {
+  position: relative;
+}
+.md-radio.md-radio-inline {
+  display: inline-block;
+}
+.md-radio input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.md-radio input[type="radio"]:checked + label:before {
+  margin-top: 0.1rem;
+  border-color: #337ab7;
+  animation: ripple 0.2s linear forwards;
+}
+.md-radio input[type="radio"]:checked + label:after {
+  transform: scale(1);
+}
+.md-radio label {
+  display: block;
+  min-height: 20px;
+  position: relative;
+  padding: 0 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+.md-radio label:before, .md-radio label:after {
+  margin-top: 0.1rem;
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  transition: all .3s ease;
+  transition-property: transform, border-color;
+}
+.md-radio label:before {
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+}
+.md-radio label:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  background: #337ab7;
+}
+.md-radio input[type="radio"]:focus + label:before {
+  border: 2px solid rgba(51, 122, 183, 1) !important;
+  box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
+}
+.md-radio input[type="radio"]:focus + label:after {
+  border: 2px solid rgba(51, 122, 183, 1) !important;
+  box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
+}
+
+
+
+
 /* Responsive ---------------------------------------- */
 
 /* 
@@ -209,7 +295,7 @@ No media query for `xs` since this is the default in Bootstrap
         font-weight: normal;
         font-size: 2rem;
     }
-    main h3 {
+    main h2 {
         font-size: 1.5rem;
     }
     footer p {
@@ -236,7 +322,7 @@ No media query for `xs` since this is the default in Bootstrap
         font-weight: normal;
         font-size: 2.5rem;
     }
-    main h3 {
+    main h2 {
         font-size: 1.75rem;
     }
     footer p {
@@ -258,5 +344,8 @@ No media query for `xs` since this is the default in Bootstrap
     }
     .toggleable {
         display: block !important;
+    }
+    .md-radio input[type="radio"]:checked + label:after {
+      border: 2px solid rgba(51, 122, 183, 1) !important;
     }
 }

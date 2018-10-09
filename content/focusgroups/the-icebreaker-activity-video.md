@@ -14,6 +14,6 @@ next_title: "Test Your Understanding 3"
 previous: "../test-your-understanding-2/"
 previous_title: "Test Your Understanding 2"
 ---
-<div class="focusgroups"><div class="pageblock"><p>This video shows an example of an icebreaker activity.</p>
+This video shows an example of an icebreaker activity.
 
-{{< youtube id="uZwvmi3kZuU" >}}</div></div>
+{{< youtube id="uZwvmi3kZuU" >}}

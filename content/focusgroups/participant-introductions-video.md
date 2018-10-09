@@ -14,6 +14,6 @@ next_title: "Test Your Understanding 2"
 previous: "../test-your-understanding-1/"
 previous_title: "Test Your Understanding 1"
 ---
-<div class="focusgroups"><div class="pageblock"><p>This video shows the process of participant introductions.</p>
+This video shows the process of participant introductions.
 
-{{< youtube id="5UCVjMyb32E" >}}</div></div>
+{{< youtube id="5UCVjMyb32E" >}}
