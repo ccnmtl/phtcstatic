@@ -5,10 +5,10 @@ jQuery(document).ready(function() {
         var $elt = jQuery(evt.currentTarget);
         var $answer = $elt.nextAll('.toggleable');
         if ($answer.is(':visible')) {
-            $elt.html('Show answer &#62;&#62;');
+            $elt.html('Show answer <i class="fas fa-angle-double-right"></i>');
             $answer.hide();
         } else {
-            $elt.html('Hide answer &#62;&#62;');
+            $elt.html('Hide answer <i class="fas fa-angle-double-right"></i>');
             $answer.show();
         }
         return false;
