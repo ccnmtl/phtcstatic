@@ -168,6 +168,51 @@ h2 {
     display: none;
 }
 
+/* AtlasTI Coding Exercise */
+
+.atlasti table.table-matching,
+.atlasti table#header-table {
+    margin: 14px 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-size: 100%;
+    width: 100%;
+}
+
+.atlasti table.table-matching td,
+.atlasti table#header-table td {
+    border: 1px solid #999;
+    border-collapse: collapse;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.atlasti table#header-table td.code-label {
+    font-weight: bold;
+}
+
+.atlasti table#header-table td.code-label h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.atlasti td.your-answer, td.our-answer {
+    width: 80px;
+    text-align: center;
+}
+
+.atlasti table.table-matching td.td-ui,
+.atlasti table#header-table td.td-ui {
+    width: 40px;
+    text-align: center;
+}
+
+.atlasti table td.your-answer,
+.atlasti table td.our-answer {
+    display: none;
+}
+
 /* Page navigation----------------------------------- */
 
 .pagenav-item {
