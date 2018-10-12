@@ -51,14 +51,15 @@ jQuery(document).ready(function() {
 
     jQuery('.atlasti .btn-submit-section').click(function(evt) {
         evt.preventDefault();
+
         var $parent = jQuery(evt.currentTarget).parent();
 
         if ($parent.prev().find('input').val().trim().length < 1) {
             alert('Please complete your answer before continuing.');
         } else {
             $parent.next().show();
+            jQuery(evt.currentTarget).hide();
         }
-        jQuery(evt.currentTarget).hide();
         return false;
     });
 
