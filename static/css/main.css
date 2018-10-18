@@ -95,6 +95,11 @@ h2 {
     border: 0;
 }
 
+figure.img-fluid img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Quizzes ------------------------------------------ */
 
 .toggleable {
@@ -239,6 +244,54 @@ h2 {
 .part3-introduction #col-3 ul {
     border: 3px solid #6992c8;
 }
+
+/* Margin notes examples */
+
+.table-div {
+    margin: 0;
+}
+
+.table-div div
+{
+    border: 1px solid #ccc;
+}
+
+.table-div h4
+{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    border: 1px solid #ccc;
+    background-color: #fff1e1;
+}
+
+.table-div dt,
+.table-div dd
+{
+    padding: 0;
+    border-bottom: 0;
+}
+
+.table-div dd {
+    margin-bottom: 1rem;
+}
+
+.table-div h3 {
+    margin: 0 -15px;
+    padding: 0.5rem 0.9rem;
+    background-color: #fcdab8;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.table-div p {
+    margin: 0.625rem 0;
+}
+
+.transcript-excerpt p {
+    font-family: "courier new", courier, serif;
+}
+
 
 
 .atlasti .casesanswerdisplay.question_response {
@@ -442,6 +495,15 @@ No media query for `xs` since this is the default in Bootstrap
     .part3-introduction .direction-arrow img {
         margin-left: -1.25rem;
         margin-top: 0;
+    }
+    .table-div dt,
+    .table-div dd
+    {
+        padding: 0.5rem 15px;
+        border-bottom: 1px solid #ccc;
+    }
+    .table-div dd {
+        margin-bottom: 0;
     }
 }
 

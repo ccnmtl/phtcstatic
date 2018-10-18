@@ -14,64 +14,43 @@ next_title: "The Coding Process"
 previous: "../step-three-group-margin-notes/"
 previous_title: "Step 3: Group Margin Notes"
 ---
-<div class="atlasti"><div class="pageblock"><p>Here are some examples of different types of codes.</p>
-<table>
-<thead>
-<tr>
-<th class="th1">What Can be Coded</th>
-<th class="th1">Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="th2">Behaviors, specific acts</th>
-<td>Seeking reassurance, Bragging</td>
-</tr>
-<tr>
-<th class="th2">Events – short once in a lifetime events or things people have done that are often told as a story.</th>
-<td>Wedding day, day moved out of home for university, starting first job </td>
-</tr>
-<tr>
-<th class="th2">Activities – these are of a longer duration, involve other people within a particular setting</th>
-<td>Going clubbing, attending a night course, conservation work</td>
-</tr>
-<tr>
-<th class="th2">Strategies, practice or tactics
-    </th><td>Being nasty to get dumped,<br>
-        Staying late at work to get promotion</td>
-</tr>
-<tr>
-<th class="th2">States – general conditions experienced by people or found in organizations</th>
-<td>Hopelessness “I’ll never meet anyone better at my age,” settling for someone who is not really suitable</td>
-</tr>
-<tr>
-<th class="th2">Participation – adaptation to a new setting or involvement</th>
-<td>About new neighbors “In my new house I have to keep my music down at night as the neighbors have young children”.</td>
-</tr>
-<tr>
-<th class="th2">Relationships or interaction</th>
-<td>Seeing family “ Now my sister lives in the next road she visits more   and we’ve become much closer."</td>
-</tr>
-<tr>
-<th class="th2">Conditions or constraints</th>
-<td>Lose of job   (before financial difficulties), moving away (before lost contact with old   friends)</td>
-</tr>
-<tr>
-<th class="th2">Consequences
-    </th><td>Confidence gets dates, positive attitude attracts opportunities</td>
-</tr>
-<tr>
-<th class="th2">Settings – the entire context of the events under study</th>
-<td>University, work   place, housing estate</td>
-</tr>
-<tr>
-<th class="th2">Reflexive – researcher’s role in the process, how intervention   generated the data</th>
-<td>Probing question “How did you feel when he said that?”</td>
-</tr>
-</tbody><tfoot>
-<tr>
-<th class="th00" colspan="2">Source: <i>Table adapted from Lewins, A., Taylor, C. & Gibbs, G. 2005)</i></th>
-</tr>
-</tfoot>
-</table>
-</div></div>
+
+Here are some examples of different types of codes.
+
+<div class="row table-div d-none d-md-flex" aria-hidden="true">
+    <div class="col-12 col-md-6">
+    <h3>What Can be Coded</h3>
+    </div>
+    <div class="col-12 col-md-6">
+    <h3>Examples</h3>
+    </div>
+</div>
+<dl class="row table-div">
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Behaviors, specific acts</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Seeking reassurance, Bragging</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Events – short once in a lifetime events or things people have done that are often told as a story.</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Wedding day, day moved out of home for university, starting first job</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Activities – these are of a longer duration, involve other people within a particular setting</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Going clubbing, attending a night course, conservation work.</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Strategies, practice or tactics</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Being nasty to get dumped,<br />Staying late at work to get promotion</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">States – general conditions experienced by people or found in organizations</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Hopelessness “I’ll never meet anyone better at my age,” settling for someone who is not really suitable</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Participation – adaptation to a new setting or involvement</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>About new neighbors “In my new house I have to keep my music down at night as the neighbors have young children”.</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Relationships or interaction</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Seeing family “Now my sister lives in the next road she visits more and we’ve become much closer.”</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Conditions or constraints</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Lose of job (before financial difficulties), moving away (before lost contact with old friends)</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Consequences</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Confidence gets dates, positive attitude attracts opportunities</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Settings – the entire context of the events under study</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>University, work place, housing estate</dd>
+  <dt class="col-12 col-md-6" aria-label="What can be coded">Reflexive – researcher’s role in the process, how intervention   generated the data</dt>
+    <dd class="col-12 col-md-6" aria-label="Example"><span class="d-inline d-md-none" aria-hidden="true"><i>Example:</i> </span>Probing question “How did you feel when he said that?”</dd>
+</dl>
+
+_Source: Table adapted from Lewins, A., Taylor, C. & Gibbs, G. 2005)_
+
+
+
