@@ -247,36 +247,17 @@ figure.img-fluid img {
 
 /* Margin notes examples */
 
-.table-div {
+.table-layout-display {
     margin: 0;
-}
-
-.table-div div
-{
     border: 1px solid #ccc;
 }
 
-.table-div h4
+.table-layout-display div
 {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: normal;
-    border: 1px solid #ccc;
-    background-color: #fff1e1;
+    border-right: none;
 }
 
-.table-div dt,
-.table-div dd
-{
-    padding: 0;
-    border-bottom: 0;
-}
-
-.table-div dd {
-    margin-bottom: 1rem;
-}
-
-.table-div h3 {
+.table-layout-display h3 {
     margin: 0 -15px;
     padding: 0.5rem 0.9rem;
     background-color: #fcdab8;
@@ -284,7 +265,16 @@ figure.img-fluid img {
     font-weight: bold;
 }
 
-.table-div p {
+.table-layout-display h4
+{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    /*border: 1px solid #ccc;*/
+    background-color: #fff1e1;
+}
+
+.table-layout-display p {
     margin: 0.625rem 0;
 }
 
@@ -292,6 +282,10 @@ figure.img-fluid img {
     font-family: "courier new", courier, serif;
 }
 
+.th-second {
+    background-color: transparent;
+    font-weight: bold;
+}
 
 
 .atlasti .casesanswerdisplay.question_response {
@@ -496,14 +490,21 @@ No media query for `xs` since this is the default in Bootstrap
         margin-left: -1.25rem;
         margin-top: 0;
     }
-    .table-div dt,
-    .table-div dd
+    .table-layout-display div
     {
-        padding: 0.5rem 15px;
-        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
     }
-    .table-div dd {
-        margin-bottom: 0;
+    .table-layout-display div:last-of-type
+    {
+        border-right: none;
+    }
+    .th-second, .coded-example {
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+    .th-second {
+        background-color: #fff1e1;
+        font-weight: bold;
     }
 }
 

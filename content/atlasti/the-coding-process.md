@@ -16,9 +16,9 @@ previous_title: "What Can be Coded?"
 ---
 Creating codes typically requires several iterations of trial and error to decide which codes will be used and which codes will be discarded. The coding process consists of three main phases, or types of coding, each of which builds upon the work of the previous step.
 
-<div class="row table-div mb-3">
+<div class="row table-layout-display">
     <div class="col-12">
-    <h3>Table describing the three main levels or types of coding</h3>
+    <h3>The three main levels or types of coding</h3>
     </div>
     <h4 class="col-3 py-2">
     Open coding
