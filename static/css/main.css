@@ -95,9 +95,24 @@ h2 {
     border: 0;
 }
 
+figure.img-fluid img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Quizzes ------------------------------------------ */
 
 .toggleable {
+    display: none;
+	padding: 0.625rem;
+    background-color: #fffefa;
+    -webkit-border-radius: 0.4rem;
+     -moz-border-radius: 0.4rem;
+    border-radius: 0.4rem;
+    border: 1px solid #e0e0e0;
+}
+
+.answer-container {
     display: none;
 	padding: 0.625rem;
     background-color: #fffefa;
@@ -161,6 +176,115 @@ h2 {
 .case-feedback .well
 {
     background-color: #fff;
+}
+
+/* part3-introduction */
+
+.part3-introduction {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0rem;
+}
+
+.part3-introduction div {
+    padding: 0;
+}
+
+.part3-introduction h3 {
+    color: #fff;
+    border: 4px solid #fff;
+    box-shadow: 2px 2px 5px #ccc;
+    width: 100%;
+    padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+    border-radius: 0.625rem;
+    font-size: 1rem;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+.part3-introduction ul {
+    background-color: #fff;
+    border: 3px solid #ccc;
+    border-radius: 0.625rem;
+    margin: -2rem 1rem 0 1rem;
+    padding: 0.75rem 0.75rem 0.75rem 1.625rem;
+    height: auto;
+    font-size: 0.875rem;
+}
+
+.part3-introduction .direction-arrow {
+    text-align: right;
+}
+
+.part3-introduction .direction-arrow img {
+    margin-left: 0;
+    margin-top: -1.625rem;
+}
+
+.part3-introduction #col-1 h3 {
+    background-color: #aac76d;
+}
+
+.part3-introduction #col-2 h3 {
+    background-color: #f3a75b;
+}
+
+.part3-introduction #col-3 h3 {
+    background-color: #6992c8;
+}
+
+.part3-introduction #col-1 ul {
+    border: 3px solid #aac76d;
+}
+
+.part3-introduction #col-2 ul {
+    border: 3px solid #f3a75b;
+}
+
+.part3-introduction #col-3 ul {
+    border: 3px solid #6992c8;
+}
+
+/* Margin notes examples */
+
+.table-layout-display {
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+.table-layout-display div
+{
+    border-right: none;
+}
+
+.table-layout-display h3 {
+    margin: 0 -15px;
+    padding: 0.5rem 0.9rem;
+    background-color: #fcdab8;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.table-layout-display h4
+{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    /*border: 1px solid #ccc;*/
+    background-color: #fff1e1;
+}
+
+.table-layout-display p {
+    margin: 0.625rem 0;
+}
+
+.transcript-excerpt p {
+    font-family: "courier new", courier, serif;
+}
+
+.th-second {
+    background-color: transparent;
+    font-weight: bold;
 }
 
 
@@ -346,6 +470,42 @@ No media query for `xs` since this is the default in Bootstrap
     footer p {
         width: 75%;
     }
+    /* part3-introduction */
+    .part3-introduction {
+        margin-bottom: 0;
+    }
+    .part3-introduction h3 {
+        width: 75%;
+        padding: 0.75rem 0.75rem 1.625rem 0.75rem;
+        font-size: 1.25rem;
+    }
+    .part3-introduction ul {
+        margin: -2rem 0 0 0.75rem;
+        height: 90%;
+    }
+    .part3-introduction .direction-arrow {
+        text-align: left;
+    }
+    .part3-introduction .direction-arrow img {
+        margin-left: -1.25rem;
+        margin-top: 0;
+    }
+    .table-layout-display div
+    {
+        border-right: 1px solid #ccc;
+    }
+    .table-layout-display div:last-of-type
+    {
+        border-right: none;
+    }
+    .th-second, .coded-example {
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+    .th-second {
+        background-color: #fff1e1;
+        font-weight: bold;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -377,6 +537,24 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    /* part3-introduction */
+    .part3-introduction {
+        margin-left: 1rem;
+        margin-bottom: 5rem;
+    }
+    .part3-introduction h3 {
+        width: 70%;
+        padding: 1rem 1rem 1.75rem 1rem;
+        font-size: 1.5rem;
+    }
+    .part3-introduction ul {
+        margin: -2rem 0.625rem 0 1rem;
+        font-size: 1rem;
+    }
+    .part3-introduction .direction-arrow img {
+        margin-left: -1.5rem;
+        margin-top: 0;
+    }
 }
 
 @media print {
@@ -387,10 +565,22 @@ No media query for `xs` since this is the default in Bootstrap
     .moretoggle {
         display: none !important;
     }
-    .toggleable {
+    .toggleable, .answer-container {
         display: block !important;
     }
     .md-radio input[type="radio"]:checked + label:after {
       border: 2px solid rgba(51, 122, 183, 1) !important;
+    }
+    .part3-introduction #col-1 h3 {
+        border: 5px solid #aac76d;
+        color: #aac76d;
+    }
+    .part3-introduction #col-2 h3 {
+        border: 5px solid #f3a75b;
+        color: #f3a75b;
+    }
+    .part3-introduction #col-3 h3 {
+        border: 5px solid #6992c8;
+        color: #6992c8;
     }
 }

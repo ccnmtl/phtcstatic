@@ -54,7 +54,7 @@ jQuery(document).ready(function() {
 
         var $parent = jQuery(evt.currentTarget).parent();
 
-        if ($parent.prev().find('input').val().trim().length < 1) {
+        if ($parent.prev().find('textarea').val().trim().length < 1) {
             alert('Please complete your answer before continuing.');
         } else {
             $parent.next().show();
