@@ -22,11 +22,11 @@ This is primarily done by:
 * Examining overlapping codes and uncoded text
 * Continuing revision of category system
 
-### Examining overlapping codes and uncoded text
+## Examining overlapping codes and uncoded text
 Among the commonly assumed rules that underlie qualitative coding, two are different from the rules typically used in quantitative coding:
 
 * One segment of text may be coded into more than one category
 * A considerable amount of the text may not be assigned to any category, as the text may not be relevant to the research objectives
 
-### Continuing revision of category system
+## Continuing revision of category system
 Within each category, search for subtopics, including contradictory points of view and new insights. Select appropriate quotes that convey the core theme or essence of a category. The categories may be combined or linked under a super-ordinate category when the meanings are similar.
