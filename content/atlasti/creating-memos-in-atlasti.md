@@ -7,21 +7,22 @@ menu:
     parent: "atlasti"
     weight: 11
     identifier: "creating-memos-in-atlasti"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../linking-memos-to-data/"
 next_title: "Linking Memos to Data in ATLAS.ti"
 previous: "../step-two-sample-text/"
 previous_title: "Examples of Margin Notes"
 ---
+
 The memo tool in ATLAS.ti can be used for margin notes.  Some other uses for the memo tool are:
 
-* Explanatory and descriptive texts associated with other "objects", such as quotations, codes, etc
+* Explanatory and descriptive texts associated with other “objects”, such as quotations, codes, etc
 * A place to store/take methodological notes
-* As a "bulletin board" in team projects
+* As a “bulletin board” in team projects
 * A location for code lists or ideas
 
-You can create free memos, meaning memos that are not linked to any quotations or codes, or memos that are  linked to data.
+You can create free memos, meaning memos that are not linked to any quotations or codes, or memos that are linked to data.
 
 ## Creating Free Memos
 

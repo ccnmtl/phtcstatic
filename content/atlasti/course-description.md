@@ -13,9 +13,10 @@ depth: 3
 next: "../learning-objectives/"
 next_title: "Learning Objectives"
 ---
+
 ## Overview
 
-Qualitative research produces rich, narrative data that requires both analysis and interpretation. In this section, learners are guided through the basic steps of the analysis process: Organize, Reduce, and Describe. An interactive practice exercise accompanies each step. Following this discussion, ATLAS.ti is introduced as a computer assisted software package that can supplement and improve pen and paper coding processes. Users follow instructional videos to learn how to use ATLAS.ti to manage large bodies of textual, graphical, audio, and video data. It is recommended that users download a trial version of Atlas.ti software to follow along with the instructional videos in Part III and to practice at home. Download a <a href="" target="_blank" href="http://atlasti.com/free-trial-version/">trial version of ATLAS.ti</a>.
+Qualitative research produces rich, narrative data that requires both analysis and interpretation. In this section, learners are guided through the basic steps of the analysis process: Organize, Reduce, and Describe. An interactive practice exercise accompanies each step. Following this discussion, ATLAS.ti is introduced as a computer assisted software package that can supplement and improve pen and paper coding processes. Users follow instructional videos to learn how to use ATLAS.ti to manage large bodies of textual, graphical, audio, and video data. It is recommended that users download a trial version of ATLAS.ti software to follow along with the instructional videos in Part III and to practice at home. Download a <a target="_blank" href="http://atlasti.com/free-trial-version/">trial version of ATLAS.ti</a>.
 
 ## Who should take this course?
 

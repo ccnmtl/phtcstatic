@@ -7,13 +7,14 @@ menu:
     parent: "atlasti"
     weight: 9
     identifier: "step-two-write-margin-notes"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../step-two-sample-text/"
 next_title: "Examples of Margin Notes"
 previous: "../creating-quotations-in-atlasti/"
 previous_title: "Creating Quotations in ATLAS.ti"
 ---
+
 Margin notes are a useful and foundational analytic tool that can be viewed as a dialogue with yourself about the data you are reading. You might think of margin notes as “scribbles” or “jottings” that will lay an analytic foundation for topics or themes of interest during the later phases of your analysis. 
 
 Types of margin notes will vary from project to project but may include

@@ -7,13 +7,14 @@ menu:
     parent: "atlasti"
     weight: 4
     identifier: "introduction"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../organizing-data-in-atlasti/"
 next_title: "Organizing Data in ATLAS.ti"
 previous: "../atlasti-prep-work/"
 previous_title: "ATLAS.ti Prep Work"
 ---
+
 Qualitative data comes in several forms and from a variety of sources. For your research study on HIV risk among adolescents in Brooklynville, you may have collected textual data using one or several of the following methods:
 
 * __Semi-structured interviews__ with high school students attending an afterschool program in your community;
@@ -51,3 +52,5 @@ The tasks involved in analyzing qualitative data include:
         </ul>
     </div>
 </div>
+
+Let’s go a bit deeper into each of these steps in the analysis process. Start the analysis process by organizing your data.

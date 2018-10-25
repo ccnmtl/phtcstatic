@@ -7,13 +7,14 @@ menu:
     parent: "atlasti"
     weight: 16
     identifier: "coding-exercise"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../assigning-codes-in-atlasti/"
 next_title: "Assigning Codes in ATLAS.ti"
 previous: "../the-coding-process/"
 previous_title: "The Coding Process"
 ---
+
 <div class="atlasti"><form method="post" action="."><div class="pageblock"><p>Let's practice coding.</p>
 
 <div class="cases">

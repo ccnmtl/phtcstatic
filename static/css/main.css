@@ -213,12 +213,15 @@ figure.img-fluid img {
 }
 
 .part3-introduction .direction-arrow {
-    text-align: right;
+    text-align: center;
+    padding-bottom: 0.4rem;
 }
 
 .part3-introduction .direction-arrow img {
     margin-left: 0;
-    margin-top: -1.625rem;
+    margin-top: 0;
+    transform: rotate(90deg);
+    height: 2rem;
 }
 
 .part3-introduction #col-1 h3 {
@@ -245,6 +248,10 @@ figure.img-fluid img {
     border: 3px solid #6992c8;
 }
 
+.iterative-code {
+    list-style: none;
+}
+
 /* Margin notes examples */
 
 .table-layout-display {
@@ -269,8 +276,8 @@ figure.img-fluid img {
 {
     margin: 0;
     font-size: 1rem;
-    font-weight: normal;
-    /*border: 1px solid #ccc;*/
+    font-weight: bold;
+    border-right: 1px solid #ccc;
     background-color: #fff1e1;
 }
 
@@ -485,10 +492,13 @@ No media query for `xs` since this is the default in Bootstrap
     }
     .part3-introduction .direction-arrow {
         text-align: left;
+        padding-bottom: 0;
     }
     .part3-introduction .direction-arrow img {
         margin-left: -1.25rem;
         margin-top: 0;
+        transform: none;
+        height: auto;
     }
     .table-layout-display div
     {
