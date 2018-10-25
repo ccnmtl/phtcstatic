@@ -7,13 +7,14 @@ menu:
     parent: "atlasti"
     weight: 12
     identifier: "linking-memos-to-data"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../step-three-group-margin-notes/"
 next_title: "Step 3: Group Margin Notes"
 previous: "../creating-memos-in-atlasti/"
 previous_title: "Creating Memos in ATLAS.ti"
 ---
+
 ## Creating a memo for a data segment
 
 __Step 1:__ Select the text in the primary document for which you want to write a memo.

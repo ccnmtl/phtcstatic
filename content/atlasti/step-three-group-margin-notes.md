@@ -7,13 +7,14 @@ menu:
     parent: "atlasti"
     weight: 13
     identifier: "step-three-group-margin-notes"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../what-can-be-coded/"
 next_title: "What Can be Coded?"
 previous: "../linking-memos-to-data/"
 previous_title: "Linking Memos to Data in ATLAS.ti"
 ---
+
 <div class="card bg-light mb-4">
   <div class="card-body">
     “Any researcher who wishes to become proficient at doing qualitative analysis must learn to code well and easily. The excellence of the research rests in large part on the excellence of the coding.”<br />

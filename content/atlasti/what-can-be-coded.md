@@ -7,8 +7,8 @@ menu:
     parent: "atlasti"
     weight: 14
     identifier: "what-can-be-coded"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../the-coding-process/"
 next_title: "The Coding Process"
 previous: "../step-three-group-margin-notes/"
@@ -39,7 +39,7 @@ Here are some examples of different types of codes.
 <div class="row table-layout-display mt-3 mt-md-0 py-1 py-md-0">
     <div class="col-12 col-md-6 th-second">
         <span class="sr-only">What Can be Coded:</span>
-        Events – short once in a lifetime events or things people have done that are often told as a story.
+        Events—short once in a lifetime events or things people have done that are often told as a story.
     </div>
     <div class="col-12 col-md-6 coded-example">
         <span class="sr-only">Examples:</span>
@@ -50,7 +50,7 @@ Here are some examples of different types of codes.
 <div class="row table-layout-display mt-3 mt-md-0 py-1 py-md-0">
     <div class="col-12 col-md-6 th-second">
         <span class="sr-only">What Can be Coded:</span>
-        Activities – these are of a longer duration, involve other people within a particular setting
+        Activities—these are of a longer duration, involve other people within a particular setting
     </div>
     <div class="col-12 col-md-6 coded-example">
         <span class="sr-only">Examples:</span>
@@ -72,7 +72,7 @@ Here are some examples of different types of codes.
 <div class="row table-layout-display mt-3 mt-md-0 py-1 py-md-0">
     <div class="col-12 col-md-6 th-second">
         <span class="sr-only">What Can be Coded:</span>
-        States – general conditions experienced by people or found in organizations
+        States—general conditions experienced by people or found in organizations
     </div>
     <div class="col-12 col-md-6 coded-example">
         <span class="sr-only">Examples:</span>
@@ -83,7 +83,7 @@ Here are some examples of different types of codes.
 <div class="row table-layout-display mt-3 mt-md-0 py-1 py-md-0">
     <div class="col-12 col-md-6 th-second">
         <span class="sr-only">What Can be Coded:</span>
-        Participation – adaptation to a new setting or involvement
+        Participation—adaptation to a new setting or involvement
     </div>
     <div class="col-12 col-md-6 coded-example">
         <span class="sr-only">Examples:</span>
@@ -127,7 +127,7 @@ Here are some examples of different types of codes.
 <div class="row table-layout-display mt-3 mt-md-0 py-1 py-md-0">
     <div class="col-12 col-md-6 th-second">
         <span class="sr-only">What Can be Coded:</span>
-        Settings – the entire context of the events under study
+        Settings—the entire context of the events under study
     </div>
     <div class="col-12 col-md-6 coded-example">
         <span class="sr-only">Examples:</span>
@@ -138,7 +138,7 @@ Here are some examples of different types of codes.
 <div class="row table-layout-display mt-3 mt-md-0 py-1 py-md-0">
     <div class="col-12 col-md-6 th-second">
         <span class="sr-only">What Can be Coded:</span>
-        Reflexive – researcher’s role in the process, how intervention   generated the data
+        Reflexive—researcher’s role in the process, how intervention   generated the data
     </div>
     <div class="col-12 col-md-6 coded-example">
         <span class="sr-only">Examples:</span>

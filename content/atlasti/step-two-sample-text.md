@@ -7,13 +7,14 @@ menu:
     parent: "atlasti"
     weight: 10
     identifier: "step-two-sample-text"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../creating-memos-in-atlasti/"
 next_title: "Creating Memos in ATLAS.ti"
 previous: "../step-two-write-margin-notes/"
 previous_title: "Step 2: Write Margin Notes"
 ---
+
 Here are some examples of margin notes that you may make on the excerpt from the transcript.
 
 <div class="row table-layout-display" aria-label="Example 1">

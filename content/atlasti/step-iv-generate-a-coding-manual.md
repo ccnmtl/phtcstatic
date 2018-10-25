@@ -7,24 +7,29 @@ menu:
     parent: "atlasti"
     weight: 18
     identifier: "step-iv-generate-a-coding-manual"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../atlasti-code-manager/"
 next_title: "ATLAS.ti Code Manager"
 previous: "../assigning-codes-in-atlasti/"
 previous_title: "Assigning Codes in ATLAS.ti"
 ---
-<div class="atlasti"><div class="pageblock"><p>Your margin notes and initial or open codes have been tracked on the paper copies of your transcript but keeping an inventory or log of these items is useful. Since the number of codes can accumulate quickly and change as analysis progresses, it is advised that you keep a record of your emergent codes in a codebook; a great place to store the codebook is in the Atlas.TIâ€™s Code Manager. Maintaining this list also provides an analytic opportunity to organize and reorganize the codes into major categories and subcategories (Saldana 2005). Code manuals or codebooks become especially critical when multiple team members work together on the same project data. By creating a codebook and requiring that all team members use the codebook when coding, you can ensure a level of standardization on how different people interpret and assign codes. </p>
-<p>The standard elements of a codebook include:</p>
-<ul>
-<li>Code name</li>
-<li>Code definition</li>
-<li>A description of when to use the code</li>
-<li>A description of when not to use the code</li>
-<li>An example of a block of coded text</li>
-</ul>
-<p>Here is a sample codebook using the codes from the previous exercise.</p>
-</div><div class="pageblock"><table border="0" cellpadding="0" cellspacing="0">
+
+Your margin notes and initial or open codes have been tracked on the paper copies of your transcript but keeping an inventory or log of these items is useful. Since the number of codes can accumulate quickly and change as analysis progresses, it is advised that you keep a record of your emergent codes in a codebook; a great place to store the codebook is in the ATLAS.ti’s Code Manager. Maintaining this list also provides an analytic opportunity to organize and reorganize the codes into major categories and subcategories (Saldana 2005). Code manuals or codebooks become especially critical when multiple team members work together on the same project data. By creating a codebook and requiring that all team members use the codebook when coding, you can ensure a level of standardization on how different people interpret and assign codes.
+
+The standard elements of a codebook include:
+
+* Code name
+* Code definition
+* A description of when to use the code
+* A description of when not to use the code
+* An example of a block of coded text
+
+Here is a sample codebook using the codes from the previous exercise.
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
 <thead>
 <tr>
 <th class="th1" valign="top">Code Name</th>
@@ -58,4 +63,3 @@ previous_title: "Assigning Codes in ATLAS.ti"
 </tr>
 </tbody>
 </table>
-</div></div>

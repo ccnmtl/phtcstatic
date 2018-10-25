@@ -7,19 +7,20 @@ menu:
     parent: "atlasti"
     weight: 7
     identifier: "reading-exercise"
-    pre: 4
-depth: 4
+    pre: 3
+depth: 3
 next: "../creating-quotations-in-atlasti/"
 next_title: "Creating Quotations in ATLAS.ti"
 previous: "../step-1-familiarize-yourself-with-data/"
 previous_title: "Step 1: Familiarize Yourself with Data"
 ---
+
 Let’s practice the three types of reading. Below is an excerpt from a transcript of one of the focus groups the team conducted with HIV-positive women in Brooklynville. Jot down comments that reflect your thoughts on each type of reading. Imagine you are the moderator. You should have at least one note per type of reading (e.g., at least one note from your literal reading, one note from your interpretative reading, and one from your reflexive reading). The first one has been completed for you.
 
 <div class="card mb-2">
 <div class="card-body">
 <p>
-<b>MODERATOR:</b> Okay, so it's like mostly, you know, central Bruekleynville like general kind of area. Okay. And what kind of, what kind of techniques do you use to do outreach and education?
+<b>MODERATOR:</b> Okay, so it’s like mostly, you know, central Bruekleynville like general kind of area. Okay. And what kind of, what kind of techniques do you use to do outreach and education?
 </p>
 <p>
 A <b>literal</b> reading of this excerpt might read: “Update spelling of Brooklynville in transcripts.”
@@ -60,8 +61,8 @@ Now continue reading and commenting on this transcript.
 </div><!-- /.casetitle -->
 <div class="casecontent">
 <div class="casequestion answer-value">
-<p><strong>W1:</strong> That's right.  Yeah.</p>
-<p><strong>MODERATOR:</strong> Oh, that's cool. </p>
+<p><strong>W1:</strong> That’s right.  Yeah.</p>
+<p><strong>MODERATOR:</strong> Oh, that’s cool. </p>
 <textarea class="form-control w-75" row="3" name="question40" placeholder="Your answer..."></textarea>
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
@@ -81,10 +82,10 @@ Now continue reading and commenting on this transcript.
 <div class="casecontent">
 <div class="casequestion answer-value">
 <p><strong>W1:</strong> Homeless shelters..</p>
-<p><strong>MODERATOR:</strong> You know, when you've had some experience doing this, um, there are places that will pay you to do that –</p>
+<p><strong>MODERATOR:</strong> You know, when you’ve had some experience doing this, um, there are places that will pay you to do that –</p>
 <p><strong>W1:</strong> Mm hmm.</p>
-<p><strong>MODERATOR:</strong> so this is a good thing that you're getting some experience.  And, um, can you tell me a little bit, you know what's the deal with women, obviously, and this being the middle of Bruekleynville very different kinds of women, you have everything here.  What do you. you sort of, you know, hear from the people you deal with about HIV testing?  Is it something they've even thought about? </p>
-<p><strong>W2:</strong> No. I don't think so.</p>
+<p><strong>MODERATOR:</strong> so this is a good thing that you’re getting some experience.  And, um, can you tell me a little bit, you know what’s the deal with women, obviously, and this being the middle of Bruekleynville very different kinds of women, you have everything here.  What do you. you sort of, you know, hear from the people you deal with about HIV testing?  Is it something they’ve even thought about? </p>
+<p><strong>W2:</strong> No. I don’t think so.</p>
 <textarea class="form-control w-75" row="3" name="question41" placeholder="Your answer..."></textarea>
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
@@ -104,7 +105,7 @@ Now continue reading and commenting on this transcript.
 <div class="casecontent">
 <div class="casequestion answer-value">
 <p><strong>W2:</strong> Right.</p>
-<p><strong>W1:</strong> So, they just keep on out there getting high, they don't know.  They're very promiscuous because they wanna get the next hit.  That they get caught up and don't get checked because all they're thinking about is the high.</p>
+<p><strong>W1:</strong> So, they just keep on out there getting high, they don’t know.  They’re very promiscuous because they wanna get the next hit.  That they get caught up and don’t get checked because all they’re thinking about is the high.</p>
 <textarea class="form-control w-75" row="3" name="question42" placeholder="Your answer..."></textarea>
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
