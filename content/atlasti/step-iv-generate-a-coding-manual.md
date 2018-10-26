@@ -31,13 +31,13 @@ Here is a sample codebook using the codes from the previous exercise.
     <div class="col-12 col-md-2">
         Code Name
     </div>
-    <div class="col-12  col-md-3">
+    <div class="col-12 col-md-3">
         Definition
     </div>
     <div class="col-12 col-md-2">
         When to Use
     </div>
-    <div class="col-12  col-md-3">
+    <div class="col-12 col-md-3">
         When Not to Use
     </div>
     <div class="col-12 col-md-2">
@@ -51,7 +51,7 @@ Here is a sample codebook using the codes from the previous exercise.
         Route of HIV transmission
         </p>
     </div>
-    <div class="col-12  col-md-3">
+    <div class="col-12 col-md-3">
         <h3 class="d-block d-md-none" aria-hidden="false">Definition:</h3>
         <p>Used when participants report how they believe they became infected with HIV (unsafe sex, injection drug use, perinatally infected, etc)</p>
     </div>
@@ -59,7 +59,7 @@ Here is a sample codebook using the codes from the previous exercise.
         <h3 class="d-block d-md-none" aria-hidden="false">When to Use:</h3>
         <p>Refers to any discussion of how participant themselves became infected with HIV</p>
     </div>
-    <div class="col-12  col-md-3">
+    <div class="col-12 col-md-3">
         <h3 class="d-block d-md-none" aria-hidden="false">When Not to Use:</h3>
         <p>Do not use when participants are talking about individuals other than themselves (e.g. children, sexual partners)</p>
     </div>
@@ -75,7 +75,7 @@ Here is a sample codebook using the codes from the previous exercise.
         Types of medication
         </p>
     </div>
-    <div class="col-12  col-md-3">
+    <div class="col-12 col-md-3">
         <h3 class="d-block d-md-none" aria-hidden="false">Definition:</h3>
         <p>Any discussion of the participants HIV medication history  (e.g Combivir, Epivir, Truvada)</p>
     </div>
@@ -83,7 +83,7 @@ Here is a sample codebook using the codes from the previous exercise.
         <h3 class="d-block d-md-none" aria-hidden="false">When to Use:</h3>
         <p>Use ONLY when participants talk about types of medication they have been prescribed by a doctor or health professional</p>
     </div>
-    <div class="col-12  col-md-3">
+    <div class="col-12 col-md-3">
         <h3 class="d-block d-md-none" aria-hidden="false">When Not to Use:</h3>
         <p>Do not use when participants are discussing medication for diseases or conditions that are not HIV OR meds that have not been prescribed by a physician</p>
     </div>
@@ -99,7 +99,7 @@ Here is a sample codebook using the codes from the previous exercise.
         Medication adherence
         </p>
     </div>
-    <div class="col-12  col-md-3">
+    <div class="col-12 col-md-3">
         <h3 class="d-block d-md-none" aria-hidden="false">Definition:</h3>
         <p>Any discussion of the issues associated with taking medication as prescribed, include facilitators to medication adherence (e.g. setting phone alarm as a reminder) as well as barriers (e.g. forgetting or planned to not take meds)</p>
     </div>
@@ -107,7 +107,7 @@ Here is a sample codebook using the codes from the previous exercise.
         <h3 class="d-block d-md-none" aria-hidden="false">When to Use:</h3>
         <p>Any discussion of difficulty or changes to prescribed regimen (e.g. missed doses)</p>
     </div>
-    <div class="col-12  col-md-3">
+    <div class="col-12 col-md-3">
         <h3 class="d-block d-md-none" aria-hidden="false">When Not to Use:</h3>
         <p>No coding of non-HIV meds (e.g. no HPV meds or other illnesses)</p>
     </div>

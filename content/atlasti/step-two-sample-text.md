@@ -33,7 +33,7 @@ Here are some examples of margin notes that you may make on the excerpt from the
 </div>
 <div class="row table-layout-display mt-4 mt-md-0" aria-label="Example 2">
     <div class="col-12 col-md-6 transcript-excerpt" aria-label="Excerpt from Transcript">
-        <h3 class="d-block d-md-none">Excerpt from Transcript</h3>
+        <h3 class="d-block d-md-none" aria-hidden="true">Excerpt from Transcript</h3>
         <p>MODERATOR: Okay.  And, um, who else besides teenagers will get into anything that's out there to be gotten into?</p>
         <p>W2: Drug users.</p>
         <p>W3: Battered women.  Women who are facing domestic violence.</p>
@@ -45,23 +45,23 @@ Here are some examples of margin notes that you may make on the excerpt from the
         <p>W2:  They say that it came from monkeys.  You know, they got a lotta [unclear].</p>
     </div>
     <div class="col-12 col-md-6 margin-notes" aria-label="Sample Margin Note">
-        <h3 class="d-block d-md-none">Sample Margin Notes</h3>
+        <h3 class="d-block d-md-none" aria-hidden="true">Sample Margin Notes</h3>
         <p>A MENTAL NOTE TO PURSUE AN ISSUE FURTHER: “the literature indicates that stigma towards sexual minorities is high among heterosexual populations at risk for or infected with HIV; this respondent turns that conventional wisdom that on its head. I will explore the issue of stigma further to see how it looks among women in the other focus groups.”</p>
     </div>
 </div>
 <div class="row table-layout-display mt-4 mt-md-0" aria-label="Example 3">
     <div class="col-12 col-md-6 transcript-excerpt" aria-label="Excerpt from Transcript">
-        <h3 class="d-block d-md-none">Excerpt from Transcript</h3>
+        <h3 class="d-block d-md-none" aria-hidden="true">Excerpt from Transcript</h3>
         <p>MODERATOR:  Gay people were like the first people to have it in big numbers in the U.S.[unclear]</p>
     </div>
     <div class="col-12 col-md-6 margin-notes" aria-label="Sample Margin Note">
-        <h3 class="d-block d-md-none">Sample Margin Notes</h3>
+        <h3 class="d-block d-md-none" aria-hidden="true">Sample Margin Notes</h3>
         <p>THE RESEARCHER’S RELATIONSHIP WITH PARTICIPANTS: “The moderator must be neutral at all times. There may be some biases at play here with regard to her views on HIV transmission. Must be sure to bring this up in our next meeting.”</p>
     </div>
 </div>
 <div class="row table-layout-display mt-4 mt-md-0" aria-label="Example 4">
     <div class="col-12 col-md-6 transcript-excerpt" aria-label="Excerpt from Transcript">
-        <h3 class="d-block d-md-none">Excerpt from Transcript</h3>
+        <h3 class="d-block d-md-none" aria-hidden="true">Excerpt from Transcript</h3>
         <p>MODERATOR: Okay.  And what kind of drug use do you get in this area?</p>
         <p>W1:  Cocaine.</p>
         <p>W2:  Crack</p>
@@ -69,18 +69,18 @@ Here are some examples of margin notes that you may make on the excerpt from the
         <p>(The other women repeat "crack" in agreement.)</p>
     </div>
     <div class="col-12 col-md-6 margin-notes" aria-label="Sample Margin Note">
-        <h3 class="d-block d-md-none">Sample Margin Notes</h3>
+        <h3 class="d-block d-md-none" aria-hidden="true">Sample Margin Notes</h3>
         <p>A NEW HYPOTHESIS THAT MIGHT EXPLAIN A PUZZLING OBSERVATION: “it is surprising that teenagers are so aware of the amount of drug use in their community. Environmental and structural factors might be shaping HIV risk among teens, as well as adults here in Brooklynville.”</p>
     </div>
 </div>
 <div class="row table-layout-display mt-4 mt-md-0" aria-label="Example 5">
     <div class="col-12 col-md-6 transcript-excerpt" aria-label="Excerpt from Transcript">
-        <h3 class="d-block d-md-none">Excerpt from Transcript</h3>
+        <h3 class="d-block d-md-none" aria-hidden="true">Excerpt from Transcript</h3>
         <p>W5: Weed.</p>
         <p>MODERATOR: Right.</p>
     </div>
     <div class="col-12 col-md-6 margin-notes" aria-label="Sample Margin Note">
-        <h3 class="d-block d-md-none">Sample Margin Notes</h3>
+        <h3 class="d-block d-md-none" aria-hidden="true">Sample Margin Notes</h3>
         <p>THE RESEARCHER’S RELATIONSHIP WITH PARTICIPANTS: I must stay away from verbal agreement with participant statements.</p>
     </div>
 </div>

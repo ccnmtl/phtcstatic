@@ -22,11 +22,14 @@ To sharpen code definitions and their reliable and appropriate application to da
 
 Guba and Lincoln proposed four criteria for judging the soundness of qualitative research and explicitly offered these as an alternative to more traditional quantitatively-oriented criteria. They felt that their four criteria better reflected the underlying assumptions involved in much qualitative research. Their proposed criteria and the "analogous" quantitative criteria are listed in the table.
 
-<table>
+<table class="atlasti-table">
 <thead>
 <tr>
-<th class="th1">Traditional Criteria for Judging Quantitative Research</th>
-<th class="th1">Alternative Criteria for Judging Qualitative Research</th>
+<th colspan="2" class="th1">Criteria for Judging Quantitative Research</th>
+</tr>
+<tr>
+<th scope="col" class="th2">Traditional </th>
+<th scope="col" class="th2">Alternative</th>
 </tr>
 </thead>
 <tr>

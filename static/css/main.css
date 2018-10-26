@@ -283,6 +283,12 @@ figure.img-fluid img {
     font-weight: bold;
 }
 
+.th1 {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #fcdab8;
+}
+
 .th2 {
     font-size: 1rem;
     font-weight: bold;
@@ -294,7 +300,7 @@ figure.img-fluid img {
     margin: 0;
     font-size: 1rem;
     font-weight: bold;
-    border-right: 1px solid #ccc;
+    border-right: none;
     background-color: #fff1e1;
 }
 
@@ -311,6 +317,16 @@ figure.img-fluid img {
     font-weight: bold;
 }
 
+.atlasti-table {
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+.atlasti-table th,
+.atlasti-table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+}
 
 .atlasti .casesanswerdisplay.question_response {
     display: none;
@@ -518,6 +534,10 @@ No media query for `xs` since this is the default in Bootstrap
         height: auto;
     }
     .table-layout-display div
+    {
+        border-right: 1px solid #ccc;
+    }
+    .table-layout-display h4
     {
         border-right: 1px solid #ccc;
     }
