@@ -272,6 +272,23 @@ figure.img-fluid img {
     font-weight: bold;
 }
 
+.table-layout-display.col-header {
+    background-color: #fcdab8;
+}
+
+.table-layout-display.col-header div {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.th2 {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #fff1e1;
+}
+
 .table-layout-display h4
 {
     margin: 0;
