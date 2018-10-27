@@ -17,7 +17,7 @@ previous_title: "Step 4: Generate a Coding Manual"
 
 A convenient location to store your codebook is in ATLAS.ti’s code manager.
 
-### An overview of the Code Manager
+## An overview of the Code Manager
 
 {{< youtube id="jMnz7Tqoz28" >}}
 

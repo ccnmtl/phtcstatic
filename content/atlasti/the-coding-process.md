@@ -23,10 +23,10 @@ Creating codes typically requires several iterations of trial and error to decid
     </div>
 </div>
 <div class="row table-layout-display">
-    <h4 class="col-3 py-2">
+    <h4 class="col-12 col-md-3 py-2">
     Open coding
     </h4>
-    <div class="col-9 py-2">
+    <div class="col-12 col-md-9 py-2">
     <ul class="pl-3 m-0">
         <li>The process of creating many codes as one takes an initial look at the data</li>
         <li>Allows the researcher to mine the data for all possible analytic ideas and theoretical   possibilities that have the potential to develop</li>
@@ -34,10 +34,10 @@ Creating codes typically requires several iterations of trial and error to decid
     </div>
 </div>
 <div class="row table-layout-display">
-    <h4 class="col-3 py-2">
+    <h4 class="col-12 col-md-3 py-2">
     Axial coding
     </h4>
-    <div class="col-9 py-2">
+    <div class="col-12 col-md-9 py-2">
     <ul class="pl-3 m-0">
         <li>The process of selecting the key codes and concepts of interest </li>
         <li>Involves a regrouping of the data into the main coding scheme.</li>
@@ -45,10 +45,10 @@ Creating codes typically requires several iterations of trial and error to decid
     </div>
 </div>
 <div class="row table-layout-display mb-2">
-    <h4 class="col-3 py-2">
+    <h4 class="col-12 col-md-3 py-2">
     Selective coding
     </h4>
-    <div class="col-9 py-2">
+    <div class="col-12 col-md-9 py-2">
     <ul class="pl-3 m-0">
         <li>Seeks to identify the central code in the study, the one to which all other codes are related</li>
     </ul>    
