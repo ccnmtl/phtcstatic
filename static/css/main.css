@@ -183,7 +183,7 @@ figure.img-fluid img {
 .part3-introduction {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
 }
 
 .part3-introduction div {
@@ -332,12 +332,140 @@ figure.img-fluid img {
     display: none;
 }
 
-/* AtlasTI Coding Exercise */
+/* Matching question-answer Exercise */
+
+ol.custom-counter {
+    list-style: none;
+    counter-reset: custom-number;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+ol.custom-counter li {
+    counter-increment: custom-number;
+    margin: 0.25rem 0;
+}
+
+ol.custom-counter li::before {
+    content: counter(custom-number);
+    background-color: #90d5e0;
+    width: 1.625rem;
+    height: 1.625rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1.625rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+.matching-quiz {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.5rem;
+    border-top: 2px solid #ffcc80;
+}
+
+.matching-q-header {
+    padding: 0.5rem;
+    background-color: #ffcc80;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.matching-q {
+    background-color: #ffe6c0;
+    padding: 0.5rem;
+}
+
+.option-labels,
+.option-buttons {
+    height: 100%;
+}
+
+.option-label:first-child,
+.option-button:first-child {
+    padding-left: 0;
+}
+
+.option-label {
+    padding: 0 0.125rem 0 0;
+    text-align: center;
+    height: 100%;
+    line-height: 2.25rem;
+}
+
+.option-label span {
+    background-color: #90d5e0;
+    display: block;
+    font-weight: bold;
+    height: 100%;
+}
+
+.option-buttons {
+    background-color: #d9edf7;
+}
+
+.option-button  {
+    padding: 0 0;
+    text-align: center;
+    height: 100%;
+}
+
+.option-button .md-radio  {
+    background-color: #d9edf7;
+    vertical-align: middle;
+    height: 100%;
+    padding: 1rem 0.75rem;
+}
+
+.option-button .md-radio label {
+    padding: 0 0 0 1rem;
+    color: black;
+    margin: auto;
+    text-align: left;
+    width: auto;
+    background-color: #90d5e0;
+    border-radius: 1rem;
+}
+
+.option-button .md-radio label span {
+    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+    padding-top: 0.125rem;
+    font-weight: bold;
+}
+
+.user-selection,
+.phtc-selection {
+    display: none;
+}
+
+.option-label.user-selection span,
+.option-label.phtc-selection span {
+    background-color: #a5d6a7;
+}
+
+.option-button.user-selection p,
+.option-button.phtc-selection p {
+    display: block;
+    background-color: #d6f1d7;
+    height: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.answer-prompt {
+    display: block;
+}
 
 .atlasti table.table-matching,
 .atlasti table#header-table {
-    margin: 14px 0;
-    padding: 0;
+    /*margin: 14px 0;
+    padding: 0;*/
     border: 1px solid #ccc;
     border-collapse: collapse;
     font-size: 100%;
@@ -448,6 +576,7 @@ footer p {
   border-radius: 50%;
   transition: all .3s ease;
   transition-property: transform, border-color;
+  background-color: #cfe9ff;
 }
 .md-radio label:before {
   left: 0;
@@ -483,8 +612,23 @@ Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap
  */
 
+
+@media (min-width: 370px) {
+    .option-button .md-radio label {
+        padding: 0 0 0 1.625rem;
+    }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .option-button .md-radio label {
+        padding: 0 0 0 1.625rem;
+        margin: auto;
+        text-align: left;
+        width: auto;
+        background-color: #90d5e0;
+        border-radius: 1rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up ) */
@@ -512,7 +656,7 @@ No media query for `xs` since this is the default in Bootstrap
     }
     /* part3-introduction */
     .part3-introduction {
-        margin-bottom: 0;
+        margin-bottom: 3rem;
     }
     .part3-introduction h3 {
         width: 75%;
@@ -553,6 +697,39 @@ No media query for `xs` since this is the default in Bootstrap
         background-color: #fff1e1;
         font-weight: bold;
     }
+    .matching-quiz {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.125rem;
+        border-top: 0;
+    }
+    .option-label:first-child,
+    .option-button:first-child {
+        padding-left: 0.125rem;
+    }
+    .option-button  {
+        padding: 0 0.125rem 0 0;
+    }
+    .option-buttons {
+        background-color: transparent;
+    }
+    .option-button .md-radio  {
+        padding: 0.75rem 0.75rem;
+    }
+    .option-button .md-radio label {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        width: 20px;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .option-button .md-radio label span  {
+        display: none;
+    }
+    .answer-prompt {
+        display: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -587,7 +764,6 @@ No media query for `xs` since this is the default in Bootstrap
     /* part3-introduction */
     .part3-introduction {
         margin-left: 1rem;
-        margin-bottom: 5rem;
     }
     .part3-introduction h3 {
         width: 70%;
