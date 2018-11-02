@@ -15,177 +15,245 @@ previous: "../the-coding-process/"
 previous_title: "The Coding Process"
 ---
 
-<div class="atlasti"><form method="post" action="."><div class="pageblock"><p>Let's practice coding.</p>
+Let's practice coding.
 
+<div class="atlasti"><form method="post" action=".">
 <div class="cases">
 <div class="casetitle">
     Question 1:
-  </div>
+</div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
-<ul>
-<li>Read the scenarios below.</li>
-<li> Look at the list of codes below and decide which code sums up what is being talked about in each line of the text (you may use a code more than once).</li>
-<li>Once you have selected codes for ALL the lines of text, click on the submit button below the passage of text.</li>
-</ul>
-<form id="form-9" method="post">
-</form><form id="matching-form-9">
-<!-- go through each question type, note that only the
-        rhetorical and matching blocks have form tags -->
-<!-- -->
-<!-- -->
-<!-- adding show answer block for feedback here -->
-<!-- end show answer block for feedback here -->
-<!-- -->
-<h4>List of codes:</h4><!-- Think this is done -->
-<div id="codes">
-<ol class="answer-codes">
-<li>Testing Issues</li>
-<li>Motherhood</li>
-<li>Medication Adherence </li>
-<li>Diagnosis</li>
-</ol>
-</div><!--end #codes-->
-<table id="header-table">
-<tr>
-<td class="code-label"><h5>SCENARIO</h5></td>
-<td class="td-ui">
-<span>1</span>
-</td>
-<td class="td-ui">
-<span>2</span>
-</td>
-<td class="td-ui">
-<span>3</span>
-</td>
-<td class="td-ui">
-<span>4</span>
-</td>
-<td class="your-answer">
-Your Answer
-</td>
-<td class="our-answer">
-Our Answer
-</td>
-</tr>
-</table>
-<div id="matching">
-<table class="table-matching">
-<tr>
-<td class="answer-label">Now that don't necessarily mean he's positive.  My baby's daddy's
-not positive, he's negative. </td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-0" type="radio" value="1. Testing Issues">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-0" type="radio" value="2. Motherhood">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-0" type="radio" value="3. Medication Adherence ">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-0" type="radio" value="4. Diagnosis">
-</td>
-<td class="your-answer">
-
-</td>
-<td class="our-answer">
-1. Testing Issues
-</td>
-</tr>
-</table><!--end .table-matching-->
-<table class="table-matching">
-<tr>
-<td class="answer-label">And he took the test, he started taking  the test, but I kept my son
-going to the same [unclear] from having the virus in his body....  </td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-1" type="radio" value="1. Testing Issues">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-1" type="radio" value="2. Motherhood">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-1" type="radio" value="3. Medication Adherence ">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-1" type="radio" value="4. Diagnosis">
-</td>
-<td class="your-answer">
-
-</td>
-<td class="our-answer">
-2. Motherhood
-</td>
-</tr>
-</table><!--end .table-matching-->
-<table class="table-matching">
-<tr>
-<td class="answer-label">Yeah, I have to deal with it and take the medicine and everything...</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-2" type="radio" value="1. Testing Issues">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-2" type="radio" value="2. Motherhood">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-2" type="radio" value="3. Medication Adherence ">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-2" type="radio" value="4. Diagnosis">
-</td>
-<td class="your-answer">
-
-</td>
-<td class="our-answer">
-3. Medication Adherence
-</td>
-</tr>
-</table><!--end .table-matching-->
-<table class="table-matching">
-<tr>
-<td class="answer-label">but my son is negative...It took like a year and then I made sure I
-got that piece of paper which states that he is negative.....  </td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-3" type="radio" value="1. Testing Issues">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-3" type="radio" value="2. Motherhood">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-3" type="radio" value="3. Medication Adherence ">
-</td>
-<td class="td-ui user-selection">
-<input name="pageblock-63-question9-3" type="radio" value="4. Diagnosis">
-</td>
-<td class="your-answer">
-
-</td>
-<td class="our-answer">
-4. Diagnosis
-</td>
-</tr>
-</table><!--end .table-matching-->
-</div><!--end #matching-->
-<div id="comparison"></div>
-
-<!-- -->
-<!-- -->
-<!-- -->
-</form>
-<!-- end #matching-form-9-->
-<!-- -->
+<div class="casequestion answer-value">
+    <ul>
+    <li>Read the scenarios below.</li>
+    <li> Look at the list of codes below and decide which code sums up what is being talked about in each line of the text (you may use a code more than once).</li>
+    <li>Once you have selected codes for ALL the lines of text, click on the submit button below the passage of text.</li>
+    </ul>
+    <p><b>List of codes:</b></p>
+    <ol class="custom-counter">
+    <li>Testing Issues</li>
+    <li>Motherhood</li>
+    <li>Medication Adherence</li>
+    <li>Diagnosis</li>
+    </ol>
+    <div class="row matching-quiz mt-3" aria-hidden="true">
+        <div class="col-12 col-md-8 matching-q-header">
+        Scenarios
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+            <div class="row option-labels">
+                <div class="col option-label selections">
+                    <span>1</span>
+                </div>
+                <div class="col option-label selections">
+                    <span>2</span>
+                </div>
+                <div class="col option-label selections">
+                    <span>3</span>
+                </div>
+                <div class="col option-label selections">
+                    <span>4</span>
+                </div>
+                 <div class="col-6 option-label user-selection">
+                    <span>Your answer</span>
+                </div>
+                 <div class="col-6 option-label phtc-selection">
+                    <span>Our answer</span>
+                </div>
+           </div>
+        </div>
+    </div>
+    <div class="row matching-quiz" aria-label="Scenario 1">
+        <div class="col-12 col-md-8 matching-q">
+        Now that don’t necessarily mean he’s positive. My baby’s daddy’s not positive, he’s negative.
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="row option-buttons">
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-01" id="coding-question-011" type="radio" value="1. Testing Issues" aria-label="1. Testing Issues">
+                    <label for="coding-question-011"><span aria-hidden="true">1</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-01" id="coding-question-012" type="radio" value="2. Motherhood" aria-label="2. Motherhood">
+                    <label for="coding-question-012"><span aria-hidden="true">2</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-01" id="coding-question-013" type="radio" value="3. Medication Adherence" aria-label="3. Medication Adherence">
+                    <label for="coding-question-013"><span aria-hidden="true">3</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-01" id="coding-question-014" type="radio" value="4. Diagnosis" aria-label="4. Diagnosis">
+                    <label for="coding-question-014"><span aria-hidden="true">4</span></label>
+                    </div>
+                </div>
+                 <div class="col-6 option-button user-selection" aria-label="Your answer">
+                    <p>
+                    <span class="answer-prompt" aria-hidden="true"><b>Your answer:</b></span>
+                    </p>
+                </div>
+                 <div class="col-6 option-button phtc-selection" aria-label="Our answer">
+                    <p>
+                    <span class="answer-prompt" aria-hidden="true"><b>Our answer:</b></span>
+                    <span>1. Testing Issues</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row matching-quiz" aria-label="Scenario 2">
+        <div class="col-12 col-md-8 matching-q">
+        And he took the test, he started taking  the test, but I kept my son
+going to the same [unclear] from having the virus in his body...
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="row option-buttons">
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-02" id="coding-question-021" type="radio" value="1. Testing Issues" aria-label="1. Testing Issues">
+                    <label for="coding-question-021"><span aria-hidden="true">1</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-02" id="coding-question-022" type="radio" value="2. Motherhood" aria-label="2. Motherhood">
+                    <label for="coding-question-022"><span aria-hidden="true">2</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-02" id="coding-question-023" type="radio" value="3. Medication Adherence" aria-label="3. Medication Adherence">
+                    <label for="coding-question-023"><span aria-hidden="true">3</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-02" id="coding-question-024" type="radio" value="4. Diagnosis" aria-label="4. Diagnosis">
+                    <label for="coding-question-024"><span aria-hidden="true">4</span></label>
+                    </div>
+                </div>
+                 <div class="col-6 option-button user-selection" aria-label="Your answer">
+                    <p>
+                    <span class="answer-prompt"><b>Your answer:</b></span>
+                    </p>
+                </div>
+                 <div class="col-6 option-button phtc-selection" aria-label="Our answer">
+                    <p>
+                    <span class="answer-prompt"><b>Our answer:</b></span>
+                    <span>2. Motherhood</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row matching-quiz" aria-label="Scenario 3">
+        <div class="col-12 col-md-8 matching-q">
+        Yeah, I have to deal with it and take the medicine and everything...
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="row option-buttons">
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-03" id="coding-question-031" type="radio" value="1. Testing Issues" aria-label="1. Testing Issues">
+                    <label for="coding-question-031"><span aria-hidden="true">1</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-03" id="coding-question-032" type="radio" value="2. Motherhood" aria-label="2. Motherhood">
+                    <label for="coding-question-032"><span aria-hidden="true">2</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-03" id="coding-question-033" type="radio" value="3. Medication Adherence" aria-label="3. Medication Adherence">
+                    <label for="coding-question-033"><span aria-hidden="true">3</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-03" id="coding-question-034" type="radio" value="4. Diagnosis" aria-label="4. Diagnosis">
+                    <label for="coding-question-034"><span aria-hidden="true">4</span></label>
+                    </div>
+                </div>
+                 <div class="col-6 option-button user-selection" aria-label="Your answer">
+                    <p>
+                    <span class="answer-prompt"><b>Your answer:</b></span>
+                    </p>
+                </div>
+                 <div class="col-6 option-button phtc-selection" aria-label="Our answer">
+                    <p>
+                    <span class="answer-prompt"><b>Our answer:</b></span>
+                    <span>3. Medication Adherence</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row matching-quiz" aria-label="Scenario 4">
+        <div class="col-12 col-md-8 matching-q">
+        but my son is negative...It took like a year and then I made sure I
+got that piece of paper which states that he is negative...
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="row option-buttons">
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-04" id="coding-question-041" type="radio" value="1. Testing Issues" aria-label="1. Testing Issues">
+                    <label for="coding-question-041"><span aria-hidden="true">1</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-04" id="coding-question-042" type="radio" value="2. Motherhood" aria-label="2. Motherhood">
+                    <label for="coding-question-042"><span aria-hidden="true">2</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-04" id="coding-question-043" type="radio" value="3. Medication Adherence" aria-label="3. Medication Adherence">
+                    <label for="coding-question-043"><span aria-hidden="true">3</span></label>
+                    </div>
+                </div>
+                <div class="col option-button selections">
+                    <div class="md-radio">
+                    <input name="coding-question-04" id="coding-question-044" type="radio" value="4. Diagnosis" aria-label="4. Diagnosis">
+                    <label for="coding-question-044"><span aria-hidden="true">4</span></label>
+                    </div>
+                </div>
+                 <div class="col-6 option-button user-selection" aria-label="Your answer">
+                    <p>
+                    <span class="answer-prompt"><b>Your answer:</b></span>
+                    </p>
+                </div>
+                 <div class="col-6 option-button phtc-selection" aria-label="Our answer">
+                    <p>
+                    <span class="answer-prompt"><b>Our answer:</b></span>
+                    <span>4. Diagnosis</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.casequestion -->
+<div class="casesanswerdisplay">
+<input class="btn btn-info btn-submit-coding-exercise" type="submit" value="Submit" />
 </div>
-</div>
-</div>
-
-<div class="submit-container"><input class="btn btn-info btn-submit-coding-exercise" type="submit" value="Submit" /></div>
-
-<div class="casesanswerdisplay question_response">
+<div class="answer-container">
 You may have chosen to use different codes from the ones we used, this does not mean you are wrong as you may have a very good reason for selecting that code. Often the same text can be coded in two or more different ways.
 </div>
+</div><!-- /.casecontent -->
+</div><!-- /.cases -->
 
 
 
+<div class="casesanswerdisplay question_response">
 </div>
 
 </form></div>

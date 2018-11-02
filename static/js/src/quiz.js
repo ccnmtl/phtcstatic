@@ -73,10 +73,12 @@ jQuery(document).ready(function() {
 
         jQuery($form).find('input:checked').each(function(evt) {
             var value = jQuery(this).val();
-            jQuery(this).parent().siblings('td.your-answer').html(value);
+            var userSelected = jQuery('<span></span>').text(value);
+            jQuery(this).parents('.selections').siblings(
+                '.user-selection').find('p').append(userSelected);
         });
-        jQuery($form).find('td.td-ui').hide();
-        jQuery($form).find('td.your-answer,td.our-answer').show();
+        jQuery($form).find('.selections').hide();
+        jQuery($form).find('.user-selection,.phtc-selection').show();
         jQuery(evt.currentTarget).parent().next().show();
         jQuery(evt.currentTarget).hide();
         return false;
