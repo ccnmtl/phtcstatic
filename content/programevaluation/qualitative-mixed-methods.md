@@ -14,8 +14,11 @@ next_title: "Final Research Design"
 previous: "../scenario-3/"
 previous_title: "Research Design 3"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock clearfix"><h3>A Note about
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock clearfix"><h3>A Note about
     Qualitative and Mixed Methods</h3>
 <p>Outcome evaluation research typically uses quantitative
     methods, as is the case with our examples so far. Qualitative and mixed methods

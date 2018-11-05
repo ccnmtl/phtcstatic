@@ -14,8 +14,11 @@ next_title: "Quasi-Experimental Designs"
 previous: "../selecting-research-design/"
 previous_title: "Selecting the Research Design"
 ---
-<div class="programevaluation"><form method="post" action="."><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>Letâ€™s start with the most rigorous option and consider
+<div class="programevaluation"><form method="post" action=".">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>Letâ€™s start with the most rigorous option and consider
     whether a randomized design with a control group is possible for our study. In
     such a design, there must be a way to randomly assign a pool of participants into
     two groups. One of the groups will then be exposed to the intervention, in our

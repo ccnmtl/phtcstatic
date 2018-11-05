@@ -14,8 +14,11 @@ next_title: "Randomized Controlled Trials"
 previous: "../evaluation-design/"
 previous_title: "Evaluation Design"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>The primary outcome evaluation question we have chosen to address is:</p>
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>The primary outcome evaluation question we have chosen to address is:</p>
 </div><div class="pageblock well">
 <div class="pullquote"><p>Does the use of ShapeTracker increase healthy eating and physical activity among county residents?</p></div>
 </div><div class="pageblock"><p>We would also like to include two other questions about short-term outcomes:</p>

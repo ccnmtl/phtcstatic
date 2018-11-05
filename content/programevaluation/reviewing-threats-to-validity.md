@@ -14,8 +14,11 @@ next_title: "Constraints"
 previous: "../threats-to-validity/"
 previous_title: "Threats to Validity"
 ---
-<div class="programevaluation"><form method="post" action="."><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>Now let's review some of the threats to validity for our ShapeTracker intervention.</p>
+<div class="programevaluation"><form method="post" action=".">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>Now let's review some of the threats to validity for our ShapeTracker intervention.</p>
 </div><div class="pageblock"><table>
 <thead>
 <tr>

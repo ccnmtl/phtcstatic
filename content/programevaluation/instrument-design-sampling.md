@@ -14,8 +14,11 @@ next_title: "Threats to Validity"
 previous: "../data-collection-methods/"
 previous_title: "Data Collection Methods"
 ---
-<div class="programevaluation"><form method="post" action="."><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><h3>Instrument Design</h3>
+<div class="programevaluation"><form method="post" action=".">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><h3>Instrument Design</h3>
 <p>Design of the data collection instruments, whether they are surveys, interview questions, or something else, is often a big evaluation task. Stakeholder input is very important and helpful during instrument design.</p>
 <h3>Sampling</h3>
 <p> Evaluators also need to define their sampling strategies and sample size requirements. For our primary outcome evaluation design, we are lucky to have access to county-wide household surveys that are designed to reach representative samples of county residents.</p>

@@ -14,8 +14,11 @@ next_title: "Research Design 2"
 previous: "../practice-design-notation/"
 previous_title: "Practice Design Notation"
 ---
-<div class="programevaluation"><form method="post" action="."><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>I’ll walk you through this first example.</p>
+<div class="programevaluation"><form method="post" action=".">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>I’ll walk you through this first example.</p>
 <p>Our team is considering a design that uses our neighbor county, Upperton, as a comparison group. We want to aggressively market ShapeTracker to everyone in our county, and we hope a high proportion of Middleton residents will sign up. We do not think we can find a comparable comparison group within Middleton county. </p>
 <p>We will utilize annual representative household surveys in both counties as an opportunity to collect data for this evaluation. We’ll add our outcome measures of physical activity, healthy eating and self-monitoring to these surveys. This year’s annual surveys, which will be collected before ShapeTracker is launched later this year, will be the baseline. Next year we will collect the same measures again in both counties. And for Middleton county household survey respondents who are using ShapeTracker, we’ll be able to include an additional section in the survey to collect some data we need for our process evaluation.</p>
 </div><div class="pageblock"><div class="cases">

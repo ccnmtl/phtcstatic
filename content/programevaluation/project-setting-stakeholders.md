@@ -14,8 +14,11 @@ next_title: "Project Intervention"
 previous: "../evaluation-plan/"
 previous_title: "Components of Evaluation Plan"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock pull-right">
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock pull-right">
 <div class="caption">
 </div>
 {{< figure src="/img/assets/cdc-stakeholders.jpg" alt="" class="img-response" name="" usemap="">}}</div><div class="pageblock"><p>Letâ€™s start with Project Setting and Stakeholders. The project setting section would include descriptions of Middleton County and some of those statistics we reviewed earlier, and as the CDC Framework suggests, it is important to engage stakeholders in the evaluation process.</p>

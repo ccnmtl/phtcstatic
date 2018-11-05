@@ -14,8 +14,11 @@ next_title: "Refining Outcome Questions"
 previous: "../evaluation-questions/"
 previous_title: "Evaluation Questions"
 ---
-<div class="programevaluation"><form method="post" action="."><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p> Let's review our evaluation questions.</p>
+<div class="programevaluation"><form method="post" action=".">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p> Let's review our evaluation questions.</p>
 <h3>Process questions</h3>
 <p></p><ol>
 <li>Was a broad range of local resources successfully engaged in the project?</li>

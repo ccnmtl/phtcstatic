@@ -14,8 +14,11 @@ next_title: "Specific Threats to Validity"
 previous: "../instrument-design-sampling/"
 previous_title: "Instrument Design and Sampling"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock pull-right">
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock pull-right">
 <div class="caption">
 </div>
 {{< figure src="/img/assets/checklist-icon.jpg" alt="" class="img-response" name="" usemap="">}}</div><div class="pageblock"><p>That concludes the Evaluation Design section of the Evaluation Plan. We are almost at the end. So far we have completed the following sections:</p>

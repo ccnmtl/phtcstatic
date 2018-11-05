@@ -14,8 +14,11 @@ next_title: "Evaluation Questions"
 previous: "../project-intervention/"
 previous_title: "Project Intervention"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>Next on our list is the logic model. We have put together a Logic Model that outlines how we think the ShapeTracker app ultimately leads to a lower burden of obesity-related illness in our community. This is also part of Step 2 of the CDC Framework.</p>
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>Next on our list is the logic model. We have put together a Logic Model that outlines how we think the ShapeTracker app ultimately leads to a lower burden of obesity-related illness in our community. This is also part of Step 2 of the CDC Framework.</p>
 <p>We worked closely with stakeholders to get input on the logic model.  Watch this short video, which describes our logic model.</p>
 </div><div class="pageblock"><p align="center">
 <iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/t2CpBp491vI" width="640"></iframe></p>
