@@ -14,8 +14,11 @@ next_title: "Purpose of the Evaluation"
 previous: "../process-questions/"
 previous_title: "Process & Evaluation Questions"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>Now letâ€™s look at our list of outcome evaluation questions more closely and see if it needs to be revised.</p>
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>Now letâ€™s look at our list of outcome evaluation questions more closely and see if it needs to be revised.</p>
 </div><div class="pageblock well">
 <div class="pullquote"><ol>
     <li>Does use of ST increase:

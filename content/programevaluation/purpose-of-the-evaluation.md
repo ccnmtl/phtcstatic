@@ -14,8 +14,11 @@ next_title: "Evaluation Design"
 previous: "../outcome-questions/"
 previous_title: "Refining Outcome Questions"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock pull-right">
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock pull-right">
 <div class="caption">
 </div>
 {{< figure src="/img/assets/checklist-icon.jpg" alt="" class="img-response" name="" usemap="">}}</div><div class="pageblock"><p>We are making good progress with our plan. So far we have completed the following sections:</p>

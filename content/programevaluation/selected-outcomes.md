@@ -14,8 +14,11 @@ next_title: "Outcome Measures"
 previous: "../final-research-design/"
 previous_title: "Final Research Design"
 ---
-<div class="programevaluation"><form method="post" action="."><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>Let’s take a look at the evaluation questions and logic model again to find the outcomes we decided to focus on. These are the outcomes we will need to measure in the survey items.</p>
+<div class="programevaluation"><form method="post" action=".">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>Let’s take a look at the evaluation questions and logic model again to find the outcomes we decided to focus on. These are the outcomes we will need to measure in the survey items.</p>
 <p>Earlier, we located one of the outcomes – self-monitoring of healthy eating and physical activity – in the short-term outcome column. The corresponding evaluation question is: “Does use of ShapeTracker increase self-monitoring of healthy eating and physical activity?”</p>
 <p>Our primary outcome evaluation question is: “Does use of ShapeTracker increase healthy eating and physical activity among county residents?” In light of our newly defined research design, we should specify:</p>
 <p>“Do residents of Middleton county who use ShapeTracker increase healthy eating and physical activity, compared to residents of Upperton county with no access to ShapeTracker?”</p>

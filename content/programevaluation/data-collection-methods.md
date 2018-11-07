@@ -14,8 +14,11 @@ next_title: "Instrument Design and Sampling"
 previous: "../outcome-measures/"
 previous_title: "Outcome Measures"
 ---
-<div class="programevaluation"><form method="post" action="."><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>Our data collection method will be a self-administered survey.  It should be noted that there are many other options for data collection methods, such as:</p>
+<div class="programevaluation"><form method="post" action=".">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>Our data collection method will be a self-administered survey.  It should be noted that there are many other options for data collection methods, such as:</p>
 <ul>
 <li>Interviews (Structured/semi-structured/unstructured)</li>
 <li>Physical measures (e.g., BMI)</li>

@@ -14,8 +14,11 @@ next_title: "Data Collection Methods"
 previous: "../selected-outcomes/"
 previous_title: "Selected Outcomes"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock"><p>Here is a summary of our final outcome evaluation questions and outcome measures.</p>
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock"><p>Here is a summary of our final outcome evaluation questions and outcome measures.</p>
 </div><div class="pageblock"><table>
 <thead>
 <tr>

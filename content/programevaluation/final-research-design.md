@@ -14,8 +14,11 @@ next_title: "Selected Outcomes"
 previous: "../qualitative-mixed-methods/"
 previous_title: "Qualitative and Mixed Methods"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock pull-left">
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock pull-left">
 <div class="caption">
 </div>
 {{< figure src="/img/assets/sally2.jpg" alt="" class="img-response" name="" usemap="">}}</div><div class="pageblock"><h3>Selected Design</h3><p>After considering many options, our team has selected a research design for the outcome evaluation. It builds on one of the examples discussed before. We donâ€™t think randomization within Middleton county will work, or that we can find a comparison group within Middleton county, so we have decided to work with our neighboring county, Upperton, to get a comparison group for our evaluation. This will allow us to aggressively market ShapeTracker to all residents of Middleton county. Luckily, Upperton and Middleton are very similar in size and population demographics, including smart phone use and obesity, and both counties conduct annual representative household surveys.</p>

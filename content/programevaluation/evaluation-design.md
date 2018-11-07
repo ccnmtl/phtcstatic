@@ -14,8 +14,11 @@ next_title: "Selecting the Research Design"
 previous: "../purpose-of-the-evaluation/"
 previous_title: "Purpose of the Evaluation"
 ---
-<div class="programevaluation"><div class="pageblock clearfix"><div class="modalpageNav"></div>
-</div><div class="pageblock pull-right">
+<div class="programevaluation">
+
+{{< program-evaluation-reference >}}
+
+<div class="pageblock pull-right">
 <div class="caption">
 </div>
 {{< figure src="/img/assets/cdc-research-design.jpg" alt="" class="img-response" name="" usemap="">}}</div><div class="pageblock"><p>Next, we will explore issues of Evaluation Design. This topic spans Steps 3 and 4 in the CDC Framework.</p>
