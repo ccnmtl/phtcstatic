@@ -25,7 +25,11 @@ previous_title: "Qualitative and Mixed Methods"
 <p>To strengthen our design, we will take advantage of the annual surveys and include two post measures, one year after baseline and two years after baseline. In other words, our outcome measures will be administered in three consecutive annual household surveys in both counties.</p>
 <p>Please use the notation system to depict the evaluation design.</p>
 <p><strong>Instructions:</strong> Click on a gray space to enter a value, then click on a notation of your selection. You can change your notation by clicking on the space again. <strong>Note that all the gray spaces must be filled, so to leave a space blank you must select the blank space notation. </strong></p>
-</div><div class="pageblock designNotation well"><div class="interactive-scenario" id="finaldesign"></div>
+</div>
+
+<div class="pageblock designNotation well">
+
+ <div class="interactive-scenario" id="finaldesign"></div>
 
 <div class="notation_feedback">
 <div class="no_entry">
