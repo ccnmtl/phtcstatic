@@ -14,27 +14,11 @@ next_title: "Logic Model"
 previous: "../project-setting-stakeholders/"
 previous_title: "Project Setting and Stakeholders"
 ---
-<div class="programevaluation">
 
 {{< program-evaluation-reference >}}
 
-<div class="pageblock pull-right">
-<div class="caption">
-</div>
-{{< figure src="/img/assets/cdc-description.jpg" alt="" class="img-response" name="" usemap="">}}</div><div class="pageblock"><p>We have drafted the Project Intervention section. This section provides some background on the project and a description of the ShapeTracker app. Here we are addressing Step 2 of the CDC Framework </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-</div></div>
+{{< figure src="/img/assets/cdc-description.jpg" alt="Project Intervention is the second step in the CDC Program Evaluation cycle." aria-hidden="false" class="img-fluid float-right img-50 pl-4">}}
+
+We have drafted the Project Intervention section. This section provides some background on the project and a description of the ShapeTracker app. Here we are addressing Step 2 of the CDC Framework.
+
+<div class="clearfix"></div>

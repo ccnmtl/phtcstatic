@@ -14,12 +14,12 @@ next_title: "Components of Evaluation Plan"
 previous: "../introduction/"
 previous_title: "Introduction"
 ---
-<div class="programevaluation"><div class="pageblock"><p>The CDC Program Evaluation has six steps. With your mouse, hover over each step in the process and each of the four standards for more information. </p>
-<p>In this module, we will focus primarily on the steps entitled "Focus on the Evaluation Design" and "Gather Credible Evidence."</p>
-</div><div class="pageblock"><div align="center">
-<!--image-->
-<img name="framework" src="https://s3.amazonaws.com/ccnmtl-phtc-static-prod/media/img/cdcframework/framework_00.jpg" width="639" height="378" usemap="#framework_map" border="0">
 
+The CDC Program Evaluation has six steps. With your mouse, hover over each step in the process and each of the four standards for more information. 
+
+In this module, we will focus primarily on the steps entitled “Focus on the Evaluation Design” and “Gather Credible Evidence.”
+
+<img name="framework" src="https://s3.amazonaws.com/ccnmtl-phtc-static-prod/media/img/cdcframework/framework_00.jpg" width="639" height="378" usemap="#framework_map" border="0">
 <!--image map-->
 <map name="framework_map">
 <area alt="Accuracy" coords="119,234,224,251" class="framework10" shape="rect" title="Accuracy">
@@ -35,9 +35,4 @@ previous_title: "Introduction"
 </map>
 <!--preloader-->
 
-<!--flip-->
-
-<!-- STOP -->
-<p> </p>
-<p>Let's explore the parts of the plan we have written so far.</p>
-</div></div>
+Let’s explore the parts of the plan we have written so far.

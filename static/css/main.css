@@ -82,6 +82,11 @@ h2 {
     font-size: 1.25rem;
 }
 
+main li {
+    margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
 .video-player iframe {
     border: 1px solid #ddd;
     width: 100%;
@@ -97,6 +102,11 @@ h2 {
 
 figure.img-fluid img {
     max-width: 100%;
+    height: auto;
+}
+
+figure.img-50 {
+    max-width: 50%;
     height: auto;
 }
 
@@ -286,7 +296,7 @@ figure.img-fluid img {
 .th1 {
     font-size: 1rem;
     font-weight: bold;
-    background-color: #fcdab8;
+    background-color: #fcdab8 !important;
 }
 
 .th2 {
@@ -460,6 +470,18 @@ ol.custom-counter li::before {
 
 .answer-prompt {
     display: block;
+}
+
+.randomized-notation {
+    background-color: #eee;
+    font-weight: bold;
+    padding: 0;
+}
+
+.randomized-notation .cell {
+    min-width: 3rem;
+    padding: 0.625rem 0;
+    text-align: center;
 }
 
 .atlasti table.table-matching,
@@ -791,6 +813,10 @@ No media query for `xs` since this is the default in Bootstrap
     }
     footer p {
         width: 75%;
+    }
+    figure.img-50 {
+        max-width: 100%;
+        height: auto;
     }
     /* part3-introduction */
     .part3-introduction {

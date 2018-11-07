@@ -14,15 +14,17 @@ next_title: "Qualitative and Mixed Methods"
 previous: "../scenario-2/"
 previous_title: "Research Design 2"
 ---
-<div class="programevaluation">
 
 {{< program-evaluation-reference >}}
 
-<div class="pageblock"><p>Here is another example for you to record using the notation system.</p>
-<p>Middleton county has 12 census tracts. Four are urban, four are suburban and four are rural. We will randomly assign half of the census tracts to the intervention. Residents living in the selected tracts will be invited to participate in the ShapeTracker program. Residents from other tracts will be told that ShapeTracker will be available to them in 2 years. In addition to email surveys of ShapeTracker users, a county-wide survey including measures of physical activity, healthy eating and self-monitoring will be conducted before ShapeTracker launch and 12 months after the launch.</p>
-<p>Please use the notation system to depict the evaluation design.</p>
-<p><strong>Instructions:</strong> Click on a gray space to enter a value, then click on a notation of your selection. You can change your notation by clicking on the space again.  <strong>Note that all the gray spaces must be filled, so to leave a space blank you must select the blank space notation. </strong></p>
-</div>
+Here is another example for you to record using the notation system.
+
+Middleton county has 12 census tracts. Four are urban, four are suburban and four are rural. We will randomly assign half of the census tracts to the intervention. Residents living in the selected tracts will be invited to participate in the ShapeTracker program. Residents from other tracts will be told that ShapeTracker will be available to them in 2 years. In addition to email surveys of ShapeTracker users, a county-wide survey including measures of physical activity, healthy eating and self-monitoring will be conducted before ShapeTracker launch and 12 months after the launch.
+
+Please use the notation system to depict the evaluation design.
+
+__Instructions:__ Click on a gray space to enter a value, then click on a notation of your selection. You can change your notation by clicking on the space again. __Note that all the gray spaces must be filled, so to leave a space blank you must select the blank space notation.__
+
 
 <div class="pageblock designNotation well">
 
@@ -62,4 +64,4 @@ previous_title: "Research Design 2"
 </div>
 </div>
 </div>
-</div></div>
+</div>

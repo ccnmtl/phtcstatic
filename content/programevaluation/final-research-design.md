@@ -14,22 +14,24 @@ next_title: "Selected Outcomes"
 previous: "../qualitative-mixed-methods/"
 previous_title: "Qualitative and Mixed Methods"
 ---
-<div class="programevaluation">
 
 {{< program-evaluation-reference >}}
 
-<div class="pageblock pull-left">
-<div class="caption">
-</div>
-{{< figure src="/img/assets/sally2.jpg" alt="" class="img-response" name="" usemap="">}}</div><div class="pageblock"><h3>Selected Design</h3><p>After considering many options, our team has selected a research design for the outcome evaluation. It builds on one of the examples discussed before. We donâ€™t think randomization within Middleton county will work, or that we can find a comparison group within Middleton county, so we have decided to work with our neighboring county, Upperton, to get a comparison group for our evaluation. This will allow us to aggressively market ShapeTracker to all residents of Middleton county. Luckily, Upperton and Middleton are very similar in size and population demographics, including smart phone use and obesity, and both counties conduct annual representative household surveys.</p>
-<p>To strengthen our design, we will take advantage of the annual surveys and include two post measures, one year after baseline and two years after baseline. In other words, our outcome measures will be administered in three consecutive annual household surveys in both counties.</p>
-<p>Please use the notation system to depict the evaluation design.</p>
-<p><strong>Instructions:</strong> Click on a gray space to enter a value, then click on a notation of your selection. You can change your notation by clicking on the space again. <strong>Note that all the gray spaces must be filled, so to leave a space blank you must select the blank space notation. </strong></p>
-</div>
+{{< figure src="/img/assets/sally2.jpg" alt="" aria-hidden="true" class="img-fluid float-left img-50 pr-4">}}
+
+## Selected Design
+
+After considering many options, our team has selected a research design for the outcome evaluation. It builds on one of the examples discussed before. We don’t think randomization within Middleton county will work, or that we can find a comparison group within Middleton county, so we have decided to work with our neighboring county, Upperton, to get a comparison group for our evaluation. This will allow us to aggressively market ShapeTracker to all residents of Middleton county. Luckily, Upperton and Middleton are very similar in size and population demographics, including smart phone use and obesity, and both counties conduct annual representative household surveys.
+
+To strengthen our design, we will take advantage of the annual surveys and include two post measures, one year after baseline and two years after baseline. In other words, our outcome measures will be administered in three consecutive annual household surveys in both counties.
+
+Please use the notation system to depict the evaluation design.
+
+__Instructions:__ Click on a gray space to enter a value, then click on a notation of your selection. You can change your notation by clicking on the space again. __Note that all the gray spaces must be filled, so to leave a space blank you must select the blank space notation.__ 
 
 <div class="pageblock designNotation well">
 
- <div class="interactive-scenario" id="finaldesign"></div>
+<div class="interactive-scenario" id="finaldesign"></div>
 
 <div class="notation_feedback">
 <div class="no_entry">
@@ -67,4 +69,4 @@ previous_title: "Qualitative and Mixed Methods"
 </div>
 </div>
 </div>
-</div></div>
+</div>
