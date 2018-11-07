@@ -104,7 +104,7 @@ figure.img-fluid img {
 
 .toggleable {
     display: none;
-	padding: 0.625rem;
+    padding: 0.625rem;
     background-color: #fffefa;
     -webkit-border-radius: 0.4rem;
      -moz-border-radius: 0.4rem;
@@ -114,7 +114,7 @@ figure.img-fluid img {
 
 .answer-container {
     display: none;
-	padding: 0.625rem;
+    padding: 0.625rem;
     background-color: #fffefa;
     -webkit-border-radius: 0.4rem;
      -moz-border-radius: 0.4rem;
@@ -124,12 +124,12 @@ figure.img-fluid img {
 
 .cases
 {
-	margin: 0 0 1.25rem 0;
-	padding: 0.625rem;
-	border: 1px solid #ffcc99;
-	background-color: #fcf8e3;
+    margin: 0 0 1.25rem 0;
+    padding: 0.625rem;
+    border: 1px solid #ffcc99;
+    background-color: #fcf8e3;
     -webkit-border-radius: 0.4rem;
-     -moz-border-radius: 0.4rem;
+       -moz-border-radius: 0.4rem;
     border-radius: 0.4rem;
 }
 
@@ -143,34 +143,34 @@ figure.img-fluid img {
 
 .casequestion
 {
-	margin: 0 0 1.25rem 0;
-	padding: 0;
-	border: 0;
+    margin: 0 0 1.25rem 0;
+    padding: 0;
+    border: 0;
     font-size: 1.25rem;
     line-height: 120%;
 }
 
 .answer-value
 {
-	margin: 0 0 0.875rem 0;
-	padding: 0;
-	border: 0;
+    margin: 0 0 0.875rem 0;
+    padding: 0;
+    border: 0;
     font-size: 1rem;
 }
 
 .casequestion li
 {
-	margin: 0 0 0.875rem 0;
-	padding: 0;
-	border: 0;
+    margin: 0 0 0.875rem 0;
+    padding: 0;
+    border: 0;
 }
 
 .casequestion .answerchoices li
 {
-	margin: 0 0 0.875rem 0;
-	padding: 0;
-	border: 0;
-	list-style:none;
+    margin: 0 0 0.875rem 0;
+    padding: 0;
+    border: 0;
+    list-style:none;
 }
 
 .case-feedback .well

@@ -84,4 +84,10 @@ jQuery(document).ready(function() {
         return false;
     });
 
+    jQuery('.mixedmethod input[type="radio"]').click(function(evt) {
+        jQuery('.item-feedback').hide();
+        var $elt = jQuery(evt.currentTarget);
+        var answerId = $elt.attr('data-answer');
+        jQuery(answerId).show();
+    });
 });
