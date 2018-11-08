@@ -327,6 +327,22 @@ figure.img-50 {
     font-weight: bold;
 }
 
+.table-recap-module {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.table-recap-module div {
+    border: 0 !important;
+    padding: 0.625rem 1rem;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.table-recap-module div:first-of-type {
+    border-bottom: 1px solid #ccc !important;
+}
+
 .atlasti-table {
     margin: 0;
     border: 1px solid #ccc;
@@ -479,9 +495,21 @@ ol.custom-counter li::before {
 }
 
 .randomized-notation .cell {
-    min-width: 3rem;
+    min-width: 2.5rem;
     padding: 0.625rem 0;
     text-align: center;
+    font-size: 1.125rem;
+}
+
+.special-outcome {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.special-outcome li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.25rem;
 }
 
 .atlasti table.table-matching,
@@ -853,7 +881,7 @@ No media query for `xs` since this is the default in Bootstrap
     {
         border-right: none;
     }
-    .th-second, .coded-example {
+    .th-second, .coded-example, .eval-outcomes, .reg-cell {
         padding-top: 0.625rem;
         padding-bottom: 0.625rem;
     }

@@ -30,7 +30,7 @@ A <b>literal</b> reading of this excerpt might read: “Update spelling of Bro
 
 Now continue reading and commenting on this transcript.
 
-<div class="atlasti">
+<div class="txtresponsequiz">
 <form method="post" action=".">
 
 <div class="cases">

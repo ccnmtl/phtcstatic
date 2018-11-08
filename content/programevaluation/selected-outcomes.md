@@ -14,77 +14,57 @@ next_title: "Outcome Measures"
 previous: "../final-research-design/"
 previous_title: "Final Research Design"
 ---
-<div class="programevaluation"><form method="post" action=".">
 
 {{< program-evaluation-reference >}}
 
-<div class="pageblock"><p>Let’s take a look at the evaluation questions and logic model again to find the outcomes we decided to focus on. These are the outcomes we will need to measure in the survey items.</p>
-<p>Earlier, we located one of the outcomes – self-monitoring of healthy eating and physical activity – in the short-term outcome column. The corresponding evaluation question is: “Does use of ShapeTracker increase self-monitoring of healthy eating and physical activity?”</p>
-<p>Our primary outcome evaluation question is: “Does use of ShapeTracker increase healthy eating and physical activity among county residents?” In light of our newly defined research design, we should specify:</p>
-<p>“Do residents of Middleton county who use ShapeTracker increase healthy eating and physical activity, compared to residents of Upperton county with no access to ShapeTracker?”</p>
-</div><div class="pageblock"><div class="cases">
-<p>Note that this evaluation question contains two outcomes. Please click on the logic model to locate the two outcomes the evaluation question is about. </p>
+Let’s take a look at the evaluation questions and logic model again to find the outcomes we decided to focus on. These are the outcomes we will need to measure in the survey items.
+
+Earlier, we located one of the outcomes—self-monitoring of healthy eating and physical activity—in the short-term outcome column. The corresponding evaluation question is: “Does use of ShapeTracker increase self-monitoring of healthy eating and physical activity?”
+
+Our primary outcome evaluation question is: “Does use of ShapeTracker increase healthy eating and physical activity among county residents?” In light of our newly defined research design, we should specify:
+
+“Do residents of Middleton county who use ShapeTracker increase healthy eating and physical activity, compared to residents of Upperton county with no access to ShapeTracker?”
+
+<div class="cases">
 <div class="casetitle">
     Question 1:
-  </div>
+</div><!-- /.casetitle -->
 <div class="casecontent">
 <div class="casequestion">
+<p class="answer-value">Note that this evaluation question contains two outcomes. Please click on the logic model to locate the two outcomes the evaluation question is about.</p>
 <p>What are the two outcomes?</p>
-<form id="form-53" method="post">
-<!-- go through each question type, note that only the
-        rhetorical and matching blocks have form tags -->
-<!-- -->
-<ol type="A"><!-- Think this is done... -->
-<li>
-<div class="answer-value">
-<input name="question53" type="radio" value="A. Middleton and Upperton County ">
-                    A. Middleton and Upperton County 
-                  </div>
-</li>
-<li>
-<div class="answer-value">
-<input name="question53" type="radio" value="B. Number of residents downloading and actively using ShapeTracker">
-                    B. Number of residents downloading and actively using ShapeTracker
-                  </div>
-</li>
-<li>
-<div class="answer-value">
-<input name="question53" type="radio" value="C. Physical activity and healthy eating">
-                    C. Physical activity and healthy eating
-                  </div>
-</li>
-<li>
-<div class="answer-value">
-<input name="question53" type="radio" value="D. Obesity and related health problems">
-                    D. Obesity and related health problems
-                  </div>
-</li>
-</ol>
-<!-- -->
-<!-- -->
-<!-- adding show answer block for feedback here -->
-<!-- end show answer block for feedback here -->
-<!-- -->
-<!-- -->
-<!-- -->
-</form>
-<!-- -->
+<div class="answer-value md-radio">
+<input name="question01" id="question01a" type="radio" value="A">
+<label for="question01a">A)
+Middleton and Upperton County
+</label>
 </div>
-<!-- we want to show the answer no matter what -->
-<!-- might be easier to edit question types
-    directly since we show answer no matter what -->
-<!-- -->
-<!-- -->
+<div class="answer-value md-radio">
+<input name="question01" id="question01b" type="radio" value="B">
+<label for="question01b">B)
+Number of residents downloading and actively using ShapeTracker
+</label>
+</div>
+<div class="answer-value md-radio">
+<input name="question01" id="question01c" type="radio" value="C">
+<label for="question01c">C)
+Physical activity and healthy eating
+</label>
+</div>
+<div class="answer-value md-radio">
+<input name="question01" id="question01d" type="radio" value="D">
+<label for="question01d">D)
+Obesity and related health problems
+</label>
+</div>
+</div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
-<a class="moretoggle" href="#q53">Show answer >></a>
-<div class="toggleable" id="q53">
+<a class="moretoggle btn btn-link" href="#q01">Show answer <i class="fas fa-angle-double-right"></i></a>
+<div class="toggleable" id="q01">
 <p>
-<i>The correct answer is C:</i>
-</p><p>These are the two outcomes we specify in the question. We do ultimately want to have an impact on the long-term outcomes of obesity and related health problems but this evaluation question focuses on the intermediate outcomes of physical activity and healthy eating.</p>
+<i>The correct answer is C:</i><br />These are the two outcomes we specify in the question. We do ultimately want to have an impact on the long-term outcomes of obesity and related health problems but this evaluation question focuses on the intermediate outcomes of physical activity and healthy eating.
+</p>
 </div>
 </div>
-</div>
-</div>
-
-
-</div></form></div>
+</div><!-- /.casecontent -->
+</div><!-- /.cases -->
