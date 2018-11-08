@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
         return false;
     });
 
-    jQuery('.atlasti .btn-submit-section').click(function(evt) {
+    jQuery('.txtresponsequiz .btn-submit-section').click(function(evt) {
         evt.preventDefault();
 
         var $parent = jQuery(evt.currentTarget).parent();
