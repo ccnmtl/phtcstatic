@@ -14,178 +14,138 @@ next_title: "Quasi-Experimental Designs"
 previous: "../selecting-research-design/"
 previous_title: "Selecting the Research Design"
 ---
-<div class="programevaluation"><form method="post" action=".">
 
 {{< program-evaluation-reference >}}
 
-<div class="pageblock"><p>Letâ€™s start with the most rigorous option and consider
-    whether a randomized design with a control group is possible for our study. In
-    such a design, there must be a way to randomly assign a pool of participants into
-    two groups. One of the groups will then be exposed to the intervention, in our
-    case, the ShapeTracker. If we find a difference between the groups, we can be
-    fairly certain that the difference was caused by our intervention, and not by
-    some other difference between the two groups.</p>
-<p>You may have seen the following notation used to specify the
-    components of a randomized design:</p>
-</div><div class="pageblock well">
-<div class="pullquote"><p align="center"><strong>R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O</p>
 
-<p><p align="center">R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O</strong></p></p></div>
-</div><div class="pageblock"><p>The two rows represent the two groups. The Rs indicate that the groups are randomly assigned. The Os indicate when outcomes are measured. In this case, both groups provide a baseline measure and a post-test. Note that only the first group has an X, which means that they are exposed to the intervention.</p>
-</div><div class="pageblock"><p>Is it possible to have randomly assigned groups in our ShapeTracker evaluation? Do you think the following would give us a randomized controlled design?</p>
+Let’s start with the most rigorous option and consider whether a randomized design with a control group is possible for our study. In such a design, there must be a way to randomly assign a pool of participants into two groups. One of the groups will then be exposed to the intervention, in our case, the ShapeTracker. If we find a difference between the groups, we can be fairly certain that the difference was caused by our intervention, and not by some other difference between the two groups.
+
+You may have seen the following notation used to specify the components of a randomized design:
+
+<div class="d-flex justify-content-center randomized-notation">
+    <div class="cell">
+        R
+    </div>
+    <div class="cell">
+        O
+    </div>
+    <div class="cell">
+        X
+    </div>
+    <div class="cell">
+        O
+    </div>
+</div>
+<div class="d-flex justify-content-center randomized-notation mb-3">
+    <div class="cell">
+        R
+    </div>
+    <div class="cell">
+        O
+    </div>
+    <div class="cell">
+        &nbsp;
+    </div>
+    <div class="cell">
+        O
+    </div>
+</div>
+
+The two rows represent the two groups. The Rs indicate that the groups are randomly assigned. The Os indicate when outcomes are measured. In this case, both groups provide a baseline measure and a post-test. Note that only the first group has an X, which means that they are exposed to the intervention.
+
+Is it possible to have randomly assigned groups in our ShapeTracker evaluation? Do you think the following would give us a randomized controlled design?
 
 <div class="cases">
 <div class="casetitle">
     Question 1:
-  </div>
+</div><!-- /.casetitle -->
 <div class="casecontent">
 <div class="casequestion">
-<p>Implement and disseminate ShapeTracker only in the western half of the county. Compare a randomly selected sample of ShapeTracker users in western Middeton county with a sample of non-users with similar sociodemographic characteristics living in the eastern half of the county.  </p>
-<form id="form-59" method="post">
-<!-- go through each question type, note that only the
-        rhetorical and matching blocks have form tags -->
-<!-- -->
-<ol type="A"><!-- Think this is done... -->
-<li>
-<div class="answer-value">
-<input name="question59" type="radio" value="A. Yes">
-                    A. Yes
-                  </div>
-</li>
-<li>
-<div class="answer-value">
-<input name="question59" type="radio" value="B. No">
-                    B. No
-                  </div>
-</li>
-</ol>
-<!-- -->
-<!-- -->
-<!-- adding show answer block for feedback here -->
-<!-- end show answer block for feedback here -->
-<!-- -->
-<!-- -->
-<!-- -->
-</form>
-<!-- -->
+<p class="answer-value">Implement and disseminate ShapeTracker only in the western half of the county. Compare a randomly selected sample of ShapeTracker users in western Middeton county with a sample of non-users with similar sociodemographic characteristics living in the eastern half of the county.</p>
+<div class="answer-value md-radio">
+<input name="question59" id="question59a" type="radio" value="A">
+<label for="question59a">A)
+Yes
+</label>
 </div>
-<!-- we want to show the answer no matter what -->
-<!-- might be easier to edit question types
-    directly since we show answer no matter what -->
-<!-- -->
-<!-- -->
+<div class="answer-value md-radio">
+<input name="question59" id="question59b" type="radio" value="B">
+<label for="question59b">B)
+No
+</label>
+</div>
+</div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
-<a class="moretoggle" href="#q59">Show answer >></a>
+<a class="moretoggle btn btn-link" href="#q59">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q59">
 <p>
-<i>The correct answer is B:</i>
-</p><p>There is no randomized assignment. Note that random selection is about sampling and does not mean random assignment. But the group of non-users in eastern Middleton could be a comparison group in a quasi-experimental design.</p>
+<i>The correct answer is B:</i> There is no randomized assignment. Note that random selection is about sampling and does not mean random assignment. But the group of non-users in eastern Middleton could be a comparison group in a quasi-experimental design.
+</p>
 </div>
 </div>
-</div>
-</div>
+</div><!-- /.casecontent -->
+</div><!-- /.cases -->
+
 
 <div class="cases">
 <div class="casetitle">
     Question 2:
-  </div>
+</div><!-- /.casetitle -->
 <div class="casecontent">
 <div class="casequestion">
-<p>Add ShapeTracker questions to the annual representative county household survey. Compare those who report using ShapeTracker to those who report not using ShapeTracker. </p>
-<form id="form-60" method="post">
-<!-- go through each question type, note that only the
-        rhetorical and matching blocks have form tags -->
-<!-- -->
-<ol type="A"><!-- Think this is done... -->
-<li>
-<div class="answer-value">
-<input name="question60" type="radio" value="A. Yes">
-                    A. Yes
-                  </div>
-</li>
-<li>
-<div class="answer-value">
-<input name="question60" type="radio" value="B. No">
-                    B. No
-                  </div>
-</li>
-</ol>
-<!-- -->
-<!-- -->
-<!-- adding show answer block for feedback here -->
-<!-- end show answer block for feedback here -->
-<!-- -->
-<!-- -->
-<!-- -->
-</form>
-<!-- -->
+<p class="answer-value">Add ShapeTracker questions to the annual representative county household survey. Compare those who report using ShapeTracker to those who report not using ShapeTracker.</p>
+<div class="answer-value md-radio">
+<input name="question60" id="question60a" type="radio" value="A">
+<label for="question60a">A)
+Yes
+</label>
 </div>
-<!-- we want to show the answer no matter what -->
-<!-- might be easier to edit question types
-    directly since we show answer no matter what -->
-<!-- -->
-<!-- -->
+<div class="answer-value md-radio">
+<input name="question60" id="question60b" type="radio" value="B">
+<label for="question60b">B)
+No
+</label>
+</div>
+</div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
-<a class="moretoggle" href="#q60">Show answer >></a>
+<a class="moretoggle btn btn-link" href="#q60">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q60">
 <p>
-<i>The correct answer is B:</i>
-</p><p>Again, there is no randomized assignment, so there is no control group. But those who report not using ShapeTracker could be defined as a comparison group, especially if we try to control for sociodemographic and other group characteristics in the statistical analysis.</p>
+<i>The correct answer is B:</i> Again, there is no randomized assignment, so there is no control group. But those who report not using ShapeTracker could be defined as a comparison group, especially if we try to control for sociodemographic and other group characteristics in the statistical analysis.
+</p>
 </div>
 </div>
-</div>
-</div>
+</div><!-- /.casecontent -->
+</div><!-- /.cases -->
+
 
 <div class="cases">
 <div class="casetitle">
     Question 3:
-  </div>
+</div><!-- /.casetitle -->
 <div class="casecontent">
 <div class="casequestion">
-<p>As people request their ShapeTracker user ID, every other person is placed on a wait-list. The waitlisted group will have to wait one year to get access to ShapeTracker. </p>
-<form id="form-61" method="post">
-<!-- go through each question type, note that only the
-        rhetorical and matching blocks have form tags -->
-<!-- -->
-<ol type="A"><!-- Think this is done... -->
-<li>
-<div class="answer-value">
-<input name="question61" type="radio" value="A. Yes">
-                    A. Yes
-                  </div>
-</li>
-<li>
-<div class="answer-value">
-<input name="question61" type="radio" value="B. No">
-                    B. No
-                  </div>
-</li>
-</ol>
-<!-- -->
-<!-- -->
-<!-- adding show answer block for feedback here -->
-<!-- end show answer block for feedback here -->
-<!-- -->
-<!-- -->
-<!-- -->
-</form>
-<!-- -->
+<p class="answer-value">As people request their ShapeTracker user ID, every other person is placed on a wait-list. The waitlisted group will have to wait one year to get access to ShapeTracker.</p>
+<div class="answer-value md-radio">
+<input name="question61" id="question61a" type="radio" value="A">
+<label for="question61a">A)
+Yes
+</label>
 </div>
-<!-- we want to show the answer no matter what -->
-<!-- might be easier to edit question types
-    directly since we show answer no matter what -->
-<!-- -->
-<!-- -->
+<div class="answer-value md-radio">
+<input name="question61" id="question61b" type="radio" value="B">
+<label for="question61b">B)
+No
+</label>
+</div>
+</div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
-<a class="moretoggle" href="#q61">Show answer >></a>
+<a class="moretoggle btn btn-link" href="#q61">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q61">
 <p>
-<i>The correct answer is A:</i>
-</p><p>This would give us randomly assigned groups. A systematic method of random assignment is defined. However, this plan may not be feasible if we think people will resent being waitlisted. Also, we would have to consider if “contamination” of the control group is possible. For example, maybe those with access to ShapeTracker will share some of the benefits with the control group members who might be their family members of neighbors.</p>
+<i>The correct answer is A:</i> This would give us randomly assigned groups. A systematic method of random assignment is defined. However, this plan may not be feasible if we think people will resent being waitlisted. Also, we would have to consider if “contamination” of the control group is possible. For example, maybe those with access to ShapeTracker will share some of the benefits with the control group members who might be their family members of neighbors.
+</p>
 </div>
 </div>
-</div>
-</div>
-
-
-</div></form></div>
+</div><!-- /.casecontent -->
+</div><!-- /.cases -->

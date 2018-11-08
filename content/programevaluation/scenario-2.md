@@ -14,15 +14,16 @@ next_title: "Research Design 3"
 previous: "../scenario-1/"
 previous_title: "Research Design 1"
 ---
-<div class="programevaluation">
 
 {{< program-evaluation-reference >}}
 
-<div class="pageblock"><p>Now I want you to use the notation system for the second example.</p>
-<p>The team is considering the following design: When Middleton county residents request their ShapeTracker user ID online, they are asked to fill out an online survey. They will be required to provide a valid email as part of the registration. We will use those email addresses to send another brief survey to everyone six months after registration to measure our outcomes. A gift card raffle is offered as incentive to survey respondents.</p>
-<p>Please use the notation system to depict the evaluation design.</p>
-<p><strong>Instructions:</strong> Click on a gray space to enter a value, then click on a notation of your selection. You can change your notation by clicking on the space again.  <strong>Note that all the gray spaces must be filled, so to leave a space blank you must select the blank space notation. </strong></p>
-</div>
+Now I want you to use the notation system for the second example.
+
+The team is considering the following design: When Middleton county residents request their ShapeTracker user ID online, they are asked to fill out an online survey. They will be required to provide a valid email as part of the registration. We will use those email addresses to send another brief survey to everyone six months after registration to measure our outcomes. A gift card raffle is offered as incentive to survey respondents.
+
+Please use the notation system to depict the evaluation design.
+
+__Instructions:__ Click on a gray space to enter a value, then click on a notation of your selection. You can change your notation by clicking on the space again. __Note that all the gray spaces must be filled, so to leave a space blank you must select the blank space notation.__
 
 <div class="pageblock designNotation well">
 
@@ -62,4 +63,4 @@ previous_title: "Research Design 1"
 </div>
 </div>
 </div>
-</div></div>
+</div>
