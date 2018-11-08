@@ -11,7 +11,7 @@
             {{ if .HasChildren }}
                     {{ range .Children }}
                         <li class='nav-item {{ if $currentPage.IsMenuCurrent $thisSection . }}active{{ end }}'>
-                            <a class='nav-link {{ if $currentPage.IsMenuCurrent $thisSection . }}active{{ end }}' href="{{ .URL }}">{{ .Name }}{{ if $currentPage.IsMenuCurrent $thisSection . }}<span class="sr-only"> (current)</span>{{ end }}</a>
+                            <a class='nav-link indent-{{ .Pre }} {{ if $currentPage.IsMenuCurrent $thisSection . }}active{{ end }}' href="{{ .URL }}">{{ .Name }}{{ if $currentPage.IsMenuCurrent $thisSection . }}<span class="sr-only"> (current)</span>{{ end }}</a>
                         </li>
                     {{ end }}
             {{ else }}

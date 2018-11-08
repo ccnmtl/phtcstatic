@@ -67,6 +67,10 @@ header .title {
     color: #003366;
 }
 
+.indent-4 {
+    padding-left: 2.5rem;
+}
+
 
 /* Main content ------------------------------------- */
 
