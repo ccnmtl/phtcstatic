@@ -71,6 +71,9 @@ header .title {
     padding-left: 2.5rem;
 }
 
+.indent-5 {
+    padding-left: 3.5rem;
+}
 
 /* Main content ------------------------------------- */
 
@@ -437,10 +440,14 @@ ol.custom-counter li::before {
     background-color: #d9edf7;
 }
 
-.option-button  {
+.option-button {
     padding: 0 0;
     text-align: center;
     height: 100%;
+}
+
+.prog-eval .option-button  {
+    height: auto;
 }
 
 .option-button .md-radio  {
@@ -448,6 +455,11 @@ ol.custom-counter li::before {
     vertical-align: middle;
     height: 100%;
     padding: 1rem 0.75rem;
+}
+
+.prog-eval .option-button .md-radio  {
+    height: auto;
+    padding: 0.5rem;
 }
 
 .option-button .md-radio label {
@@ -458,6 +470,10 @@ ol.custom-counter li::before {
     width: auto;
     background-color: #90d5e0;
     border-radius: 1rem;
+}
+
+.prog-eval .option-button .md-radio label {
+    padding: 0 0 0 1.625rem;
 }
 
 .option-button .md-radio label span {
@@ -490,6 +506,12 @@ ol.custom-counter li::before {
 
 .answer-prompt {
     display: block;
+}
+
+.prog-eval .answer-selection,
+.prog-eval .answer-selection {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
 }
 
 .randomized-notation {
@@ -557,6 +579,89 @@ ol.custom-counter li::before {
 .atlasti table td.your-answer,
 .atlasti table td.our-answer {
     display: none;
+}
+
+/* CDC framework image map alternative */
+
+.cdc-framework-image {
+    width: 342px;
+    height: 378px;
+    background: #5e5e5e url('../img/assets/cdc-framework-imgmap.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.cdc-framework-image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.cdc-steps {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.cdc-standards {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    list-style: none;
+    position: absolute;
+    top: 145px;
+    left: 115px;
+}
+
+.cdc-steps li {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #999;
+}
+
+.cdc-steps #step-1 {
+    position: absolute;
+    top: 8px;
+    left: 134px;
+}
+
+.cdc-steps #step-2 {
+    position: absolute;
+    top: 61px;
+    left: 260px;
+}
+
+.cdc-steps #step-3 {
+    position: absolute;
+    top: 241px;
+    left: 260px;
+}
+
+.cdc-steps #step-4 {
+    position: absolute;
+    top: 295px;
+    left: 134px;
+}
+
+.cdc-steps #step-5 {
+    position: absolute;
+    top: 241px;
+    left: 8px;
+}
+
+.cdc-steps #step-6 {
+    position: absolute;
+    top: 61px;
+    left: 8px;
+}
+
+.cdc-standards li {
+    width: 110px;
+    height: 20px;
+    background-color: #333;
+    margin: 7px 0;
 }
 
 /* Page navigation----------------------------------- */
@@ -806,14 +911,22 @@ No media query for `xs` since this is the default in Bootstrap
 
 
 @media (min-width: 370px) {
-    .option-button .md-radio label {
+    .prog-eval .option-button .md-radio  {
+        padding: 0.5rem 1.5rem;
+    }
+    .option-button .md-radio label,
+    .prog-eval .option-button .md-radio label {
         padding: 0 0 0 1.625rem;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .option-button .md-radio label {
+    .prog-eval .option-button .md-radio  {
+        padding: 0.5rem 1.5rem;
+    }
+    .option-button .md-radio label,
+    .prog-eval .option-button .md-radio label {
         padding: 0 0 0 1.625rem;
         margin: auto;
         text-align: left;
@@ -906,13 +1019,21 @@ No media query for `xs` since this is the default in Bootstrap
     .option-button  {
         padding: 0 0.125rem 0 0;
     }
+    .prog-eval .option-button  {
+        height: 100%;
+    }
     .option-buttons {
         background-color: transparent;
     }
     .option-button .md-radio  {
         padding: 0.75rem 0.75rem;
     }
-    .option-button .md-radio label {
+    .prog-eval .option-button .md-radio  {
+        height: 100%;
+        padding: 0.75rem 0.75rem;
+    }
+    .option-button .md-radio label,
+    .prog-eval .option-button .md-radio label {
         padding: 0;
         margin: auto;
         text-align: center;
