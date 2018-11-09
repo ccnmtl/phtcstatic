@@ -17,7 +17,7 @@ previous_title: "The Coding Process"
 
 Let's practice coding.
 
-<div class="atlasti"><form method="post" action=".">
+<div class="matchingcode"><form method="post" action=".">
 <div class="cases">
 <div class="casetitle">
     Question 1:
