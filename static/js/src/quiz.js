@@ -63,7 +63,7 @@ jQuery(document).ready(function() {
         return false;
     });
 
-    jQuery('.atlasti .btn-submit-coding-exercise').click(function(evt) {
+    jQuery('.matchingcode .btn-submit-coding-exercise').click(function(evt) {
         evt.preventDefault();
 
         var $form = jQuery(evt.currentTarget).parents('form');
