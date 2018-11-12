@@ -583,21 +583,80 @@ ol.custom-counter li::before {
 
 /* CDC framework image map alternative */
 
+.cdc-framework-imagemap {
+    background-color: #efefef;
+    width: 290px;
+}
+
 .cdc-framework-image {
-    width: 342px;
-    height: 378px;
+    width: 290px;
+    height: 321px;
     background: #5e5e5e url('../img/assets/cdc-framework-imgmap.png') no-repeat;
     background-size: contain;
     position: relative;
 }
 
-.cdc-framework-image a {
-    display: block;
-    width: 100%;
-    height: 100%;
+.cdc-framework-content {
+    background: url('../img/assets/cdc-imgmap-arrow.png') center -50px no-repeat;
+    padding-top: 2rem;
 }
 
-.cdc-steps {
+.cdc-framework-content .tab-content {
+    background-color: #fff;
+    width: 290px;
+    height: 290px;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.cdc-framework-image [id^="step-"] a {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.cdc-framework-image [id^="step-"] a:focus {
+  border: 3px solid rgba(51, 153, 255, 1) !important;
+  box-shadow: 0 0 5px 2px rgba(51, 153, 255, 1) !important;
+  border-radius: 50%;
+}
+
+.cdc-framework-image [id^="standard-"] a {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.cdc-framework-image [id^="standard-"] a:focus {
+  outline: 2px solid rgba(51, 153, 255, 1) !important;
+  outline-offset: -2px;
+  box-shadow: 0 0 5px 2px rgba(51, 153, 255, 1) !important;
+  border-radius: 0.25rem;
+}
+
+.cdc-framework-image a.active {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.cdc-framework-content h3 {
+    font-weight: bold;
+}
+
+.cdc-framework-content h3,
+.cdc-framework-content p {
+    font-size: 1.125rem;
+    display: inline;
+}
+
+.cdc-items {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -614,55 +673,110 @@ ol.custom-counter li::before {
     left: 115px;
 }
 
-.cdc-steps li {
-    width: 75px;
-    height: 75px;
+li[id^="step-"] {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border: 2px solid #fff;
     border-radius: 50%;
     background-color: #999;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.5rem;
+    line-height: 120%;
+    display: table;
+    overflow: hidden;
+    font-weight: 400;
 }
 
-.cdc-steps #step-1 {
+li[id^="standard-"] {
     position: absolute;
-    top: 8px;
-    left: 134px;
+    width: 92px;
+    height: 15px;
+    background-color: #999;
+    margin: 0;
+    border-radius: 0.25rem;
+    vertical-align: middle;
+    font-size: 0.625rem;
+    line-height: 15px;
+    overflow: hidden;
+    font-weight: 400;
 }
 
-.cdc-steps #step-2 {
-    position: absolute;
-    top: 61px;
-    left: 260px;
+.cdc-items #step-1 {
+    top: 5px;
+    left: 112px;
+ }
+
+.cdc-items #step-1 a {
+    background-color: #ff8277;
 }
 
-.cdc-steps #step-3 {
-    position: absolute;
-    top: 241px;
-    left: 260px;
+.cdc-items #step-2 {
+    top: 51px;
+    left: 219px;
 }
 
-.cdc-steps #step-4 {
-    position: absolute;
-    top: 295px;
-    left: 134px;
+.cdc-items #step-2 a {
+    background-color: #ff9400;
 }
 
-.cdc-steps #step-5 {
-    position: absolute;
-    top: 241px;
-    left: 8px;
+.cdc-items #step-3 {
+    top: 204px;
+    left: 219px;
 }
 
-.cdc-steps #step-6 {
-    position: absolute;
-    top: 61px;
-    left: 8px;
+.cdc-items #step-3 a {
+    background-color: #009152;
 }
 
-.cdc-standards li {
-    width: 110px;
-    height: 20px;
-    background-color: #333;
-    margin: 7px 0;
+.cdc-items #step-4 {
+    top: 250px;
+    left: 112px;
 }
+
+.cdc-items #step-4 a {
+    background-color: #0195ff;
+}
+
+.cdc-items #step-5 {
+    top: 204px;
+    left: 5px;
+}
+
+.cdc-items #step-5 a {
+    background-color: #005494;
+}
+
+.cdc-items #step-6 {
+    top: 51px;
+    left: 5px;
+}
+
+.cdc-items #step-6 a {
+    background-color: #ff66ff;
+}
+
+.cdc-items #standard-1 {
+    top: 130px;
+    left: 98px;
+}
+
+.cdc-items #standard-2 {
+    top: 153px;
+    left: 98px;
+}
+
+.cdc-items #standard-3 {
+    top: 176px;
+    left: 98px;
+}
+
+.cdc-items #standard-4 {
+    top: 199px;
+    left: 98px;
+}
+
 
 /* Page navigation----------------------------------- */
 
@@ -934,6 +1048,76 @@ No media query for `xs` since this is the default in Bootstrap
         background-color: #90d5e0;
         border-radius: 1rem;
     }
+    /* CDC framework image map alternative */
+    .cdc-framework-imagemap {
+        width: 342px;
+    }
+    .cdc-framework-image {
+        width: 342px;
+        height: 378px;
+    }
+    .cdc-framework-content {
+        background: url('../img/assets/cdc-imgmap-arrow.png') center -50px no-repeat;
+        padding-top: 2rem;
+    }
+    .cdc-framework-content .tab-content {
+        width: 342px;
+        height: 250px;
+        margin: 0;
+    }
+    li[id^="step-"] {
+        width: 76px;
+        height: 76px;
+        font-size: 0.625rem;
+        font-weight: 500;
+    }
+    li[id^="standard-"] {
+        width: 110px;
+        height: 20px;
+        font-size: 0.68rem;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .cdc-items #step-1 {
+        top: 7px;
+        left: 133px;
+     }
+    .cdc-items #step-2 {
+        top: 60px;
+        left: 259px;
+    }
+    .cdc-items #step-3 {
+        top: 241px;
+        left: 260px;
+    }
+    .cdc-items #step-4 {
+        top: 295px;
+        left: 133px;
+    }
+    .cdc-items #step-5 {
+        top: 241px;
+        left: 8px;
+    }
+    .cdc-items #step-6 {
+        top: 60px;
+        left: 8px;
+    }
+    .cdc-items #standard-1 {
+        top: 152px;
+        left: 116px;
+    }
+    .cdc-items #standard-2 {
+        top: 179px;
+        left: 116px;
+    }
+    .cdc-items #standard-3 {
+        top: 206px;
+        left: 116px;
+    }
+    .cdc-items #standard-4 {
+        top: 233px;
+        left: 116px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up ) */
@@ -1047,6 +1231,19 @@ No media query for `xs` since this is the default in Bootstrap
     .answer-prompt {
         display: none;
     }
+    /* CDC framework image map alternative */
+    .cdc-framework-imagemap {
+        width: 690px;
+    }
+    .cdc-framework-content {
+        background: url('../img/assets/cdc-imgmap-arrow.png') -55px center no-repeat;
+        padding-top: 0;
+    }
+    .cdc-framework-content .tab-content {
+        width: 290px;
+        height: 336px;
+        margin: 1.25rem 0 0 2rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1074,6 +1271,17 @@ No media query for `xs` since this is the default in Bootstrap
     footer p {
         width: 50%;
     }
+    /* CDC framework image map alternative */
+    .cdc-framework-imagemap {
+        width: 670px;
+    }
+    .cdc-framework-content .tab-content {
+        width: 270px;
+        height: 336px;
+    }
+    .cdc-framework-content {
+        background: url('../img/assets/cdc-imgmap-arrow.png') -55px center no-repeat;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -1094,6 +1302,14 @@ No media query for `xs` since this is the default in Bootstrap
     .part3-introduction .direction-arrow img {
         margin-left: -1.5rem;
         margin-top: 0;
+    }
+    /* CDC framework image map alternative */
+    .cdc-framework-imagemap {
+        width: 700px;
+    }
+    .cdc-framework-content .tab-content {
+        width: 300px;
+        height: 336px;
     }
 }
 
