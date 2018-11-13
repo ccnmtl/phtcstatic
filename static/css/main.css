@@ -1341,3 +1341,27 @@ No media query for `xs` since this is the default in Bootstrap
     }
 }
 
+/* #Shape Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.shape-section {
+  background: #222;
+  border-bottom: 2px solid #555;
+  border-top: 2px solid #555;
+  margin-top: 30px;
+  padding: 40px 0;
+}
+.diamond-shape {
+  background: #efefef;
+  height: 60px;
+  text-align: center;
+  transform:rotate(45deg);
+	width:60px;
+}
+.item-count {
+  color: #333;
+  display: table-cell;
+  height: 60px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+	width:60px;
+}
