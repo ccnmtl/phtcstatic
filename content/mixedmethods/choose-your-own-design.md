@@ -3,8 +3,8 @@ title: "Choose Your Own Design"
 module: "Introduction to Mixed Methods Research"
 type: "module-page"
 menu:
-  mixedmethod:
-    parent: "mixedmethod"
+  mixedmethods:
+    parent: "mixedmethods"
     weight: 19
     identifier: "choose-your-own-design"
     pre: 3

@@ -3,8 +3,8 @@ title: "Comparing Quantitative and Qualitative Methods"
 module: "Introduction to Mixed Methods Research"
 type: "module-page"
 menu:
-  mixedmethod:
-    parent: "mixedmethod"
+  mixedmethods:
+    parent: "mixedmethods"
     weight: 4
     identifier: "comparing-quantitative-and-qualitative-methods"
     pre: 3
