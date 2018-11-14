@@ -791,6 +791,92 @@ li[id^="standard-"] {
     background-color: #e4f1fd;
 }
 
+/* Qualitative Research, checkbox activity----------- */
+
+.checkbox-activity table {
+    border: none !important;
+    margin: 14px 0 50px 0;
+}
+
+.checkbox-activity table td {
+    border: 1px solid #333;
+    min-width: 65px;
+    max-width: 101px;
+    height: 60px;
+    padding: 0 10px;
+    color: #333;
+}
+
+.checkbox-activity .column-header {
+    height: 25px;
+}
+
+.checkbox-activity .column-spacer {
+  border: none !important;
+  background: none !important;
+}
+
+.checkbox-activity .interactive {
+    cursor: pointer;
+    background:#FFF!important;
+}
+
+.checkbox-activity .user-x {
+  color: #08C !important;
+  font-weight: bold;
+  padding: 0 0 0 0px !important;
+  font-size: 24px;
+}
+
+.checkbox-activity .answr-x {
+  margin: -3px 0 0 0;
+  color: #333 !important;
+  font-weight: bold;
+  padding: 0 0 0 15px !important;
+  font-size: 24px;
+  float: right;
+}
+
+.checkbox-activity #row-title {
+  float: left;
+  margin: 170px 0 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 10px;
+  color:#C63;
+}
+
+.checkbox-activity #column-title {
+  color:#C63;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.checkbox-activity .user-answers {
+  float: left;
+  line-height: 20px;
+}
+
+.checkbox-activity .activity-answers {
+  float: right;
+  padding: 0 0 0 40px;
+  line-height: 20px;
+  margin: 3px 0 0 0
+}
+
+.checkbox-activity .clear-button {
+  margin: 0 30px;
+}
+
+.checkbox-activity .submit-button {
+  margin:0 30px;
+}
+
+.checkbox-activity .highlight-match {
+    background-color: green !important;
+}
+
 /* Footer ------------------------------------------- */
 
 footer p {
@@ -1341,8 +1427,7 @@ No media query for `xs` since this is the default in Bootstrap
     }
 }
 
-/* #Shape Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* #Shape Styles ------------------------------------ */
 .shape-section {
   background: #222;
   border-bottom: 2px solid #555;
