@@ -40,5 +40,11 @@
     <script src="{{ .Site.BaseURL }}js/src/quiz.js"></script>
     <script src="{{ .Site.BaseURL }}js/src/imagemap.js"></script>
     <script src="{{ .Site.BaseURL }}js/src/design-notation.js"></script>
+
+    {{ if eq .Params.module "Building Logic Models" }}
+        {{ if eq .Params.title "Activity" }}
+            {{ partial "logicmodel.html" . }}
+        {{ end }}
+    {{ end }}
 </body>
 </html>
