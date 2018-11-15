@@ -1,0 +1,168 @@
+---
+title: "Activity"
+module: "Building Logic Models"
+type: "module-page"
+menu:
+  logicmodels:
+    parent: "logicmodels"
+    weight: 6
+    identifier: "activity"
+    pre: 3
+depth: 3
+next: "../further-reading/"
+next_title: "Further Reading"
+previous: "../introduction-to-activity/"
+previous_title: "Introduction to Activity"
+---
+<div class="logicmodels"><div class="pageblock logic-model-activity"><h3>Build your own logic model</h3><div class="loading-overlay">Loading...</div>
+<div class="logic-model-container">
+	<div id="phase_container">
+<div class="phtc_print_logo print_only"><img src="img/region2phtc-logo_horizontal.png" /></div>
+        <h3 class="print_only">Building your own logic model</h3>
+		<div class="scenario-list-stage">
+			<div class="logic-model-game-phase-name">Name of this phase of the game.</div>
+			<div class="logic-model-game-phase-instructions">Instructions</div>
+			
+		</div>
+
+		<!-- choose scenario -->
+		<div class="logic-model-initial-scenario_choice">
+	<div class="logic-model-initial-scenario-list"></div>
+	<!-- Not sure what this does
+	<div class="btn btn-primary btn-large somestuff next_phase">&rarr;</div>
+	-->
+</div>
+
+		
+		<!-- all subsequent phases of the game -->
+		 <!-- the whole table goes here: -->
+<div class="scenario-step-stage">
+
+    <div class="accordion" id="scenario-details">
+            <div class="accordion-group clearfix">
+              <div class="accordion-heading">
+                <a class="accordion-toggle arrow-open" id="scenarioHeaderTitle" data-toggle="collapse" data-parent="#scenario-details" href="#scenarioInstructions">
+                  Scenario: <span class="scenario_title_2">Scenario title goes here</span>
+                </a>
+                <div class="change_scenario">Switch scenario</div>
+              </div>
+              <div id="scenarioInstructions" class="accordion-body collapse">
+                <div class="accordion-inner scenario_instructions">
+                  Scenario instructions go here
+                </div>
+              </div>
+            </div>
+    </div>
+
+<hr />
+
+    <!-- Steps/Progress indicator -->
+    <div class="activity-progress clearfix" id="stepTag">
+    </div>
+
+    <div class="accordion" id="step-details">
+            <div class="accordion-group clearfix">
+              <div class="accordion-heading">
+                <a class="accordion-toggle arrow-open logic-model-game-phase-name switch-it2" id="stepHeaderTitle" data-toggle="collapse" data-parent="#step-details" href="#stepInstructions">
+                  <span>Step of the game goes here.</span>
+                </a>
+              </div>
+              <div id="stepInstructions" class="accordion-body collapse">
+                <div class="accordion-inner logic-model-game-phase-instructions">
+                Instructions
+                  <!-- Placeholder for Steps Instructions. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+             Turn this on last ZM <div class="logic-model-game-phase-instructions">Instructions</div> -->
+                </div>
+              </div>
+            </div>
+    </div>
+
+</div><!-- /.scenario-step-stage -->
+         
+<div class="table-toolbar">
+    <div class="previous_phase btn-logicmodel btn-info"><i class="icon-arrow-left icon-white"></i> Back a step</div>
+    <div class="wipe-table-button btn-logicmodel btn-info"><i class="icon-trash icon-white"></i> Clear table</div>
+    <!-- <div class="change_scenario btn-logicmodel btn-info"><i class="icon-refresh icon-white"></i> Switch scenario</div>-->
+    <div class="print_scenario btn-logicmodel btn-info"><i class="icon-print icon-white"></i> Print scenario</div>
+    <div class ="show_expert_logic_model_link_div btn-logicmodel btn-info">
+        <i class="icon-file icon-white"></i> <a target="_blank" href="" class="show_expert_logic_model_link">Show expert logic model</a>
+    </div>
+</div>
+
+<div class="modal wipe-table-button-div">
+    <div class="modal-header help-header">
+        <h3>Are you sure you want to clear the table?</h3>
+    </div>
+    <div class="modal-body">
+        <div>
+        This will permanently erase everything you typed in the logic model table.
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class = "wipe-table-confirm-button btn-logicmodel btn-danger">
+        Yes, I'm sure
+        </div>
+        <div class = "wipe-table-cancel-button btn-logicmodel btn-success">
+        No
+        </div>
+    </div>
+</div>
+
+<div class="modal switch-scenario-warning">
+    <div class="modal-header help-header">
+        <h3>Are you sure you want to switch scenario?</h3>
+    </div>
+    <div class="modal-body">
+        <div>
+        This will permanently erase everything you typed in the logic model table.
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class = "change_scenario_confirm btn-logicmodel btn-danger">
+        Yes, I'm sure
+        </div>
+        <div class = "change_scenario_cancel btn-logicmodel btn-success">
+        No
+        </div>
+    </div>
+</div>
+
+
+<div class="print-break clearfix"></div>
+
+<!-- the whole table goes here: -->
+<div class="logic-model-columns clearfix"></div>
+
+		<!-- the help box -->
+		<div class="modal help_box">this is just a placeholder.</div>
+<script type="text/template" id="logic-model-help-box">
+    <div class="modal-header help-header">
+        <button class="close">×</button>
+        <h3><%=help_title%> column</h3>
+    </div>
+    <div class="modal-body">
+        <div>
+        <%=help_meaning%>
+        <%=help_body%>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="btn btn-logicmodel btn-success">Close</div>
+    </div>
+</script>
+
+	</div>
+</div>
+
+<script type="text/javascript" language="javascript">
+    jQuery(document).ready(function(jQuery){
+        jQuery(".collapse").collapse();
+        jQuery('#scenarioInstructions').on('show hide', function(e){
+            jQuery('#scenarioHeaderTitle').toggleClass('arrow-open arrow-close', 200);
+        });
+        jQuery('#stepInstructions').on('show hide', function(e){
+            jQuery('#stepHeaderTitle').toggleClass('arrow-open arrow-close', 200);
+        });
+    });
+</script>
+</div></div>
