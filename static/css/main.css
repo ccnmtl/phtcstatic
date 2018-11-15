@@ -777,6 +777,112 @@ li[id^="standard-"] {
     left: 98px;
 }
 
+/* Comparing Quantitative and Qualitative Methods accordion*/
+
+.comp-quant-qual .card {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: 0.0625rem solid #ccc !important;
+    border-radius: 0.25rem !important;
+}
+
+.comp-header {
+    margin: 0;
+    padding: 0.25rem 0;
+    background-color: #fcdab8;
+}
+
+.comp-quant-qual .comp-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.comp-quant-qual .comp-header h3 a {
+    cursor: pointer;
+    display: block;
+    padding: 0.5rem 0;
+    color: #000;
+}
+
+.comp-criteria .caret,
+.comp-criteria .caret-collapsed {
+    margin-right: 0.5rem;
+    color: #cc6633;
+}
+
+.comp-criteria .caret { display: none; }
+.comp-criteria .caret-collapsed { display: inline-block; }
+.comp-criteria.collapsed .caret { display: inline-block; }
+.comp-criteria.collapsed .caret-collapsed { display: none; }
+
+.comp-quant,
+.comp-qual {
+    background-color: #fff;
+    text-align: left;
+    height: 1.75rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+}
+
+.comp-quant img,
+.comp-qual img {
+    height: 75%;
+}
+
+.sr-quant::before {
+    content: ", ";
+}
+
+.sr-quant::after {
+    content: ",";
+}
+
+.figure-legend {
+    margin: 0 0 2rem 0;
+    padding: 0;
+    border: 0;
+}
+
+.figure-legend h2 {
+    font-weight: bold;
+}
+
+.figure-legend h2,
+.figure-legend dl,
+.figure-legend dt,
+.figure-legend dd {
+    margin: 0;
+    padding: 0 0.125rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.figure-legend dl {
+    width: 225px;
+}
+
+.figure-legend dt {
+    display: inline-block;
+    width: 45px;
+}
+
+.figure-legend dd {
+    display: inline-block;
+    margin-right: 0;
+    width: 170px;
+}
+
+.icon-legend {
+    text-align: center;
+}
+
+.icon-legend img {
+    height: 1.25rem;
+}
+
+
 
 /* Page navigation----------------------------------- */
 
@@ -789,6 +895,92 @@ li[id^="standard-"] {
 
 .pagenav-item:hover {
     background-color: #e4f1fd;
+}
+
+/* Qualitative Research, checkbox activity----------- */
+
+.checkbox-activity table {
+    border: none !important;
+    margin: 14px 0 50px 0;
+}
+
+.checkbox-activity table td {
+    border: 1px solid #333;
+    min-width: 65px;
+    max-width: 101px;
+    height: 60px;
+    padding: 0 10px;
+    color: #333;
+}
+
+.checkbox-activity .column-header {
+    height: 25px;
+}
+
+.checkbox-activity .column-spacer {
+  border: none !important;
+  background: none !important;
+}
+
+.checkbox-activity .interactive {
+    cursor: pointer;
+    background:#FFF!important;
+}
+
+.checkbox-activity .user-x {
+  color: #08C !important;
+  font-weight: bold;
+  padding: 0 0 0 0px !important;
+  font-size: 24px;
+}
+
+.checkbox-activity .answr-x {
+  margin: -3px 0 0 0;
+  color: #333 !important;
+  font-weight: bold;
+  padding: 0 0 0 15px !important;
+  font-size: 24px;
+  float: right;
+}
+
+.checkbox-activity #row-title {
+  float: left;
+  margin: 170px 0 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 10px;
+  color:#C63;
+}
+
+.checkbox-activity #column-title {
+  color:#C63;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.checkbox-activity .user-answers {
+  float: left;
+  line-height: 20px;
+}
+
+.checkbox-activity .activity-answers {
+  float: right;
+  padding: 0 0 0 40px;
+  line-height: 20px;
+  margin: 3px 0 0 0
+}
+
+.checkbox-activity .clear-button {
+  margin: 0 30px;
+}
+
+.checkbox-activity .submit-button {
+  margin:0 30px;
+}
+
+.checkbox-activity .highlight-match {
+    background-color: green !important;
 }
 
 /* Footer ------------------------------------------- */
@@ -1118,6 +1310,24 @@ No media query for `xs` since this is the default in Bootstrap
         top: 233px;
         left: 116px;
     }
+    .comp-quant-qual .card {
+        margin-bottom: 0;
+    }
+    .figure-legend dl {
+        width: auto;
+    }
+    .figure-legend dt {
+        display: inline-block;
+        width: auto;
+    }
+    .figure-legend dd {
+        display: inline-block;
+        margin-right: 1rem;
+        width: auto;
+    }
+    .icon-legend {
+        text-align: left;
+    }
 }
 
 /* Medium devices (tablets, 768px and up ) */
@@ -1244,6 +1454,46 @@ No media query for `xs` since this is the default in Bootstrap
         height: 336px;
         margin: 1.25rem 0 0 2rem;
     }
+    .comp-quant,
+    .comp-qual {
+        background-color: transparent;
+        text-align: center;
+        height: auto;
+        padding-top: 0;
+    }
+    .comp-quant img,
+    .comp-qual img {
+        height: auto;
+    }
+    .comp-quant-qual-header {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: #cc6633;
+    }
+    .figure-legend {
+        margin: 0 0 2rem 0;
+        padding: 0;
+        border: 0;
+    }
+    .figure-legend h2 {
+        font-weight: bold;
+    }
+    .figure-legend h2,
+    .figure-legend dl,
+    .figure-legend dt,
+    .figure-legend dd {
+        margin: 0;
+        padding: 0 0.125rem;
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+    .figure-legend dd {
+        margin-right: 1rem;
+    }
+    .icon-legend img {
+        height: 1.25rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1339,29 +1589,4 @@ No media query for `xs` since this is the default in Bootstrap
         border: 5px solid #6992c8;
         color: #6992c8;
     }
-}
-
-/* #Shape Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.shape-section {
-  background: #222;
-  border-bottom: 2px solid #555;
-  border-top: 2px solid #555;
-  margin-top: 30px;
-  padding: 40px 0;
-}
-.diamond-shape {
-  background: #efefef;
-  height: 60px;
-  text-align: center;
-  transform:rotate(45deg);
-	width:60px;
-}
-.item-count {
-  color: #333;
-  display: table-cell;
-  height: 60px;
-  transform: rotate(-45deg);
-  vertical-align: middle;
-	width:60px;
 }

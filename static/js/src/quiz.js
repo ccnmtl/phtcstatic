@@ -90,4 +90,20 @@ jQuery(document).ready(function() {
         var answerId = $elt.attr('data-answer');
         jQuery(answerId).fadeIn(300);
     });
+
+    jQuery('.checkbox-activity .btn[type="submit"]').click(function(evt) {
+        evt.preventDefault();
+        var $form = jQuery(evt.currentTarget).parents('form');
+        if (!isFormComplete($form)) {
+            return false;
+        }
+        jQuery('.checkbox-activity td.match').addClass('highlight-match');
+    });
+
+    jQuery('.checkbox-activity .btn[type="reset"]').click(function(evt) {
+        evt.preventDefault();
+        jQuery('.checkbox-activity td.match').removeClass('highlight-match');
+        jQuery('.checkbox-activity input[type="checkbox"]')
+            .prop('checked', false);
+    });
 });
