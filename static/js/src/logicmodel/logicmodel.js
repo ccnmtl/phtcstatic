@@ -1,5 +1,4 @@
 /* exported LogicModel */
-LogicModel.NUMBER_OF_ROWS_INITIALLY_VISIBLE = 4;
 LogicModel.NUMBER_OF_ROWS_TOTAL = 9;
 
 LogicModel.getTemplate = function(selector) {
@@ -15,15 +14,12 @@ const LogicModelView = Backbone.View.extend({
         'click .previous_phase': 'goToPreviousPhase',
         'click .change_scenario_confirm': 'goToFirstPhase',
         'click .print_scenario': 'printScenarioTable',
-        'click .help_box': 'closeHelpBox',
         'click .add_a_row_button': 'addARow',
-        'click .wipe-table-button': 'showWipeTableWarning',
         'click .wipe-table-confirm-button': 'wipeTable',
-        'click .wipe-table-cancel-button': 'cancelWipeTable',
     },
     phases: null,
     current_phase: null,
-
+    initialRows: 4,
     initialize: function(options) {
         var self = this;
 
@@ -36,16 +32,13 @@ const LogicModelView = Backbone.View.extend({
             'addARow',
             'adjustRows',
             'checkEmptyBoxes',
-            'showWipeTableWarning',
             'wipeTableValues',
             'wipeTable',
-            'cancelWipeTable',
             'beforeLeavePage'
         );
         self.getSettings();
 
-        self.current_number_of_rows =
-            LogicModel.NUMBER_OF_ROWS_INITIALLY_VISIBLE;
+        self.current_number_of_rows = this.initialRows;
 
         // Paint the columns:
         self.columns = new LogicModel.ColumnCollection();
@@ -68,17 +61,6 @@ const LogicModelView = Backbone.View.extend({
         });
     },
 
-    closeHelpBox: function() {
-        jQuery('.help-overlay').hide();
-        jQuery('.help_box').hide();
-        jQuery('.help_box').html('');
-    },
-
-    showWipeTableWarning: function() {
-        jQuery('.help-overlay').show();
-        jQuery('.wipe-table-button-div').show();
-    },
-
     wipeTableValues: function() {
         var self = this;
         jQuery('.text_box').each(function(a, b) {b.value = ''; });
@@ -95,19 +77,11 @@ const LogicModelView = Backbone.View.extend({
     wipeTable: function() {
         var self = this;
         self.wipeTableValues();
-        jQuery('.help-overlay').hide();
-        jQuery('.wipe-table-button-div').hide();
+
         self.current_phase = 1;
-        self.current_number_of_rows =
-            LogicModel.NUMBER_OF_ROWS_INITIALLY_VISIBLE;
+        self.current_number_of_rows = this.initialRows;
         self.adjustRows();
         self.paintPhase();
-    },
-
-    cancelWipeTable: function() {
-        jQuery('.help-overlay').hide();
-        jQuery('.wipe-table-button').show();
-        jQuery('.wipe-table-button-div').hide();
     },
 
     checkEmptyBoxes: function() {
@@ -297,8 +271,6 @@ const LogicModelView = Backbone.View.extend({
         self.wipeTableValues();
         self.current_phase = 0;
         self.paintPhase();
-        jQuery('.help-overlay').hide();
-        jQuery('.switch-scenario-warning').hide();
     },
 
     goToNextPhase: function() {

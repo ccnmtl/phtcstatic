@@ -38,19 +38,26 @@
 </script>
 
 <script type="text/template" id="logic-model-help-box">
-    <div class="modal-header help-header">
-        <button class="close">×</button>
-        <h3><%=help_title%> column</h3>
-    </div>
-    <div class="modal-body">
-        <div>
-        <%=help_meaning%>
-        <%=help_body%>
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header help-header">
+                <h3 class="modal-title"><%=help_title%> column</h3>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <%=help_meaning%>
+                    <%=help_body%>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">
+                    Close
+                </button>
+            </div>
         </div>
     </div>
-    <div class="modal-footer">
-        <div class="btn btn-logicmodel btn-success">Close</div>
-    </div>
+</div>
 </script>
 
 <script type="text/template" id="logic-model-scenario">
