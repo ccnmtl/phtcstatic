@@ -6,9 +6,9 @@ LogicModel.getTemplate = function(selector) {
     var html = jQuery(selector).html();
     html = html.replace(/&lt;/g, '<');
     return _.template(html);
-}
+};
 
-LogicModelView = Backbone.View.extend({
+const LogicModelView = Backbone.View.extend({
     events: {
         'click .next_phase': 'goToNextPhase',
         'click .done-button': 'goToNextPhase',
@@ -57,14 +57,14 @@ LogicModelView = Backbone.View.extend({
         jQuery('li.next a').on('click', this.beforeLeavePage);
         jQuery('li.previous a').on('click', this.beforeLeavePage);
 
-        jQuery(".collapse").collapse();
+        jQuery('.collapse').collapse();
         jQuery('#scenarioInstructions').on('show hide', function(e){
             jQuery('#scenarioHeaderTitle').toggleClass(
-                    'arrow-open arrow-close', 200);
+                'arrow-open arrow-close', 200);
         });
         jQuery('#stepInstructions').on('show hide', function(e){
             jQuery('#stepHeaderTitle').toggleClass(
-                    'arrow-open arrow-close', 200);
+                'arrow-open arrow-close', 200);
         });
     },
 

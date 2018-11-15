@@ -17,6 +17,9 @@ module.exports = {
         "plugin:security/recommended"
     ],
     "globals": {
+        "Backbone": true,
+        "_": true,
+        "LogicModel": true
     },
     "rules": {
         "indent": [

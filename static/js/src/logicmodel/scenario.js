@@ -1,5 +1,3 @@
-/* global STATIC_URL: true */
-
 LogicModel.Scenario = Backbone.Model.extend({
 
 });
