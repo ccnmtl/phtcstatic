@@ -44,18 +44,16 @@ LogicModel.ColumnView = Backbone.View.extend({
         self.render();
     },
     showHelpBox: function() {
-        var self = this;
         var the_template = LogicModel.getTemplate('#logic-model-help-box');
 
         var the_data = {
-            'help_title': self.model.get('name'),
-            'help_meaning': self.model.get('help_definition'),
-            'help_body': self.model.get('help_examples')
+            'help_title': this.model.get('name'),
+            'help_meaning': this.model.get('help_definition'),
+            'help_body': this.model.get('help_examples')
         };
 
         jQuery('.help_box').html(the_template(the_data));
-        jQuery('.help-overlay').show();
-        jQuery('.help_box').show();
+        jQuery('.help_box .modal').modal();
     },
     turnOnActiveBoxes: function() {
         // Make boxes in active columns editable and

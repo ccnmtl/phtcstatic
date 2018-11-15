@@ -55,7 +55,8 @@ previous_title: "Introduction to Activity"
     Scenario instructions go here
 </div>
 </div>
-<button type="button" class="btn btn-sm btn-secondary change_scenario mt-1 float-right" data-toggle="modal" data-target="#changeScenario">
+<button type="button" class="btn btn-sm btn-secondary change_scenario mt-1 float-right"
+    data-toggle="modal" data-target="#changeScenario">
     Switch scenario
 </button>
 </div>
@@ -67,18 +68,18 @@ previous_title: "Introduction to Activity"
 <div class="activity-progress clearfix" id="stepTag">
 </div>
 
-<div class="accordion" id="step-details">
+<div class="accordion mt-2 mb-3" id="step-details">
 <div class="accordion-group clearfix">
 <div class="accordion-heading">
 <a class="accordion-toggle arrow-open logic-model-game-phase-name switch-it2"
     id="stepHeaderTitle" data-toggle="collapse"
     data-parent="#step-details"
-    href="#stepInstructions"> <span>Step
-        of the game goes here.</span>
+    href="#stepInstructions">
+    <span>Step of the game goes here.</span>
 </a>
 </div>
 <div id="stepInstructions" class="accordion-body collapse">
-<div class="accordion-inner logic-model-game-phase-instructions">
+<div class="mt-1 accordion-inner logic-model-game-phase-instructions">
     Instructions
 </div>
 </div>
@@ -91,19 +92,17 @@ previous_title: "Introduction to Activity"
 <div class="previous_phase btn-logicmodel btn-info">
 <i class="icon-arrow-left icon-white"></i> Back a step
 </div>
-<div class="wipe-table-button btn-logicmodel btn-info">
-<i class="icon-trash icon-white"></i> Clear table
-</div>
 
-<div class="print_scenario btn-logicmodel btn-info">
-<i class="icon-print icon-white"></i> Print scenario
-</div>
-<div class="show_expert_logic_model_link_div btn-logicmodel btn-info">
-<i class="icon-file icon-white"></i>
-<a target="_blank" href="" class="show_expert_logic_model_link">
+<button type="button" class="btn btn-info btn-sm"
+    data-toggle="modal" data-target="#clearTable">
+    Clear table
+</button>
+<button type="button" class="print_scenario btn btn-info btn-sm">
+    Print scenario
+</button>
+<a role="button" class="show_expert_logic_model_link_div btn-info btn-sm">
     Show expert logic model
 </a>
-</div>
 </div>
 
 <div class="print-break clearfix"></div>
@@ -113,9 +112,9 @@ previous_title: "Introduction to Activity"
 
 </div>
 
-<div class="modal help_box">this is just a placeholder.</div>
+<div class="help_box">this is just a placeholder.</div>
 
-<div class="modal wipe-table-button-div" tabindex="-1" role="dialog">
+<div id="clearTable" class="modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header help-header">
@@ -128,17 +127,17 @@ previous_title: "Introduction to Activity"
                 </div>
             </div>
             <div class="modal-footer">
-                <button class="wipe-table-confirm-button btn-logicmodel btn-danger">
+                <button class="wipe-table-confirm-button btn btn-danger" data-dismiss="modal">
                     Yes, I'm sure
                 </button>
-                <button class="wipe-table-cancel-button btn-logicmodel btn-success">
+                <button class="btn btn-secondary" data-dismiss="modal">
                     No
                 </button>
             </div>
         </div>
     </div>
 </div>
-    <div id="changeScenario" class="modal" tabindex="-1" role="dialog">
+<div id="changeScenario" class="modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header help-header">
