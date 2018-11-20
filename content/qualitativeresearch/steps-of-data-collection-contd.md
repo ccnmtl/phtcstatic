@@ -14,72 +14,256 @@ next_title: "Qualitative Data Collection Methods"
 previous: "../steps-of-data-collection/"
 previous_title: "Steps of Data Collection"
 ---
-<div class="qualitativeresearch"><div class="pageblock"><p>In addition to the general considerations for each step of the data collection process, the five qualitative approaches have specific considerations and issues to consider prior to beginning data collection.</p>
-</div><div class="pageblock"><table>
-<thead>
-<tr>
-<th class="th1" valign="top">Data collection activity</th>
-<th class="th1" valign="top">Narrative Analysis</th>
-<th class="th1" valign="top">Phenomenology</th>
-<th class="th1" valign="top">Grounded Theory</th>
-<th class="th1" valign="top">Ethnography</th>
-<th class="th1" valign="top">Case Study</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="th2" valign="top">Locating Site/Individual</th>
-<td valign="top">Single individual; accessible and distinctive</td>
-<td valign="top">Multiple individuals; all must have experienced the phenomenon of interest</td>
-<td valign="top">Multiple individuals</td>
-<td valign="top">Members of a culture-sharing group or individuals representative of the group</td>
-<td valign="top">A bounded system (can be a person/people, a process, an activity, an event, a program)</td>
-</tr>
-<tr>
-<th class="th2" valign="top">Issues with gaining access and building rapport</th>
-<td valign="top">Gaining permission from individual(s), obtaining access to information in archives</td>
-<td valign="top">Finding individuals who have experienced the phenomenon</td>
-<td valign="top">Locating a homogeneous sample</td>
-<td valign="top">Gaining access through the gatekeeper, gaining the confidence of informants</td>
-<td valign="top">Gaining access through the gatekeeper, gaining the confidence of participants</td>
-</tr>
-<tr>
-<th class="th2" valign="top">Purposefully sampling</th>
-<td valign="top">Depends on the person (may be convenient, politically important, typical, unusual, etc.)</td>
-<td valign="top">"Criterion" sample</td>
-<td valign="top">"Theory-based" sample</td>
-<td valign="top">Finding a cultural group to which one is a "stranger"</td>
-<td valign="top">Finding a "case" or "cases"</td>
-</tr>
-<tr>
-<th class="th2" valign="top">Collecting data</th>
-<td valign="top">In-depth interviews; also document and archival analysis, journaling, observation</td>
-<td valign="top">In-depth interviews</td>
-<td valign="top">Primarily interviews (in-depth interviews and focus groups)</td>
-<td valign="top">Participant observations; also interviews, document archival analysis, and artifacts review</td>
-<td valign="top">Extensive forms - documents and records, interviews, observation, and artifacts</td>
-</tr>
-<tr>
-<th class="th2" valign="top">Recording</th>
-<td valign="top">Notes, interview protocol</td>
-<td valign="top">Interview protocol(s), often multiple interviews with the same individuals</td>
-<td valign="top">Interview protocol, memoing</td>
-<td valign="top">Fieldnotes, interview and observational protocols</td>
-<td valign="top">Fieldnotes, interview and observational protocols</td>
-</tr>
-<tr>
-<th class="th2" valign="top">Data storage</th>
-<td valign="top">File folders, computer files</td>
-<td valign="top">Transcriptions, computer files</td>
-<td valign="top">Transcriptions, computer files</td>
-<td valign="top">Fieldnotes, transcriptions, computer files</td>
-<td valign="top">Fieldnotes, transcriptions, computer files</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<th class="th00" colspan="6" valign="top">Adapted from Creswell, JW. Table 7.1 Data Collection Activities by Five Approaches, 120-121.</th>
-</tr>
-</tfoot>
-</table>
-</div></div>
+
+In addition to the general considerations for each step of the data collection process, the five qualitative approaches have specific considerations and issues to consider prior to beginning data collection.
+
+<div class="row table-layout-display high-density col-header d-none d-md-flex" aria-hidden="true">
+    <div class="col-md-2">
+        Data collection activity
+    </div>
+    <div class="col-md-2">
+        Narrative Analysis
+    </div>
+    <div class="col-md-2">
+        Phenomenology
+    </div>
+    <div class="col-md-2">
+        Grounded Theory
+    </div>
+    <div class="col-md-2">
+        Ethnography
+    </div>
+    <div class="col-md-2">
+        Case Study
+    </div>
+</div>
+<div class="row table-layout-display high-density mb-5 mb-md-0" aria-label="Locating Site/Individual">
+    <div class="col-12 col-md-2 th2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
+        <p>
+        Locating Site/Individual
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Narrative Analysis:</h3>
+        <p>
+        Single individual; accessible and distinctive
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Phenomenology:</h3>
+        <p>
+        Multiple individuals; all must have experienced the phenomenon of interest
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Grounded Theory:</h3>
+        <p>
+        Multiple individuals
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Ethnography:</h3>
+        <p>
+        Members of a culture-sharing group or individuals representative of the group
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Case Study:</h3>
+        <p>
+        A bounded system (can be a person or people, a process, an activity, an event, a program)
+        </p>
+    </div>
+</div>
+<div class="row table-layout-display high-density mb-5 mb-md-0" aria-label="Issues with gaining access and building rapport">
+    <div class="col-12 col-md-2 th2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
+        <p>
+        Issues with gaining access and building rapport
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Narrative Analysis:</h3>
+        <p>
+        Gaining permission from individual(s), obtaining access to information in archives
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Phenomenology:</h3>
+        <p>
+        Finding individuals who have experienced the phenomenon
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Grounded Theory:</h3>
+        <p>
+        Locating a homogeneous sample
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Ethnography:</h3>
+        <p>
+        Gaining access through the gatekeeper, gaining the confidence of informants
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Case Study:</h3>
+        <p>
+        Gaining access through the gatekeeper, gaining the confidence of participants
+        </p>
+    </div>
+</div>
+<div class="row table-layout-display high-density mb-5 mb-md-0" aria-label="Purposefully sampling">
+    <div class="col-12 col-md-2 th2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
+        <p>
+        Purposefully sampling
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Narrative Analysis:</h3>
+        <p>
+        Depends on the person (may be convenient, politically important, typical, unusual, etc.)
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Phenomenology:</h3>
+        <p>
+        “Criterion” sample
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Grounded Theory:</h3>
+        <p>
+        “Theory-based” sample
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Ethnography:</h3>
+        <p>
+        Finding a cultural group to which one is a “stranger”
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Case Study:</h3>
+        <p>
+        Finding a “case” or “cases”
+        </p>
+    </div>
+</div>
+<div class="row table-layout-display high-density mb-5 mb-md-0" aria-label="Collecting data">
+    <div class="col-12 col-md-2 th2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
+        <p>
+        Collecting data
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Narrative Analysis:</h3>
+        <p>
+        In-depth interviews; also document and archival analysis, journaling, observation
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Phenomenology:</h3>
+        <p>
+        In-depth interviews
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Grounded Theory:</h3>
+        <p>
+        Primarily interviews (in-depth interviews and focus groups)
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Ethnography:</h3>
+        <p>
+        Participant observations; also interviews, document archival analysis, and artifacts review
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Case Study:</h3>
+        <p>
+        Extensive forms—documents and records, interviews, observation, and artifacts
+        </p>
+    </div>
+</div>
+<div class="row table-layout-display high-density mb-5 mb-md-0" aria-label="Recording">
+    <div class="col-12 col-md-2 th2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
+        <p>
+        Recording
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Narrative Analysis:</h3>
+        <p>
+        Notes, interview protocol
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Phenomenology:</h3>
+        <p>
+        Interview protocol(s), often multiple interviews with the same individuals
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Grounded Theory:</h3>
+        <p>
+        Interview protocol, memoing
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Ethnography:</h3>
+        <p>
+        Fieldnotes, interview and observational protocols
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Case Study:</h3>
+        <p>
+        Fieldnotes, interview and observational protocols
+        </p>
+    </div>
+</div>
+<div class="row table-layout-display high-density mb-5 mb-md-0" aria-label="Data storage">
+    <div class="col-12 col-md-2 th2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
+        <p>
+        Data storage
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Narrative Analysis:</h3>
+        <p>
+        File folders, computer files
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Phenomenology:</h3>
+        <p>
+        Transcriptions, computer files
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Grounded Theory:</h3>
+        <p>
+        Transcriptions, computer files
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Ethnography:</h3>
+        <p>
+        Fieldnotes, transcriptions, computer files
+        </p>
+    </div>
+    <div class="col-12 col-md-2">
+        <h3 class="d-block d-md-none" aria-hidden="false">Case Study:</h3>
+        <p>
+        Fieldnotes, transcriptions, computer files
+        </p>
+    </div>
+</div>
+
+_Adapted from Creswell, JW. Table 7.1 Data Collection Activities by Five Approaches, 120-121._

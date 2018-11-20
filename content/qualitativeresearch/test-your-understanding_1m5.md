@@ -14,95 +14,105 @@ next_title: "Five Qualitative Approaches"
 previous: "../mixed-methods-research/"
 previous_title: "Mixed Methods Research"
 ---
-<div class="qualitativeresearch"><form method="post" action="."><div class="pageblock"><div class="itemfeedback">
+
+<div class="itemfeedback">
 
 <div class="cases">
 <div class="casetitle">
     Question 1:
-  </div>
+</div><!-- /.casetitle -->
 <div class="casecontent">
 <div class="casequestion">
 <p>Which of the following does NOT characterize qualitative research?</p>
-<form id="form-169" method="post">
-<div class="form-check">
-<input class="form-check-input" data-answer="#answer-608" id="answer-value-608" name="question169" type="radio" value="608">
-<label class="form-check-label" for="answer-value-608">Answers “how” and “why” research questions</label>
+<div class="answer-value md-radio">
+<input name="question01" id="question01a" data-answer="#answer01a" type="radio" value="A">
+<label for="question01a">A)
+Answers “how” and “why” research questions
+</label>
 </div>
-<div class="form-check">
-<input class="form-check-input" data-answer="#answer-609" id="answer-value-609" name="question169" type="radio" value="609">
-<label class="form-check-label" for="answer-value-609">Produces generalizable findings</label>
+<div class="answer-value md-radio">
+<input name="question01" id="question01b" data-answer="#answer01b" type="radio" value="B">
+<label for="question01b">B)
+Produces generalizable findings
+</label>
 </div>
-<div class="form-check">
-<input class="form-check-input" data-answer="#answer-610" id="answer-value-610" name="question169" type="radio" value="610">
-<label class="form-check-label" for="answer-value-610">Allows study design flexibility</label>
+<div class="answer-value md-radio">
+<input name="question01" id="question01c" data-answer="#answer01c" type="radio" value="C">
+<label for="question01c">C)
+Allows study design flexibility
+</label>
 </div>
-<div class="form-check">
-<input class="form-check-input" data-answer="#answer-611" id="answer-value-611" name="question169" type="radio" value="611">
-<label class="form-check-label" for="answer-value-611">Aims to describe and explain relationships</label>
+<div class="answer-value md-radio">
+<input name="question01" id="question01d" data-answer="#answer01d" type="radio" value="D">
+<label for="question01d">D)
+Aims to describe and explain relationships
+</label>
 </div>
-</form>
+</div><!-- /.casequestion -->
+<div class="casesanswerdisplay">
+<div class="answer-container item-feedback" id="answer01a">
+<i>Incorrect:</i> Generally speaking, qualitative research is better suited than quantitative research to answer “how” and “why” questions.
 </div>
-<div class="case-feedback">
-<div class="answer-container item-feedback" id="answer-608">
-<p><span class="incorrect">Incorrect: </span>Generally speaking, qualitative research is better suited than quantitative research to answer “how” and “why” questions.</p>
+<div class="answer-container item-feedback" id="answer01b">
+<i>Correct:</i> Because of the sampling techniques and sample sizes used in quantitative research, the findings of a quantitative study are said to be generalizable to populations and groups outside of the study sample. Small sample size and non-random sampling methods in qualitative research limit our ability to generalize outside of the study population. 
 </div>
-<div class="answer-container item-feedback" id="answer-609">
-<p><span class="correct">Correct: </span>Because of the sampling techniques and sample sizes used in quantitative research, the findings of a quantitative study are said to be generalizable to populations and groups outside of the study sample. Small sample size and non-random sampling methods in qualitative research limit our ability to generalize outside of the study population. </p>
+<div class="answer-container item-feedback" id="answer01c">
+<i>Incorrect:</i> Qualitative research allows for the study design to emerge and change as data is collected and analyzed.
 </div>
-<div class="answer-container item-feedback" id="answer-610">
-<p><span class="incorrect">Incorrect: </span>Qualitative research allows for the study design to emerge and change as data is collected and analyzed.</p>
-</div>
-<div class="answer-container item-feedback" id="answer-611">
-<p><span class="incorrect">Incorrect: </span>Qualitative research uses information to better understand an issue, problem, or context in greater detail. Describing and explaining relationships is one way to increase understanding of the issue, problem, context, or setting of the study.</p>
-</div>
-</div><!--end case-feedback-->
+<div class="answer-container item-feedback" id="answer01d">
+<i>Incorrect:</i> Qualitative research uses information to better understand an issue, problem, or context in greater detail. Describing and explaining relationships is one way to increase understanding of the issue, problem, context, or setting of the study.
 </div>
 </div>
+</div><!-- /.casecontent -->
+</div><!-- /.cases -->
 
 <div class="cases">
 <div class="casetitle">
     Question 2:
-  </div>
+</div><!-- /.casetitle -->
 <div class="casecontent">
 <div class="casequestion">
 <p>Given that the team has decided to design a qualitative study, which of the following features will your study likely contain?</p>
-<form id="form-170" method="post">
-<div class="form-check">
-<input class="form-check-input" data-answer="#answer-612" id="answer-value-612" name="question170" type="radio" value="612">
-<label class="form-check-label" for="answer-value-612">Selection of a representative sample
+<div class="answer-value md-radio">
+<input name="question02" id="question02a" data-answer="#answer02a" type="radio" value="A">
+<label for="question02a">A)
+Selection of a representative sample
 </label>
 </div>
-<div class="form-check">
-<input class="form-check-input" data-answer="#answer-613" id="answer-value-613" name="question170" type="radio" value="613">
-<label class="form-check-label" for="answer-value-613">Testing of theories or hypotheses</label>
+<div class="answer-value md-radio">
+<input name="question02" id="question02b" data-answer="#answer02b" type="radio" value="B">
+<label for="question02b">B)
+Testing of theories or hypotheses
+</label>
 </div>
-<div class="form-check">
-<input class="form-check-input" data-answer="#answer-614" id="answer-value-614" name="question170" type="radio" value="614">
-<label class="form-check-label" for="answer-value-614">Direct contact with study participants</label>
+<div class="answer-value md-radio">
+<input name="question02" id="question02c" data-answer="#answer02c" type="radio" value="C">
+<label for="question02c">C)
+Direct contact with study participants
+</label>
 </div>
-<div class="form-check">
-<input class="form-check-input" data-answer="#answer-615" id="answer-value-615" name="question170" type="radio" value="615">
-<label class="form-check-label" for="answer-value-615">Gathering of data by surveys, logs, and forms</label>
+<div class="answer-value md-radio">
+<input name="question02" id="question02d" data-answer="#answer02d" type="radio" value="D">
+<label for="question02d">D)
+Gathering of data by surveys, logs, and forms
+</label>
 </div>
-</form>
+</div><!-- /.casequestion -->
+<div class="casesanswerdisplay">
+<div class="answer-container item-feedback" id="answer02a">
+<i>Incorrect:</i> Selecting representative samples is a feature of quantitative research.
 </div>
-<div class="case-feedback">
-<div class="answer-container item-feedback" id="answer-612">
-<p><span class="incorrect">Incorrect: </span>Selecting representative samples is a feature of quantitative research.</p>
+<div class="answer-container item-feedback" id="answer02b">
+<i>Incorrect:</i> Quantitative research is better suited than qualitative research to test theories or hypotheses.
 </div>
-<div class="answer-container item-feedback" id="answer-613">
-<p><span class="incorrect">Incorrect: </span>Quantitative research is better suited than qualitative research to test theories or hypotheses</p>
+<div class="answer-container item-feedback" id="answer02c">
+<i>Correct:</i> Yes! In many cases, qualitative research requires direct contact with study participants.
 </div>
-<div class="answer-container item-feedback" id="answer-614">
-<p><span class="correct">Correct: </span>Yes! In many cases, qualitative research requires direct contact with study participants. </p>
-</div>
-<div class="answer-container item-feedback" id="answer-615">
-<p><span class="incorrect">Incorrect: </span>Quantitative data collection methods include using surveys, logs, and forms.</p>
-</div>
-</div><!--end case-feedback-->
+<div class="answer-container item-feedback" id="answer02d">
+<i>Incorrect:</i> Quantitative data collection methods include using surveys, logs, and forms.
 </div>
 </div>
+</div><!-- /.casecontent -->
+</div><!-- /.cases -->
 
-
 </div>
-</div></form></div>
