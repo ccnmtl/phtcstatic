@@ -116,23 +116,3 @@ Here is a sample codebook using the codes from the previous exercise.
         <p>And I knew I wasn’t going to be able to take it in front of him so I didn’t bring my meds with me...yea I missed for the whole time we were on vacation.</p>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
