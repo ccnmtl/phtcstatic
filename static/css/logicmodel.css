@@ -54,8 +54,6 @@
 
 .column-entry {
     height: 80px;
-    background-color: rgb(0, 102, 204);
-    border-color: rgb(0, 102, 204);
     margin-right: 5px;
     margin-bottom: 5px;
 }
@@ -67,6 +65,48 @@
     margin: 2px;
     height: 95%;
     width: 75%;
+}
+
+.column-entry.blue {
+    background-color: rgb(0, 102, 204);
+}
+.column-entry.blue textarea {
+    color: rgb(0, 102, 204);
+}
+
+.column-entry.red {
+    background-color: rgb(204, 0, 0);
+}
+.column-entry.red textarea {
+    color: rgb(204, 0, 0);
+}
+
+.column-entry.green {
+    background-color: rgb(0, 153, 51);
+}
+.column-entry.green textarea {
+    color: rgb(0, 153, 51);
+}
+
+.column-entry.orange {
+    background-color: rgb(204, 102, 0);
+}
+.column-entry.orange textarea {
+    color: rgb(204, 102, 0);
+}
+
+.column-entry.brown {
+    background-color: rgb(102, 51, 0);
+}
+.column-entry.brown textarea {
+    color: rgb(102, 51, 0);
+}
+
+.column-entry.purple {
+    background-color: rgb(153, 0, 153);
+}
+.column-entry.purple textarea {
+    color: rgb(153, 0, 153);
 }
 
 .column-entry img {

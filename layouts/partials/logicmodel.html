@@ -149,15 +149,16 @@
         <div class="row no-gutters">
             <% for (var j = 0; j < columns.length; j++) { %>
                 <% var disabled = phase.flavors.indexOf(columns[j].flavor) === -1 %>
+                <% var colorIdx = columns[j].colors[i] || 0 %>
                 <div class="col">
-                    <div class="column-entry <% if (disabled) { %>disabled<% } %>">
-                        <div class="switch_color" title="Switch color">
+                    <div class="column-entry <%= colors[colorIdx] %> <% if (disabled) { %>disabled<% } %>">
+                        <div class="switch_color" data-column="<%= j %>" data-row="<%= i %>" title="Switch color">
                             <img src="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/img/icon-color.png">
                         </div>
                         <% if (disabled) { %>
-                            <textarea disabled="disabled"><%= columns[j].values[i] %></textarea>
+                            <textarea class="<%= colors[colorIdx] %>" disabled="disabled"><%= columns[j].values[i] %></textarea>
                         <% } else { %>
-                            <textarea data-column="<%= j %>" data-row="<%= i %>"><%= columns[j].values[i] %></textarea>
+                            <textarea class="<%= colors[colorIdx] %>" data-column="<%= j %>" data-row="<%= i %>"><%= columns[j].values[i] %></textarea>
                         <% } %>
                     </div>
                 </div>
