@@ -8,8 +8,7 @@ LogicModel.Column = Backbone.Model.extend({
     },
     incrementColor: function(rowIdx) {
         let colorIdx = this.get('colors')[rowIdx] || 0;
-        let colorIdx = colors[rowIdx] || 0;
-        colors[rowIdx] = (colorIdx + 1) % 6;
+        this.get('colors')[rowIdx] = (colorIdx + 1) % 6;
         this.trigger('change:colors');
     },
     setValue(rowIdx, value) {
