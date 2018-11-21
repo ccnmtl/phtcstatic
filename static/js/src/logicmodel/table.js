@@ -81,6 +81,7 @@ LogicModel.TableView = Backbone.View.extend({
 
         const html = this.template(ctx);
         this.$el.html(html);
+        this.renderTools();
     },
     renderTools: function() {
         const ctx = {
