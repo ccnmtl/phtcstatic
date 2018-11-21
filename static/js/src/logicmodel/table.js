@@ -66,6 +66,7 @@ LogicModel.TableView = Backbone.View.extend({
         var self = this;
         $.getJSON(LogicModel.baseUrl + 'json/columns.json',
             function(json, textStatus, xhr) {
+                self.colors = json.colors;
                 self.initialColumns = json.columns;
                 self.columns.add(json.columns);
             }

@@ -1,4 +1,12 @@
 {
+  "colors": [
+    "0066cc",
+    "cc0000",
+    "009933",
+    "cc6600",
+    "663300",
+    "990099"
+  ],
   "columns": [
     {
       "help_examples": "<p>For example:</p>\r\n<ul>\r\n<li>Available funding or budget</li>\r\n<li>Staff and other personnel resources</li>\r\n<li>Marketing and communication resources</li>\r\n<li>IT resources</li>\r\n<li>Community resources</li>\r\n<li>Organizational resources</li>\r\n<li>Other existing programs or resources</li>\r\n</ul>",
