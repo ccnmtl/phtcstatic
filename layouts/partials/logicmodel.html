@@ -5,36 +5,225 @@
     };
 </script>
 
-<script type="text/template" id="logic-model-box">
-    <div class="cell">
-        <div class="box_droppable">
-            <div class="box_draggable">
-                <div class="switch_color" title="Switch color"><img src="{{ .Site.BaseURL }}img/assets/icon-color.png" /></div>
-                <textarea value ="<%=contents%>" class="text_box" maxlength="256"></textarea>
+<script type="text/template" id="logic-model-scenario">
+<% if (selectedScenario) { %>
+    <div class="scenario-step-stage">
+        <div class="accordion" id="scenario-details">
+            <div class="accordion-group clearfix">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle arrow-open" id="scenarioHeaderTitle"
+                        data-toggle="collapse" data-parent="#scenario-details"
+                        href="#scenarioInstructions"> Scenario: <span
+                        class="scenario_title_2"><%= selectedScenario.title %></span>
+                    </a>
+                </div>
+                <div id="scenarioInstructions" class="accordion-body collapse show">
+                    <div class="accordion-inner scenario_instructions mt-1">
+                        <%= selectedScenario.instructions %>
+                    </div>
+                </div>
+                <button type="button"
+                    class="btn btn-sm btn-secondary change_scenario mt-1 float-right"
+                    data-toggle="modal" data-target="#changeScenario">
+                    <i class="fas fa-sync-alt"></i> Switch scenario
+                </button>
             </div>
         </div>
     </div>
+<% } else { %>
+    <div class="logic-model-game-phase-name">Select a scenario from the options below.</div>
+    <div class="logic-model-game-phase-instructions"><p>To begin, select one of these three scenarios, or choose "Use your own" for a blank logic model.</p>
+
+    <% for (var i = 0; i < scenarios.length; i++) { %>
+        <div class="well">
+            <h3 class="scenario_title"><%=scenarios[i].title%></h3>
+            <div class="instructions_for_scenario"><%=scenarios[i].instructions%></div>
+            <div class="btn btn-primary try_this_scenario" data-id="<%=scenarios[i].id%>">Try this scenario</div>
+        </div>
+    <% } %>
+<% } %>
+
+<div id="changeScenario" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header help-header">
+                <h3 class="modal-title">Are you sure you want to switch scenario?</h3>
+            </div>
+            <div class="modal-body">
+                <div>This will permanently erase everything you typed in the logic model table.</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="change_scenario_confirm btn btn-danger" data-dismiss="modal">
+                    Yes, I'm sure
+                </button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    No
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 </script>
 
-<script type="text/template" id="logic-model-column">
-    <span class ="column_span <%=css_classes %>">
-        <div class="colhead clearfix">
-            <div class="column_name">
-                <%=name %>
-            </div>
-            <div class="column_help_button_span">
-                <img class="column_help_button" title="More about '<%=name %>'" src="{{ .Site.BaseURL }}img/assets/icon-info.png" />
+<script type="text/template" id="activity-progress">
+<% if (phase.id > 1) { %>
+<hr />
+<!-- Steps/Progress indicator -->
+<div class="activity-progress clearfix" id="stepTag">
+    <div class="step step1 <% if (phase.id === 2) { %> current <% } %>">
+        <span>Step 1</span>
+    </div>
+    <div class="step step2 <% if (phase.id === 3) { %> current <% } %>">
+        <span>Step 2</span>
+    </div>
+    <div class="step step3 <% if (phase.id === 4) { %> current <% } %>">
+        <span>Step 3</span>
+    </div>
+    <div class="step step4 <% if (phase.id === 5) { %> current <% } %>">
+        <span>Step 4</span>
+    </div>
+    <div class="step step5 <% if (phase.id === 6) { %> current <% } %>">
+        <span>Step 5</span>
+    </div>
+</div>
+
+<div class="accordion my-3 scenario-step-stage" id="step-details">
+    <div class="accordion-group clearfix">
+        <div class="accordion-heading">
+            <a class="accordion-toggle arrow-open logic-model-game-phase-name switch-it2"
+                id="stepHeaderTitle" data-toggle="collapse"
+                data-parent="#step-details"
+                href="#stepInstructions">
+                <span><%= phase.name %></span>
+            </a>
+        </div>
+        <div id="stepInstructions" class="accordion-body collapse show">
+            <div class="mt-1 accordion-inner logic-model-game-phase-instructions">
+                <%= phase.instructions %>
             </div>
         </div>
-        <span class="boxes"></span>
-        <div class="btn-logicmodel btn-info add_a_row_button">
-            <i class="icon-plus icon-white" title="Add a row"></i> 
+    </div>
+</div>
+<% } %>
+</script>
+
+<script type="text/template" id="logic-model-table">
+<% if (phase.id > 1) { %>
+<div class="table-toolbar">
+    <% if (phase.id > 2) { %>
+        <div class="previous-phase btn btn-sm btn-info">
+            <i class="fas fa-arrow-left"></i> Back a step
         </div>
-        <button class="btn-logicmodel done-button">
-            I am done!
-        </button>
-        <div class="divclearfix"></div>
-    </span>
+    <% } %>
+
+    <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
+        data-target="#clearTable">
+        <i class="fas fa-trash-alt"></i> Clear table
+    </button>
+    <button type="button" class="print_scenario btn btn-info btn-sm">
+        <i class="fas fa-print"></i> Print scenario
+    </button>
+
+    <% if (flavor === 'end') { %>
+        <a role="button" class="btn btn-success btn-sm float-right" target="_blank"
+            href="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/pdf/expert_key_scenario01.pdf">
+            <i class="fas fa-file"></i> Show expert logic model
+        </a>
+    <% } %>
+</div>
+
+<div class="print-break clearfix"></div>
+<div class="logic-model-table clearfix">
+    <div class="row no-gutters">
+        <% for (var i=0; i < columns.length; i++) { %>
+            <div class="col">
+                <div class="column-header">
+                    <img data-column="<%= i %>" title="More about '<%= columns[i].name %>'"
+                        src="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/img/icon-info.png">
+                    <h6 class="d-inline"><%= columns[i].name %></h6>
+                </div>
+            </div>
+        <% } %>
+    </div>
+    <% for (var i = 0; i < rows; i++) { %>
+        <div class="row no-gutters">
+            <% for (var j = 0; j < columns.length; j++) { %>
+                <% var disabled = phase.flavors.indexOf(columns[j].flavor) === -1 %>
+                <div class="col">
+                    <div class="column-entry <% if (disabled) { %>disabled<% } %>">
+                        <div class="switch_color" title="Switch color">
+                            <img src="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/img/icon-color.png">
+                        </div>
+                        <% if (disabled) { %>
+                            <textarea disabled="disabled"><%= columns[j].values[i] %></textarea>
+                        <% } else { %>
+                            <textarea data-column="<%= j %>" data-row="<%= i %>"><%= columns[j].values[i] %></textarea>
+                        <% } %>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    <% } %>
+    <div class="tools"></div>
+</div>
+
+<div id="clearTable" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header help-header">
+                <h3>Are you sure you want to clear the table?</h3>
+            </div>
+            <div class="modal-body">
+                <div>
+                    This will permanently erase everything you
+                    typed in the logic model table.
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="clear-table-confirm btn btn-danger" data-dismiss="modal">
+                    Yes, I'm sure
+                </button>
+                <button class="btn btn-secondary" data-dismiss="modal">
+                    No
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<% } %>
+</script>
+
+<script type="text/template" id="logic-model-tools">
+    <div class="row no-gutters">
+        <div class="col">
+            <div class="btn btn-sm btn-info add_a_row_button">
+                <i class="fas fa-plus" title="Add a row"></i>
+            </div>
+            <% if (flavor === 'first') { %>
+                <button class="btn btn-sm btn-success next-phase <% if (!content.first) { %>disabled<% } %>">
+                    I am done!
+                </button>
+            <% } %>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col">
+            <% if (flavor === 'middle') { %>
+                <button class="btn btn-sm btn-success next-phase <% if (!content.middle) { %>disabled<% } %>">
+                    I am done!
+                </button>
+            <% } %>
+        </div>
+        <div class="col">
+            <% if (flavor === 'last') { %>
+                <button class="btn btn-sm btn-success next-phase <% if (!content.last) { %>disabled<% } %>">
+                    I am done!
+                </button>
+            <% } %>
+        </div>
+    </div>
 </script>
 
 <script type="text/template" id="logic-model-help-box">
@@ -42,12 +231,12 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header help-header">
-                <h3 class="modal-title"><%=help_title%> column</h3>
+                <h3 class="modal-title"><%=name%> column</h3>
             </div>
             <div class="modal-body">
                 <div>
-                    <%=help_meaning%>
-                    <%=help_body%>
+                    <%=help_definition%>
+                    <%=help_examples%>
                 </div>
             </div>
             <div class="modal-footer">
@@ -60,17 +249,9 @@
 </div>
 </script>
 
-<script type="text/template" id="logic-model-scenario">
-<div class="well" id="scenario_container">
-    <h3 class ="scenario_title"><%=title%></h3>
-    <div class ="instructions_for_scenario"><%=instructions%></div>
-    <div class="btn-logicmodel btn-primary try_this_scenario">Try this scenario</div>
-</div>
-</script>
 
 <script src="{{ .Site.BaseURL }}js/lib/underscore/underscore-min.js"></script>
 <script src="{{ .Site.BaseURL }}js/lib/backbone/backbone-min.js"></script>
-<script src="{{ .Site.BaseURL }}js/src/logicmodel/logicmodel.js"></script>
-<script src="{{ .Site.BaseURL }}js/src/logicmodel/box.js"></script>
-<script src="{{ .Site.BaseURL }}js/src/logicmodel/column.js"></script>
 <script src="{{ .Site.BaseURL }}js/src/logicmodel/scenario.js"></script>
+<script src="{{ .Site.BaseURL }}js/src/logicmodel/table.js"></script>
+<script src="{{ .Site.BaseURL }}js/src/logicmodel/logicmodel.js"></script>

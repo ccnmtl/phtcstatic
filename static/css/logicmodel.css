@@ -13,29 +13,8 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-h1.section-label-header,
-li.next,
-li.previous,
-#sidebarleft {
-    display:none;
-}
-
-header#masthead {
-    height: 60px !important;
-}
-
 .print_only {
     display: none;
-}
-
-.row {
-    padding-top: 0px;
-}
-
-.logic-model-columns {
-    width: 920px;
-    margin: 0;
-    padding: 0;
 }
 
 .print-break {
@@ -46,26 +25,6 @@ header#masthead {
     padding: 0px;
 }
 
-
-.centered {
-    margin: auto;
-    display: block;
-}
-
-.divclearfix {
-    clear: both;
-}
-
-span.column_span {
-    width:  153px;
-    margin-left:0px;
-}
-
-span.backbone_column_span {
-    width:  153px;
-    margin-left:0px;
-}
-
 .help-alert {
     width: 400px;
     height: 400px;
@@ -73,133 +32,68 @@ span.backbone_column_span {
     filter:alpha(opacity=0.9);
 }
 
-.cell {
-    width: 146px;
-    height: 85px;
-    margin: 2px 0;
-    padding: 1px;
-    float: left;
-    border: 0;
+.logic-model-table {
+    min-width: 800px;
 }
 
-.colhead {
-    width: 138px;
+.column-header {
     height: 60px;
-    margin: 0;
-    padding: 10px 5px;
-    border: 0;
+    padding: 5px;
     background-color: #ccc;
-    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
-.column_name {
-    float: left;
-    width: 100px;
-    font-size: 16px;
-}
-
-.column_help_button_span {
-    float: left;
-    width: 25px;
-    height: 25px;
-    margin: 0;
+.column-header img {
+    width: 20px;
+    height: 20px;
     padding: 0;
     cursor: pointer;
+    float: right;
 }
 
-.text_box {
-    display: inline;
-    position: absolute;
+.column-entry {
+    height: 80px;
+    background-color: rgb(0, 102, 204);
+    border-color: rgb(0, 102, 204);
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.column-entry textarea {
     font: normal 12px/100% arial, helvetica, sans-serif;
-    top: 0px;
-    left: 24px;
-    width : 112px;
-    height: 75px;
-    background-color: #fff;
     resize: none;
+    float: right;
+    margin: 2px;
+    height: 95%;
+    width: 75%;
 }
 
-.box_draggable .box_handle {
-    display: inline;
-    position: absolute;
-    left: 0;
-    top: 2px;
-    height: 16px;
-    width: 15px;
-    border: 0;
-    background-color: #fff;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
-    cursor: pointer;
+.column-entry img {
+    vertical-align: baseline;
 }
 
-.box_draggable .switch_color {
-    display: block;
-    position: absolute;
-    left: 2px;
-    top: 10px;
+.column-entry .switch_color {
+    float: left;
     height: 20px;
     width: 20px;
     border: 0;
     background-color: #fff;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
     cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    vertical-align: top;
 }
 
-.btn-logicmodel {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+.column-entry.disabled {
+    opacity: 0.3;
 }
 
-.done-button {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
-}
-
-.done-button {
-    opacity:0.4;
-    filter:alpha(opacity=0.4);
-}
-
-.done-button.active {
-    opacity:1.0;
-    filter:alpha(opacity=1.0);
-}
-
-div.add_a_row_button {
-    display:  none;
-}
-
-div.add_a_row_button.visible {
-    display: inline-block;
-}
-
-.show_expert_logic_model_link_div {
-    display:inline-block;
-}
-
-.show_expert_logic_model_link_div {
-    display: inline-block;
-    margin-left: 20px;
+.column-entry.disabled .switch_color {
+    cursor: none;
 }
 
 #phase_container.conclusion .show_expert_logic_model_link_div a {
@@ -230,53 +124,6 @@ div.add_a_row_button.visible {
     0% { background-color: #387038; }
     50% { background-color: #51a351; }
     100% { background-color: #5cb85c; }
-}
-
-/*.box_draggable .box_handle .icon-move{
-    display: inline;
-    position: absolute;
-    left : 1px;
-    top :  33px;
-}*/
-
-.backbone_box_div {
-    display:block;
-}
-
-.backbone_box_div.hidden_box {
-    display:none;
-}
-
-.hover_droppable {
-    background-color: #ccc;
-    /*opacity:0.4;
-    filter:alpha(opacity=40); */
-}
-
-.hover_droppable .text_box, 
-.hover_droppable .box_handle,
-.hover_droppable .switch_color {
-    z-index: -100;
-    opacity:0.0;
-    filter:alpha(opacity=0);
-}
-
-.box_draggable {
-    cursor: pointer;
-}
-
-.box_droppable {
-    height: 50px;
-}
-
-.active_droppable {
-    background-color: green;
-}
-
-.inactive_box {
-    background-color: #666;
-    opacity:0.3;
-    filter:alpha(opacity=30); /* For IE8 and earlier */
 }
 
 /* Pick scenario:*/
@@ -590,24 +437,6 @@ div.table-toolbar {
     line-height: 150%;
 }
 
-.pull-center {
-    text-align: center;
-}
-
-.loading-overlay {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    height: 100%;
-    width: 100%;
-    font-size: larger;
-    font-weight: bold;
-    z-index: 1000;
-}
-
-
 /* Print CSS */
 
 @media print {
@@ -650,18 +479,12 @@ div.table-toolbar {
         border: 1px solid #999;
     }
 
-    .colhead {
+    .column-header {
         border-right: 1px solid #999;
         font-weight: bold;
     }
 
-    .cell {
-        border: 1px solid #999;
-        border-right: 2px solid #999;
-        height: 235px;
-    }
-
-    .text_box {
+    .textarea {
         font-size: 14px;
         left: 0;
         margin: 0;

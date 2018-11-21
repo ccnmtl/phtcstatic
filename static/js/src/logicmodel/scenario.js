@@ -1,5 +1,7 @@
 LogicModel.Scenario = Backbone.Model.extend({
-
+    defaults: {
+        'selected': false
+    }
 });
 
 LogicModel.ScenarioCollection = Backbone.Collection.extend({
@@ -7,23 +9,54 @@ LogicModel.ScenarioCollection = Backbone.Collection.extend({
 });
 
 LogicModel.ScenarioView = Backbone.View.extend({
-    className: 'backbone_scenario_div',
     events: {
-        'click .try_this_scenario': 'chooseMe'
+        'click .try_this_scenario': 'chooseScenario',
+        'click .change_scenario_confirm': 'clearScenario'
     },
+    selectedScenario: null,
     initialize: function(options, render) {
+        _.bindAll(this, 'render', 'getData',
+            'addScenario', 'clearScenario', 'chooseScenario');
+
+        this.state = options.state;
+
         this.template = LogicModel.getTemplate('#logic-model-scenario');
-
-        // eslint-disable-next-line no-unsafe-innerhtml/no-unsafe-innerhtml
-        this.el.innerHTML = this.template(this.model.toJSON());
+        this.scenarios = new LogicModel.ScenarioCollection();
+        this.scenarios.on('add', this.addScenario);
+        this.getData();
     },
-    chooseMe: function() {
-        jQuery('.scenario_instructions').html(this.model.get('instructions'));
-        jQuery('.scenario_title_2').html(this.model.get('title'));
-        var href = LogicModel.baseUrl + 'pdf/' + this.model.get('answer_key');
-        jQuery('.show_expert_logic_model_link').attr('href', href);
-        jQuery('.scenario-step-stage .accordion-body').css('height','auto');
+    getData: function() {
+        var self = this;
+        jQuery.getJSON(LogicModel.baseUrl + 'json/scenarios.json',
+            function(json, textStatus, xhr) {
+                self.scenarios.add(json.scenarios);
+                self.render();
+            }
+        );
+    },
+    addScenario: function(scenario) {
+        scenario.on('change:selected', this.render);
+    },
+    chooseScenario: function(evt) {
+        const id = jQuery(evt.currentTarget).attr('data-id');
+        this.selectedScenario = this.scenarios.get(id);
+        this.selectedScenario.set('selected', true);
+        this.state.incrementPhase();
+    },
+    clearScenario: function(evt) {
+        let model = this.selectedScenario;
+        this.selectedScenario = null;
+        model.set('selected', false);
+        this.state.setPhase(0);
+    },
+    render: function() {
+        const selected = this.selectedScenario ?
+            this.selectedScenario.toJSON() : null;
 
-        this.LogicModelView.goToNextPhase();
-    }
+        const ctx = {
+            selectedScenario: selected,
+            scenarios: this.scenarios.toJSON(),
+        };
+        this.$el.html(this.template(ctx));
+    },
 });

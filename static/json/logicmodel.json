@@ -1,150 +1,54 @@
 {
-  "scenarios": [
-    {
-      "answer_key": "expert_key_scenario01.pdf", 
-      "difficulty": "Easy", 
-      "instructions": "<p>Most neighborhoods have at least one corner store/bodega that is easily accessible to all residents but primarily stocks processed, packaged foods. By working with store owners, a variety of changes can be made to help corner stores/bodegas sell fresh produce. This serves to increase access to healthy food in existing outlets for community members who may not otherwise have had this opportunity. However, if individuals do not know that fresh produce is being offered at their local bodega or how to prepare fresh produce, the long term outcomes of decreasing prevalence of chronic disease due to food related causes may not be achieved. In constructing the logic model for changing <b>individual behavior</b> to shop for fresh produce, consider what personnel and resources will be required, activities and resulting outputs will be needed for individuals to buy and prepare fresh produce, and the outcomes of these activities.</p>", 
-      "id": 1, 
-      "title": "Assist existing corner stores/bodegas with stocking healthy foods (Individual-level behavior change)"
-    }, 
-    {
-      "answer_key": "expert_key_scenario02.pdf", 
-      "difficulty": "Medium", 
-      "instructions": "<p>Many neighborhoods that lack access to healthy food may not be able to build new grocery stores to correct this.  Farmers\u2019 markets can be an alternative way to improve availability of fresh food, and also provide a great opportunity for community education about nutrition and how to prepare healthy meals with fresh produce.  In constructing the logic model for changing the behaviors of <b>individuals and the community</b>, consider what personnel and resources will be required, what activities and resulting outputs will be needed to implement regular farmers\u2019 markets, and the outcomes of these activities.</p>", 
-      "id": 2, 
-      "title": "Implement regular farmers\u2019 markets (Individual- and community-level change)"
-    }, 
-    {
-      "answer_key": "expert_key_scenario03.pdf", 
-      "difficulty": "Hard", 
-      "instructions": "<p>Underserved neighborhoods provide a great potential market for new grocery store locations.  Building a new grocery store in a community that lacks access to fresh food is a substantial undertaking, but can also have a large, multifaceted impact on the community\u2019s health and local economy.  In constructing the logic model for changing the behaviors of <b>individuals, the community, and the broader societal context</b>, consider what personnel and resources will be required, what activities and resulting outputs will be needed to attract new grocery stores to build in underserved neighborhoods, and the outcomes of these activities.</p>", 
-      "id": 3, 
-      "title": "Attract new grocery stores to build in underserved neighborhoods (Individual-, community-, and society-level change)"
-    }, 
-    {
-      "answer_key": "", 
-      "difficulty": "Medium", 
-      "instructions": "<p>Build a logic model using your own existing program or your ideas for a new public health program.</p>", 
-      "id": 4, 
-      "title": "Use your own"
-    }
-  ], 
-  "columns_in_each_phase": {
-    "2": [
-      3
-    ], 
-    "3": [
-      8
-    ], 
-    "4": [
-      4, 
-      5, 
-      6, 
-      7
-    ], 
-    "5": [
-      3, 
-      4, 
-      5, 
-      6, 
-      7, 
-      8
-    ]
-  }, 
   "colors": [
-    "0066cc", 
-    "cc0000", 
-    "009933", 
-    "cc6600", 
-    "663300", 
+    "0066cc",
+    "cc0000",
+    "009933",
+    "cc6600",
+    "663300",
     "990099"
-  ], 
+  ],
   "game_phases": [
     {
-      "instructions": "<p>To begin, select one of these three scenarios, or choose \"Use your own\" for a blank logic model.</p>\r\n", 
-      "css_classes": "pick_scenario", 
-      "id": 1, 
-      "name": "Select a scenario from the options below."
-    }, 
-    {
-      "instructions": "<p>To begin building your logic model, read the scenario, identify the input(s) and enter one input per box. You must enter at least one input and click \"I am done!\" to move into long-term outcomes column.</p>\r\n<p>Points to keep in mind:</p>\r\n<ul>\r\n\t<li>At any point, you may click on the question mark icon in any box to view more information about each column of the logic model.</li>\r\n\t<li>When creating logic models, it is recommended that you start at the left-most column, to define your resources, then jump to the last column, to define the ultimate outcome of your program, and then fill in the middle columns from right to left. To encourage this thinking, the system will guide you through this process. A completed logic model is read from left to right using if-then statements.</li>\r\n\t<li>You may enter up to 256 characters per box, and you may edit and delete text as needed. <b>Do not click the back button on your browser window</b> to \u201cundo\u201d an action, as this will clear and reset the logic model table.</li>\r\n</ul>", 
-      "css_classes": "add_inputs", 
-      "id": 2, 
-      "name": "Step 1: Add Inputs"
+      "instructions": "",
+      "css_classes": "pick_scenario",
+      "id": 1,
+      "name": "",
+      "flavors": []
     },
     {
-      "instructions": "<p>From the scenario, identify the long-term outcome(s) in the scenario and enter one outcome per box. You must enter at least one long-term outcome and click \u201cI am done!\u201d to move into the middle columns.</p>\r\n<p>Points to keep in mind:</p>\r\n<ul>\r\n\t<li>At any point, you may click on the question mark icon in any box to view more information about each column of the logic model.</li>\r\n\t<li>When creating logic models, it is recommended that you start at the left-most column, to define your resources, then jump to the last column, to define the ultimate outcome of your program, and then fill in the middle columns from right to left. To encourage this thinking, the system will guide you through this process. A completed logic model is read from left to right using if-then statements.</li>\r\n\t<li>You may enter up to 256 characters per box, and you may edit and delete text as needed. <b>Do not click the back button on your browser window</b> to \u201cundo\u201d an action, as this will clear and reset the logic model table.</li>\r\n</ul>", 
-      "css_classes": "add_long_term_outcomes", 
-      "id": 3, 
-      "name": "Step 2. Add Long-term Outcomes"
+      "instructions": "<p>To begin building your logic model, read the scenario, identify the input(s) and enter one input per box. You must enter at least one input and click \"I am done!\" to move into long-term outcomes column.</p>\r\n<p>Points to keep in mind:</p>\r\n<ul>\r\n\t<li>At any point, you may click on the question mark icon in any box to view more information about each column of the logic model.</li>\r\n\t<li>When creating logic models, it is recommended that you start at the left-most column, to define your resources, then jump to the last column, to define the ultimate outcome of your program, and then fill in the middle columns from right to left. To encourage this thinking, the system will guide you through this process. A completed logic model is read from left to right using if-then statements.</li>\r\n\t<li>You may enter up to 256 characters per box, and you may edit and delete text as needed. <b>Do not click the back button on your browser window</b> to \u201cundo\u201d an action, as this will clear and reset the logic model table.</li>\r\n</ul>",
+      "css_classes": "add_inputs",
+      "id": 2,
+      "name": "Step 1: Add Inputs",
+      "flavors": ["first"]
     },
     {
-      "instructions": "<p>From the scenario, identify the intermediate outcomes, short term outcomes, outputs, and activities in the scenario.</p>\r\n<p>Enter one component per box. You must enter at least one activity, one output, one short-term outcome, and one intermediate output. Then click \"I am done!\" to open up all columns for final edits and changes.</p>\r\n<p>Points to keep in mind:</p>\r\n<ul>\r\n\t<li>At any point, you may click on the question mark icon in any box to view more information about each column of the logic model.</li>\r\n\t<li>When creating logic models, it is recommended that you start at the left-most column, to define your resources, then jump to the last column, to define the ultimate outcome of your program, and then fill in the middle columns from right to left. To encourage this thinking, the system will guide you through this process. A completed logic model is read from left to right using if-then statements.</li>\r\n\t<li>You may enter up to 256 characters per box, and you may edit and delete text as needed. <b>Do not click the back button on your browser window</b> to \"undo\" an action, as this will clear and reset the logic model table.</li>\r\n</ul>", 
-      "css_classes": "add_intermediate_columns", 
-      "id": 4, 
-      "name": "Step 3. Add Intermediate Outcomes, Short-term outcomes, Outputs, and Activities"
+      "instructions": "<p>From the scenario, identify the long-term outcome(s) in the scenario and enter one outcome per box. You must enter at least one long-term outcome and click \u201cI am done!\u201d to move into the middle columns.</p>\r\n<p>Points to keep in mind:</p>\r\n<ul>\r\n\t<li>At any point, you may click on the question mark icon in any box to view more information about each column of the logic model.</li>\r\n\t<li>When creating logic models, it is recommended that you start at the left-most column, to define your resources, then jump to the last column, to define the ultimate outcome of your program, and then fill in the middle columns from right to left. To encourage this thinking, the system will guide you through this process. A completed logic model is read from left to right using if-then statements.</li>\r\n\t<li>You may enter up to 256 characters per box, and you may edit and delete text as needed. <b>Do not click the back button on your browser window</b> to \u201cundo\u201d an action, as this will clear and reset the logic model table.</li>\r\n</ul>",
+      "css_classes": "add_long_term_outcomes",
+      "id": 3,
+      "name": "Step 2. Add Long-term Outcomes",
+      "flavors": ["last"]
     },
     {
-      "instructions": "<p>Complete your final text and edits. You may change the colors of boxes by clicking the color wheel. Click \u201cI am done!\u201d to conclude this activity.</p>\r\n\r\n<p>\r\nAs you create your own logic model, use the color wheel (<img src=\"../img/assets/icon-color.png\">) on the text boxes to help you differentiate which levels you are intervening on. For example, you can use blue to designate activities, outputs, and outcomes on the individual level and green to designate activities, outputs, and outcomes on the societal level; however, you can choose whichever colors you prefer for each level.\r\n</p>", 
-      "css_classes": "finish_work", 
-      "id": 5, 
-      "name": "Step 4. Finalize your logic model"
-    }, 
+      "instructions": "<p>From the scenario, identify the intermediate outcomes, short term outcomes, outputs, and activities in the scenario.</p>\r\n<p>Enter one component per box. You must enter at least one activity, one output, one short-term outcome, and one intermediate output. Then click \"I am done!\" to open up all columns for final edits and changes.</p>\r\n<p>Points to keep in mind:</p>\r\n<ul>\r\n\t<li>At any point, you may click on the question mark icon in any box to view more information about each column of the logic model.</li>\r\n\t<li>When creating logic models, it is recommended that you start at the left-most column, to define your resources, then jump to the last column, to define the ultimate outcome of your program, and then fill in the middle columns from right to left. To encourage this thinking, the system will guide you through this process. A completed logic model is read from left to right using if-then statements.</li>\r\n\t<li>You may enter up to 256 characters per box, and you may edit and delete text as needed. <b>Do not click the back button on your browser window</b> to \"undo\" an action, as this will clear and reset the logic model table.</li>\r\n</ul>",
+      "css_classes": "add_intermediate_columns",
+      "id": 4,
+      "name": "Step 3. Add Intermediate Outcomes, Short-term outcomes, Outputs, and Activities",
+      "flavors": ["middle"]
+    },
     {
-      "instructions": "<p>Congratulations on finishing your logic model! You now have a visual representation of a master plan to improve healthy access to food.</p>\r\n\r\n<p>Your work will not be saved when you leave this activity page, so, we recommend that you <b>print your logic model</b>.</p>\r\n\r\n<p>You can also compare your model to an expert logic model. To view an expert logic model, click <b>\u201cShow expert logic model\u201d</b> below.</p>", 
-      "css_classes": "conclusion", 
-      "id": 6, 
-      "name": "Step 5. Conclusion"
-    }
-  ], 
-  "columns": [
+      "instructions": "<p>Complete your final text and edits. You may change the colors of boxes by clicking the color wheel. Click \u201cI am done!\u201d to conclude this activity.</p>\r\n\r\n<p>\r\nAs you create your own logic model, use the color wheel (<img src=\"../img/assets/icon-color.png\">) on the text boxes to help you differentiate which levels you are intervening on. For example, you can use blue to designate activities, outputs, and outcomes on the individual level and green to designate activities, outputs, and outcomes on the societal level; however, you can choose whichever colors you prefer for each level.\r\n</p>",
+      "css_classes": "finish_work",
+      "id": 5,
+      "name": "Step 4. Finalize your logic model",
+      "flavors": ["first", "middle", "last"]
+    },
     {
-      "help_examples": "<p>For example:</p>\r\n<ul>\r\n<li>Available funding or budget</li>\r\n<li>Staff and other personnel resources</li>\r\n<li>Marketing and communication resources</li>\r\n<li>IT resources</li>\r\n<li>Community resources</li>\r\n<li>Organizational resources</li>\r\n<li>Other existing programs or resources</li>\r\n</ul>", 
-      "name": "Inputs", 
-      "help_definition": "<p>In the first column we list inputs. Inputs are resources that go into the program and on which it is dependent to mount its activities. These are things you have in place before you start your program. If the inputs are in place, then they can be used to accomplish planned activities.</p>\r\n\r\n<p>To identify inputs, answer the following: What will we need in order to accomplish the activities?</p>", 
-      "css_classes": "inputs", 
-      "flavor": "first", 
-      "id": 3
-    }, 
-    {
-      "help_examples": "For example: \r\n<ul>\r\n<li>Products \u2013 pamphlets, handouts, curricula, web applications</li>\r\n<li>Services \u2013 educational sessions, trainings, screenings, counseling sessions</li>\r\n<li>Infrastructure \u2013 relationships, collaborations, coalitions, equipment</li>\r\n</ul>", 
-      "name": "Activities", 
-      "help_definition": "<p>Activities are the actual events or actions of the program. These are the things that the program staff does. \"Activities can include processes, tools, events, technology, and actions that are an intentional part of program implementation,\" (W. K. Kellogg Foundation, 2004). If the planned activities are implemented and delivered to your target population, the outputs will be produced.</p>\r\n\r\n<p>To identify activities, answer the following: What will we do in order to address the problem or issue at hand?</p>", 
-      "css_classes": "activities", 
-      "flavor": "middle", 
-      "id": 4
-    }, 
-    {
-      "help_examples": "<p>For example:</p>\r\n<ul>\r\n<li>Number of classes taught, meetings held, or materials produced</li>\r\n<li>Number of times ST app downloaded in MC</li>\r\n<li>Number of participants or attendees</li>\r\n<li>Length of participation</li>\r\n<li>Hours of service provided</li>\r\n<li>User satisfaction</li>\r\n<li>Number of friends referred</li>\r\n</ul>", 
-      "name": "Outputs", 
-      "help_definition": "<p>Outputs are the direct products of program activities, often measured in countable terms, such as the number of sessions held or number of people served. If the intended/desired amount of product or service is produced and the outputs are achieved, the short-term outcomes may occur.</p>\r\n\r\n<p>To identify outputs, answer the following: What can we expect to the activities, once accomplished, to produce?</p>", 
-      "css_classes": "outputs", 
-      "flavor": "middle", 
-      "id": 5
-    }, 
-    {
-      "help_examples": "<p>For example:</p>\r\n<ul>\r\n<li>Decrease perceived barriers to healthy eating and physical activity</li>\r\n<li>Increase self-monitoring of healthy eating and physical activity</li>\r\n<li>Increase self-efficacy for healthy eating and physical activity</li>\r\n<li>Increase social support for healthy eating and physical activity</li>\r\n</ul>", 
-      "name": "Short-term outcomes", 
-      "help_definition": "<p>Outcomes are the changes that result from the program\u2019s activities and outputs, often in a sequence expressed as short-term, intermediate and long-term outcomes. Changes can come in the form of knowledge, skills, behaviors, attitudes, status, and level of functioning, to name a few. If planned activities are accomplished to the extent intended/desired, then the participants may exhibit short-term outcomes.</p>\r\n\r\n<p>It is important to clearly define, what \"short-term\" means for a given program and to identify realistic outcomes that are achievable within this time frame.</p>\r\n\r\n<p>To identify short-term outcomes, answer the following: What can we expect to change if program participants are exposed to the intended or desired amount of program activities?</p>", 
-      "css_classes": "short_term_outcomes", 
-      "flavor": "middle", 
-      "id": 6
-    }, 
-    {
-      "help_examples": "<p>For example:</p>\r\n<ul>\r\n<li>Increase healthy eating</li>\r\n<li>Increase physical activity</li>\r\n</ul>", 
-      "name": "Intermediate outcomes", 
-      "help_definition": "<p>Outcomes are the changes that result from the program\u2019s activities and outputs, often in a sequence expressed as short-term, intermediate and long-term outcomes. Changes can come in the form of knowledge, skills, behaviors, attitudes, status, and level of functioning, to name a few. If short-term outcomes are achieved, then intermediate outcomes may occur. Critical intermediate outcomes must be achieved if there are to be changes in the long-term outcomes.</p>\r\n\r\n<p>It is important to clearly define, what \"intermediate\" means for a given program and to identify realistic outcomes that are achievable within that time frame.</p>\r\n\r\n<p>To identify intermediate outcomes, answer the following: What can we expect to change if program participants achieve short-term outcomes?</p>", 
-      "css_classes": "intermediate_outcomes", 
-      "flavor": "middle", 
-      "id": 7
-    }, 
-    {
-      "help_examples": "<p>For example:</p>\r\n<ul>\r\n<li>Reduce obesity </li>\r\n<li>Reduce obesity related health problems</li>\r\n</ul>", 
-      "name": "Long-term outcomes", 
-      "help_definition": "<p>Outcomes are the changes that result from the program\u2019s activities and outputs, often in a sequence expressed as short-term, intermediate and long-term outcomes. Changes can come in the form of knowledge, skills, behaviors, attitudes, status, and level of functioning, to name a few. If changes in short-term and intermediate outcomes, such as knowledge and behavior, are achieved, then the long-term outcomes may occur.</p>\r\n\r\n<p>The long-term outcomes are things you and your stakeholders want to ultimately have an impact on with this program, such as community-level change in a health indicator. It is important to clearly define, what \"long-term\" means for a given program and to identify realistic outcomes that are achievable within that time frame.</p>\r\n\r\n<p>To identify long-term outcomes, answer the following: What can we expect to change if program participants achieve short-term and intermediate outcomes?</p>", 
-      "css_classes": "long_term_outcomes", 
-      "flavor": "end", 
-      "id": 8
+      "instructions": "<p>Congratulations on finishing your logic model! You now have a visual representation of a master plan to improve healthy access to food.</p>\r\n\r\n<p>Your work will not be saved when you leave this activity page, so, we recommend that you <b>print your logic model</b>.</p>\r\n\r\n<p>You can also compare your model to an expert logic model. To view an expert logic model, click <b>\u201cShow expert logic model\u201d</b> below.</p>",
+      "css_classes": "conclusion",
+      "id": 6,
+      "name": "Step 5. Conclusion",
+      "flavors": ["first", "middle", "last", "end"]
     }
   ]
 }
