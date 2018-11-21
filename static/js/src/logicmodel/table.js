@@ -53,7 +53,7 @@ LogicModel.TableView = Backbone.View.extend({
         this.getData();
     },
     addColumn: function(column) {
-        column.on('change:total', this.renderTools);
+        column.on('change:values', this.renderTools);
     },
     addRow: function(evt) {
         const rows = this.state.get('currentRows');
