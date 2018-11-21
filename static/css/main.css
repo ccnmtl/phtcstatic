@@ -334,7 +334,30 @@ figure.img-50 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
+}
+
+.table-layout-caption {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border: 0.0625rem solid #ccc;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.table-layout-caption h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.table-layout-footer {
+    padding: 0.5rem 1rem;
+    margin: 0 0 2rem 0;
+    border: 0.0625rem solid #ccc;
+    font-size: 1rem;
+    font-style: italic;
 }
 
 .th1 {
@@ -345,7 +368,7 @@ figure.img-50 {
 
 .th2 {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     background-color: #fff1e1;
 }
 
@@ -390,6 +413,60 @@ figure.img-50 {
 
 .table-recap-module div:first-of-type {
     border-bottom: 1px solid #ccc !important;
+}
+
+.x-table {
+    display: block;
+}
+
+.x-table.col-header {
+    display: none;
+}
+
+.x-table div {
+    padding: 0 0.5rem;
+}
+
+.x-table h3 {
+    margin: 0 -0.5rem;
+    padding: 0.5rem;
+}
+
+.x-table p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.checkmark,
+.crossmark,
+.d-mark,
+.empty-mark {
+    display: inline;
+    text-align: left;
+}
+
+.checkmark:before {
+    content: "\2713";
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.crossmark:before {
+    content: "\2715";
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.d-mark:before {
+    content: "D";
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.empty-mark:before {
+    content: "\00a0";
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .atlasti-table {
@@ -1711,6 +1788,35 @@ No media query for `xs` since this is the default in Bootstrap
         padding-left: 0;
         padding-right: 15px;
     }
+    .x-table,
+    .x-table.col-header {   
+        display: flex;
+        flex-wrap: nowrap;
+        line-height: 1.3;
+    }
+    .x-table div {
+        padding: 0.3125rem;
+        width: 110px;
+    }
+    .x-table div:first-child {
+        width: 187px;
+    }
+    .x-table div:nth-child(2) {
+        width: 100px;
+    }
+    .x-table div:nth-child(3) {
+        width: 80px;
+    }
+    .x-table div:last-child {
+        width: 100px;
+    }
+    .checkmark,
+    .crossmark,
+    .d-mark,
+    .empty-mark {
+        display: block;
+        text-align: center;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1749,6 +1855,9 @@ No media query for `xs` since this is the default in Bootstrap
     .cdc-framework-content {
         background: url('../img/assets/cdc-imgmap-arrow.png') -55px center no-repeat;
     }
+    .x-table div:first-child {
+        width: 170px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -1784,6 +1893,9 @@ No media query for `xs` since this is the default in Bootstrap
     .table-layout-display ul.gridbox li {
         height: 6.25rem;
         overflow: hidden;
+    }
+    .x-table div:first-child {
+        width: 300px;
     }
 }
 

@@ -325,15 +325,15 @@ div.table-toolbar {
     border: 0;
 }
 
-.scenario-step-stage .arrow-close {
+.accordion-toggle {
     cursor: pointer;
     height: 40px;
     z-index: 1;
-    background: transparent url('../img/assets/caret_close.png') 0px 5px no-repeat;
+    background: transparent url('../img/assets/caret_open.png') 0px 5px no-repeat;
 }
 
-.scenario-step-stage .arrow-open {
-    background: transparent url('../img/assets/caret_open.png') 0px 5px no-repeat;
+.accordion-toggle.collapsed {
+    background: transparent url('../img/assets/caret_close.png') 0px 5px no-repeat;
 }
 
 .scenario-step-stage .logic-model-game-phase-instructions {
