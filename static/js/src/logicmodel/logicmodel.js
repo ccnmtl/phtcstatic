@@ -5,6 +5,8 @@ LogicModel.getTemplate = function(selector) {
     return _.template(html);
 };
 
+LogicModel.NUMBER_OF_ROWS_TOTAL = 9;
+
 LogicModel.Phase = Backbone.Model.extend({
 });
 
@@ -15,7 +17,10 @@ LogicModel.PhaseCollection = Backbone.Collection.extend({
 LogicModel.ActivityState = Backbone.Model.extend({
     defaults: {
         phaseIdx: 0,
-        phases: new LogicModel.PhaseCollection()
+        phases: new LogicModel.PhaseCollection(),
+        initialRows: 4,
+        maxRows: LogicModel.NUMBER_OF_ROWS_TOTAL,
+        currentRows: 4,
     },
     getCurrentPhase: function() {
         const idx = this.get('phaseIdx');

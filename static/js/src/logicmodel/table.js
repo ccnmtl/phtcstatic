@@ -1,5 +1,3 @@
-LogicModel.NUMBER_OF_ROWS_TOTAL = 9;
-
 LogicModel.Column = Backbone.Model.extend({
     initialize: function(attributes) {
         this.set({
@@ -8,18 +6,20 @@ LogicModel.Column = Backbone.Model.extend({
         });
     },
     setValue(rowIdx, value) {
-        const oldValue = this.get('values')[rowIdx] || '';
-        let total = this.get('total') - oldValue.length;
-
         this.get('values')[rowIdx] = value;
-
-        this.set('total', total + value.length);
+        this.trigger('change:values');
     },
     getValue(rowIdx) {
         return this.get('values')[rowIdx];
     },
     hasValue() {
-        return this.get('total') > 0;
+        const values = this.get('values');
+        for (var i = 0; i < values.length; i++) {
+            if (values[i] && values[i].length > 0) {
+                return true;
+            }
+        }
+        return false;
     }
 });
 
@@ -30,18 +30,16 @@ LogicModel.ColumnCollection = Backbone.Collection.extend({
 LogicModel.TableView = Backbone.View.extend({
     events: {
         'click .column-header img': 'help',
-        'change .column-entry textarea': 'update',
         'keyup .column-entry textarea': 'update',
         'click .clear-table-confirm': 'clear',
         'click .print_scenario': 'print',
         'click .next-phase': 'next',
-        'click .previous-phase': 'prev'
+        'click .previous-phase': 'prev',
+        'click .btn-add-row': 'addRow'
     },
-    initialRows: 4,
-    currentRows: 4,
     initialize: function(options, render) {
-        _.bindAll(this, 'addColumn', 'getData', 'render', 'renderTools',
-            'help', 'update', 'clear', 'next', 'prev', 'flavor');
+        _.bindAll(this, 'addColumn', 'addRow', 'getData', 'help', 'clear',
+            'render', 'renderTools', 'update', 'next', 'prev', 'flavor');
 
         this.state = options.state;
         this.state.bind('change', this.render);
@@ -56,6 +54,10 @@ LogicModel.TableView = Backbone.View.extend({
     },
     addColumn: function(column) {
         column.on('change:total', this.renderTools);
+    },
+    addRow: function(evt) {
+        const rows = this.state.get('currentRows');
+        this.state.set('currentRows', rows + 1);
     },
     flavor: function() {
         const flavors = this.state.getCurrentPhase().get('flavors');
@@ -75,7 +77,7 @@ LogicModel.TableView = Backbone.View.extend({
     render: function() {
         const ctx = {
             phase: this.state.getCurrentPhase().toJSON(),
-            rows: this.currentRows,
+            rows: this.state.get('currentRows'),
             flavor: this.flavor(),
             columns: this.columns.toJSON(),
         };
@@ -88,6 +90,8 @@ LogicModel.TableView = Backbone.View.extend({
         const ctx = {
             phase: this.state.getCurrentPhase().toJSON(),
             flavor: this.flavor(),
+            rows: this.state.get('currentRows'),
+            maxRows: this.state.get('maxRows'),
             content: {
                 first: this.columns.at(0).hasValue(),
                 middle: this.columns.at(1).hasValue() &&
@@ -119,7 +123,7 @@ LogicModel.TableView = Backbone.View.extend({
         this.columns.reset();
         this.columns.add(this.initialColumns);
         this.state.setPhase(1);
-        this.render();
+        this.state.set('currentRows', this.state.get('initialRows'));
     },
     print: function(evt) {
         window.print();

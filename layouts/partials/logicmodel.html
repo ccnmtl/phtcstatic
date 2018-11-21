@@ -197,11 +197,17 @@
 <script type="text/template" id="logic-model-tools">
     <div class="row no-gutters">
         <div class="col">
-            <div class="btn btn-sm btn-info add_a_row_button">
+            <% if (rows < maxRows && flavor !== 'end') { %>
+            <div class="btn btn-sm btn-info btn-add-row">
                 <i class="fas fa-plus" title="Add a row"></i>
             </div>
+            <% } %>
             <% if (flavor === 'first') { %>
-                <button class="btn btn-sm btn-success next-phase <% if (!content.first) { %>disabled<% } %>">
+                 <% if (!content.first) { %>
+                    <button class="btn btn-sm btn-success next-phase" disabled="disabled">
+                 <% } else { %>
+                    <button class="btn btn-sm btn-success next-phase">
+                 <% } %>
                     I am done!
                 </button>
             <% } %>
@@ -211,14 +217,22 @@
         <div class="col"></div>
         <div class="col">
             <% if (flavor === 'middle') { %>
-                <button class="btn btn-sm btn-success next-phase <% if (!content.middle) { %>disabled<% } %>">
+                 <% if (!content.middle) { %>
+                    <button class="btn btn-sm btn-success next-phase" disabled="disabled">
+                 <% } else { %>
+                    <button class="btn btn-sm btn-success next-phase">
+                 <% } %>
                     I am done!
                 </button>
             <% } %>
         </div>
         <div class="col">
             <% if (flavor === 'last') { %>
-                <button class="btn btn-sm btn-success next-phase <% if (!content.last) { %>disabled<% } %>">
+                 <% if (!content.last) { %>
+                    <button class="btn btn-sm btn-success next-phase" disabled="disabled">
+                 <% } else { %>
+                    <button class="btn btn-sm btn-success next-phase">
+                 <% } %>
                     I am done!
                 </button>
             <% } %>
