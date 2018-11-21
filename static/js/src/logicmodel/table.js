@@ -2,8 +2,14 @@ LogicModel.Column = Backbone.Model.extend({
     initialize: function(attributes) {
         this.set({
             values: new Array(LogicModel.NUMBER_OF_ROWS_TOTAL),
+            colors: new Array(LogicModel.NUMBER_OF_ROWS_TOTAL),
             total: 0
         });
+    },
+    incrementColor: function(rowIdx) {
+        let colorIdx = this.get('colors')[rowIdx] || 0;
+        this.get('colors')[rowIdx] = (colorIdx + 1) % 6;
+        this.trigger('change:colors');
     },
     setValue(rowIdx, value) {
         this.get('values')[rowIdx] = value;
@@ -35,11 +41,13 @@ LogicModel.TableView = Backbone.View.extend({
         'click .print_scenario': 'print',
         'click .next-phase': 'next',
         'click .previous-phase': 'prev',
-        'click .btn-add-row': 'addRow'
+        'click .btn-add-row': 'addRow',
+        'click .switch_color': 'color'
     },
     initialize: function(options, render) {
         _.bindAll(this, 'addColumn', 'addRow', 'getData', 'help', 'clear',
-            'render', 'renderTools', 'update', 'next', 'prev', 'flavor');
+            'render', 'renderTools', 'update', 'next', 'prev', 'flavor',
+            'color');
 
         this.state = options.state;
         this.state.bind('change', this.render);
@@ -54,6 +62,7 @@ LogicModel.TableView = Backbone.View.extend({
     },
     addColumn: function(column) {
         column.on('change:values', this.renderTools);
+        column.on('change:colors', this.render);
     },
     addRow: function(evt) {
         const rows = this.state.get('currentRows');
@@ -80,6 +89,7 @@ LogicModel.TableView = Backbone.View.extend({
             rows: this.state.get('currentRows'),
             flavor: this.flavor(),
             columns: this.columns.toJSON(),
+            colors: this.colors
         };
 
         const html = this.template(ctx);
@@ -133,6 +143,12 @@ LogicModel.TableView = Backbone.View.extend({
     },
     prev: function(evt) {
         this.state.decrementPhase();
+    },
+    color: function(evt) {
+        const columnIdx = $(evt.currentTarget).attr('data-column');
+        const rowIdx =  $(evt.currentTarget).attr('data-row');
+        const column = this.columns.at(columnIdx);
+        column.incrementColor(parseInt(rowIdx, 10));
     }
 });
 

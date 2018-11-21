@@ -1,11 +1,11 @@
 {
   "colors": [
-    "0066cc",
-    "cc0000",
-    "009933",
-    "cc6600",
-    "663300",
-    "990099"
+    "blue",
+    "red",
+    "green",
+    "orange",
+    "brown",
+    "purple"
   ],
   "columns": [
     {
