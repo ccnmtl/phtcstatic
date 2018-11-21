@@ -60,6 +60,7 @@ const LogicModelView = Backbone.View.extend({
         });
         this.getData();
 
+        // eslint-disable-next-line
         window.addEventListener('beforeunload', this.beforeUnload);
     },
     getData: function() {
