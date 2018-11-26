@@ -6,6 +6,7 @@ LogicModel.getTemplate = function(selector) {
 };
 
 LogicModel.NUMBER_OF_ROWS_TOTAL = 9;
+LogicModel.NUMBER_OF_ROWS_INITIAL = 4;
 
 LogicModel.Phase = Backbone.Model.extend({
 });
@@ -18,16 +19,22 @@ LogicModel.ActivityState = Backbone.Model.extend({
     defaults: {
         phaseIdx: 0,
         phases: new LogicModel.PhaseCollection(),
-        initialRows: 4,
-        maxRows: LogicModel.NUMBER_OF_ROWS_TOTAL,
-        currentRows: 4,
+        currentRows: LogicModel.NUMBER_OF_ROWS_INITIAL
     },
     getCurrentPhase: function() {
         const idx = this.get('phaseIdx');
         return this.get('phases').at(idx);
     },
-    setPhase: function(idx) {
-        this.set('phaseIdx', idx);
+    isScenarioPhase: function() {
+        return this.get('phaseIdx') === 0;
+    },
+    setScenarioPhase: function() {
+        this.set('phaseIdx', 0);
+        this.set('currentRows', LogicModel.NUMBER_OF_ROWS_INITIAL);
+    },
+    setTablePhase: function() {
+        this.set('phaseIdx', 1);
+        this.set('currentRows', LogicModel.NUMBER_OF_ROWS_INITIAL);
     },
     incrementPhase: function() {
         let idx = this.get('phaseIdx') + 1;

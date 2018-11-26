@@ -2,8 +2,7 @@ LogicModel.Column = Backbone.Model.extend({
     initialize: function(attributes) {
         this.set({
             values: new Array(LogicModel.NUMBER_OF_ROWS_TOTAL),
-            colors: new Array(LogicModel.NUMBER_OF_ROWS_TOTAL),
-            total: 0
+            colors: new Array(LogicModel.NUMBER_OF_ROWS_TOTAL)
         });
     },
     incrementColor: function(rowIdx) {
@@ -84,6 +83,11 @@ LogicModel.TableView = Backbone.View.extend({
         );
     },
     render: function() {
+        if (this.state.isScenarioPhase()) {
+            this.columns.reset();
+            this.columns.add(this.initialColumns);
+        }
+
         const ctx = {
             phase: this.state.getCurrentPhase().toJSON(),
             rows: this.state.get('currentRows'),
@@ -101,7 +105,7 @@ LogicModel.TableView = Backbone.View.extend({
             phase: this.state.getCurrentPhase().toJSON(),
             flavor: this.flavor(),
             rows: this.state.get('currentRows'),
-            maxRows: this.state.get('maxRows'),
+            maxRows: LogicModel.NUMBER_OF_ROWS_TOTAL,
             content: {
                 first: this.columns.at(0).hasValue(),
                 middle: this.columns.at(1).hasValue() &&
@@ -132,8 +136,8 @@ LogicModel.TableView = Backbone.View.extend({
     clear: function(evt) {
         this.columns.reset();
         this.columns.add(this.initialColumns);
-        this.state.setPhase(1);
-        this.state.set('currentRows', this.state.get('initialRows'));
+        this.state.setTablePhase();
+        this.render();
     },
     print: function(evt) {
         window.print();

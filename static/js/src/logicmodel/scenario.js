@@ -47,7 +47,7 @@ LogicModel.ScenarioView = Backbone.View.extend({
         let model = this.selectedScenario;
         this.selectedScenario = null;
         model.set('selected', false);
-        this.state.setPhase(0);
+        this.state.setScenarioPhase();
     },
     render: function() {
         const selected = this.selectedScenario ?
