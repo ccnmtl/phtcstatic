@@ -38,7 +38,7 @@ LogicModel.ScenarioView = Backbone.View.extend({
         this.state.setScenario(this.scenarios.get(id));
     },
     clearScenario: function(evt) {
-        this.state.clearScenario(); 
+        this.state.clearScenario();
     },
     render: function() {
         const scenario = this.state.get('selectedScenario');
