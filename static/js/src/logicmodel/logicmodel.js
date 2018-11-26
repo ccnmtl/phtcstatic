@@ -21,7 +21,21 @@ LogicModel.ActivityState = Backbone.Model.extend({
         phases: new LogicModel.PhaseCollection(),
         currentRows: LogicModel.NUMBER_OF_ROWS_INITIAL,
         scenarioInfo: true,
-        stepInfo: true
+        stepInfo: true,
+        selectedScenario: null
+    },
+    setScenario: function(scenario) {
+        this.set({
+            'selectedScenario': scenario,
+            'phaseIdx': this.get('phaseIdx') + 1
+        });
+    },
+    clearScenario: function(scenario) {
+        this.set({
+            'selectedScenario': null,
+            'phaseIdx': 0,
+            'currentRows': LogicModel.NUMBER_OF_ROWS_INITIAL
+        });
     },
     getCurrentPhase: function() {
         const idx = this.get('phaseIdx');
