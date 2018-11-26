@@ -1,7 +1,4 @@
 LogicModel.Scenario = Backbone.Model.extend({
-    defaults: {
-        'selected': false
-    }
 });
 
 LogicModel.ScenarioCollection = Backbone.Collection.extend({
@@ -15,17 +12,16 @@ LogicModel.ScenarioView = Backbone.View.extend({
         'hidden.bs.collapse #scenarioInstructions': 'scenarioInfoHide',
         'shown.bs.collapse #scenarioInstructions': 'scenarioInfoShow'
     },
-    selectedScenario: null,
     initialize: function(options, render) {
         _.bindAll(this, 'render', 'getData',
-            'addScenario', 'clearScenario', 'chooseScenario',
+            'clearScenario', 'chooseScenario',
             'scenarioInfoHide', 'scenarioInfoShow');
 
         this.state = options.state;
+        this.state.on('change:selectedScenario', this.render);
 
         this.template = LogicModel.getTemplate('#logic-model-scenario');
         this.scenarios = new LogicModel.ScenarioCollection();
-        this.scenarios.on('add', this.addScenario);
         this.getData();
     },
     getData: function() {
@@ -37,24 +33,16 @@ LogicModel.ScenarioView = Backbone.View.extend({
             }
         );
     },
-    addScenario: function(scenario) {
-        scenario.on('change:selected', this.render);
-    },
     chooseScenario: function(evt) {
         const id = jQuery(evt.currentTarget).attr('data-id');
-        this.selectedScenario = this.scenarios.get(id);
-        this.selectedScenario.set('selected', true);
-        this.state.incrementPhase();
+        this.state.setScenario(this.scenarios.get(id));
     },
     clearScenario: function(evt) {
-        let model = this.selectedScenario;
-        this.selectedScenario = null;
-        model.set('selected', false);
-        this.state.setScenarioPhase();
+        this.state.clearScenario();
     },
     render: function() {
-        const selected = this.selectedScenario ?
-            this.selectedScenario.toJSON() : null;
+        const scenario = this.state.get('selectedScenario');
+        const selected = scenario ? scenario.toJSON() : null;
 
         const ctx = {
             scenarioInfo: this.state.get('scenarioInfo'),
