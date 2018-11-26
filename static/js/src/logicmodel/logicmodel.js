@@ -19,7 +19,9 @@ LogicModel.ActivityState = Backbone.Model.extend({
     defaults: {
         phaseIdx: 0,
         phases: new LogicModel.PhaseCollection(),
-        currentRows: LogicModel.NUMBER_OF_ROWS_INITIAL
+        currentRows: LogicModel.NUMBER_OF_ROWS_INITIAL,
+        scenarioInfo: true,
+        stepInfo: true
     },
     getCurrentPhase: function() {
         const idx = this.get('phaseIdx');
@@ -50,11 +52,14 @@ LogicModel.ActivityState = Backbone.Model.extend({
 });
 
 const LogicModelView = Backbone.View.extend({
+    events: {
+        'hidden.bs.collapse #stepInstructions': 'stepInfoHide',
+        'shown.bs.collapse #stepInstructions': 'stepInfoShow'
+    },
     initialize: function(options) {
-        _.bindAll(this ,
-            'render' ,
-            'getData',
-            'beforeUnload'
+        _.bindAll(this,
+            'render', 'getData', 'beforeUnload',
+            'stepInfoHide', 'stepInfoShow'
         );
 
         this.state = new LogicModel.ActivityState();
@@ -88,21 +93,28 @@ const LogicModelView = Backbone.View.extend({
     },
     render: function() {
         const ctx = {
-            'phase': this.state.getCurrentPhase().toJSON()
+            'phase': this.state.getCurrentPhase().toJSON(),
+            'stepInfo': this.state.get('stepInfo')
         };
         let html = this.progressTemplate(ctx);
         this.$el.find('.activity-progress').html(html);
     },
-    beforeUnload: function(event) {
+    beforeUnload: function(evt) {
         if (!this.state.complete()) {
             // Cancel the event as stated by the standard.
-            event.preventDefault();
+            evt.preventDefault();
             // Chrome requires returnValue to be set. No guarantee this
             // message will be displayed in any browser.
-            event.returnValue =
+            evt.returnValue =
                 'You have not completed the activity. ' +
                 'Are you sure you want to leave?';
         }
+    },
+    stepInfoHide: function(evt) {
+        this.state.set('stepInfo', false);
+    },
+    stepInfoShow: function(evt) {
+        this.state.set('stepInfo', true);
     }
 });
 
