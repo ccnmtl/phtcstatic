@@ -1,13 +1,12 @@
+LogicModel.NUMBER_OF_ROWS_TOTAL = 9;
+LogicModel.NUMBER_OF_ROWS_INITIAL = 4;
+
 LogicModel.Scenario = Backbone.Model.extend({
 });
 
 LogicModel.ScenarioCollection = Backbone.Collection.extend({
     model: LogicModel.Scenario
 });
-
-
-LogicModel.NUMBER_OF_ROWS_TOTAL = 9;
-LogicModel.NUMBER_OF_ROWS_INITIAL = 4;
 
 LogicModel.Phase = Backbone.Model.extend({
 });
@@ -48,55 +47,120 @@ LogicModel.Column = Backbone.Model.extend({
 
 LogicModel.ColumnCollection = Backbone.Collection.extend({
     model: LogicModel.Column,
+    toSession: function() {
+        var results = [];
+        this.forEach(function(column) {
+            results.push({
+                'values': column.get('values'),
+                'colors': column.get('colors')
+            });
+        });
+        return results;
+    },
+    fromSession: function(json) {
+        for (var i = 0; i < json.length; i++) {
+            let column = this.at(i);
+            column.set('values', json[i].values);
+            column.set('colors', json[i].colors);
+        }
+    }
 });
-
 
 LogicModel.ActivityState = Backbone.Model.extend({
     defaults: {
+        colors: null,
+        initialColumns: null,
+        columns: null,
+        phases: null,
         phaseIdx: 0,
-        phases: new LogicModel.PhaseCollection(),
-        currentRows: LogicModel.NUMBER_OF_ROWS_INITIAL,
+        scenarios: null,
         scenarioInfo: true,
         stepInfo: true,
-        selectedScenario: null
+        scenarioIdx: null,
+        currentRows: LogicModel.NUMBER_OF_ROWS_INITIAL,
     },
-    setScenario: function(scenario) {
+    setScenario: function(scenarioIdx) {
         this.set({
-            'selectedScenario': scenario,
+            'scenarioIdx': scenarioIdx,
             'phaseIdx': this.get('phaseIdx') + 1
         });
     },
-    clearScenario: function(scenario) {
+    clearScenario: function() {
         this.set({
-            'selectedScenario': null,
+            'scenarioIdx': null,
             'phaseIdx': 0,
-            'currentRows': LogicModel.NUMBER_OF_ROWS_INITIAL
+            'currentRows': LogicModel.NUMBER_OF_ROWS_INITIAL,
+            'columns': this.get('initialColumns')
         });
     },
     getCurrentPhase: function() {
         const idx = this.get('phaseIdx');
         return this.get('phases').at(idx);
     },
-    isScenarioPhase: function() {
-        return this.get('phaseIdx') === 0;
+    clearTable: function() {
+        this.set({
+            'phaseIdx': 1,
+            'currentRows': LogicModel.NUMBER_OF_ROWS_INITIAL,
+            'columns': this.get('initialColumns')
+        });
     },
-    setScenarioPhase: function() {
-        this.set('phaseIdx', 0);
-        this.set('currentRows', LogicModel.NUMBER_OF_ROWS_INITIAL);
-    },
-    setTablePhase: function() {
-        this.set('phaseIdx', 1);
-        this.set('currentRows', LogicModel.NUMBER_OF_ROWS_INITIAL);
+    flavor: function() {
+        const flavors = this.getCurrentPhase().get('flavors');
+        return flavors[flavors.length - 1];
     },
     incrementPhase: function() {
-        let idx = this.get('phaseIdx') + 1;
-        this.set('phaseIdx', idx);
+        this.set('phaseIdx', this.get('phaseIdx') + 1);
     },
     decrementPhase: function() {
-        let idx = this.get('phaseIdx') - 1;
-        this.set('phaseIdx', idx);
+        this.set('phaseIdx', this.get('phaseIdx') - 1);
     },
     complete: function() {
         return this.get('phaseIdx') === (this.get('phases').length - 1);
+    },
+    fromSession: function(str) {
+        const json = JSON.parse(str);
+        this.set({
+            phaseIdx: json.phaseIdx,
+            scenarioInfo: json.scenarioInfo,
+            stepInfo: json.stepInfo,
+            currentRows: json.currentRows,
+            scenarioIdx: json.scenarioIdx
+        });
+        this.get('columns').fromSession(json.columns);
+    },
+    toSession: function() {
+        return JSON.stringify({
+            phaseIdx: this.get('phaseIdx'),
+            columns: this.get('columns').toSession(),
+            scenarioInfo: this.get('scenarioInfo'),
+            stepInfo: this.get('stepInfo'),
+            currentRows: this.get('currentRows'),
+            scenarioIdx: this.get('scenarioIdx')
+        });
+    },
+    toJSON: function() {
+        const columns = this.get('columns');
+
+        return {
+            colors: this.get('colors'),
+            flavor: this.flavor(),
+            phases: this.get('phases').toJSON(),
+            phase: this.getCurrentPhase().toJSON(),
+            scenarios: this.get('scenarios').toJSON(),
+            scenarioIdx: this.get('scenarioIdx'),
+            columns: columns.toJSON(),
+            scenarioInfo: this.get('scenarioInfo'),
+            stepInfo: this.get('stepInfo'),
+            currentRows: this.get('currentRows'),
+            maxRows: LogicModel.NUMBER_OF_ROWS_TOTAL,
+            content: {
+                first: columns.at(0).hasValue(),
+                middle: columns.at(1).hasValue() &&
+                        columns.at(2).hasValue() &&
+                        columns.at(3).hasValue() &&
+                        columns.at(4).hasValue(),
+                last: columns.at(5).hasValue()
+            }
+        };
     }
 });

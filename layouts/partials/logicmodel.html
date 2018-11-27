@@ -6,7 +6,8 @@
 </script>
 
 <script type="text/template" id="logic-model-scenario">
-<% if (selectedScenario) { %>
+<% if (scenarioIdx) { %>
+    <% var selectedScenario = scenarios[scenarioIdx]; %>
     <div class="scenario-step-stage">
         <div class="accordion" id="scenario-details">
             <div class="accordion-group clearfix">
@@ -38,7 +39,7 @@
         <div class="well">
             <h3 class="scenario_title"><%=scenarios[i].title%></h3>
             <div class="instructions_for_scenario"><%=scenarios[i].instructions%></div>
-            <div class="btn btn-primary try_this_scenario" data-id="<%=scenarios[i].id%>">Try this scenario</div>
+            <div class="btn btn-primary try_this_scenario" data-idx="<%=i%>">Try this scenario</div>
         </div>
     <% } %>
 <% } %>
@@ -145,7 +146,7 @@
             </div>
         <% } %>
     </div>
-    <% for (var i = 0; i < rows; i++) { %>
+    <% for (var i = 0; i < currentRows; i++) { %>
         <div class="row no-gutters">
             <% for (var j = 0; j < columns.length; j++) { %>
                 <% var disabled = phase.flavors.indexOf(columns[j].flavor) === -1 %>
@@ -198,7 +199,7 @@
 <script type="text/template" id="logic-model-tools">
     <div class="row no-gutters">
         <div class="col">
-            <% if (rows < maxRows && flavor !== 'end') { %>
+            <% if (currentRows < maxRows && flavor !== 'end') { %>
             <div class="btn btn-sm btn-info btn-add-row">
                 <i class="fas fa-plus" title="Add a row"></i>
             </div>
@@ -267,5 +268,6 @@
 
 <script src="{{ .Site.BaseURL }}js/lib/underscore/underscore-min.js"></script>
 <script src="{{ .Site.BaseURL }}js/lib/backbone/backbone-min.js"></script>
+<script src="{{ .Site.BaseURL }}js/src/utils.js"></script>
 <script src="{{ .Site.BaseURL }}js/src/logicmodel/models.js"></script>
 <script src="{{ .Site.BaseURL }}js/src/logicmodel/views.js"></script>
