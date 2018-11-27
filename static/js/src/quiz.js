@@ -91,7 +91,8 @@ jQuery(document).ready(function() {
         jQuery(answerId).fadeIn(300);
     });
 
-    jQuery('.checkbox-activity-container .btn[type="submit"]').click(function(evt) {
+    var selector = '.checkbox-activity-container .btn[type="submit"]';
+    jQuery(selector).click(function(evt) {
         evt.preventDefault();
         var $form = jQuery(evt.currentTarget).parents('form');
         if (!isFormComplete($form)) {
@@ -101,8 +102,8 @@ jQuery(document).ready(function() {
         jQuery('.md-checkbox').addClass('disabled');
     });
 
-    jQuery('.checkbox-activity-container .btn[type="reset"]')
-            .click(function(evt) {
+    selector = '.checkbox-activity-container .btn[type="reset"]';
+    jQuery(selector).click(function(evt) {
         evt.preventDefault();
         jQuery('.checkbox-activity .match').removeClass('highlight-match');
         jQuery('.md-checkbox').removeClass('disabled');
