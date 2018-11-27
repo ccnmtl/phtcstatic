@@ -1582,6 +1582,13 @@ footer p {
     color: #0099ff;
 }
 
+/* Logic Models miscellaneous */
+
+.custom-counter.logicmodel-template li::before {
+    background-color: #08c;
+    color: #fff;
+}
+
 
 /* Responsive ---------------------------------------- */
 
