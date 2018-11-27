@@ -91,18 +91,21 @@ jQuery(document).ready(function() {
         jQuery(answerId).fadeIn(300);
     });
 
-    jQuery('.checkbox-activity .btn[type="submit"]').click(function(evt) {
+    jQuery('.checkbox-activity-container .btn[type="submit"]').click(function(evt) {
         evt.preventDefault();
         var $form = jQuery(evt.currentTarget).parents('form');
         if (!isFormComplete($form)) {
             return false;
         }
-        jQuery('.checkbox-activity td.match').addClass('highlight-match');
+        jQuery('.checkbox-activity .match').addClass('highlight-match');
+        jQuery('.md-checkbox').addClass('disabled');
     });
 
-    jQuery('.checkbox-activity .btn[type="reset"]').click(function(evt) {
+    jQuery('.checkbox-activity-container .btn[type="reset"]')
+            .click(function(evt) {
         evt.preventDefault();
-        jQuery('.checkbox-activity td.match').removeClass('highlight-match');
+        jQuery('.checkbox-activity .match').removeClass('highlight-match');
+        jQuery('.md-checkbox').removeClass('disabled');
         jQuery('.checkbox-activity input[type="checkbox"]')
             .prop('checked', false);
     });
