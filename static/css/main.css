@@ -372,7 +372,8 @@ figure.img-50 {
     background-color: #fff1e1;
 }
 
-.table-layout-display.high-density div {
+.table-layout-display.high-density div,
+.high-density div {
     font-size: 1rem;
 }
 
@@ -1180,80 +1181,6 @@ li[id^="standard-"] {
     background-color: #e4f1fd;
 }
 
-/* Qualitative Research, checkbox activity----------- */
-
-.checkbox-activity table {
-    border: none !important;
-    margin: 14px 0 50px 0;
-}
-
-.checkbox-activity table td {
-    border: 1px solid #333;
-    min-width: 65px;
-    max-width: 101px;
-    height: 60px;
-    padding: 0 10px;
-    color: #333;
-}
-
-.checkbox-activity .column-header {
-    height: 25px;
-}
-
-.checkbox-activity .column-spacer {
-  border: none !important;
-  background: none !important;
-}
-
-.checkbox-activity .interactive {
-    cursor: pointer;
-    background:#FFF!important;
-}
-
-.checkbox-activity .user-x {
-  color: #08C !important;
-  font-weight: bold;
-  padding: 0 0 0 0px !important;
-  font-size: 24px;
-}
-
-.checkbox-activity .answr-x {
-  margin: -3px 0 0 0;
-  color: #333 !important;
-  font-weight: bold;
-  padding: 0 0 0 15px !important;
-  font-size: 24px;
-  float: right;
-}
-
-.checkbox-activity #row-title {
-  float: left;
-  margin: 170px 0 0 0;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 0 10px;
-  color:#C63;
-}
-
-.checkbox-activity #column-title {
-  color:#C63;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.checkbox-activity .user-answers {
-  float: left;
-  line-height: 20px;
-}
-
-.checkbox-activity .activity-answers {
-  float: right;
-  padding: 0 0 0 40px;
-  line-height: 20px;
-  margin: 3px 0 0 0
-}
-
 .checkbox-activity .clear-button {
   margin: 0 30px;
 }
@@ -1262,9 +1189,85 @@ li[id^="standard-"] {
   margin:0 30px;
 }
 
-.checkbox-activity .highlight-match {
-    background-color: green !important;
+/* Collection-Challenges checkbox activity */
+.checkbox-activity-container .row-title {
+    display: none;
 }
+.checkbox-activity-container .column-title {
+    display: none;
+}
+.checkbox-activity {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    line-height: 1.3;
+}
+.checkbox-activity .row-title {
+    text-transform: uppercase;
+    color:#930;
+    margin-left: 0;
+    display: block;
+    font-size: 0.875rem;;
+}
+.checkbox-activity .cell {
+    padding: 0.5rem;
+    height: auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px dashed #ddd;
+    background-color: #fff;
+}
+.checkbox-activity .cell:last-child {
+    border-bottom: 1px solid #ddd;
+}
+.checkbox-activity div.row-label {
+    margin: 0;
+    padding: 0.5rem;
+    height: auto;
+    border: 1px solid #ccc;
+    background-color: #fcdab8;
+    text-align: left;
+}
+.checkbox-activity .cell .column-label {
+    display: block;
+    float: left;
+    width: 75%;
+}
+.checkbox-activity div.column-label {
+    display: none;
+}
+.checkbox-activity div.column-label .cell {
+    background-color: #fff;
+}
+.checkbox-activity div.interviews,
+.checkbox-activity div.docs-av,
+.checkbox-activity div.focusgroup,
+.checkbox-activity div.obsrv,
+.checkbox-activity div.p-obsrv {
+    margin-bottom: 1.5rem;
+    width: auto;
+}
+.checkbox-answer {
+    display: none;
+}
+.highlight-match .checkbox-answer {
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    width: 1.75rem;
+    height: 1.75rem;
+    text-align: right;
+}
+.checkbox-answer:before {
+    content: "\2715";
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: #000;
+    line-height: 1.75rem;
+}
+
 
 /* Footer ------------------------------------------- */
 
@@ -1349,6 +1352,95 @@ footer p {
   border: 2px solid rgba(51, 122, 183, 1) !important;
   box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
 }
+
+.md-checkbox {
+    position: relative;
+    padding: 0;
+    margin: 0.5rem 0.25rem 0 0;
+    border: 0;
+    text-align: center;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.md-checkbox.md-checkbox-inline {
+    display: inline-block;
+}
+
+.md-checkbox label {
+    cursor: pointer;
+    display: inline;
+    line-height: 1.75rem;
+    vertical-align: top;
+    clear: both;
+    padding-left: 1px;
+}
+
+.md-checkbox label:not(:empty) {
+    padding-left: 0;
+}
+
+.md-checkbox label:before, .md-checkbox label:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.md-checkbox label:before {
+    width: 1.75rem;
+    height: 1.75rem;
+    /* background-color: #ddd; */
+    border: 2px solid #ddd;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    transition: background .4s;
+}
+
+.md-checkbox.disabled label:before {
+    border: 2px solid #fff;
+}
+
+.md-checkbox input[type="checkbox"] {
+    outline: 0;
+    visibility: hidden;
+    width: 1.25rem;
+    margin: 0;
+    display: block;
+    float: left;
+    font-size: inherit;
+}
+
+.md-checkbox input[type="checkbox"]:checked + label:before,
+.md-checkbox.disabled input[type="checkbox"]:checked + label:before {
+    background-color: #efefef;
+    border: 2px solid #efefef;
+}
+
+.md-checkbox input[type="checkbox"]:checked + label:after {
+    content: "\2715";
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: #08c;
+    line-height: 1.75rem;
+    padding-left: 0.25rem;
+}
+
+.md-checkbox input[type="checkbox"]:focus + label:before {
+  border: 2px solid rgba(51, 122, 183, 1) !important;
+  box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
+}
+.md-checkbox input[type="checkbox"]:focus + label:after {
+  border: 2px solid rgba(51, 122, 183, 1) !important;
+  box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
+}
+
+.checkbox-activity .md-checkbox {
+    float: left;
+}
+
+
+
 
 
 /* Program Evaluation Module, Design Notation --------------------------- */
@@ -1777,7 +1869,8 @@ No media query for `xs` since this is the default in Bootstrap
     .icon-legend img {
         height: 1.25rem;
     }
-    .table-layout-display.high-density div {
+    .table-layout-display.high-density div,
+    .high-density div {
         font-size: 0.875rem;
     }
     .table-layout-display ul.gridbox li {
@@ -1817,6 +1910,88 @@ No media query for `xs` since this is the default in Bootstrap
         display: block;
         text-align: center;
     }
+    /* Collection-Challenges checkbox activity */
+    .checkbox-activity-container .row-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        color:#c63;
+        margin-left: 20rem;
+        display: block;
+    }
+    .checkbox-activity .row-title {
+        display: none;
+    }
+    .checkbox-activity-container .column-title {
+        margin-top: 10rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:#c63;
+        width: 1rem;
+        line-height: 1.2rem;
+        overflow-wrap: break-word;
+        float: left;
+        display: block;
+    }
+    .checkbox-activity {
+        margin: 0 0 0 1.2rem;
+        display: flex;
+        flex-wrap: nowrap;
+    }/* */
+    .checkbox-activity .cell {
+        padding: 0.5rem;
+        height: 5.5rem;
+        border: 1px solid #ccc;
+    }
+    .checkbox-activity .cell:last-child {
+        border-bottom: 1px solid #ccc;
+    }
+    .checkbox-activity div.row-label {
+        margin: 0;
+        height: 4rem;
+        text-align: center;
+    }
+    .checkbox-activity .cell .column-label {
+        display: none;
+    }
+    .checkbox-activity div.column-label {
+        width: 148px;
+        display: block;
+    }
+    .checkbox-activity div.column-label .cell {
+        width: 148px;
+        background-color: #fff1e1;
+    }
+    .checkbox-activity div.interviews,
+    .checkbox-activity div.docs-av {
+        width: 100px;
+        margin-bottom: 0;
+    }
+    .checkbox-activity div.focusgroup {
+        width: 80px;
+        margin-bottom: 0;
+    }
+    .checkbox-activity div.obsrv,
+    .checkbox-activity div.p-obsrv {
+        width: 110px;
+        margin-bottom: 0;
+    }
+    /* .checkbox-answer {
+        margin: 0.5rem 0 0 0;
+        padding: 0;
+        border: 0;
+        display: inline-block;
+        width: 1.75rem;
+        height: 1.75rem;
+        text-align: right;
+    }
+    .checkbox-answer:before {
+        content: "\2715";
+        font-weight: bold;
+        font-size: 1.75rem;
+        color: #000;
+        line-height: 1.75rem;
+    }*/
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1858,6 +2033,13 @@ No media query for `xs` since this is the default in Bootstrap
     .x-table div:first-child {
         width: 170px;
     }
+    .checkbox-activity div.column-label,
+    .checkbox-activity div.column-label .cell {
+        width: 130px;
+    }
+    .checkbox-activity-container .row-title {
+        margin-left: 19rem;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -1887,7 +2069,8 @@ No media query for `xs` since this is the default in Bootstrap
         width: 300px;
         height: 336px;
     }
-    .table-layout-display.high-density div {
+    .table-layout-display.high-density div,
+    .high-density div {
         font-size: 1rem;
     }
     .table-layout-display ul.gridbox li {
@@ -1896,6 +2079,19 @@ No media query for `xs` since this is the default in Bootstrap
     }
     .x-table div:first-child {
         width: 300px;
+    }
+    .checkbox-activity-container .row-title {
+        margin-left: 27rem;
+    }
+    .checkbox-activity div.column-label,
+    .checkbox-activity div.column-label .cell {
+        width: 265px;
+    }
+    .checkbox-activity div.row-label {
+         height: 5rem;
+    }
+    .checkbox-activity .cell {
+        height: 4rem;
     }
 }
 
