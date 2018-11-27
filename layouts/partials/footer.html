@@ -46,5 +46,10 @@
             {{ partial "logicmodel.html" . }}
         {{ end }}
     {{ end }}
+    {{ if eq .Params.module "Introduction to Mixed Methods Research" }}
+        {{ if eq .Params.title "Choose Your Own Design" }}
+            {{ partial "flowchart.html" . }}
+        {{ end }}
+    {{ end }}
 </body>
 </html>

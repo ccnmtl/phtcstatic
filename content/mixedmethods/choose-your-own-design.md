@@ -14,5 +14,12 @@ next_title: "Other Design Implications"
 previous: "../test-your-understanding_2/"
 previous_title: "Test Your Understanding"
 ---
-<div class="mixedmethod"><div class="pageblock"><p>Now test your new understanding of the goals of different mixed methods designs by designing your own study!   </p>
-</div></div>
+<div class="mixedmethod">
+    <div class="pageblock">
+        <p>Now test your new understanding of the goals of different mixed methods designs by designing your own study!</p>
+    </div>
+    <div class="treatment-activity-container">
+        <div class="treatment-activity-view"></div>
+        <div class="treatment-steps"></div>
+    </div>
+</div>

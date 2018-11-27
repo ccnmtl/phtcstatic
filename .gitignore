@@ -6,3 +6,4 @@ public
 .settings
 node_modules
 local.mk
+.pydevproject
