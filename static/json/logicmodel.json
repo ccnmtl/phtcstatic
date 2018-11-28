@@ -116,7 +116,7 @@
       "flavors": ["middle"]
     },
     {
-      "instructions": "<p>Complete your final text and edits. You may change the colors of boxes by clicking the color wheel. Click \u201cI am done!\u201d to conclude this activity.</p>\r\n\r\n<p>\r\nAs you create your own logic model, use the color wheel (<img src=\"../img/assets/icon-color.png\">) on the text boxes to help you differentiate which levels you are intervening on. For example, you can use blue to designate activities, outputs, and outcomes on the individual level and green to designate activities, outputs, and outcomes on the societal level; however, you can choose whichever colors you prefer for each level.\r\n</p>",
+      "instructions": "<p>Complete your final text and edits. You may change the colors of boxes by clicking the color wheel. Click \u201cI am done!\u201d to conclude this activity.</p>\r\n\r\n<p>\r\nAs you create your own logic model, use the color wheel (<img src=\"/img/assets/icon-color.png\">) on the text boxes to help you differentiate which levels you are intervening on. For example, you can use blue to designate activities, outputs, and outcomes on the individual level and green to designate activities, outputs, and outcomes on the societal level; however, you can choose whichever colors you prefer for each level.\r\n</p>",
       "css_classes": "finish_work",
       "id": 5,
       "name": "Step 4. Finalize your logic model",
