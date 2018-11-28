@@ -21,6 +21,13 @@
         {{ end }}
     {{ end }}
 
+    {{ if eq .Params.module "Introduction to Mixed Methods Research" }}
+        {{ if eq .Params.title "Choose Your Own Design" }}
+            <link rel="stylesheet" href="{{ .Site.BaseURL }}css/flowchart.css">
+        {{ end }}
+    {{ end }}
+
+
     <!-- Meta data -->
     {{ partial "meta.html" . }}
     <!-- Favicons -->
