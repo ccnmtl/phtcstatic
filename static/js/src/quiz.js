@@ -123,7 +123,7 @@ jQuery(document).ready(function() {
         } else {
             jQuery(contentId).fadeOut(200);
             $elt.attr('aria-expanded', 'false').removeClass('active');
-        }        
+        }
     });
 
     jQuery('.reference-content .close').click(function(evt) {
