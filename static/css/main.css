@@ -1440,7 +1440,62 @@ footer p {
 }
 
 
+/* Reference modals/boxes for Advanced Program Evaluation */
 
+.program-eval-reference {
+    margin-bottom: 1rem;
+}
+
+.btn-controller {
+    border-color: #ccc;
+}
+
+.btn-controller.active {
+    background-color: #e0e0e0 !important;
+    color: #000 !important;
+    border-color: #ccc !important;
+}
+
+.reference-controller {
+    text-align: right;
+}
+
+.reference-container {
+    display: none;
+    margin: -1px 0 0 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.reference-header {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    background-color: #e0e0e0;
+}
+
+.reference-header .close {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.reference-title {
+    line-height: 1;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.reference-body {
+    padding: 1rem;
+}
+
+.reference-body .table th,
+.reference-body .table td
+{
+    padding: 0.3125rem !important;
+    border-color: #ccc;
+}
 
 
 /* Program Evaluation Module, Design Notation --------------------------- */
