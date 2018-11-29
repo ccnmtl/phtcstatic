@@ -15,6 +15,6 @@ previous: "../exploratory-example/"
 previous_title: "Exploratory Example"
 ---
 
-Explanatory mixed methods designs are the second type of sequential mixed methods research design. The goal of this design is to use qualitative methods to explain earlier quantitative findings. Specifically, quantitative data are collected and analyzed prior to the collection and analysis of qualitative data. 
+Explanatory mixed methods designs are the second type of sequential mixed methods research design. The goal of this design is to use qualitative methods to explain earlier quantitative findings. Specifically, quantitative data are collected and analyzed prior to the collection and analysis of qualitative data. Because explanatory designs use quantitative followed by qualitative methods, they are also commonly referred to as a Quant-Qual design. 
 
 {{< figure src="/img/assets/explanatory-quant-qu.jpg" alt="This image is a representation of the aforementioned explanation." class="img-fluid">}}
