@@ -22,6 +22,10 @@ previous_title: "Introduction to Activity"
     {{< figure src="/img/logo-phtc2-horizontal.png" alt="" aria-hidden="true">}}
 </div>
 <h3 class="print_only">Building your own logic model</h3>
+<div class="alert alert-danger d-block d-xl-none" role="alert" aria-hidden="true">
+The Building Logic Models activity on this page is optimized for larger screens. Please switch to a desktop computer, or expand your browser size.
+</div>
+<p class="sr-only" role="alert">Important notice: The following Building Logic Models interactive exercise is not optimized for assistive technologies.</p>
 
 <div class="logic-model-container">
     <div class="scenario-container"></div>
