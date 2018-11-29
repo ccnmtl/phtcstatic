@@ -110,4 +110,28 @@ jQuery(document).ready(function() {
         jQuery('.checkbox-activity input[type="checkbox"]')
             .prop('checked', false);
     });
+
+    jQuery('.reference-controller .btn-controller').click(function(evt) {
+        evt.preventDefault();
+        var $elt = jQuery(evt.currentTarget);
+        var contentId = $elt.attr('href');
+        if (jQuery(contentId).css('display') != 'block') {
+            jQuery(contentId).fadeIn(200).siblings().hide();
+            $elt.attr('aria-expanded', 'true').addClass('active')
+                .siblings()
+                .attr('aria-expanded', 'false').removeClass('active');
+        } else {
+            jQuery(contentId).fadeOut(200);
+            $elt.attr('aria-expanded', 'false').removeClass('active');
+        }
+    });
+
+    jQuery('.reference-content .close').click(function(evt) {
+        evt.preventDefault();
+        var $elt = jQuery(evt.currentTarget);
+        var contentId = $elt.parents('.reference-container');
+        jQuery(contentId).fadeOut(200);
+        jQuery('.reference-controller')
+            .children().attr('aria-expanded', 'false').removeClass('active');
+    });
 });
