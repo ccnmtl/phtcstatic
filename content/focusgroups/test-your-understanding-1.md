@@ -36,7 +36,7 @@ A structured process for collecting primarily quantitative data directly from in
 <div class="answer-value md-radio">
 <input name="question373" id="question373c" type="radio" value="C">
 <label for="question373c">C)
-a group process that generates a consensus through a series of questionnaires
+A group process that generates a consensus through a series of questionnaires
 </label>
 </div>
 <div class="answer-value md-radio">
@@ -50,7 +50,8 @@ An exchange of information between two people
 <a class="moretoggle btn btn-link" href="#q373">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q373">
 <p>
-<i>The correct answer is A:</i> <b>A qualitative research technique used to gain information on a specific issue from a group of people who share common characteristics.</b>
+<i>The correct answer is A:</i><br />
+<b>A qualitative research technique used to gain information on a specific issue from a group of people who share common characteristics.</b>
 </p><ul>
 <li>a structured process for collecting qualitative data is as <b>survey</b></li>
 <li>a group process that generates consensus via questionnaires is <b>the Delphi Technique</b></li>
@@ -91,7 +92,8 @@ To answer questions on a specific topic, ask questions of the other participants
 <a class="moretoggle btn btn-link" href="#q374">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q374">
 <p>
-<i>The correct answer is B:</i> <b>To make sure all participants are actively engaged, set ground rules, pay attention to verbal and non-verbal cues, keep conversation going, manage various personalities of the participants to ensure everyone has a chance to share, gather informed consent</b>
+<i>The correct answer is B:</i><br />
+<b>To make sure all participants are actively engaged, set ground rules, pay attention to verbal and non-verbal cues, keep conversation going, manage various personalities of the participants to ensure everyone has a chance to share, gather informed consent</b>
 </p><ul>
 <li>
 Capturing what people say in writing is the role of the note taker or recorder.</li>
@@ -126,7 +128,8 @@ When a moderator guides the conversation in a highly structured manner through q
 <a class="moretoggle btn btn-link" href="#q375">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q375">
 <p>
-<i>The correct answer is B:</i> High moderator involvement includes highly structured conversation, questions and probing. Low moderator involvement is more exploratory and less structured.</p>
+<i>The correct answer is B:</i><br />
+High moderator involvement includes highly structured conversation, questions and probing. Low moderator involvement is more exploratory and less structured.</p>
 </div>
 </div>
 </div><!-- /.casecontent -->
