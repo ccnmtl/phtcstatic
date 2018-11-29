@@ -127,7 +127,8 @@
 
     <% if (flavor === 'end') { %>
     <% var selectedScenario = scenarios[scenarioIdx]; %>
-        <a role="button" class="btn btn-success btn-sm float-right" target="_blank" href="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/pdf/<%= selectedScenario.answer_key %>">
+        <a role="button" class="btn btn-success btn-sm float-right" target="_blank"
+            href="https://s3.amazonaws.com/phtc.ctl.columbia.edu/pdf/<%= selectedScenario.answer_key %>">
             <i class="fas fa-file"></i> Show expert logic model
         </a>
     <% } %>
@@ -140,7 +141,7 @@
             <div class="col">
                 <div class="column-header">
                     <img data-column="<%= i %>" title="More about '<%= columns[i].name %>'"
-                        src="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/img/icon-info.png">
+                        src="https://s3.amazonaws.com/phtc.ctl.columbia.edu/img/assets/icon-info.png">
                     <h6 class="d-inline"><%= columns[i].name %></h6>
                 </div>
             </div>
@@ -154,7 +155,7 @@
                 <div class="col">
                     <div class="column-entry <%= colors[colorIdx] %> <% if (disabled) { %>disabled<% } %>">
                         <div class="switch_color" data-column="<%= j %>" data-row="<%= i %>" title="Switch color">
-                            <img src="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/img/icon-color.png">
+                            <img src="https://s3.amazonaws.com/phtc.ctl.columbia.edu/img/icon-color.png">
                         </div>
                         <% if (disabled) { %>
                             <textarea class="<%= colors[colorIdx] %>" disabled="disabled"><%= columns[j].values[i] %></textarea>
