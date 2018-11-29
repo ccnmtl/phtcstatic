@@ -30,7 +30,7 @@ __Step 1:__ From the main menu, select Memos __&gt;__ Create Free Memo
 
 {{< figure src="/img/assets/create_free_memo.jpg" alt="" class="img-fluid">}}
   
-__Step 2:__ Give the memo a title in the dialog that appear __&gt;__ Click OK.
+__Step 2:__ Give the memo a title in the dialog that appears __&gt;__ Click OK.
 
 {{< figure src="/img/assets/free-memo-name.jpg" alt="" class="img-fluid">}}
 

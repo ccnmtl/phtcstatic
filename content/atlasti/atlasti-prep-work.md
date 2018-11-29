@@ -21,21 +21,22 @@ ATLAS.ti is a powerful workbench for the qualitative analysis of large bodies of
 
 Let’s begin with the following introductory videos.
 
-## Starting ATLAS.ti
+## ATLAS.ti Windows-Interface Overview
 
-Setting out on your first steps with the program.
+Review the ATLAS.ti interface for Windows with this 10 minute video.
 
-{{< youtube id="0skIbvmScsE" >}}
+{{< youtube id="sOC7fd8FkWY" >}}
 
-Here is the direct link to this <a href="http://www.youtube.com/watch?v=0skIbvmScsE" target="_blank">tutorial.</a>  
-_This video embed and link was updated September, 2012._
+Here is the direct link to this <a href="http://www.youtube.com/watch?v=sOC7fd8FkWY" target="_blank">tutorial.</a>  
+_This video embed and link was updated November 2016._  
+_For the most up-to-date videos, visit [ATLAS.ti video tutorials](https://atlasti.com/video-tutorials/)._
 
-## Meet the HU Editor
+## ATLAS.ti Mac OS X-Interface Overview
 
-An introduction to the user interface.
+Review the ATLAS.ti interface for Mac with this 7 minute video.
 
-{{< youtube id="p2RaRSaNZF8" >}}
+{{< youtube id="n8mzvh7_FnQ" >}}
 
-Here is the direct link to this <a href="http://www.youtube.com/watch?v=p2RaRSaNZF8" target="_blank">tutorial.</a>  
-_This video embed and link was updated December 2017._
-
+Here is the direct link to this <a href="http://www.youtube.com/watch?v=n8mzvh7_FnQ" target="_blank">tutorial.</a>  
+_TThis video embed and link was updated September 2014_  
+_For the most up-to-date videos, visit [ATLAS.ti video tutorials](https://atlasti.com/video-tutorials/)._

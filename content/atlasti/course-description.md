@@ -20,13 +20,13 @@ Qualitative research produces rich, narrative data that requires both analysis a
 
 ## Who should take this course?
 
-* Tier 1 - entry level public health professionals (i.e. individuals that have limited experience working in the public health field and are not in management positions)
-* Tier 2 - individuals with management and/or supervisory responsibilities MPH students
+* Tier 1 - entry level public health professionals (i.e. individuals that have limited experience working in the public health field and are not in management positions),
+* Tier 2 - individuals with management and/or supervisory responsibilities,
+* MPH students
 
 ## Prerequisites
 
-Through prior training or experience, trainees are expected to have background knowledge of the following topics: Qualitative research methods Quantitative research methods
-For those without this background knowledge, it is recommended that you complete this training: <a href="https://www.train.org/DesktopModules/eLearning/CourseDetails/CourseDetailsForm.aspx?tabid=62&courseid=1046375&backURL=L0Rlc2t0b3BTaGVsbC5hc3B4P3RhYklkPTYyJmdvdG89YnJvd3NlJmJyb3dzZT1rZXl3b3JkJmtleXdvcmQ9aW50cm8rdG8rcXVhbGl0YXRpdmUrcmVzZWFyY2gma2V5b3B0aW9uPUJvdGgmY2xpbmljYWw9Qm90aCZsb2NhbD1BbGwmQnlDb3N0PTA=" target="_blank">Introduction to Qualitative Research</a>.
+Through prior training or experience, trainees are expected to have background knowledge of the qualitative and quantitative research methods. For those without this background knowledge, it is recommended that you complete this training: [Introduction to Qualitative Research](https://region2phtc.org/portfolio/introduction-to-qualitative-research/).
 
 ## Estimated time to complete
 

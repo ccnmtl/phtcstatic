@@ -15,7 +15,7 @@ previous: "../step-1-familiarize-yourself-with-data/"
 previous_title: "Step 1: Familiarize Yourself with Data"
 ---
 
-Let’s practice the three types of reading. Below is an excerpt from a transcript of one of the focus groups the team conducted with HIV-positive women in Brooklynville. Jot down comments that reflect your thoughts on each type of reading. Imagine you are the moderator. You should have at least one note per type of reading (e.g., at least one note from your literal reading, one note from your interpretative reading, and one from your reflexive reading). The first one has been completed for you.
+Let’s practice the three types of reading. Below is an excerpt from a transcript of one of the focus groups the team conducted with HIV-positive women in Brooklynville. Imagine you are the moderator. Look at the transcript and write down notes for each type of reading technique. You should have at least one note per type of reading (e.g., at least one note from your literal reading, one note from your interpretative reading, and one from your reflexive reading). The first one has been completed for you.
 
 <div class="card mb-2">
 <div class="card-body">
