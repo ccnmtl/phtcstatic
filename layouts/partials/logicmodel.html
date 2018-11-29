@@ -126,8 +126,8 @@
     </button>
 
     <% if (flavor === 'end') { %>
-        <a role="button" class="btn btn-success btn-sm float-right" target="_blank"
-            href="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/pdf/expert_key_scenario01.pdf">
+    <% var selectedScenario = scenarios[scenarioIdx]; %>
+        <a role="button" class="btn btn-success btn-sm float-right" target="_blank" href="https://ccnmtl-phtc-static-prod.s3.amazonaws.com/media/pdf/<%= selectedScenario.answer_key %>">
             <i class="fas fa-file"></i> Show expert logic model
         </a>
     <% } %>
