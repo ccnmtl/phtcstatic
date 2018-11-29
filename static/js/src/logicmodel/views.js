@@ -107,6 +107,7 @@ LogicModel.TableView = Backbone.View.extend({
     },
     clear: function(evt) {
         this.state.clearTable();
+        this.render();
     },
     print: function(evt) {
         window.print();
@@ -174,8 +175,6 @@ const LogicModelView = Backbone.View.extend({
                         new LogicModel.PhaseCollection(json.game_phases),
                     'scenarios':
                         new LogicModel.ScenarioCollection(json.scenarios),
-                    'initialColumns':
-                        new LogicModel.ColumnCollection(json.columns),
                     'columns': new LogicModel.ColumnCollection(json.columns)
                 });
 

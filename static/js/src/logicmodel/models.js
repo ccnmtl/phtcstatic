@@ -42,6 +42,10 @@ LogicModel.Column = Backbone.Model.extend({
             }
         }
         return false;
+    },
+    clear: function() {
+        this.set('values', new Array(LogicModel.NUMBER_OF_ROWS_TOTAL));
+        this.set('colors', new Array(LogicModel.NUMBER_OF_ROWS_TOTAL));
     }
 });
 
@@ -63,13 +67,17 @@ LogicModel.ColumnCollection = Backbone.Collection.extend({
             column.set('values', json[i].values);
             column.set('colors', json[i].colors);
         }
+    },
+    clear: function() {
+        this.forEach(function(column) {
+            column.clear();
+        });
     }
 });
 
 LogicModel.ActivityState = Backbone.Model.extend({
     defaults: {
         colors: null,
-        initialColumns: null,
         columns: null,
         phases: null,
         phaseIdx: 0,
@@ -89,9 +97,9 @@ LogicModel.ActivityState = Backbone.Model.extend({
         this.set({
             'scenarioIdx': null,
             'phaseIdx': 0,
-            'currentRows': LogicModel.NUMBER_OF_ROWS_INITIAL,
-            'columns': this.get('initialColumns')
+            'currentRows': LogicModel.NUMBER_OF_ROWS_INITIAL
         });
+        this.get('columns').clear();
     },
     getCurrentPhase: function() {
         const idx = this.get('phaseIdx');
@@ -100,9 +108,10 @@ LogicModel.ActivityState = Backbone.Model.extend({
     clearTable: function() {
         this.set({
             'phaseIdx': 1,
-            'currentRows': LogicModel.NUMBER_OF_ROWS_INITIAL,
-            'columns': this.get('initialColumns')
+            'currentRows': LogicModel.NUMBER_OF_ROWS_INITIAL
         });
+
+        this.get('columns').clear();
     },
     flavor: function() {
         const flavors = this.getCurrentPhase().get('flavors');
