@@ -126,11 +126,13 @@
     </button>
 
     <% if (flavor === 'end') { %>
-    <% var selectedScenario = scenarios[scenarioIdx]; %>
+        <% var selectedScenario = scenarios[scenarioIdx]; %>
+        <% if (selectedScenario.answer_key) { %>
         <a role="button" class="btn btn-success btn-sm float-right" target="_blank"
             href="https://s3.amazonaws.com/phtc.ctl.columbia.edu/pdf/<%= selectedScenario.answer_key %>">
             <i class="fas fa-file"></i> Show expert logic model
         </a>
+        <% } %>
     <% } %>
 </div>
 
