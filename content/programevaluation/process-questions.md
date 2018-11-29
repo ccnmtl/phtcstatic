@@ -48,7 +48,7 @@ Let’s review our evaluation questions.
 </div><!-- /.casetitle -->
 <div class="casecontent">
 <div class="casequestion">
-<p>Review the Logic Model (click button, top right) and find the item that corresponds with outcome evaluation question 1.1?</p>
+<p>Review the Logic Model and find the item that corresponds with outcome evaluation question, “Does use of ST increase self-monitoring of healthy eating and physical activity?”</p>
 <div class="answer-value md-radio">
 <input name="question58" id="question58a" type="radio" value="A">
 <label for="question58a">A)
@@ -78,7 +78,7 @@ Self-monitoring, which is in the short-term outcome column
 <a class="moretoggle btn btn-link" href="#q58">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q58">
 <p>
-<i>The correct answer is D:</i> You can find the outcome for question 1a , self-monitoring, in the short-term outcomes column.
+<i>The correct answer is D:</i><br />You can find the outcome for “Does use of ST increase self-monitoring of healthy eating and physical activity?” in the short-term outcomes column.
 </p>
 </div>
 </div>

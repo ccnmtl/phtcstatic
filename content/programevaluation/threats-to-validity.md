@@ -5,30 +5,19 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 27
+    weight: 28
     identifier: "threats-to-validity"
-    pre: 3
-depth: 3
+    pre: 4
+depth: 4
+previous: "../limitations-feasibility/"
+previous_title: "Limitations and Feasibility"
 next: "../reviewing-threats-to-validity/"
 next_title: "Specific Threats to Validity"
-previous: "../instrument-design-sampling/"
-previous_title: "Instrument Design and Sampling"
 ---
 
 {{< program-evaluation-reference >}}
 
 {{< figure src="/img/assets/checklist-icon.jpg" alt="" aria-hidden="true" class="img-fluid float-right img-50 pl-4">}}
-
-That concludes the Evaluation Design section of the Evaluation Plan. We are almost at the end. So far we have completed the following sections:
-
-* Project setting & Stakeholders
-* Project intervention
-* Logic model
-* Evaluation questions
-* Purpose
-* Evaluation Design
-
-Now we will review some scientific and practical considerations in evaluation planning. These are the kinds of issues that we can discuss in the Limitations and Feasibility section, which is the last section of the Evaluation Plan we will cover today.
 
 You have probably heard the technical terminology of validity used in discussions about research designs. To be precise, validity is about how true or correct the inferences are that you can make based on your design. Things like adequate sample size and randomized control group will increase the validity of your design.
 
@@ -39,7 +28,7 @@ You have probably heard the technical terminology of validity used in discussion
 </div>
 
 Following is a list of common types of validity and associated threats. Note that this list is not exhaustive. Please refer to
-[Shadish, Cook & Campbell, 2002](http://depts.washington.edu/methods/readings/Shadish.pdf)
+[Shadish, Cook & Campbell, 2002](https://pdfs.semanticscholar.org/9453/f229a8f51f6a95232e42acfae9b3ae5345df.pdf)
 for a comprehensive list and discussion.
 
 <div class="row table-layout-display">

@@ -53,7 +53,7 @@ You may have seen the following notation used to specify the components of a ran
 
 The two rows represent the two groups. The Rs indicate that the groups are randomly assigned. The Os indicate when outcomes are measured. In this case, both groups provide a baseline measure and a post-test. Note that only the first group has an X, which means that they are exposed to the intervention.
 
-Is it possible to have randomly assigned groups in our ShapeTracker evaluation? Do you think the following would give us a randomized controlled design?
+Is it possible to have randomly assigned groups in our ShapeTracker evaluation? For the questions below, determine if the following scenarios would give us a randomized controlled design by selecting “Yes” or “No.”
 
 <div class="cases">
 <div class="casetitle">
@@ -79,7 +79,8 @@ No
 <a class="moretoggle btn btn-link" href="#q59">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q59">
 <p>
-<i>The correct answer is B:</i> There is no randomized assignment. Note that random selection is about sampling and does not mean random assignment. But the group of non-users in eastern Middleton could be a comparison group in a quasi-experimental design.
+<i>The correct answer is B:</i><br />
+There is no randomized assignment. Note that random selection is about sampling and does not mean random assignment. But the group of non-users in eastern Middleton could be a comparison group in a quasi-experimental design.
 </p>
 </div>
 </div>
@@ -111,7 +112,8 @@ No
 <a class="moretoggle btn btn-link" href="#q60">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q60">
 <p>
-<i>The correct answer is B:</i> Again, there is no randomized assignment, so there is no control group. But those who report not using ShapeTracker could be defined as a comparison group, especially if we try to control for sociodemographic and other group characteristics in the statistical analysis.
+<i>The correct answer is B:</i><br />
+Again, there is no randomized assignment because there is no control group. But those who report not using ShapeTracker could be defined as a comparison group, especially if we try to control for sociodemographic and other group characteristics in the statistical analysis.
 </p>
 </div>
 </div>
@@ -143,7 +145,8 @@ No
 <a class="moretoggle btn btn-link" href="#q61">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q61">
 <p>
-<i>The correct answer is A:</i> This would give us randomly assigned groups. A systematic method of random assignment is defined. However, this plan may not be feasible if we think people will resent being waitlisted. Also, we would have to consider if “contamination” of the control group is possible. For example, maybe those with access to ShapeTracker will share some of the benefits with the control group members who might be their family members of neighbors.
+<i>The correct answer is A:</i><br />
+This would give us randomly assigned groups. A systematic method of random assignment is defined. However, this plan may not be feasible if we think people will resent being waitlisted. Also, we would have to consider if “contamination” of the control group is possible. For example, maybe those with access to ShapeTracker will share some of the benefits with the control group members who might be their family members of neighbors.
 </p>
 </div>
 </div>

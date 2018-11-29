@@ -29,7 +29,7 @@ Here is the list of stakeholders we brainstormed.
 
 * Commissioner Middleton County (MC)
 * Middleton County (MC) Health Department (HD) ShapeTracker (ST) team
-* MC HD IT staff
+* MC HD Information Technology staff
 * MC HD marketing/communications staff
 * Other MC HD staff
 * CDC

@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 31
+    weight: 32
     identifier: "post-test"
     pre: 3
 depth: 3

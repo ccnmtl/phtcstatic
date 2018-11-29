@@ -48,7 +48,8 @@ How many rows do we need?</p>
 <a class="moretoggle btn btn-link" href="#q01">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q01">
 <p>
-<i>The correct answer is B:</i> We need two rows to represent the intervention county and the comparison county. When there is a control group or comparison group you need two rows.
+<i>The correct answer is B:</i><br />
+We need two rows to represent the intervention county and the comparison county. When there is a control group or comparison group you need two rows.
 </p>
 </div>
 </div>
@@ -80,7 +81,8 @@ NR
 <a class="moretoggle btn btn-link" href="#q02">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q02">
 <p>
-<i>The correct answer is B:</i> If we have two rows, we need to indicate whether we have random assignment. In the notation system, R in the beginning of each row stands for randomized assignment and NR for non-randomized assignment. Ours is NR.
+<i>The correct answer is B:</i><br />
+If we have two rows, we need to indicate whether we have random assignment. In the notation system, R in the beginning of each row stands for randomized assignment and NR for non-randomized assignment. Ours is NR.
 </p>
 </div>
 </div>
@@ -112,7 +114,8 @@ No
 <a class="moretoggle btn btn-link" href="#q03">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q03">
 <p>
-<i>The correct answer is A:</i> We always have at least one X to indicate the intervention. The first row for Middleton county has an X but the second row for Upperton county has a blank space.
+<i>The correct answer is A:</i><br />
+We always have at least one X to indicate the intervention. The first row for Middleton county has an X but the second row for Upperton county has a blank space.
 </p>
 </div>
 </div>
@@ -144,15 +147,10 @@ No
 <a class="moretoggle btn btn-link" href="#q04">Show answer <i class="fas fa-angle-double-right"></i></a>
 <div class="toggleable" id="q04">
 <p>
-<i>The correct answer is B:</i> We are getting baseline measures in both counties, so we need O’s for the baselines. Both counties are also providing post intervention measures, so we need O’s for those. We need a total of 4 O’s.
+<i>The correct answer is B:</i><br />
+We are getting baseline measures in both counties, so we need O’s for the baselines. Both counties are also providing post intervention measures, so we need O’s for those. We need a total of 4 O’s.
 </p>
-</div>
-</div>
-</div><!-- /.casecontent -->
-</div><!-- /.cases -->
-
-Here is our design:
-
+<p>Here is our design:</p>
 <div class="d-flex justify-content-center randomized-notation th1">
     <div class="cell th1">
         NR
@@ -181,5 +179,9 @@ Here is our design:
         O
     </div>
 </div>
+</div>
+</div>
+</div><!-- /.casecontent -->
+</div><!-- /.cases -->
 
 This is a comparison group design with baselines and post-tests for both groups (Middleton and Upperton). If we see more positive change from baseline to post-test in Middleton, compared to Upperton, we have evidence that ShapeTracker (the X) is having an impact on the outcomes.

@@ -19,6 +19,6 @@ previous_title: "Project Setting and Stakeholders"
 
 {{< figure src="/img/assets/cdc-description.jpg" alt="Project Intervention is the second step in the CDC Program Evaluation cycle." aria-hidden="false" class="img-fluid float-right img-50 pl-4">}}
 
-We have drafted the Project Intervention section. This section provides some background on the project and a description of the ShapeTracker app. Here we are addressing Step 2 of the CDC Framework.
+In the Project Intervention section of our evaluation plan, we provide some background on the project and a description of the ShapeTracker app. This part of the evaluation plan addresses Step 2 of the CDC Framework.
 
 <div class="clearfix"></div>
