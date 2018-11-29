@@ -15,7 +15,7 @@ previous: "../atlasti-prep-work/"
 previous_title: "ATLAS.ti Prep Work"
 ---
 
-Qualitative data comes in several forms and from a variety of sources. For your research study on HIV risk among adolescents in Brooklynville, you may have collected textual data using one or several of the following methods:
+Qualitative data comes in several forms from a variety of sources. In this training, you will use examples of qualitiative data from a fictional research study on HIV risk among adolescents in Brooklynville. The types of data collection methods that might have been used in a study like this include:
 
 * __Semi-structured interviews__ with high school students attending an afterschool program in your community;
 * __Focus groups__ with parents attending a free medical clinic; 

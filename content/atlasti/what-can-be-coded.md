@@ -110,7 +110,7 @@ Here are some examples of different types of codes.
     <div class="col-12 col-md-6 coded-example">
         <span class="sr-only">Examples:</span>
         <i class="d-inline d-md-none" aria-hidden="true">Examples:</i>
-        Lose of job (before financial difficulties), moving away (before lost contact with old friends)
+        Lose of job before financial difficulties, moving away before lost contact with old friends
     </div>
 </div>
 <div class="row table-layout-display mt-3 mt-md-0 py-1 py-md-0">
