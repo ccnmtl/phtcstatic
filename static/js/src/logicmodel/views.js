@@ -107,6 +107,7 @@ LogicModel.TableView = Backbone.View.extend({
     },
     clear: function(evt) {
         this.state.clearTable();
+        this.render();
     },
     print: function(evt) {
         window.print();
