@@ -532,6 +532,7 @@ div.table-toolbar {
         height: 98%;
         width: 97%;
         border: 0;
+        font-size: 16px;
     }
 
     .scenario-step-stage .accordion-body,
