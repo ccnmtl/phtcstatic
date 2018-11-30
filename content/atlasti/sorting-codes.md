@@ -39,9 +39,9 @@ Take, for example, the code  “Medication Adherence.” The definition states 
 * Medication Adherence
     - Facilitators of medication adherence
         - Social Support
-    - Technology
-* Barrier to medication adherence
-    - Stigma
-    - Cost issues
-    - To avoid side effects
-    - Psychological issues
+        - Technology
+    - Barrier to medication adherence
+        - Stigma
+        - Cost issues
+        - To avoid side effects
+        - Psychological issues
