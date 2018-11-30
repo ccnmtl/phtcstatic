@@ -27,7 +27,7 @@ With enough time in the field, ethnographers learn how to recognize traits that 
     <div class="card-body">
         <p><b>Example:</b></p>
         <p>
-        Gagnon, et al. used ethnographic procedures to describe effective population interventions related to the pregnancy, birth, and post-birth care of international immigrants. Through in-depths interviews with and participant observation periods of sixteen migrant women living in Montreal or Toronto, the researchers explored the processes used to respond to maternal-child health and psychosocial concerns during and after birth, issues and/or factors influencing resiliency, and suggestions for interventions to address their concerns. The researchers asked four guiding central questions:
+        Gagnon, et al. used ethnographic procedures to describe effective population interventions related to the pregnancy, birth, and post-birth care of international immigrants. Through in-depth interviews with and participant observation periods of sixteen migrant women living in Montreal or Toronto, the researchers explored the processes used to respond to maternal-child health and psychosocial concerns during and after birth, issues and/or factors influencing resiliency, and suggestions for interventions to address their concerns. The researchers asked four guiding central questions:
         </p>
         <ol>
             <li>What individual processes (e.g. actions, cognitions) are used by migrant women to respond to maternal-child health and psychosocial concerns during the early months and years after birth?</li>
