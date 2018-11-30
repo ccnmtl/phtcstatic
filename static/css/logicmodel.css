@@ -13,16 +13,10 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-.print_only {
-    display: none;
-}
 
-.print-break {
-    page-break-after: always;
-    height: 1px;
-    border: 0;
-    margin: 0px;
-    padding: 0px;
+a {
+    color: #0088cc;
+    text-decoration: none;
 }
 
 .help-alert {
@@ -427,7 +421,7 @@ div.table-toolbar {
     height: 0;
     border-top: 14px solid transparent;
     border-bottom: 12px solid transparent;
-    border-left: 17px solid #d9e3f7;    
+    border-left: 17px solid #d9e3f7;
     z-index: 2;
   transition: border-color 0.2s ease;
 }
@@ -435,7 +429,7 @@ div.table-toolbar {
 .activity-progress .step:before {
     right: auto;
     left: 0;
-    border-left: 17px solid #fff;    
+    border-left: 17px solid #fff;
     z-index: 0;
 }
 
@@ -467,7 +461,7 @@ div.table-toolbar {
 }
 
 .activity-progress .step.current:after {
-    border-left: 17px solid #08c;    
+    border-left: 17px solid #08c;
 }
 
 .help-header h3 {
@@ -480,37 +474,33 @@ div.table-toolbar {
 /* Print CSS */
 
 @media print {
-
-    .print_only {
-        margin-top: -60px;
-        display: block;
+    body {
+        background-color: white;
     }
-
-    h3.print_only {
-        margin-top: 50px;
+    .col-lg-9 {
+        width: 100% !important;
+        max-width: 100%;
+        flex: 0 0 100%;
     }
-
     .phtc_print_logo {
         display: block;
     }
-
     .phtc_print_logo img {
         height: 100px;
     }
+    a:not(.btn) {
+        text-decoration: none;
+    }
 
-    .navbar,
-    #masthead,
-    #sidebarleft,
-    .nav.nav-pills,
+    header,
+    .nav-module,
+    #maincontent,
     .change_scenario,
-    .activity-progress,
+    #stepTag,
+    .switch_color,
     .table-toolbar,
-    .add_a_row_button,
-    .done-button,
-    .pager,
-    .footer ul,
-    .column_help_button_span,
-    .switch_color
+    .tools,
+    .column-header img
     {
         display: none !important;
     }
@@ -524,13 +514,25 @@ div.table-toolbar {
         font-weight: bold;
     }
 
-    .textarea {
+    .table-container {
+        margin-top: 50px;
+    }
+
+    .column-entry {
         font-size: 14px;
         left: 0;
-        margin: 0;
-        width: 136px;
+        margin: 0 0 5px 0;
+        width: 155px;
         height: 225px;
         border: 0;
+    }
+
+    .column-entry textarea {
+        float: none;
+        height: 98%;
+        width: 97%;
+        border: 0;
+        font-size: 14px;
     }
 
     .scenario-step-stage .accordion-body,

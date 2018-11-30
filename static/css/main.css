@@ -2157,6 +2157,18 @@ No media query for `xs` since this is the default in Bootstrap
     }
 }
 
+.print-only {
+    display: none;
+}
+
+.print-break {
+    page-break-after: always;
+    height: 1px;
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
 @media print {
     .print-alert {
         font-weight: bold;
@@ -2182,5 +2194,8 @@ No media query for `xs` since this is the default in Bootstrap
     .part3-introduction #col-3 h3 {
         border: 5px solid #6992c8;
         color: #6992c8;
+    }
+    .view-only {
+        display: none !important;
     }
 }

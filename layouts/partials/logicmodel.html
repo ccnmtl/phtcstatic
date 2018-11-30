@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <button type="button"
-                    class="btn btn-sm btn-secondary change_scenario mt-1 float-right"
+                    class="btn btn-sm btn-secondary change_scenario mt-1 float-right viewonly"
                     data-toggle="modal" data-target="#changeScenario">
                     <i class="fas fa-sync-alt"></i> Switch scenario
                 </button>
@@ -33,7 +33,9 @@
     </div>
 <% } else { %>
     <div class="logic-model-game-phase-name">Select a scenario from the options below.</div>
-    <div class="logic-model-game-phase-instructions"><p>To begin, select one of these three scenarios, or choose "Use your own" for a blank logic model.</p>
+    <div class="logic-model-game-phase-instructions"><p>
+        To begin, select one of these three scenarios, or choose "Use your own" for a blank logic model.
+    </p>
 
     <% for (var i = 0; i < scenarios.length; i++) { %>
         <div class="well">
@@ -136,7 +138,6 @@
     <% } %>
 </div>
 
-<div class="print-break clearfix"></div>
 <div class="logic-model-table clearfix">
     <div class="row no-gutters">
         <% for (var i=0; i < columns.length; i++) { %>
@@ -160,9 +161,9 @@
                             <img src="https://s3.amazonaws.com/phtc.ctl.columbia.edu/img/icon-color.png">
                         </div>
                         <% if (disabled) { %>
-                            <textarea class="<%= colors[colorIdx] %>" disabled="disabled"><%= columns[j].values[i] %></textarea>
+                            <textarea maxlength=256 class="<%= colors[colorIdx] %>" disabled="disabled"><%= columns[j].values[i] %></textarea>
                         <% } else { %>
-                            <textarea class="<%= colors[colorIdx] %>" data-column="<%= j %>" data-row="<%= i %>"><%= columns[j].values[i] %></textarea>
+                            <textarea maxlength=256 class="<%= colors[colorIdx] %>" data-column="<%= j %>" data-row="<%= i %>"><%= columns[j].values[i] %></textarea>
                         <% } %>
                     </div>
                 </div>
