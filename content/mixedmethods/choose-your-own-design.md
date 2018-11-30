@@ -50,7 +50,7 @@ previous_title: "Test Your Understanding"
                         among students. However, many of the factors
                         that were anticipated to contribute to smokeless
                         tobacco use were not significantly associated.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -80,7 +80,7 @@ previous_title: "Test Your Understanding"
                         aware of the risks, but do not feel that such
                         health problems will affect them unless they use
                         tobacco for decades.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -108,7 +108,7 @@ previous_title: "Test Your Understanding"
                         smokeless tobacco are still using it, and those
                         who had not used it report no change in their
                         willingness to try it.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -145,7 +145,7 @@ previous_title: "Test Your Understanding"
                         problem among school athletes and that the peer pressure
                         from older student athletes was driving the initiation
                         among younger students.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -172,7 +172,7 @@ previous_title: "Test Your Understanding"
                         it. This is probably because the program was designed
                         without a clear knowledge of what factors contribute to
                         smokeless tobacco use.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -199,7 +199,7 @@ previous_title: "Test Your Understanding"
                         it. This is probably because the program was designed
                         without a clear knowledge of what factors contribute to
                         smokeless tobacco use.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -241,7 +241,7 @@ previous_title: "Test Your Understanding"
                         including what students should be targeted and what
                         skills (peer pressure resistance) should be targeted for
                         the intervention to have maximum efficacy.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -275,7 +275,7 @@ previous_title: "Test Your Understanding"
                         whether the insights from the focus groups (e.g.,
                         athletes, peer pressure, perceived risk) are associated
                         with tobacco use.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -307,7 +307,7 @@ previous_title: "Test Your Understanding"
                         To confirm which of the qualitative insights were
                         associated with smokeless tobacco use or intention to
                         quit might have helped prevent this.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -342,7 +342,7 @@ previous_title: "Test Your Understanding"
                         program did not change behaviors, you still are unclear
                         on what factors contribute to smokeless tobacco use or
                         how to change their behavior.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -376,7 +376,7 @@ previous_title: "Test Your Understanding"
                         tobacco, and whether these insights from the focus
                         groups are indeed significantly associated with
                         smokeless tobacco use.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -403,7 +403,7 @@ previous_title: "Test Your Understanding"
                         it. This is probably because the program was designed
                         without a clear knowledge of what factors contribute to
                         smokeless tobacco use.
-                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again">
+                        <button class="btn btn-sm btn-outline-secondary d-block mt-2 choose-again view-only">
                             <i class="fas fa-redo"></i> Choose Again
                         </button>
                     </div>
@@ -415,7 +415,7 @@ previous_title: "Test Your Understanding"
         <h4>
             <i class="fas fa-check-circle"></i> DONE
         </h4>
-        <div class="card">
+        <div class="card  view-only">
             <div class="card-body">
                 To design a new study, start over and make other choices.
                 <button class="btn btn-sm btn-outline-secondary d-block mt-2 start-over">
