@@ -106,16 +106,16 @@ Multiphase design
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
 <div class="answer-container item-feedback" id="answer02a">
-<i>Incorrect:</i>Exploratory mixed methods are a type of mixed methods design in which qualitative data are gathered first with the goal of generating insights that are used to inform the content and design of subsequent quantitative research.
+<i>Incorrect:</i> Exploratory mixed methods are a type of mixed methods design in which qualitative data are gathered first with the goal of generating insights that are used to inform the content and design of subsequent quantitative research.
 </div>
 <div class="answer-container item-feedback" id="answer02b">
-<i>Incorrect:</i>Convergent mixed methods designs are a type of concurrent mixed methods research designs in which qualitative and quantitative data are gathered at the same time, but separately from one another, analyzed separately, then the results are compared.
+<i>Incorrect:</i> Convergent mixed methods designs are a type of concurrent mixed methods research designs in which qualitative and quantitative data are gathered at the same time, but separately from one another, analyzed separately, then the results are compared.
 </div>
 <div class="answer-container item-feedback" id="answer02c">
 <i>Correct:</i> Embedded mixed methods designs are a type of research in which a small amount of either qualitative data or quantitative data are included within a larger qualitative or quantitative study.  Open ended questions within a quantitative study are another example of an embedded design. 
 </div>
 <div class="answer-container item-feedback" id="answer02d">
-<i>Incorrect:</i>Multiphase mixed methods designs are a type of mixed methods in which three or more phases of data collection are combined.
+<i>Incorrect:</i> Multiphase mixed methods designs are a type of mixed methods in which three or more phases of data collection are combined.
 </div>
 </div>
 </div><!-- /.casecontent -->

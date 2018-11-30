@@ -98,7 +98,7 @@ Quantitative methods and qualitative methods, when used alone, have inherent str
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
         <div class="card-body">
-            Quantitative methods are best suited for identifying magnitude of association. Quantitative research obtains numerical data in response to questions and the statistical associations between different variables can be examined. This allows for a more objective method of assessing the strength of an association between two variables than qualitative data which relies on the textual descriptions provided by participants. Often, it can be difficult to link two concepts using qualitative data unless the participants themselves suggest the two phenomena are related. Regardless is it still difficult to assess how strongly the two phenomena are related.
+            Quantitative methods are best suited for identifying magnitude of association. Quantitative research obtains numerical data in response to questions and the statistical associations between different variables can be examined. This allows for a more objective method of assessing the strength of an association between two variables than qualitative data which relies on the textual descriptions provided by participants. Often, it can be difficult to link two concepts using qualitative data unless the participants themselves suggest the two phenomena are related. Regardless is it still difficult to assess how strongly two phenomena are related.
         </div>
     </div>
 </div>

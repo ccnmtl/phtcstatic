@@ -47,7 +47,7 @@ Analysis of quantitative and qualitative data separately, then comparing the fin
 <div class="answer-value md-radio">
 <input name="question01" id="question01d" data-answer="#answer01d" type="radio" value="D">
 <label for="question01d">D)
-Analysis of the qualitative data in which numbers are assigned to indicate the presence (1) or absence (0) of a particular theme in each participantâ€™s data, so that it can be used in subsequent quantitative data analyses
+Analysis of the qualitative data in which numbers are assigned to indicate the presence (1) or absence (0) of a particular theme in each participant’s data, so that it can be used in subsequent quantitative data analyses
 </label>
 </div>
 </div><!-- /.casequestion -->
