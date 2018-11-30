@@ -21,9 +21,10 @@ Let’s take a look at the evaluation questions and logic model again to find th
 
 Earlier, we located one of the outcomes—self-monitoring of healthy eating and physical activity—in the short-term outcome column. The corresponding evaluation question is: “Does use of ShapeTracker increase self-monitoring of healthy eating and physical activity?”
 
-Our primary outcome evaluation question is: “Does use of ShapeTracker increase healthy eating and physical activity among county residents?” In light of our newly defined research design, we should specify:
+From the intermediate column of our logic model, our primary outcome evaluation question is: “Does use of ShapeTracker increase healthy eating and physical activity among county residents?” 
 
-“Do residents of Middleton county who use ShapeTracker increase healthy eating and physical activity, compared to residents of Upperton county with no access to ShapeTracker?”
+In light of our newly defined research design, we should further specify our primary outcome evaluation question: “Do residents of Middleton county who use ShapeTracker increase healthy eating and physical activity, compared to residents of Upperton county with no access to ShapeTracker?”
+
 
 <div class="cases">
 <div class="casetitle">

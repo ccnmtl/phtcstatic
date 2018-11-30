@@ -5,10 +5,10 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 28
+    weight: 29
     identifier: "reviewing-threats-to-validity"
-    pre: 3
-depth: 3
+    pre: 4
+depth: 4
 next: "../constraints/"
 next_title: "Constraints"
 previous: "../threats-to-validity/"
@@ -17,7 +17,7 @@ previous_title: "Threats to Validity"
 
 {{< program-evaluation-reference >}}
 
-Now let's review some of the threats to validity for our ShapeTracker intervention.
+Now let’s review some of the potential threats to validity for our ShapeTracker intervention.
 
 <div class="row table-layout-display col-header d-none d-md-flex" aria-hidden="true">
     <div class="col-12 col-md-4">

@@ -23,7 +23,7 @@ Next, we will explore issues of Evaluation Design. This topic spans Steps 3 and 
 
 We will also spend some time on Limitations and Feasibility, which correspond with CDC Framework Step 4.
 
-But, Data Analysis Plan (CDC Framework Step 5), and Dissemination Plan (CDC Framework Step 6) is beyond the scope of our discussion today.
+Although the Data Analysis Plan (CDC Framework Step 5), and Dissemination Plan (CDC Framework Step 6) are important parts of the Evaluation Plan, these two steps are beyond the scope of our discussion today.
 
 Now we will move on into the Evaluation Design section. I can really use your input when we select among different options for the research design.
 

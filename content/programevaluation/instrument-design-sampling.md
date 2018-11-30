@@ -9,8 +9,8 @@ menu:
     identifier: "instrument-design-sampling"
     pre: 4
 depth: 4
-next: "../threats-to-validity/"
-next_title: "Threats to Validity"
+next: "../limitations-feasibility/"
+next_title: "Limitations and Feasibility"
 previous: "../data-collection-methods/"
 previous_title: "Data Collection Methods"
 ---
@@ -107,8 +107,6 @@ A power analysis can be conducted to calculate a required sample size for an eva
 A final note about the Evaluation Design section: It is also important to have clear written protocols for data collection activities. These may need to be separate documents outside of the Evaluation Plan. They will list all steps that need to be carried out with each data collection activity, including instructions for recruitment and informed consent.
 
 Now, let’s review what we have just discussed about indicators, data collection methods and sampling.
-
-Let’s review what we just discussed about indicators, data collection methods and sampling.
 
 <div class="cases">
 <div class="casetitle">

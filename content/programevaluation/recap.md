@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   programevaluation:
     parent: "programevaluation"
-    weight: 30
+    weight: 31
     identifier: "recap"
     pre: 3
 depth: 3
@@ -32,7 +32,7 @@ We have covered a lot of information for our Evaluation Plan today. To recap, he
 	<li>Dissemination Plan</li>
 </ol>
 
-Most of what we discussed today focused on the design for outcome evaluation (in Section 6), which is the “centerpiece” of the evaluation plan. But as we saw, all other sections of the plan relate to the evaluation design. It is especially important to keep in mind that throughout the evaluation planning process you revisited the Stakeholders, Logic Model and Evaluation Questions.
+Most of what we discussed today focused on the design for outcome evaluation, which is the “centerpiece” of the evaluation plan. But as we saw, all other sections of the plan relate to the evaluation design. It is especially important to keep in mind that throughout the evaluation planning process you should revisit the Stakeholders, Logic Model and Evaluation Questions.
 
 The sections of the plan roughly correspond with steps in the CDC Program Evaluation Framework:
 
