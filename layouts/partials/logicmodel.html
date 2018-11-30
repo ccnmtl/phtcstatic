@@ -161,9 +161,9 @@
                             <img src="https://s3.amazonaws.com/phtc.ctl.columbia.edu/img/icon-color.png">
                         </div>
                         <% if (disabled) { %>
-                            <textarea class="<%= colors[colorIdx] %>" disabled="disabled"><%= columns[j].values[i] %></textarea>
+                            <textarea maxlength=256 class="<%= colors[colorIdx] %>" disabled="disabled"><%= columns[j].values[i] %></textarea>
                         <% } else { %>
-                            <textarea class="<%= colors[colorIdx] %>" data-column="<%= j %>" data-row="<%= i %>"><%= columns[j].values[i] %></textarea>
+                            <textarea maxlength=256 class="<%= colors[colorIdx] %>" data-column="<%= j %>" data-row="<%= i %>"><%= columns[j].values[i] %></textarea>
                         <% } %>
                     </div>
                 </div>
