@@ -15,7 +15,7 @@ next_title: "Learning Objectives"
 ---
 ## Overview
 
-In this video-based training program, participants sit in on a mock focus group and watch as the moderator models different techniques to carry out the focus group. The program address techniques including ice-breaker exercises, validation techniques, and other strategies to probe group members for clarity and deeper meaning, while encouraging group interactions and active conversation.
+In this video-based training program, participants sit in on a mock focus group and watch as the moderator models different techniques to carry out the focus group. The program addresses techniques including ice-breaker exercises, validation techniques, and other strategies to probe group members for clarity and deeper meaning, while encouraging group interactions and active conversation.
 
 ## Who should take this course?
 
@@ -31,13 +31,16 @@ Upon completion of this program, students should be able to:
 
 ## Prerequisites
 
-Through prior training or experience, students are expected to have some background knowledge of the following topics: _Qualitative research methods_ Focus group research
+Through prior training or experience, students are expected to have some background knowledge of the following topics:
 
-For those without this background knowledge, it is recommended that you complete the follow training before beginning this program: <a href="https://www.train.org/DesktopModules/eLearning/CourseDetails/CourseDetailsForm.aspx?tabid=62&courseid=1046375&backURL=L0Rlc2t0b3BTaGVsbC5hc3B4P3RhYklkPTYyJmdvdG89YnJvd3NlJmJyb3dzZT1rZXl3b3JkJmtleXdvcmQ9aW50cm8rdG8rcXVhbGl0YXRpdmUrcmVzZWFyY2gma2V5b3B0aW9uPUJvdGgmY2xpbmljYWw9Qm90aCZsb2NhbD1BbGwmQnlDb3N0PTA=" target="_blank">Introduction to Qualitative Research.</a>
+* Qualitative research methods
+* Focus group research
+
+For those without this background knowledge, it is recommended that you complete the follow training before beginning this program: [Introduction to Qualitative Research](https://region2phtc.org/portfolio/introduction-to-qualitative-research/).
 
 ## Continuing Education Credits
 
-0.5 CPH credit. The New York City-Long Island-Lower Tri-County Public Health Training Center is a NBPHE pre-approved provider of CPH continuing education credits.  0.5 CPH CE will be awarded for participation in this activity.
+0.5 CPH credit. The Region 2 Public Health Training Center is a NBPHE pre-approved provider of CPH continuing education credits.  0.5 CPH CE will be awarded for participation in this activity.
 
 ## Estimated time to complete
 

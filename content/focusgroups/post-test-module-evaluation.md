@@ -16,4 +16,6 @@ You have reached the end of this module. Please complete this module by returnin
 
 If you are a NYSDOH or NYS LHD staff person, please return to [NYLearnsPH](https://www.nylearnsph.com/Public/default.aspx) to complete.
 
-Please email phtc@columbia.edu if you have any additional questions. Congratulations on completing this training module.
+Please e-mail phtc@columbia.edu if you have any additional questions or need to report Certified Health Education Specialist (CHES) credits to National Commission for Health Education Credentialing. If you need to report CHES credits, please include your full name, course title, and CHES ID number in the e-mail. 
+
+Congratulations on completing this training module.
