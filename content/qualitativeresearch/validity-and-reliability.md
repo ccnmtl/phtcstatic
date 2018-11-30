@@ -51,7 +51,7 @@ In quantitative research, validity is “the extent to which a measure actually 
 * Confirmability: the degree to which the findings and conclusions can be corroborated or confirmed by others
 * Dependability: the degree to which findings and conclusions are consistent and could be repeated
 * Transferability: the degree to which the findings and conclusions can be transferred to other contexts or settings
-( Credibility: the degree to which the findings and conclusions are credible or believable from the participants’ perspective.
+* Credibility: the degree to which the findings and conclusions are credible or believable from the participants’ perspective.
 
 There are several common strategies used by qualitative researchers to enhance the validity of study findings. It is generally recommended that at least 2 of the strategies listed below are incorporated into any qualitative study (Creswell 209).
 

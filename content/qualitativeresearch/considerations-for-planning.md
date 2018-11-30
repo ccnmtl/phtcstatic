@@ -43,7 +43,7 @@ Sampling is an important consideration during data collection planning. How will
     </h4>
     <div class="col-12 col-md-9 py-2">
     <p class="m-0">
-    Non-representative groups of subjects selected because they are the easiest to access. Study subjects are selected on the basis of convenience and not because they are representative of the entire population.
+    Non-representative groups of subjects are selected because they are the easiest to access. Study subjects are selected on the basis of convenience and not because they are representative of the entire population.
     </p>
     </div>
 </div>
