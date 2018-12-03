@@ -36,3 +36,12 @@ Department of Sociomedical Sciences, Columbia University Mailman School of Publi
 
 * Zarina Mustapha
 * Susan Dreher
+
+## Copyright and Licensing
+
+Code license: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)  
+Content license: Attribution-NonCommercial-ShareAlike 4.0 International [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+&nbsp;
+
+------
