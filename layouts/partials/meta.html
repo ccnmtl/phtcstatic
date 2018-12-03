@@ -4,10 +4,12 @@
 <meta name="description" content="{{ .Site.Params.description }}" />
 <meta name="keywords" content="{{ .Site.Params.keywords }}" />
 <meta name="author" content="{{ .Site.Params.author }}" />
+<meta name="copyright" content="{{ .Site.Copyright }}">
 
 <!-- Dublin Core Metadata -->
 <meta name="DC.Title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}—{{ .Site.Params.shortTitle }}{{ end }}" />
 <meta name="DC.Description" content="{{ .Site.Params.description }}" />
+<meta name="DC.Rights" content="{{ .Site.Copyright }}">
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}—{{ .Site.Params.shortTitle }}{{ end }}" />

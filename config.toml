@@ -1,10 +1,11 @@
 baseURL = "https://phtc.ctl.columbia.edu/"
 metaDataFormat = "yaml"
 languageCode = "en-us"
-title = "New York City—Long Island—Lower Tri-County Public Health Training Center"
+title = "Region 2 Public Health Training Center"
+copyright = "Copyright (c) 2018 Center for Teaching and Learning at Columbia University - Code licensed GNU GPLv3, content CC BY-NC-SA 4.0"
 
 [params]
-    description = "A collection of competency-based public health and subject-related online trainings by the New York City—Long Island—Lower Tri-County Public Health Training Center."
+    description = "A collection of competency-based public health and subject-related online trainings by the Region 2 Public Health Training Center."
     keywords = "public health training, public health"
-    author = "New York City—Long Island—Lower Tri-County Public Health Training Center"
+    author = "Region 2 Public Health Training Center"
     shortTitle = "PHTC"
