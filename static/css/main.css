@@ -105,6 +105,12 @@ main li {
     margin-bottom: 0.25rem;
 }
 
+main a,
+footer a,
+.nav-module a {
+    color: #06f;
+}
+
 .video-player iframe {
     border: 1px solid #ddd;
     width: 100%;
