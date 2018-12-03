@@ -36,7 +36,7 @@ Yes, you can undo your responses in the activities by reloading the page. Howeve
 
 ## Contact us
 
-For more information on PHTC learning module, please contact us directly at phtc@columbia.edu.
+To contact the Region 2 Public Health Training Center, e-mail us at phtc@columbia.edu or call us at 212-305-6984.
 
 &nbsp;
 
