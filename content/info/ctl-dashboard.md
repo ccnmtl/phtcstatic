@@ -1,6 +1,7 @@
 ---
 title: "CTL-Dashboard"
 type: "info-page"
+aliases: [/ctl-dashboard/]
 ---
 
 These are direct links to PHTC modules:
