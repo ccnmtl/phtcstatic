@@ -20,329 +20,305 @@ Now that Maxine and Jonathan have discussed the main type of qualitative data co
 <div class="table-layout-caption">
     <h2>Table Showing Strengths of Data Collection Methods</h2>
     <span aria-hidden="true">
-    (<span class="checkmark d-inline" aria-hidden="true"></span> = strength;
-    <span class="d-mark d-inline" aria-hidden="true"></span> = depends on use)
+    (<span class="checkmark d-inline p-0" aria-hidden="true"></span> = strength;
+    <span class="d-mark d-inline p-0" aria-hidden="true"></span> = depends on use)
     </span>
 </div>
-<div class="table-layout-display high-density x-table col-header" aria-hidden="true">
-    <div>
+<div class="checkbox-activity checkbox-info-table high-density">
+    <div class="column-label" aria-hidden="true">
+        <div class="row-label cell th1">
         &nbsp;
-    </div>
-    <div>
-        In-depth Interviews
-    </div>
-    <div>
-        Focus Groups
-    </div>
-    <div>
-        Participant Observation
-    </div>
-    <div>
-        Observation
-    </div>
-    <div>
-        Document Analysis
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Fosters face-to-face interactions with participants
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
-        Useful for uncovering participants’ perspectives
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
+        Useful for uncovering participants’ perspective
+        </div>
+        <div class="cell clearfix">
         Facilitates immediate follow-up for clarification
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Good for documenting major events, crises, social conflicts
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Good for obtaining data on nonverbal behavior and communication
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews: depends on use</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="d-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: depends on use</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="d-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Obtains large amounts of data quickly
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Easy and efficient to administer and manage
-        </p>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
+    <div class="interviews">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        In-depth Interviews
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Fosters face-to-face interactions with participants
+            </div>
+            <span class="sr-only">Fosters face-to-face interactions with participants: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Useful for uncovering participants’ perspective
+            </div>
+            <span class="sr-only">Useful for uncovering participants’ perspective: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Facilitates immediate follow-up for clarification
+            </div>
+            <span class="sr-only">Facilitates immediate follow-up for clarification: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Good for documenting major events, crises, social conflicts
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Good for obtaining data on nonverbal behavior and communication
+            </div>
+            <span class="sr-only">Good for obtaining data on nonverbal behavior and communication: Depends on use</span>
+            <span class="d-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Obtains large amounts of data quickly
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Easy and efficient to administer and manage
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
+    <div class="focusgroup">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        Focus Groups
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Fosters face-to-face interactions with participants
+            </div>
+            <span class="sr-only">Fosters face-to-face interactions with participants: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Useful for uncovering participants’ perspective
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Facilitates immediate follow-up for clarification
+            </div>
+            <span class="sr-only">Facilitates immediate follow-up for clarification: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Good for documenting major events, crises, social conflicts
+            </div>
+            <span class="sr-only">Good for documenting major events, crises, social conflicts: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Good for obtaining data on nonverbal behavior and communication
+            </div>
+            <span class="sr-only">Good for obtaining data on nonverbal behavior and communication: Depends on use</span>
+            <span class="d-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Obtains large amounts of data quickly
+            </div>
+            <span class="sr-only">Obtains large amounts of data quickly: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Easy and efficient to administer and manage
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
+    <div class="p-obsrv">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        Participant Observation
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Fosters face-to-face interactions with participants
+            </div>
+            <span class="sr-only">Fosters face-to-face interactions with participants: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Useful for uncovering participants’ perspective
+            </div>
+            <span class="sr-only">Useful for uncovering participants’ perspective: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Facilitates immediate follow-up for clarification
+            </div>
+            <span class="sr-only">Facilitates immediate follow-up for clarification: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Good for documenting major events, crises, social conflicts
+            </div>
+            <span class="sr-only">Good for documenting major events, crises, social conflicts: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Good for obtaining data on nonverbal behavior and communication
+            </div>
+            <span class="sr-only">Good for obtaining data on nonverbal behavior and communication: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Obtains large amounts of data quickly
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Easy and efficient to administer and manage
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
+    <div class="obsrv">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        Observation
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Fosters face-to-face interactions with participants
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Useful for uncovering participants’ perspective
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Facilitates immediate follow-up for clarification
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Good for documenting major events, crises, social conflicts
+            </div>
+            <span class="sr-only">Good for documenting major events, crises, social conflicts: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Good for obtaining data on nonverbal behavior and communication
+            </div>
+            <span class="sr-only">Good for obtaining data on nonverbal behavior and communication: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Obtains large amounts of data quickly
+            </div>
+            <span class="sr-only">Obtains large amounts of data quickly: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Easy and efficient to administer and manage
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis: strength</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="checkmark" aria-hidden="true"></span>
-        </p>
+    <div class="docs-av">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        Document Analysis
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Fosters face-to-face interactions with participants
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Useful for uncovering participants’ perspective
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Facilitates immediate follow-up for clarification
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Good for documenting major events, crises, social conflicts
+            </div>
+            <span class="sr-only">Good for documenting major events, crises, social conflicts: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Good for obtaining data on nonverbal behavior and communication
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Obtains large amounts of data quickly
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Easy and efficient to administer and manage
+            </div>
+            <span class="sr-only">Easy and efficient to administer and manage: Strength</span>
+            <span class="checkmark" aria-hidden="true"></span>
+        </div>
     </div>
 </div>
 <div class="table-layout-footer">
@@ -350,335 +326,310 @@ Now that Maxine and Jonathan have discussed the main type of qualitative data co
 </div>
 
 
-
 <div class="table-layout-caption">
 <h2>Table Showing Weaknesses of Data Collection Methods</h2>
 <span aria-hidden="true">
-(<span class="crossmark d-inline" aria-hidden="true"></span> = weakness;
-<span class="d-mark d-inline" aria-hidden="true"></span> = depends on use)
+(<span class="crossmark d-inline p-0" aria-hidden="true"></span> = weakness;
+<span class="d-mark d-inline p-0" aria-hidden="true"></span> = depends on use)
 </span>
 </div>
-<div class="table-layout-display high-density x-table col-header" aria-hidden="true">
-    <div>
+<div class="checkbox-activity checkbox-info-table high-density">
+    <div class="column-label" aria-hidden="true">
+        <div class="row-label cell th1">
         &nbsp;
-    </div>
-    <div>
-        In-depth Interviews
-    </div>
-    <div>
-        Focus Groups
-    </div>
-    <div>
-        Participant Observation
-    </div>
-    <div>
-        Observation
-    </div>
-    <div>
-        Document Analysis
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Requires specialized training
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Dependent on cooperation of small group of key individuals
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Difficult to replicate
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Data often subject to observer effects
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Can cause discomfort or even danger to researcher
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Especially dependent on openness and honesty of participants
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis:</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="empty-mark" aria-hidden="true"></span>
-        </p>
-    </div>
-</div>
-<div class="table-layout-display high-density x-table">
-    <div class="th2">
-        <h3 class="d-block d-md-none" aria-hidden="false">Data collection activity:</h3>
-        <p>
+        </div>
+        <div class="cell clearfix">
         Highly dependent on the ability of the researcher to be resourceful, systematic, and honest
-        </p>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">In-depth Interviews: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">In-depth Interviews:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
+    <div class="interviews">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        In-depth Interviews
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Requires specialized training
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Dependent on cooperation of small group of key individuals
+            </div>
+            <span class="sr-only">Dependent on cooperation of small group of key individuals: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Difficult to replicate
+            </div>
+            <span class="sr-only">Difficult to replicate: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Data often subject to observer effects
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Can cause discomfort or even danger to researcher
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Especially dependent on openness and honesty of participants
+            </div>
+            <span class="sr-only">Especially dependent on openness and honesty of participants: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Highly dependent on the ability of the researcher to be resourceful, systematic, and honest
+            </div>
+            <span class="sr-only">Highly dependent on the ability of the researcher to be resourceful, systematic, and honest: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">Focus Groups: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Focus Groups:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
+    <div class="focusgroup">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        Focus Groups
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Requires specialized training
+            </div>
+            <span class="sr-only">Requires specialized training: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Dependent on cooperation of small group of key individuals
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Difficult to replicate
+            </div>
+            <span class="sr-only">Difficult to replicate: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Data often subject to observer effects
+            </div>
+            <span class="sr-only">Data often subject to observer effects: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Can cause discomfort or even danger to researcher
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Especially dependent on openness and honesty of participants
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Highly dependent on the ability of the researcher to be resourceful, systematic, and honest
+            </div>
+            <span class="sr-only">Highly dependent on the ability of the researcher to be resourceful, systematic, and honest: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">Participant Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Participant Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
+    <div class="p-obsrv">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        Participant Observation
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Requires specialized training
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Dependent on cooperation of small group of key individuals
+            </div>
+            <span class="sr-only">Dependent on cooperation of small group of key individuals: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Difficult to replicate
+            </div>
+            <span class="sr-only">Difficult to replicate: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Data often subject to observer effects
+            </div>
+            <span class="sr-only">Data often subject to observer effects: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Can cause discomfort or even danger to researcher
+            </div>
+            <span class="sr-only">Can cause discomfort or even danger to researcher: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Especially dependent on openness and honesty of participants
+            </div>
+            <span class="sr-only">Especially dependent on openness and honesty of participants: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Highly dependent on the ability of the researcher to be resourceful, systematic, and honest
+            </div>
+            <span class="sr-only">Highly dependent on the ability of the researcher to be resourceful, systematic, and honest: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">Observation: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Observation:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
+    <div class="obsrv">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        Observation
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Requires specialized training
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Dependent on cooperation of small group of key individuals
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Difficult to replicate
+            </div>
+            <span class="sr-only">Difficult to replicate: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Data often subject to observer effects
+            </div>
+            <span class="sr-only">Data often subject to observer effects: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Can cause discomfort or even danger to researcher
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Especially dependent on openness and honesty of participants
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Highly dependent on the ability of the researcher to be resourceful, systematic, and honest
+            </div>
+            <span class="sr-only">Highly dependent on the ability of the researcher to be resourceful, systematic, and honest: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
     </div>
-    <div>
-        <p>
-        <span class="sr-only">Document Analysis: weakness</span>
-        <span class="d-inline d-md-none" aria-hidden="true">Document Analysis:</span>
-        <span class="crossmark" aria-hidden="true"></span>
-        </p>
+    <div class="docs-av">
+        <div class="row-label">
+        <div class="row-title">
+        Data Collection Method:
+        </div>
+        Document Analysis
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Requires specialized training
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Dependent on cooperation of small group of key individuals
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Difficult to replicate
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Data often subject to observer effects
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Can cause discomfort or even danger to researcher
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix match">
+            <div class="column-label">
+            Especially dependent on openness and honesty of participants
+            </div>
+            <span class="empty-mark" aria-hidden="true"></span>
+        </div>
+        <div class="cell clearfix">
+            <div class="column-label">
+            Highly dependent on the ability of the researcher to be resourceful, systematic, and honest
+            </div>
+            <span class="sr-only">Highly dependent on the ability of the researcher to be resourceful, systematic, and honest: Weakness</span>
+            <span class="crossmark" aria-hidden="true"></span>
+        </div>
     </div>
 </div>
 <div class="table-layout-footer">
     Adapted from Marshall and Rossman, Table 4.2 Weaknesses of Data Collection Methods, p. 134
 </div>
+
