@@ -448,8 +448,9 @@ figure.img-50 {
 .crossmark,
 .d-mark,
 .empty-mark {
-    display: inline;
+    display: inline-block;
     text-align: left;
+    padding: 0.5rem 0 0 1rem;
 }
 
 .checkmark:before {
@@ -1202,7 +1203,8 @@ li[id^="standard-"] {
 .checkbox-activity-container .column-title {
     display: none;
 }
-.checkbox-activity {
+.checkbox-activity,
+.checkbox-info-table {
     margin: 0;
     padding: 0;
     border: 0;
@@ -1224,6 +1226,9 @@ li[id^="standard-"] {
     border-bottom: 1px dashed #ddd;
     background-color: #fff;
 }
+.checkbox-info-table .cell {
+    height: auto;
+}
 .checkbox-activity .cell:last-child {
     border-bottom: 1px solid #ddd;
 }
@@ -1235,10 +1240,16 @@ li[id^="standard-"] {
     background-color: #fcdab8;
     text-align: left;
 }
+.checkbox-info-table div.row-label {
+    font-weight: 600;
+}
 .checkbox-activity .cell .column-label {
     display: block;
     float: left;
     width: 75%;
+}
+.checkbox-info-table div.column-label {
+    font-weight: normal;
 }
 .checkbox-activity div.column-label {
     display: none;
@@ -1253,6 +1264,13 @@ li[id^="standard-"] {
 .checkbox-activity div.p-obsrv {
     margin-bottom: 1.5rem;
     width: auto;
+}
+.checkbox-info-table div.interviews,
+.checkbox-info-table div.docs-av,
+.checkbox-info-table div.focusgroup,
+.checkbox-info-table div.obsrv,
+.checkbox-info-table div.p-obsrv {
+    margin-bottom: 0;
 }
 .checkbox-answer {
     display: none;
@@ -1983,6 +2001,7 @@ No media query for `xs` since this is the default in Bootstrap
     .empty-mark {
         display: block;
         text-align: center;
+        padding: 0.5rem 0 0 0;
     }
     /* Collection-Challenges checkbox activity */
     .checkbox-activity-container .row-title {
@@ -2010,11 +2029,17 @@ No media query for `xs` since this is the default in Bootstrap
         margin: 0 0 0 1.2rem;
         display: flex;
         flex-wrap: nowrap;
-    }/* */
+    }
+    .checkbox-info-table {
+        margin: 0;
+    }
     .checkbox-activity .cell {
         padding: 0.5rem;
         height: 5.5rem;
         border: 1px solid #ccc;
+    }
+    .checkbox-info-table .cell {
+        height: 6rem;
     }
     .checkbox-activity .cell:last-child {
         border-bottom: 1px solid #ccc;
@@ -2023,6 +2048,9 @@ No media query for `xs` since this is the default in Bootstrap
         margin: 0;
         height: 4rem;
         text-align: center;
+    }
+    .checkbox-info-table div.column-label {
+        font-weight: 600;
     }
     .checkbox-activity .cell .column-label {
         display: none;
@@ -2035,6 +2063,10 @@ No media query for `xs` since this is the default in Bootstrap
         width: 148px;
         background-color: #fff1e1;
     }
+    .checkbox-info-table div.column-label,
+    .checkbox-info-table div.column-label .cell {
+        width: 188px;
+    }
     .checkbox-activity div.interviews,
     .checkbox-activity div.docs-av {
         width: 100px;
@@ -2043,6 +2075,9 @@ No media query for `xs` since this is the default in Bootstrap
     .checkbox-activity div.focusgroup {
         width: 80px;
         margin-bottom: 0;
+    }
+    .checkbox-info-table div.focusgroup {
+        width: 87px;
     }
     .checkbox-activity div.obsrv,
     .checkbox-activity div.p-obsrv {
@@ -2111,6 +2146,10 @@ No media query for `xs` since this is the default in Bootstrap
     .checkbox-activity div.column-label .cell {
         width: 130px;
     }
+    .checkbox-info-table div.column-label,
+    .checkbox-info-table div.column-label .cell {
+        width: 190px;
+    }
     .checkbox-activity-container .row-title {
         margin-left: 19rem;
     }
@@ -2161,11 +2200,21 @@ No media query for `xs` since this is the default in Bootstrap
     .checkbox-activity div.column-label .cell {
         width: 265px;
     }
+    .checkbox-info-table div.column-label,
+    .checkbox-info-table div.column-label .cell {
+        width: 300px;
+    }
     .checkbox-activity div.row-label {
          height: 5rem;
     }
+    .checkbox-info-table div.row-label {
+         height: 4rem;
+    }
     .checkbox-activity .cell {
         height: 4rem;
+    }
+    .checkbox-info-table .cell {
+        height: 5rem;
     }
 }
 
