@@ -44,5 +44,9 @@
             {{ partial "flowchart.html" . }}
         {{ end }}
     {{ end }}
+    <!-- Google Analytics -->
+    {{ if .Site.GoogleAnalytics }}
+    {{ partial "google_analytics.html" . }}
+    {{ end }}
 </body>
 </html>
