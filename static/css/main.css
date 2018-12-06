@@ -1292,6 +1292,58 @@ li[id^="standard-"] {
     line-height: 1.75rem;
 }
 
+.data-collection-table {
+    margin: 0;
+    display: block;
+}
+
+.data-collection-table .data-col {
+    width: 100%;
+    margin-top: 1rem;
+    hyphens: auto;
+    overflow-wrap: break-word;
+}
+
+.data-collection-table .cell {
+    height: auto;
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 0.5rem;
+}
+
+.data-collection-table .col-title {
+    font-weight: normal;
+    color:#930;
+    display: block;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+
+.data-collection-table .col-label {
+    border-top: 1px solid #ccc;
+    font-weight: 600;
+    background-color: #fcdab8;
+    height: auto;
+    hyphens: auto;
+    overflow-wrap: break-word;
+}
+
+.data-collection-table .row-label {
+    display: none;
+    background-color: #fff1e1;
+    font-weight: 600;
+}
+
+.data-collection-table .cell .row-label {
+    display: block;
+    background-color: #fff1e1;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin: -0.5rem -0.5rem 0.5rem -0.5rem;
+}
+
+
+
 
 /* Footer ------------------------------------------- */
 
@@ -2084,23 +2136,36 @@ No media query for `xs` since this is the default in Bootstrap
         width: 110px;
         margin-bottom: 0;
     }
-    /* .checkbox-answer {
-        margin: 0.5rem 0 0 0;
-        padding: 0;
-        border: 0;
-        display: inline-block;
-        width: 1.75rem;
-        height: 1.75rem;
-        text-align: right;
+    .data-collection-table {
+        margin: 0;
+        display: flex;
+        flex-wrap: nowrap;
     }
-    .checkbox-answer:before {
-        content: "\2715";
-        font-weight: bold;
-        font-size: 1.75rem;
-        color: #000;
-        line-height: 1.75rem;
-    }*/
-
+    .data-collection-table .data-col {
+        width: 16.666666666666667%;
+        margin-top: 0;
+    }
+    .data-collection-table .data-col .cell:last-child {
+        height: 8rem;
+    }
+    .data-collection-table .cell {
+        border-top: 1px solid #ccc;
+        height: 13.25rem;
+    }
+    .data-collection-table .col-title {
+        display: none;
+    }
+    .data-collection-table .col-label {
+        font-weight: 600;
+        height: 88px;
+    }
+    .data-collection-table .row-label {
+        display: block;
+        background-color: #fff1e1;
+    }
+    .data-collection-table .cell .row-label {
+        display: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
