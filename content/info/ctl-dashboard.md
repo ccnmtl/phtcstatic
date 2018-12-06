@@ -4,6 +4,10 @@ type: "info-page"
 aliases: [/ctl-dashboard/]
 ---
 
+<div class="alert alert-success" role="alert">
+  A view for CTL internal use.
+</div>
+
 These are direct links to PHTC modules:
 
 * [An Introduction to Qualitative Analysis with ATLAS.ti](/atlasti)

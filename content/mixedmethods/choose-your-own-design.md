@@ -14,12 +14,12 @@ next_title: "Other Design Implications"
 previous: "../test-your-understanding_2/"
 previous_title: "Test Your Understanding"
 ---
+
+Now test your new understanding of the goals of different mixed methods designs by designing your own study!
+
 <div class="mixedmethod">
-    <div class="pageblock">
-        <p>Now test your new understanding of the goals of different mixed methods designs by designing your own study!</p>
-    </div>
     <div class="flowchart-container">
-    <h4><i class="fas fa-info-circle"></i> PROBLEM</h4>
+    <h2><i class="fas fa-info-circle" aria-hidden="true"></i> PROBLEM</h2>
     <div class="card mb-5">
         <div class="card-body">
             Principals and teachers report high
@@ -28,20 +28,20 @@ previous_title: "Test Your Understanding"
         </div>
     </div>
     <div class="step mb-5">
-        <h4>
-            <i class="fas fa-question-circle"></i> CHALLENGE: What do you do first?
-        </h4>
+        <h2>
+            <i class="fas fa-question-circle" aria-hidden="true"></i> CHALLENGE: What do you do first?
+        </h2>
         <div class="accordion" id="accordion1">
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-1"
                             aria-expanded="false" aria-controls="expandable"
                             data-next="#step-1">
                             Conduct a survey of area high school students about tobacco use.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-1" class="collapse" data-parent="#accordion1">
                     <div class="card-body">
@@ -58,14 +58,14 @@ previous_title: "Test Your Understanding"
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-2"
                             aria-expanded="false" aria-controls="expandable"
                             data-next="#step-2">
                             Conduct focus groups with students who report smokeless tobacco use.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-2" class="collapse" data-parent="#accordion1">
                     <div class="card-body">
@@ -88,7 +88,7 @@ previous_title: "Test Your Understanding"
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-3"
                             aria-expanded="false" aria-controls="expandable"
@@ -97,7 +97,7 @@ previous_title: "Test Your Understanding"
                             a health education program in the schools to warn of
                             the dangers of smokeless tobacco.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-3" class="collapse" data-parent="#accordion1">
                     <div class="card-body">
@@ -117,13 +117,13 @@ previous_title: "Test Your Understanding"
         </div>
     </div>
     <div class="step mb-5" id="step-1" style="display: none">
-        <h4>
-            <i class="fas fa-question-circle"></i> CHALLENGE: What do you do next?
-        </h4>
+        <h2>
+            <i class="fas fa-question-circle" aria-hidden="true"></i> CHALLENGE: What do you do next?
+        </h2>
         <div class="accordion" id="accordion2">
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-1-1"
                             aria-expanded="false" aria-controls="expandable"
@@ -133,7 +133,7 @@ previous_title: "Test Your Understanding"
                             additional factors that were not examined in the
                             first survey.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-1-1" class="collapse" data-parent="#accordion2">
                     <div class="card-body">
@@ -153,14 +153,14 @@ previous_title: "Test Your Understanding"
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-1-2"
                             aria-expanded="false" aria-controls="expandable"
                             data-next="#step-stop">
                             Conduct focus groups with students who report smokeless tobacco use.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-1-2" class="collapse" data-parent="#accordion2">
                     <div class="card-body">
@@ -180,14 +180,14 @@ previous_title: "Test Your Understanding"
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-1-3"
                             aria-expanded="false" aria-controls="expandable"
                             data-next="#step-stop">
                             Design and implement a health education program in the schools to warn of the dangers of smokeless tobacco.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-1-3" class="collapse" data-parent="#accordion2">
                     <div class="card-body">
@@ -208,13 +208,13 @@ previous_title: "Test Your Understanding"
         </div> <!--  end accordion -->
     </div>
     <div class="step mb-5" id="step-2" style="display: none">
-        <h4>
-            <i class="fas fa-question-circle"></i> CHALLENGE: What do you do next?
-        </h4>
+        <h2>
+            <i class="fas fa-question-circle" aria-hidden="true"></i> CHALLENGE: What do you do next?
+        </h2>
         <div class="accordion" id="accordion3">
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-2-1"
                             aria-expanded="false" aria-controls="expandable"
@@ -225,7 +225,7 @@ previous_title: "Test Your Understanding"
                             insights learned as important to tobacco use in the
                             focus groups.
                          </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-2-1" class="collapse" data-parent="#accordion3">
                     <div class="card-body">
@@ -249,7 +249,7 @@ previous_title: "Test Your Understanding"
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-2-2"
                             aria-expanded="false" aria-controls="expandable"
@@ -259,7 +259,7 @@ previous_title: "Test Your Understanding"
                             tobacco use. Maybe they have different experiences
                             than those who do use?
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-2-2" class="collapse" data-parent="#accordion3">
                     <div class="card-body">
@@ -283,7 +283,7 @@ previous_title: "Test Your Understanding"
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-2-3"
                             aria-expanded="false" aria-controls="expandable"
@@ -294,7 +294,7 @@ previous_title: "Test Your Understanding"
                             clear to them that even short term use of smokeless
                             tobacco can lead to increased health risks.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-2-3" class="collapse" data-parent="#accordion3">
                     <div class="card-body">
@@ -316,20 +316,20 @@ previous_title: "Test Your Understanding"
         </div> <!--  end accordion -->
     </div>
     <div class="step mb-5" id="step-3" style="display: none">
-        <h4>
-            <i class="fas fa-question-circle"></i> CHALLENGE: What do you do next?
-        </h4>
+        <h2>
+            <i class="fas fa-question-circle" aria-hidden="true"></i> CHALLENGE: What do you do next?
+        </h2>
         <div class="accordion" id="accordion4">
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-3-1"
                             aria-expanded="false" aria-controls="expandable"
                             data-next="#step-stop">
                             Conduct a survey of area high school students about tobacco use.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-3-1" class="collapse" data-parent="#accordion4">
                     <div class="card-body">
@@ -350,14 +350,14 @@ previous_title: "Test Your Understanding"
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-3-2"
                             aria-expanded="false" aria-controls="expandable"
                             data-next="#step-stop">
                             Conduct focus groups with students who report smokeless tobacco use.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-3-2" class="collapse" data-parent="#accordion4">
                     <div class="card-body">
@@ -384,14 +384,14 @@ previous_title: "Test Your Understanding"
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="mb-0">
+                    <h3 class="mb-0">
                         <button type="button" class="btn btn-primary btn-block btn-choose"
                             data-toggle="collapse" data-target="#choice-3-3"
                             aria-expanded="false" aria-controls="expandable"
                             data-next="#step-stop">
                             Design and implement a revised health education program.
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="choice-3-3" class="collapse" data-parent="#accordion4">
                     <div class="card-body">
@@ -412,9 +412,9 @@ previous_title: "Test Your Understanding"
         </div> <!--  end accordion -->
     </div>
     <div class="step mb-5" id="step-stop" style="display: none">
-        <h4>
-            <i class="fas fa-check-circle"></i> DONE
-        </h4>
+        <h2>
+            <i class="fas fa-check-circle" aria-hidden="true"></i> DONE
+        </h2>
         <div class="card  view-only">
             <div class="card-body">
                 To design a new study, start over and make other choices.
