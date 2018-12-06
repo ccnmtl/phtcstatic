@@ -40,3 +40,13 @@
     box-shadow: none !important;
     outline: none !important;
 }
+
+.flowchart-container button.btn-choose {
+    border: 2px solid transparent;
+}
+
+.flowchart-container button.btn-choose.btn-primary:focus {
+  background-color: #39f;
+  border: 2px solid rgba(51, 153, 255, 1) !important;
+  box-shadow: 0 0 3px 1px rgba(51, 153, 255, 1) !important;
+}
