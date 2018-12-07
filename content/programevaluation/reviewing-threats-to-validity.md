@@ -101,11 +101,12 @@ Now let’s review some of the potential threats to validity for our ShapeTracke
 </div>
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p>Generalizability to other groups or settings refers to:</p>
 <div class="answer-value md-radio">
 <input name="question01" id="question01a" type="radio" value="A">
@@ -145,11 +146,12 @@ Construct validity
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p>History and maturation are especially serious threats to internal validity in:</p>
 <div class="answer-value md-radio">
 <input name="question02" id="question02a" type="radio" value="A">

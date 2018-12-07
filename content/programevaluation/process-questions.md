@@ -43,11 +43,12 @@ Let’s review our evaluation questions.
 5. Does use of ST help those with normal BMI prevent overweight?
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" role="radiogroup" aria-labelledby="q-num">
+<h2 id="q-num" class="d-none">Question 1:</h2>
 <p>Review the Logic Model and find the item that corresponds with outcome evaluation question, “Does use of ST increase self-monitoring of healthy eating and physical activity?”</p>
 <div class="answer-value md-radio">
 <input name="question58" id="question58a" type="radio" value="A">

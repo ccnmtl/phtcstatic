@@ -56,11 +56,12 @@ The two rows represent the two groups. The Rs indicate that the groups are rando
 Is it possible to have randomly assigned groups in our ShapeTracker evaluation? For the questions below, determine if the following scenarios would give us a randomized controlled design by selecting “Yes” or “No.”
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p class="answer-value">Implement and disseminate ShapeTracker only in the western half of the county. Compare a randomly selected sample of ShapeTracker users in western Middeton county with a sample of non-users with similar sociodemographic characteristics living in the eastern half of the county.</p>
 <div class="answer-value md-radio">
 <input name="question59" id="question59a" type="radio" value="A">
@@ -89,11 +90,12 @@ There is no randomized assignment. Note that random selection is about sampling 
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p class="answer-value">Add ShapeTracker questions to the annual representative county household survey. Compare those who report using ShapeTracker to those who report not using ShapeTracker.</p>
 <div class="answer-value md-radio">
 <input name="question60" id="question60a" type="radio" value="A">
@@ -122,11 +124,12 @@ Again, there is no randomized assignment because there is no control group. But 
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 3:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum3" role="radiogroup">
+<h2 class="d-none" id="qnum3">Question 3:</h2>
 <p class="answer-value">As people request their ShapeTracker user ID, every other person is placed on a wait-list. The waitlisted group will have to wait one year to get access to ShapeTracker.</p>
 <div class="answer-value md-radio">
 <input name="question61" id="question61a" type="radio" value="A">

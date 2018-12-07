@@ -27,11 +27,12 @@ In light of our newly defined research design, we should further specify our pri
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p class="answer-value">Note that this evaluation question contains two outcomes. Please click on the logic model to locate the two outcomes the evaluation question is about.</p>
 <p>What are the two outcomes?</p>
 <div class="answer-value md-radio">

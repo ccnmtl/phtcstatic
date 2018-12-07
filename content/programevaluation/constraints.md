@@ -202,7 +202,8 @@ For example, if the ShapeTracker evaluation team had severe time and/or budget c
 <p>How would you adjust the evaluation plan? - or -<br />
 How would you make the argument for keeping the evaluation plan we selected?</p>
 <p>Please write your answer in 1-3 sentences.</p>
-<textarea class="form-control w-75" row="4" name="question01" placeholder="Your answer..."></textarea>
+<label for="question01" class="answer-value">Your answer...</label>
+<textarea class="form-control w-75" row="4" id="question01" name="question01"></textarea>
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
 <input class="btn btn-info btn-submit-section" type="submit" value="Submit" />
