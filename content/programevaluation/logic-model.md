@@ -21,7 +21,7 @@ Next on our list is the logic model. We have put together a Logic Model that out
 
 We worked closely with stakeholders to get input on the logic model.  Watch this short video, which describes our logic model.
 
-{{< youtube id="t2CpBp491vI" >}}
+{{< youtube id="t2CpBp491vI" title="ShapeTracker Intervention Logic Model" >}}
 
 <div class="alert alert-primary mt-5">
   You can review the Logic Model anytime during this training by clicking the Logic Model button at the top of the page.

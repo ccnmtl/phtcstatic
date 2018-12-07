@@ -77,7 +77,8 @@ Any social science research method can be adapted for program evaluation. Evalua
            </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Evaluation Question 1">
+    <div class="row matching-quiz" aria-labelledby="evalq-1" role="radiogroup">
+        <h2 class="d-none" id="evalq-1">Evaluation Question 1</h2>
         <div class="col-12 col-md-6 matching-q">
         Was a broad range of local resources successfully engaged in the project?
         </div>
@@ -133,7 +134,8 @@ Any social science research method can be adapted for program evaluation. Evalua
             </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Evaluation Question 2">
+    <div class="row matching-quiz" aria-labelledby="evalq-2" role="radiogroup">
+        <h2 class="d-none" id="evalq-2">Evaluation Question 2</h2>
         <div class="col-12 col-md-6 matching-q">
         For those who stopped using ST, why did they discontinue?
         </div>
@@ -189,7 +191,8 @@ Any social science research method can be adapted for program evaluation. Evalua
             </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Evaluation Question 3">
+    <div class="row matching-quiz" aria-labelledby="evalq-3" role="radiogroup">
+        <h2 class="d-none" id="evalq-3">Evaluation Question 3</h2>
         <div class="col-12 col-md-6 matching-q">
         How satisfied are MC residents with the ST app and its specific features?
         </div>
@@ -245,7 +248,8 @@ Any social science research method can be adapted for program evaluation. Evalua
             </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Evaluation Question 4">
+    <div class="row matching-quiz" aria-labelledby="evalq-4" role="radiogroup">
+        <h2 class="d-none" id="evalq-4">Evaluation Question 4</h2>
         <div class="col-12 col-md-6 matching-q">
         What proportion of MC residents have:<br />
         a) downloaded the app<br />
@@ -304,7 +308,8 @@ Any social science research method can be adapted for program evaluation. Evalua
             </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Evaluation Question 5">
+    <div class="row matching-quiz" aria-labelledby="evalq-5" role="radiogroup">
+        <h2 class="d-none" id="evalq-5">Evaluation Question 5</h2>
         <div class="col-12 col-md-6 matching-q">
         Was ST successfully disseminated to a broad segment of MC community?
         </div>
@@ -360,7 +365,8 @@ Any social science research method can be adapted for program evaluation. Evalua
             </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Evaluation Question 6">
+    <div class="row matching-quiz" aria-labelledby="evalq-6" role="radiogroup">
+        <h2 class="d-none" id="evalq-6">Evaluation Question 6</h2>
         <div class="col-12 col-md-6 matching-q">
         Does ST decrease perceived barriers to healthy eating and physical activity?
         </div>

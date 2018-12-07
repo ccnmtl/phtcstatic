@@ -107,7 +107,8 @@ main li {
 
 main a,
 footer a,
-.nav-module a {
+.nav-module a,
+a.btn-link {
     color: #06f;
 }
 

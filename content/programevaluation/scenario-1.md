@@ -24,11 +24,12 @@ Our team is considering a design that uses our neighbor county, Upperton, as a c
 We will utilize annual representative household surveys in both counties as an opportunity to collect data for this evaluation. We’ll add our outcome measures of physical activity, healthy eating and self-monitoring to these surveys. This year’s annual surveys, which will be collected before ShapeTracker is launched later this year, will be the baseline. Next year we will collect the same measures again in both counties. And for Middleton county household survey respondents who are using ShapeTracker, we’ll be able to include an additional section in the survey to collect some data we need for our process evaluation.
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p class="answer-value">We first need to ask whether we need more than one row.<br />
 How many rows do we need?</p>
 <div class="answer-value md-radio">
@@ -58,11 +59,12 @@ We need two rows to represent the intervention county and the comparison county.
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p class="answer-value">If there are two rows, the next question is whether the rows are R or NR? Which one is our design?</p>
 <div class="answer-value md-radio">
 <input name="question02" id="question02a" type="radio" value="A">
@@ -91,11 +93,12 @@ If we have two rows, we need to indicate whether we have random assignment. In t
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 3:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum3" role="radiogroup">
+<h2 class="d-none" id="qnum3">Question 3:</h2>
 <p class="answer-value">Do we need an X?</p>
 <div class="answer-value md-radio">
 <input name="question03" id="question03a" type="radio" value="A">
@@ -124,11 +127,12 @@ We always have at least one X to indicate the intervention. The first row for Mi
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 4:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum4" role="radiogroup">
+<h2 class="d-none" id="qnum4">Question 4:</h2>
 <p class="answer-value">How many O’s do we need for our diagram?</p>
 <div class="answer-value md-radio">
 <input name="question04" id="question04a" type="radio" value="A">
