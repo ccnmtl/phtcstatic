@@ -24,7 +24,7 @@ Now let’s code transcripts in ATLAS.ti. This software has tools for easy codin
 
 The following video demonstrates these four (4) basic coding options.
 
-{{< youtube id="nVoVQEvK7OM" >}}
+{{< youtube id="nVoVQEvK7OM" title="ATLAS ti 8 Windows-Coding text documents" >}}
 
 Here is the direct link to this <a href="http://www.youtube.com/watch?v=nVoVQEvK7OM" target="_blank">tutorial.</a>  
 _This video link was updated December 2017._  

@@ -43,7 +43,8 @@ Now continue reading and commenting on this transcript.
 <p><strong>MODERATOR:</strong> Uh huh.</p>
 <p><strong>W1:</strong> various places.  Soup kitchens, methadone clinics, um, shelters, food pantries, churches.</p>
 <p><strong>MODERATOR:</strong> Oh. So you like go around and give little health fears or, or, or collar people off the street.</p>
-<textarea class="form-control w-75" row="3" name="question39" placeholder="Your answer..."></textarea>
+<label for="question39">Your answer...</label>
+<textarea class="form-control w-75" row="3" id="question39" name="question39"></textarea>
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
 <input class="btn btn-info btn-submit-section" type="submit" value="Submit" />
@@ -63,7 +64,8 @@ Now continue reading and commenting on this transcript.
 <div class="casequestion answer-value">
 <p><strong>W1:</strong> That’s right.  Yeah.</p>
 <p><strong>MODERATOR:</strong> Oh, that’s cool. </p>
-<textarea class="form-control w-75" row="3" name="question40" placeholder="Your answer..."></textarea>
+<label for="question40">Your answer...</label>
+<textarea class="form-control w-75" row="3" id="question40" name="question40"></textarea>
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
 <input class="btn btn-info btn-submit-section" type="submit" value="Submit" />
@@ -86,7 +88,8 @@ Now continue reading and commenting on this transcript.
 <p><strong>W1:</strong> Mm hmm.</p>
 <p><strong>MODERATOR:</strong> so this is a good thing that you’re getting some experience.  And, um, can you tell me a little bit, you know what’s the deal with women, obviously, and this being the middle of Bruekleynville very different kinds of women, you have everything here.  What do you. you sort of, you know, hear from the people you deal with about HIV testing?  Is it something they’ve even thought about? </p>
 <p><strong>W2:</strong> No. I don’t think so.</p>
-<textarea class="form-control w-75" row="3" name="question41" placeholder="Your answer..."></textarea>
+<label for="question41">Your answer...</label>
+<textarea class="form-control w-75" row="3" id="question41" name="question41"></textarea>
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
 <input class="btn btn-info btn-submit-section" type="submit" value="Submit" />
@@ -106,7 +109,8 @@ Now continue reading and commenting on this transcript.
 <div class="casequestion answer-value">
 <p><strong>W2:</strong> Right.</p>
 <p><strong>W1:</strong> So, they just keep on out there getting high, they don’t know.  They’re very promiscuous because they wanna get the next hit.  That they get caught up and don’t get checked because all they’re thinking about is the high.</p>
-<textarea class="form-control w-75" row="3" name="question42" placeholder="Your answer..."></textarea>
+<label for="question42">Your answer...</label>
+<textarea class="form-control w-75" row="3" id="question42" name="question42"></textarea>
 </div><!-- /.casequestion -->
 <div class="casesanswerdisplay">
 <input class="btn btn-info btn-submit-section" type="submit" value="Submit" />

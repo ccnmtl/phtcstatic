@@ -25,7 +25,7 @@ Let’s begin with the following introductory videos.
 
 Review the ATLAS.ti interface for Windows with this 10 minute video.
 
-{{< youtube id="sOC7fd8FkWY" >}}
+{{< youtube id="sOC7fd8FkWY" title="ATLAS.ti Windows-Interface Overview" >}}
 
 Here is the direct link to this <a href="http://www.youtube.com/watch?v=sOC7fd8FkWY" target="_blank">tutorial.</a>  
 _This video embed and link was updated November 2016._  
@@ -35,7 +35,7 @@ _For the most up-to-date videos, visit [ATLAS.ti video tutorials](https://atlast
 
 Review the ATLAS.ti interface for Mac with this 7 minute video.
 
-{{< youtube id="n8mzvh7_FnQ" >}}
+{{< youtube id="n8mzvh7_FnQ" title="ATLAS.ti Mac OS X-Interface Overview" >}}
 
 Here is the direct link to this <a href="http://www.youtube.com/watch?v=n8mzvh7_FnQ" target="_blank">tutorial.</a>  
 _TThis video embed and link was updated September 2014_  

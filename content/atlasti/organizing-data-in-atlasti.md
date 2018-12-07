@@ -25,7 +25,7 @@ Now, let’s learn how to assign documents. Here is a [sample transcript](/img/a
 
 Linking data to your projects:
 
-{{< youtube id="9HkrOePZeM8" >}}
+{{< youtube id="9HkrOePZeM8" title="ATLAS.ti 7-Adding Documents Into The Project" >}}
 
 Here is the direct link to this <a href="http://www.youtube.com/watch?v=9HkrOePZeM8" target="_blank">tutorial</a>.  
 _This video link was updated December 2017._  

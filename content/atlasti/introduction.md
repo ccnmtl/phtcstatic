@@ -27,7 +27,7 @@ The tasks involved in analyzing qualitative data include:
 
 <div class="row part3-introduction">
     <div class="col-12 col-md-3" id="col-1">
-        <h3>Organize</h3>
+        <h2>Organize</h2>
         <ul>
             <li>Transcribe the audio recordings and read the transcripts several times to generate informed themes based on the words of respondents.</li>
         </ul>
@@ -36,7 +36,7 @@ The tasks involved in analyzing qualitative data include:
         <img src="/img/assets/arrow-green.png" alt="" class="img-fluid">
     </div>
     <div class="col-12 col-md-3" id="col-2">
-        <h3>Reduce</h3>
+        <h2>Reduce</h2>
         <ul>
             <li>Group themes into codes to classify the data and note patterns between the classifications of data.</li>
             <li>Explore relationships between the classifications of data.</li>
@@ -46,7 +46,7 @@ The tasks involved in analyzing qualitative data include:
         <img src="/img/assets/arrow-orange.png" alt="" class="img-fluid">
     </div>
     <div class="col-12 col-md-3" id="col-3">
-        <h3>Describe</h3>
+        <h2>Describe</h2>
         <ul>
             <li>Write a final report filled with rich descriptions in the words of the participants themselves.</li>
         </ul>

@@ -19,7 +19,7 @@ A convenient location to store your codebook is in ATLAS.ti’s code manager.
 
 ## An overview of the Code Manager
 
-{{< youtube id="jMnz7Tqoz28" >}}
+{{< youtube id="jMnz7Tqoz28" title="An overview of ATLAS.ti Code Manager" >}}
 
 Here is the direct link to this <a href="http://www.youtube.com/watch?v=jMnz7Tqoz28" target="_blank">tutorial.</a>  
 _This video link was updated December 2017._  

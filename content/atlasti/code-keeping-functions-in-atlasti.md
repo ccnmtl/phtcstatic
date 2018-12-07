@@ -17,7 +17,7 @@ previous_title: "ATLAS.ti Code Manager"
 
 Sometimes you may need to delete, unlink or merge codes. Here is how to complete these tasks in ATLAS.ti.
 
-{{< youtube id="zP-WlSsx0y0" >}}
+{{< youtube id="zP-WlSsx0y0" title="ATLAS.ti Code Management" >}}
 
 Here is the direct link to this <a href="http://www.youtube.com/watch?v=zP-WlSsx0y0&" target="_blank">tutorial.</a>  
 _This video embed and link was updated September 2012._  
