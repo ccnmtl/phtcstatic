@@ -19,7 +19,7 @@ As you are reading through the data in ATLAS.ti you may want to highlight certai
 
 ## Creating Quotations
 
-{{< youtube id="MLNORYx5HoQ" >}}
+{{< youtube id="MLNORYx5HoQ" title="ATLAS ti 8 Windows-Creating Quotations" >}}
 
 Here is the direct link to this <a href="http://www.youtube.com/watch?v=MLNORYx5HoQ" target="_blank">tutorial</a>.  
 _This video link was updated December 2017._  

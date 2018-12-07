@@ -63,7 +63,8 @@ Let's practice coding.
            </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Scenario 1">
+    <div class="row matching-quiz" aria-labelledby="scenario-1" role="radiogroup">
+        <h2 class="d-none" id="scenario-1">Scenario 1</h2>
         <div class="col-12 col-md-8 matching-q">
         Now that don’t necessarily mean he’s positive. My baby’s daddy’s not positive, he’s negative.
         </div>
@@ -107,7 +108,8 @@ Let's practice coding.
             </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Scenario 2">
+    <div class="row matching-quiz" aria-labelledby="scenario-2" role="radiogroup">
+        <h2 class="d-none" id="scenario-2">Scenario 2</h2>
         <div class="col-12 col-md-8 matching-q">
         And he took the test, he started taking  the test, but I kept my son
 going to the same [unclear] from having the virus in his body...
@@ -152,7 +154,8 @@ going to the same [unclear] from having the virus in his body...
             </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Scenario 3">
+    <div class="row matching-quiz" aria-labelledby="scenario-3" role="radiogroup">
+        <h2 class="d-none" id="scenario-3">Scenario 3</h2>
         <div class="col-12 col-md-8 matching-q">
         Yeah, I have to deal with it and take the medicine and everything...
         </div>
@@ -196,7 +199,8 @@ going to the same [unclear] from having the virus in his body...
             </div>
         </div>
     </div>
-    <div class="row matching-quiz" aria-label="Scenario 4">
+    <div class="row matching-quiz" aria-labelledby="scenario-4" role="radiogroup">
+        <h2 class="d-none" id="scenario-4">Scenario 4</h2>
         <div class="col-12 col-md-8 matching-q">
         but my son is negative...It took like a year and then I made sure I
 got that piece of paper which states that he is negative...

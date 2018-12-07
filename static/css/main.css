@@ -170,7 +170,7 @@ figure.img-50 {
 .casetitle
 {
     font-weight: bold;
-    color: #cc6633;
+    color: #993300;
     font-style: italic;
     margin-bottom: 0.4rem;
 }
@@ -224,16 +224,17 @@ figure.img-50 {
     padding: 0;
 }
 
-.part3-introduction h3 {
+.part3-introduction h2 {
     color: #fff;
     border: 4px solid #fff;
     box-shadow: 2px 2px 5px #ccc;
     width: 100%;
+    margin: 0 0 0.5rem 0;
     padding: 0.5rem 0.5rem 1.5rem 0.5rem;
     border-radius: 0.625rem;
     font-size: 1rem;
     line-height: 100%;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .part3-introduction ul {
@@ -258,15 +259,15 @@ figure.img-50 {
     height: 2rem;
 }
 
-.part3-introduction #col-1 h3 {
+.part3-introduction #col-1 h2 {
     background-color: #aac76d;
 }
 
-.part3-introduction #col-2 h3 {
+.part3-introduction #col-2 h2 {
     background-color: #f3a75b;
 }
 
-.part3-introduction #col-3 h3 {
+.part3-introduction #col-3 h2 {
     background-color: #6992c8;
 }
 
@@ -1880,7 +1881,7 @@ No media query for `xs` since this is the default in Bootstrap
     .part3-introduction {
         margin-bottom: 3rem;
     }
-    .part3-introduction h3 {
+    .part3-introduction h2 {
         width: 75%;
         padding: 0.75rem 0.75rem 1.625rem 0.75rem;
         font-size: 1.25rem;
@@ -2226,7 +2227,7 @@ No media query for `xs` since this is the default in Bootstrap
     .part3-introduction {
         margin-left: 1rem;
     }
-    .part3-introduction h3 {
+    .part3-introduction h2 {
         width: 70%;
         padding: 1rem 1rem 1.75rem 1rem;
         font-size: 1.5rem;
@@ -2309,15 +2310,15 @@ No media query for `xs` since this is the default in Bootstrap
     .md-radio input[type="radio"]:checked + label:after {
       border: 2px solid rgba(51, 122, 183, 1) !important;
     }
-    .part3-introduction #col-1 h3 {
+    .part3-introduction #col-1 h2 {
         border: 5px solid #aac76d;
         color: #aac76d;
     }
-    .part3-introduction #col-2 h3 {
+    .part3-introduction #col-2 h2 {
         border: 5px solid #f3a75b;
         color: #f3a75b;
     }
-    .part3-introduction #col-3 h3 {
+    .part3-introduction #col-3 h2 {
         border: 5px solid #6992c8;
         color: #6992c8;
     }

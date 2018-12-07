@@ -19,7 +19,7 @@ After your analysis, you will want to save your data and ATLAS.ti makes this eas
 
 __Step 1:__ In Code Manager: Click on the Print Icon
 
-{{< figure src="/img/assets/click-print.jpg" alt="" class="img-fluid" >}}
+{{< figure src="/img/assets/click-print.jpg" alt="Screenshot of ATLAS.ti interface" class="img-fluid" >}}
 
 __Step 2:__ Select the type of output you want:
     
@@ -29,4 +29,4 @@ __Step 2:__ Select the type of output you want:
 
 __Step 3:__ Choose the output destination, text editor, printer, or save it to disk (select File).
 
-{{< figure src="/img/assets/choose-output-save.jpg" alt="" class="img-fluid" >}}
+{{< figure src="/img/assets/choose-output-save.jpg" alt="Screenshot of ATLAS.ti interface" class="img-fluid" >}}
