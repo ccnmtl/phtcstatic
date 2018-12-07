@@ -16,4 +16,4 @@ previous_title: "Test Your Understanding 1"
 ---
 This video shows the process of participant introductions.
 
-{{< youtube id="5UCVjMyb32E" >}}
+{{< youtube id="5UCVjMyb32E" title="The process of participant introductions" >}}

@@ -16,4 +16,4 @@ previous_title: "Test Your Understanding 2"
 ---
 This video shows an example of an icebreaker activity.
 
-{{< youtube id="uZwvmi3kZuU" >}}
+{{< youtube id="uZwvmi3kZuU" title="The icebreaker activity" >}}

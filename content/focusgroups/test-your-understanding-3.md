@@ -15,11 +15,12 @@ previous: "../the-icebreaker-activity-video/"
 previous_title: "The Icebreaker Activity (Video)"
 ---
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p>What’s the purpose of an icebreaker activity?</p>
 <div class="answer-value md-radio">
 <input name="question378" id="question378a" type="radio" value="A">
@@ -52,12 +53,13 @@ Gives the moderator time to make sure all of the participants have consented to 
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
-<p>The most useful icebreaker activities __________.</p>
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
+<p>The most useful icebreaker activities...</p>
 <div class="answer-value md-radio">
 <input name="question379" id="question379a" type="radio" value="A">
 <label for="question379a">A)
@@ -89,11 +91,12 @@ Help to engage non-talkative individuals.
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 3:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum3" role="radiogroup">
+<h2 class="d-none" id="qnum3">Question 3:</h2>
 <p>What does Dorothy do to validate the participants?</p>
 <div class="answer-value md-radio">
 <input name="question380" id="question380a" type="radio" value="A">

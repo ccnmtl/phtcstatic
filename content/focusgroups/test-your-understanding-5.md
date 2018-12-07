@@ -15,11 +15,12 @@ previous: "../participant-interaction-video/"
 previous_title: "Participant Interaction (Video)"
 ---
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p>Dorothy asks a participant several questions about her video project with kids at her organization. Which of the following questions is an example of probing?</p>
 <div class="answer-value md-radio">
 <input name="question381" id="question381a" type="radio" value="A">
@@ -52,11 +53,12 @@ previous_title: "Participant Interaction (Video)"
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p>What did Dorothy do to make sure participants didn’t talk over each other?</p>
 <div class="answer-value md-radio">
 <input name="question382" id="question382a" type="radio" value="A">
@@ -89,11 +91,12 @@ Dorothy lets the interrupting participant continue and then returns to the previ
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 3:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum3" role="radiogroup">
+<h2 class="d-none" id="qnum3">Question 3:</h2>
 <p>What techniques can a moderator use to motivate quiet participants to talk more at the end of the focus group?</p>
 <div class="answer-value md-radio">
 <input name="question383" id="question383a" type="radio" value="A">

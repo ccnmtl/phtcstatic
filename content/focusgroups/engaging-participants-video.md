@@ -16,4 +16,4 @@ previous_title: "Test Your Understanding 3"
 ---
 This video shows the moderator engaging the participants.
 
-{{< youtube id="z2u8IiKvuNo" >}}
+{{< youtube id="z2u8IiKvuNo" title="Engaging the participants" >}}
