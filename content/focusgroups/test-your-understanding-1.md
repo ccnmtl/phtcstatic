@@ -15,11 +15,12 @@ previous: "../introduction-video/"
 previous_title: "Introduction (Video)"
 ---
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p>What is a focus group?</p>
 <div class="answer-value md-radio">
 <input name="question373" id="question373a" type="radio" value="A">
@@ -63,11 +64,12 @@ An exchange of information between two people
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p>What is the role of the focus group moderator?</p>
 <div class="answer-value md-radio">
 <input name="question374" id="question374a" type="radio" value="A">
@@ -105,11 +107,12 @@ Capturing what people say in writing is the role of the note taker or recorder.<
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 3:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum3" role="radiogroup">
+<h2 class="d-none" id="qnum3">Question 3:</h2>
 <p>What does high moderator involvement look like?</p>
 <div class="answer-value md-radio">
 <input name="question375" id="question375a" type="radio" value="A">

@@ -15,11 +15,12 @@ previous: "../engaging-participants-video/"
 previous_title: "Engaging Participants (Video)"
 ---
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p>How does Dorothy motivate participant engagement and encourage multiple perspectives?</p>
 <div class="answer-value md-radio">
 <input name="question384" id="question384a" type="radio" value="A">
@@ -52,11 +53,12 @@ Continues to call on the same participants.
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p>How can a moderator overcome groupthink (i.e., the tendency of groups to suppress disagreements to maintain consensus in the group)?</p>
 <div class="answer-value md-radio">
 <input name="question385" id="question385a" type="radio" value="A">

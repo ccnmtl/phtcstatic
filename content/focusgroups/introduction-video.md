@@ -18,4 +18,4 @@ The following videos will introduce you to the planning and logistical aspects o
 
 This first video discusses planning and getting started.
 
-{{< youtube id="xPt3Yk3GAwc" >}}
+{{< youtube id="xPt3Yk3GAwc" title="Introduction to Facilitating Focus Groups-1" >}}

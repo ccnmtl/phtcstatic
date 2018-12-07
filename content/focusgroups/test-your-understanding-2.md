@@ -15,11 +15,12 @@ previous: "../participant-introductions-video/"
 previous_title: "Participant Introductions (Video)"
 ---
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p>What are the first responsibilities of a moderator during the focus group?</p>
 <div class="answer-value md-radio">
 <input name="question376" id="question376a" type="radio" value="A">
@@ -46,11 +47,12 @@ Making introductions, gaining consent from the participants, setting ground rule
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p>What does Dorothy do that helps to make the participants feel more comfortable?</p>
 <div class="answer-value md-radio">
 <input name="question377" id="question377a" type="radio" value="A">

@@ -14,4 +14,5 @@ next_title: "Test Your Understanding 5"
 previous: "../test-your-understanding-4/"
 previous_title: "Test Your Understanding 4"
 ---
-{{< youtube id="eIdRAO4fM5k" >}}
+
+{{< youtube id="eIdRAO4fM5k" title="Participant interaction" >}}
