@@ -19,6 +19,8 @@ The CDC Program Evaluation has six steps. With your mouse, click on each step in
 
 In this module, we will focus primarily on the steps entitled “Focus on the Evaluation Design” and “Gather Credible Evidence.”
 
+{{< figure src="/img/assets/framework_00.jpg" alt="CDC Program Evaluation cycle." aria-hidden="true" class="cdc-framework-image-print m-auto">}}
+
 <div class="d-md-flex flex-row mx-auto mx-md-none mb-3 cdc-framework-imagemap">
 <div class="cdc-framework-image">
     <ul class="nav cdc-items" role="tablist">

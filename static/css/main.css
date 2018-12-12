@@ -712,6 +712,10 @@ ol.custom-counter li::before {
 
 /* CDC framework image map alternative */
 
+.cdc-framework-image-print {
+    display: none;
+}
+
 .cdc-framework-imagemap {
     background-color: #efefef;
     width: 290px;
