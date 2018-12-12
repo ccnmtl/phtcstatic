@@ -1,0 +1,68 @@
+@media print {
+    .cdc-framework-image-print {
+        display: block;
+    }
+    .cdc-framework-imagemap {
+        width: auto;
+        display: block;
+        background: transparent;
+    }
+    .cdc-framework-image {
+        display: none;
+    }
+    .cdc-framework-content {
+        padding: 0;
+        margin: 0;
+        background: transparent;
+        width: auto;
+    }
+    .cdc-framework-content .tab-content {
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .cdc-framework-content .tab-content>.tab-pane {
+        display: block;
+        border: 1px solid #ccc;
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+    .cdc-framework-content .tab-content>#starter {
+        display: none;
+    }
+    .cdc-framework-content .tab-content>.tab-pane h3 {
+        display: inline-block !important;
+        border: 1rem solid #ccc;
+        border-radius: 10px;
+        padding: 0.5rem;
+        margin: 0 auto 0.5rem 0;
+        width: auto;
+    }
+    .cdc-framework-content .tab-content>.tab-pane p {
+        display: block;
+    }
+    .cdc-framework-content .tab-content>.tab-pane p:first-letter {
+        text-transform: capitalize;
+    }
+    .cdc-framework-content .tab-content>#stakeholders h3 {
+        border-color: #ff8277;
+    }
+    .cdc-framework-content .tab-content>#program h3 {
+        border-color: #ff9400;
+    }
+    .cdc-framework-content .tab-content>#evaluation h3 {
+        border-color: #009152;
+    }
+    .cdc-framework-content .tab-content>#evidence h3 {
+        border-color: #0195ff;
+    }
+    .cdc-framework-content .tab-content>#conclusion h3 {
+        border-color: #005494;
+    }
+    .cdc-framework-content .tab-content>#lessons h3 {
+        border-color: #ff66ff;
+    }
+}
