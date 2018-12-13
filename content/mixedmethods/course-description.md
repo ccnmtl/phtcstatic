@@ -37,9 +37,9 @@ For those without this background knowledge, it is recommended that you complete
 
 ## Continuing education credit
 
-1 Category I CECH in health education. This activity is sponsored by the Rutgers University Center for Public Health Workforce Development, a designated provider of continuing education contact hours (CECH) in health education by the National Commission for Health Education Credentialing, Inc. This program is designated for the CHES to receive 1 Category I CECH in health education.
+__1 Category I CECH in health education.__ This activity is sponsored by the Rutgers University Center for Public Health Workforce Development, a designated provider of continuing education contact hours (CECH) in health education by the National Commission for Health Education Credentialing, Inc. This program is designated for the CHES to receive 1 Category I CECH in health education.
 
-1 CPH credit. The Region 2 Public Health Training Center is a NBPHE pre-approved provider of CPH continuing education credits.  1 CPH CE will be awarded for participation in this activity.
+__1 CPH credit.__ The Region 2 Public Health Training Center is a NBPHE pre-approved provider of CPH continuing education credits.  1 CPH CE will be awarded for participation in this activity.
 
 ## Estimated time to complete
 

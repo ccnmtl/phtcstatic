@@ -18,11 +18,12 @@ previous_title: "Multiphase Design Example"
 <div class="itemfeedback">
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p class="answer-value">
 When analyzing data from a large epidemiological survey, a researcher discovers that her main hypothesis was not supported.  She decides to conduct a qualitative study to attempt explain these negative findings and to get a better understanding of why the hypothesis was not supported.  This is an example of what type of mixed methods research design?
 </p>
@@ -70,11 +71,12 @@ Multiphase design
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p class="answer-value">
 As part of a larger qualitative study, a researcher wanted to obtain some additional quantitative information about the frequency of specific behaviors.  As such, he inserted several quantitative questions into the qualitative interview guide.  This is an example of what type of mixed methods design?
 </p>

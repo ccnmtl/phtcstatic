@@ -44,7 +44,7 @@ Quantitative methods and qualitative methods, when used alone, have inherent str
 </div>
 <div class="accordion comp-quant-qual">
 <div class="card">
-    <div class="card-header comp-header row" id="headingTwo">
+    <div class="card-header comp-header row" id="headingOne">
         <div class="col-12 col-md-8">
         <h3>
         <a class="comp-criteria collapsed" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -66,7 +66,7 @@ Quantitative methods and qualitative methods, when used alone, have inherent str
         </div>
         <!-- -->
     </div>
-    <div id="collapseOne" class="collapse" aria-labelledby="headingTwo">
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
         <div class="card-body">
             Quantitative methods are best suited for identifying the prevalence of a phenomenon. Because quantitative research typically asks standardized questions (i.e., everyone gets asked the same question in the same order) of a large sample of participants, this method is better suited to estimate the true prevalence of a behavior than qualitative studies which often rely on small samples of participants and the questions asked may change in both content and order depending on the issues brought up by the participants themselves.
         </div>

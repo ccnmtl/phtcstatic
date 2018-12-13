@@ -18,11 +18,12 @@ previous_title: "Quantitizing Qualitative Data"
 <div class="itemfeedback">
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p class="answer-value">
 Which of the following mixed methods data analysis techniques is an example of quantitizing mixed methods analysis?
 </p>
@@ -70,11 +71,12 @@ Analysis of the qualitative data in which numbers are assigned to indicate the p
 
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p class="answer-value">
 As part of a mixed methods data analysis, a researcher uses the quantitative data to identify three groups of participants (high, medium, low on a quantitative measure).  She then compares these three quantitative groups using the qualitative data to attempt to understand why these three groups differ on this measure.  This is an example of what type of mixed methods data analysis?
 </p>
