@@ -19,15 +19,15 @@ The matrix below maps the primary data collection methods to possible implementa
 
 
 <div class="cases checkbox-activity-container clearfix">
-    <div class="row-title">
+    <div class="row-title" aria-hidden="true">
     Method of Collection
     </div>
-    <div class="column-title">
+    <div class="column-title" aria-hidden="true">
     Challenges
     </div>
     <form>
     <div class="checkbox-activity high-density">
-        <div class="column-label">
+        <div class="column-label" aria-hidden="true">
             <div class="row-label border-0 bg-transparent cell">
             &nbsp;
             </div>
@@ -50,7 +50,7 @@ The matrix below maps the primary data collection methods to possible implementa
             Difficult to replicate
             </div>
         </div>
-        <div class="p-obsrv">
+        <div class="p-obsrv" role="group" aria-label="Method of Collection: Participant Observation">
             <div class="row-label">
             <div class="row-title">
             Method of Collection:
@@ -62,8 +62,10 @@ The matrix below maps the primary data collection methods to possible implementa
                 Leads researcher to fixate on details
                 </div>
                 <div class="md-checkbox">
-                    <input id="p-obsrv1" name="participant_observation" type="checkbox" />
-                    <label for="p-obsrv1"></label>
+                    <input id="p-obsrv1" name="participant_observation" type="checkbox" value="p1" />
+                    <label for="p-obsrv1">
+                    <span class="sr-only">Leads researcher to fixate on details</span>
+                    </label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -74,7 +76,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="p-obsrv2" name="participant_observation" type="checkbox" />
-                    <label for="p-obsrv2"></label>
+                    <label for="p-obsrv2"><span class="sr-only">Possible misinterpretations due to cultural differences</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -85,7 +87,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="p-obsrv3" name="participant_observation" type="checkbox" />
-                    <label for="p-obsrv3"></label>
+                    <label for="p-obsrv3"><span class="sr-only">Requires technical training</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -96,7 +98,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="p-obsrv4" name="participant_observation" type="checkbox" />
-                    <label for="p-obsrv4"></label>
+                    <label for="p-obsrv4"><span class="sr-only">Depends on cooperation of key individuals</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -107,7 +109,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="p-obsrv5" name="participant_observation" type="checkbox" />
-                    <label for="p-obsrv5"></label>
+                    <label for="p-obsrv5"><span class="sr-only">Readily open to ethical dilemmas</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -118,13 +120,13 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="p-obsrv6" name="participant_observation" type="checkbox" />
-                    <label for="p-obsrv6"></label>
+                    <label for="p-obsrv6"><span class="sr-only">Difficult to replicate</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
             </div>
         </div>
-        <div class="obsrv">
+        <div class="obsrv" role="group" aria-label="Method of Collection: Observation">
             <div class="row-label">
             <div class="row-title">
             Method of Collection:
@@ -137,7 +139,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="obsrv1" name="observation" type="checkbox" />
-                    <label for="obsrv1"></label>
+                    <label for="obsrv1"><span class="sr-only">Leads researcher to fixate on details</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -148,7 +150,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="obsrv2" name="observation" type="checkbox" />
-                    <label for="obsrv2"></label>
+                    <label for="obsrv2"><span class="sr-only">Possible misinterpretations due to cultural differences</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -159,7 +161,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="obsrv3" name="observation" type="checkbox" />
-                    <label for="obsrv3"></label>
+                    <label for="obsrv3"><span class="sr-only">Requires technical training</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -170,7 +172,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="obsrv4" name="observation" type="checkbox" />
-                    <label for="obsrv4"></label>
+                    <label for="obsrv4"><span class="sr-only">Depends on cooperation of key individuals</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -181,7 +183,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="obsrv5" name="observation" type="checkbox" />
-                    <label for="obsrv5"></label>
+                    <label for="obsrv5"><span class="sr-only">Readily open to ethical dilemmas</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -192,13 +194,13 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="obsrv6" name="observation" type="checkbox" />
-                    <label for="obsrv6"></label>
+                    <label for="obsrv6"><span class="sr-only">Difficult to replicate</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
             </div>
         </div>
-        <div class="interviews">
+        <div class="interviews" role="group" aria-label="Method of Collection: In-depth Interviews">
             <div class="row-label">
             <div class="row-title">
             Method of Collection:
@@ -211,7 +213,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="interviews1" name="in-depth-interviews" type="checkbox" />
-                    <label for="interviews1"></label>
+                    <label for="interviews1"><span class="sr-only">Leads researcher to fixate on details</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -222,18 +224,18 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="interviews2" name="in-depth-interviews" type="checkbox" />
-                    <label for="interviews2"></label>
+                    <label for="interviews2"><span class="sr-only">Possible misinterpretations due to cultural differences</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
             </div>
             <div class="cell clearfix">
                 <div class="column-label">
-                Requires technical training
+                
                 </div>
                 <div class="md-checkbox">
                     <input id="interviews3" name="in-depth-interviews" type="checkbox" />
-                    <label for="interviews3"></label>
+                    <label for="interviews3"><span class="sr-only">Requires technical training</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -244,7 +246,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="interviews4" name="in-depth-interviews" type="checkbox" />
-                    <label for="interviews4"></label>
+                    <label for="interviews4"><span class="sr-only">Depends on cooperation of key individuals</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -255,7 +257,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="interviews5" name="in-depth-interviews" type="checkbox" />
-                    <label for="interviews5"></label>
+                    <label for="interviews5"><span class="sr-only">Readily open to ethical dilemmas</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -266,13 +268,13 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="interviews6" name="in-depth-interviews" type="checkbox" />
-                    <label for="interviews6"></label>
+                    <label for="interviews6"><span class="sr-only">Difficult to replicate</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
             </div>
         </div>
-        <div class="focusgroup">
+        <div class="focusgroup" role="group" aria-label="Method of Collection: Focus Groups">
             <div class="row-label">
             <div class="row-title">
             Method of Collection:
@@ -285,7 +287,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="focusgroup1" name="focus-groups" type="checkbox" />
-                    <label for="focusgroup1"></label>
+                    <label for="focusgroup1"><span class="sr-only">Leads researcher to fixate on details</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -296,7 +298,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="focusgroup2" name="focus-groups" type="checkbox" />
-                    <label for="focusgroup2"></label>
+                    <label for="focusgroup2"><span class="sr-only">Possible misinterpretations due to cultural differences</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -307,7 +309,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="focusgroup3" name="focus-groups" type="checkbox" />
-                    <label for="focusgroup3"></label>
+                    <label for="focusgroup3"><span class="sr-only">Requires technical training</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -318,7 +320,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="focusgroup4" name="focus-groups" type="checkbox" />
-                    <label for="focusgroup4"></label>
+                    <label for="focusgroup4"><span class="sr-only">Depends on cooperation of key individuals</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -329,7 +331,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="focusgroup5" name="focus-groups" type="checkbox" />
-                    <label for="focusgroup5"></label>
+                    <label for="focusgroup5"><span class="sr-only">Readily open to ethical dilemmas</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -340,13 +342,13 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="focusgroup6" name="focus-groups" type="checkbox" />
-                    <label for="focusgroup6"></label>
+                    <label for="focusgroup6"><span class="sr-only">Difficult to replicate</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
             </div>
         </div>
-        <div class="docs-av">
+        <div class="docs-av" role="group" aria-label="Method of Collection: Document and AV Analysis">
             <div class="row-label">
             <div class="row-title">
             Method of Collection:
@@ -359,7 +361,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="docs-av1" name="document-analysis" type="checkbox" />
-                    <label for="docs-av1"></label>
+                    <label for="docs-av1"><span class="sr-only">Leads researcher to fixate on details</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -370,7 +372,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="docs-av2" name="document-analysis" type="checkbox" />
-                    <label for="docs-av2"></label>
+                    <label for="docs-av2"><span class="sr-only">Possible misinterpretations due to cultural differences</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -381,7 +383,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="docs-av3" name="document-analysis" type="checkbox" />
-                    <label for="docs-av3"></label>
+                    <label for="docs-av3"><span class="sr-only">Requires technical training</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -392,7 +394,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="docs-av4" name="document-analysis" type="checkbox" />
-                    <label for="docs-av4"></label>
+                    <label for="docs-av4"><span class="sr-only">Depends on cooperation of key individuals</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -403,7 +405,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="docs-av5" name="document-analysis" type="checkbox" />
-                    <label for="docs-av5"></label>
+                    <label for="docs-av5"><span class="sr-only">Readily open to ethical dilemmas</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>
@@ -414,7 +416,7 @@ The matrix below maps the primary data collection methods to possible implementa
                 </div>
                 <div class="md-checkbox">
                     <input id="docs-av6" name="document-analysis" type="checkbox" />
-                    <label for="docs-av6"></label>
+                    <label for="docs-av6"><span class="sr-only">Difficult to replicate</span></label>
                 </div>
                 <div class="checkbox-answer">
                 </div>

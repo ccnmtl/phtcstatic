@@ -171,7 +171,7 @@ figure.img-50 {
 .casetitle
 {
     font-weight: bold;
-    color: #993300;
+    color: #930;
     font-style: italic;
     margin-bottom: 0.4rem;
 }
@@ -455,25 +455,25 @@ figure.img-50 {
     padding: 0.5rem 0 0 1rem;
 }
 
-.checkmark:before {
+.checkmark::before {
     content: "\2713";
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.crossmark:before {
-    content: "\2715";
+.crossmark::before {
+    content: "X";
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.d-mark:before {
+.d-mark::before {
     content: "D";
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.empty-mark:before {
+.empty-mark::before {
     content: "\00a0";
     font-weight: bold;
     font-size: 1.2rem;
@@ -971,7 +971,7 @@ li[id^="standard-"] {
     border-bottom-left-radius: 0.625rem;
 }
 
-.pointed-tabnav li a:after, .pointed-tabnav li a:before {
+.pointed-tabnav li a::after, .pointed-tabnav li a::before {
 	top: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -982,7 +982,7 @@ li[id^="standard-"] {
 	pointer-events: none;
 }
 
-.pointed-tabnav li a:after {
+.pointed-tabnav li a::after {
 	border-color: rgba(153, 204, 153, 0);
 	border-top-color: #99cc99;
 	border-width: 10px;
@@ -990,7 +990,7 @@ li[id^="standard-"] {
 	z-index: 2;
 }
 
-.pointed-tabnav li a:before {
+.pointed-tabnav li a::before {
 	border-color: rgba(255, 255, 255, 0);
 	border-top-color: #ffffff;
 	border-width: 16px;
@@ -1002,7 +1002,7 @@ li[id^="standard-"] {
     background-color: #9cf;
 }
 
-.pointed-tabnav li a:hover:after {
+.pointed-tabnav li a:hover::after {
 	border-color: rgba(153, 204, 255, 0);
 	border-top-color: #9cf;
 }
@@ -1012,14 +1012,14 @@ li[id^="standard-"] {
     background-color: #69c;
 }
 
-.pointed-tabnav li a.active:after,
-.pointed-tabnav li a.active:hover:after {
+.pointed-tabnav li a.active::after,
+.pointed-tabnav li a.active:hover::after {
 	border-color: rgba(102, 153, 204, 0);
 	border-top-color: #69c;
 }
 
-.pointed-tabnav li:last-child a:after,
-.pointed-tabnav li:last-child a:before
+.pointed-tabnav li:last-child a::after,
+.pointed-tabnav li:last-child a::before
  {
 	border: 0;
 }
@@ -1290,9 +1290,9 @@ li[id^="standard-"] {
     height: 1.75rem;
     text-align: right;
 }
-.checkbox-answer:before {
-    content: "\2715";
-    font-weight: bold;
+.checkbox-answer::before {
+    content: "X";
+    font-weight: 600;
     font-size: 1.75rem;
     color: #000;
     line-height: 1.75rem;
@@ -1391,12 +1391,12 @@ footer p {
   top: 0;
   left: 0;
 }
-.md-radio input[type="radio"]:checked + label:before {
+.md-radio input[type="radio"]:checked + label::before {
   margin-top: 0.1rem;
   border-color: #337ab7;
   animation: ripple 0.2s linear forwards;
 }
-.md-radio input[type="radio"]:checked + label:after {
+.md-radio input[type="radio"]:checked + label::after {
   transform: scale(1);
 }
 .md-radio label {
@@ -1408,7 +1408,7 @@ footer p {
   cursor: pointer;
   vertical-align: bottom;
 }
-.md-radio label:before, .md-radio label:after {
+.md-radio label::before, .md-radio label::after {
   margin-top: 0.1rem;
   position: absolute;
   content: '';
@@ -1417,14 +1417,14 @@ footer p {
   transition-property: transform, border-color;
   background-color: #cfe9ff;
 }
-.md-radio label:before {
+.md-radio label::before {
   left: 0;
   top: 0;
   width: 20px;
   height: 20px;
   border: 2px solid rgba(0, 0, 0, 0.54);
 }
-.md-radio label:after {
+.md-radio label::after {
   top: 5px;
   left: 5px;
   width: 10px;
@@ -1432,11 +1432,11 @@ footer p {
   transform: scale(0);
   background: #337ab7;
 }
-.md-radio input[type="radio"]:focus + label:before {
+.md-radio input[type="radio"]:focus + label::before {
   border: 2px solid rgba(51, 122, 183, 1) !important;
   box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
 }
-.md-radio input[type="radio"]:focus + label:after {
+.md-radio input[type="radio"]:focus + label::after {
   border: 2px solid rgba(51, 122, 183, 1) !important;
   box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
 }
@@ -1468,14 +1468,14 @@ footer p {
     padding-left: 0;
 }
 
-.md-checkbox label:before, .md-checkbox label:after {
+.md-checkbox label::before, .md-checkbox label::after {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
 }
 
-.md-checkbox label:before {
+.md-checkbox label::before {
     width: 1.75rem;
     height: 1.75rem;
     /* background-color: #ddd; */
@@ -1485,42 +1485,39 @@ footer p {
     transition: background .4s;
 }
 
-.md-checkbox.disabled label:before {
+.md-checkbox.disabled label::before {
     border: 2px solid #fff;
 }
 
 .md-checkbox input[type="checkbox"] {
-    outline: 0;
-    visibility: hidden;
-    width: 1.25rem;
-    margin: 0;
-    display: block;
-    float: left;
-    font-size: inherit;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.md-checkbox input[type="checkbox"]:checked + label:before,
-.md-checkbox.disabled input[type="checkbox"]:checked + label:before {
+.md-checkbox input[type="checkbox"]:checked + label::before,
+.md-checkbox.disabled input[type="checkbox"]:checked + label::before {
     background-color: #efefef;
     border: 2px solid #efefef;
 }
 
-.md-checkbox input[type="checkbox"]:checked + label:after {
-    content: "\2715";
-    font-weight: bold;
+.md-checkbox input[type="checkbox"]:checked + label::after {
+    content: "X";
+    font-weight: 600;
     font-size: 1.75rem;
     color: #08c;
     line-height: 1.75rem;
     padding-left: 0.25rem;
 }
 
-.md-checkbox input[type="checkbox"]:focus + label:before {
-  border: 2px solid rgba(51, 122, 183, 1) !important;
-  box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
+.md-checkbox input[type="checkbox"]:focus + label::before {
+  /* border: 2px solid rgba(51, 122, 183, 1) !important;*/
+  box-shadow: 0 0 6px 3px rgba(81, 203, 238, 1) !important;
 }
-.md-checkbox input[type="checkbox"]:focus + label:after {
-  border: 2px solid rgba(51, 122, 183, 1) !important;
-  box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;
+.md-checkbox input[type="checkbox"]:focus + label::after {
+  /* border: 2px solid rgba(51, 122, 183, 1) !important; */
+  /*box-shadow: 0 0 5px 2px rgba(81, 203, 238, 1) !important;*/
 }
 
 .checkbox-activity .md-checkbox {
@@ -2065,7 +2062,7 @@ No media query for `xs` since this is the default in Bootstrap
     .checkbox-activity-container .row-title {
         font-weight: bold;
         text-transform: uppercase;
-        color:#c63;
+        color:#930;
         margin-left: 20rem;
         display: block;
     }
@@ -2076,7 +2073,7 @@ No media query for `xs` since this is the default in Bootstrap
         margin-top: 10rem;
         font-weight: bold;
         text-transform: uppercase;
-        color:#c63;
+        color:#930;
         width: 1rem;
         line-height: 1.2rem;
         overflow-wrap: break-word;
@@ -2312,7 +2309,7 @@ No media query for `xs` since this is the default in Bootstrap
     .toggleable, .answer-container {
         display: block !important;
     }
-    .md-radio input[type="radio"]:checked + label:after {
+    .md-radio input[type="radio"]:checked + label::after {
       border: 2px solid rgba(51, 122, 183, 1) !important;
     }
     .part3-introduction #col-1 h2 {
