@@ -26,8 +26,9 @@ Please use the notation system to depict the evaluation design.
 __Instructions:__ Click on a gray space to enter a value, then click on a notation of your selection. You can change your notation by clicking on the space again. __Note that all the gray spaces must be filled, so to leave a space blank you must select the blank space notation.__
 
 
-<div class="pageblock designNotation well">
+<p class="sr-only" role="alert">Important notice: The following Design Notation interactive exercise is not optimized for assistive technologies.</p>
 
+<div class="pageblock designNotation">
 <div class="interactive-scenario" id="scenario3"></div>
 
 <div class="notation_feedback">

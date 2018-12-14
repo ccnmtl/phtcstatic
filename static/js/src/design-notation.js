@@ -61,7 +61,7 @@ jQuery(document).ready(function() {
         }
         jQuery('.interactive-scenario')
             .append('<button id="checkanswer" type="submit" ' +
-                    'class="btn btn-secondary">Check answer</button>');
+                    'class="btn btn-primary">Check answer</button>');
     }
 
     function show_notation_select() {
