@@ -20,11 +20,12 @@ Jonathan reviews the survey results one more time. It could be helpful to go bac
 <div class="itemfeedback">
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p>What could Jonathan suggest to Maxine?</p>
 <div class="answer-value md-radio">
 <input name="question01" id="question01a" data-answer="#answer01a" type="radio" value="A">

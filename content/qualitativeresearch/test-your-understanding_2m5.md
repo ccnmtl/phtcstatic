@@ -20,11 +20,12 @@ For each of the questions below, please select the qualitiatve approach that bes
 <div class="itemfeedback">
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 1:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum1" role="radiogroup">
+<h2 class="d-none" id="qnum1">Question 1:</h2>
 <p>
 In which qualitative approach is the focus <b>exploring the life of an individual?</b>
 </p>
@@ -80,11 +81,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 2:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum2" role="radiogroup">
+<h2 class="d-none" id="qnum2">Question 2:</h2>
 <p>
 In which qualitative approach is the focus on <b>describing and interpreting a culture-sharing group?</b> 
 </p>
@@ -140,11 +142,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 3:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum3" role="radiogroup">
+<h2 class="d-none" id="qnum3">Question 3:</h2>
 <p>
 For which qualitative approach is the problem <b>to develop a new theory?</b>
 </p>
@@ -200,11 +203,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 4:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum4" role="radiogroup">
+<h2 class="d-none" id="qnum4">Question 4:</h2>
 <p>
 For which qualitative approach is the problem to <b>provide an in-depth understanding of a case or cases?</b> 
 </p>
@@ -260,11 +264,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 5:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum5" role="radiogroup">
+<h2 class="d-none" id="qnum5">Question 5:</h2>
 <p>
 For which qualitative approach is the unit <b>several individuals that have shared the experience?</b>
 </p>
@@ -320,11 +325,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 6:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum6" role="radiogroup">
+<h2 class="d-none" id="qnum6">Question 6:</h2>
 <p>
 For which qualitative approach is the unit <b>a group that shares the same culture?</b>
 </p>
@@ -380,11 +386,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 7:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum7" role="radiogroup">
+<h2 class="d-none" id="qnum7">Question 7:</h2>
 <p>
 In which qualitative approach is the analysis <b>open coding, axial coding, selective coding?</b>
 </p>
@@ -440,11 +447,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 8:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum8" role="radiogroup">
+<h2 class="d-none" id="qnum8">Question 8:</h2>
 <p>
 In which qualitative approach is the analysis <b>restorying stories, and developing themes, often using a chronology?</b>
 </p>
@@ -500,11 +508,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 9:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum9" role="radiogroup">
+<h2 class="d-none" id="qnum9">Question 9:</h2>
 <p>
 In which qualitative approach is the report a <b>description of the “essence” of an experience?</b>
 </p>
@@ -560,11 +569,12 @@ Case Study
 </div><!-- /.cases -->
 
 <div class="cases">
-<div class="casetitle">
+<div class="casetitle" aria-hidden="true">
     Question 10:
 </div><!-- /.casetitle -->
 <div class="casecontent">
-<div class="casequestion">
+<div class="casequestion" aria-labelledby="qnum10" role="radiogroup">
+<h2 class="d-none" id="qnum10">Question 10:</h2>
 <p>
 In which qualitative approach is the report a <b>description of case themes and lessons learned?</b>
 </p>
