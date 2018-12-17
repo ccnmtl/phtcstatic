@@ -1042,7 +1042,7 @@ li[id^="standard-"] {
 .comp-quant-qual .comp-header h3 {
     margin: 0;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 100%;
 }
 
@@ -1127,10 +1127,6 @@ li[id^="standard-"] {
 
 .icon-legend img {
     height: 1.25rem;
-}
-
-.standards-qual-ver {
-    
 }
 
 .standards-qual-ver ul {
@@ -2298,35 +2294,4 @@ No media query for `xs` since this is the default in Bootstrap
     border: 0;
     margin: 0px;
     padding: 0px;
-}
-
-@media print {
-    .print-alert {
-        font-weight: bold;
-        color: #000 !important;
-    }
-    .moretoggle {
-        display: none !important;
-    }
-    .toggleable, .answer-container {
-        display: block !important;
-    }
-    .md-radio input[type="radio"]:checked + label::after {
-      border: 2px solid rgba(51, 122, 183, 1) !important;
-    }
-    .part3-introduction #col-1 h2 {
-        border: 5px solid #aac76d;
-        color: #aac76d;
-    }
-    .part3-introduction #col-2 h2 {
-        border: 5px solid #f3a75b;
-        color: #f3a75b;
-    }
-    .part3-introduction #col-3 h2 {
-        border: 5px solid #6992c8;
-        color: #6992c8;
-    }
-    .view-only {
-        display: none !important;
-    }
 }
