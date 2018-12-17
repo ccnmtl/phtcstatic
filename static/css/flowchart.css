@@ -50,3 +50,17 @@
   border: 2px solid rgba(51, 153, 255, 1) !important;
   box-shadow: 0 0 3px 1px rgba(51, 153, 255, 1) !important;
 }
+
+@media print {
+    .flowchart-container button.btn-choose {
+        border: 4px solid #007bff;
+        background-color: transparent;
+        color: #007bff;
+        box-shadow: none !important;
+    }
+    .flowchart-container button.btn-choose.btn-warning {
+        border: 4px solid #ffc107 !important;
+        background-color: transparent !important;
+        color: #000 !important;
+    }
+}

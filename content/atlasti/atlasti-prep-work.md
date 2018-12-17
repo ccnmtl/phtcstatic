@@ -38,5 +38,5 @@ Review the ATLAS.ti interface for Mac with this 7 minute video.
 {{< youtube id="n8mzvh7_FnQ" title="ATLAS.ti Mac OS X-Interface Overview" >}}
 
 Here is the direct link to this <a href="http://www.youtube.com/watch?v=n8mzvh7_FnQ" target="_blank">tutorial.</a>  
-_TThis video embed and link was updated September 2014_  
+_This video embed and link was updated September 2014_  
 _For the most up-to-date videos, visit [ATLAS.ti video tutorials](https://atlasti.com/video-tutorials/)._

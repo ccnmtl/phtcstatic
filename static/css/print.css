@@ -1,9 +1,135 @@
 @media print {
+    body {
+        background-color: transparent;
+    }
+    main.col-lg-9 {
+        max-width: 100%;
+    }
+    main>*,
+    .th1,
+    .th2,
+    .alert,
+    .randomized-notation,
+    .randomized-notation .cell,
+    .table-layout-display.col-header div,
+    .table-layout-display h2 {
+        font-size: 1.25rem;
+        page-break-inside: avoid;
+    }
+    .high-density div {
+        font-size: 1rem;
+    }
+    .table-layout-display h2 {
+        font-weight: 600;
+    }
+    main h1 {
+        font-size: 3.125rem;
+    }
+    main h2 {
+        font-size: 1.875rem;
+    }
+    header .title {
+        font-size: 1.75rem;
+    }
+    .module-name {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        background: transparent;
+    }
+    .module-name a {
+        font-family: 'Lato', sans-serif;
+        text-decoration: none !important;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    main p a {
+        text-decoration: none !important;
+    }
+    main p a:after {
+        content:" (" attr(href) ") ";
+    }
+    ol.custom-counter li::before {
+        border: 2px solid #90d5e0;
+        width: 1.8rem;
+        height: 1.8rem;
+        line-height: 1.8rem;
+    }
+    .custom-counter.logicmodel-template li::before {
+        background: transparent;
+        border: 2px solid #08c;
+        color: #000;
+    }
+    .atlasti-table {
+        font-size: 1.25rem;
+    }
+    .cases {
+        background-color: transparent;
+        font-size: 1.25rem;
+    }
+    .cases .answer-value {
+        font-size: 1.25rem;
+        line-height: 1.5;
+    }
+    .matching-quiz {
+        font-size: 1.25rem;
+        line-height: 1.2;
+    }
+    .matching-q-header {
+        border: 2px solid #ffcc80;
+    }
+    .matching-q {
+        border: 2px solid #ffe6c0;
+    }
+    .option-label span {
+        border: 2px solid #90d5e0;
+    }
+    .option-button .md-radio  {
+        border: 2px solid #d9edf7;
+    }
+    .option-label.user-selection span,
+    .option-label.phtc-selection span {
+        border: 2px solid #a5d6a7;
+    }
+    .option-button.user-selection p,
+    .option-button.phtc-selection p {
+        border: 2px solid #d6f1d7;
+    }
+    .table-layout-display {
+        font-size: 1.25rem;
+    }
+    .table-layout-display h3,
+    .table-layout-display h4
+     {
+        font-size: 1.25rem;
+    }
+    .part3-introduction h2 {
+        font-size: 1.625rem;
+    }
+    .part3-introduction ul {
+        font-size: 1.25rem;
+    }
+    .part3-introduction #col-1 h2 {
+        border: 5px solid #aac76d;
+        color: #aac76d;
+        background-color: transparent;
+    }
+    .part3-introduction #col-2 h2 {
+        border: 5px solid #f3a75b;
+        color: #f3a75b;
+        background-color: transparent;
+    }
+    .part3-introduction #col-3 h2 {
+        border: 5px solid #6992c8;
+        color: #6992c8;
+        background-color: transparent;
+    }
     .cdc-framework-image-print {
         display: block;
     }
     .cdc-framework-imagemap {
         width: auto;
+        height: auto;
+        overflow: visible;
         display: block;
         background: transparent;
     }
@@ -15,6 +141,8 @@
         margin: 0;
         background: transparent;
         width: auto;
+        height: auto;
+        overflow: visible;
     }
     .cdc-framework-content .tab-content {
         background-color: transparent;
@@ -23,12 +151,16 @@
         margin: 0;
         padding: 0;
         border: 0;
+        overflow: visible;
     }
     .cdc-framework-content .tab-content>.tab-pane {
         display: block;
         border: 1px solid #ccc;
         padding: 1rem;
         margin: 1rem 0;
+    }
+    .cdc-framework-content .tab-pane {
+        page-break-inside: avoid;
     }
     .cdc-framework-content .tab-content>#starter {
         display: none;
@@ -41,8 +173,11 @@
         margin: 0 auto 0.5rem 0;
         width: auto;
     }
-    .cdc-framework-content .tab-content>.tab-pane p {
+    .cdc-framework-content .tab-content>.tab-pane p,
+    .cdc-framework-content h3 {
         display: block;
+        font-size: 1.25rem;
+        page-break-inside: avoid;
     }
     .cdc-framework-content .tab-content>.tab-pane p:first-letter {
         text-transform: capitalize;
@@ -64,5 +199,71 @@
     }
     .cdc-framework-content .tab-content>#lessons h3 {
         border-color: #ff66ff;
+    }
+    .comp-quant-qual h3 a {
+        font-size: 1.25rem !important;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .comp-quant-qual .collapse {
+        display: block;
+    }
+    .data-collection-ig {
+        background-color: transparent;
+        display: block;
+    }
+    .data-collection-ig h2 {
+        background: transparent;
+        border: 2px solid #366;
+        color: #366;
+        font-weight: 600;
+    }
+    .data-collection-ig .tab-content {
+        display: block;
+        background: transparent;
+        width: auto;
+        max-width: 100%;
+    }
+    .data-collection-ig .tab-content>.tab-pane {
+        display: block;
+        page-break-inside: avoid;
+    }
+    .data-collection-ig .fade:not(.show) {
+        opacity: 1;
+    }
+    .pointed-tabnav {
+        display: none;
+    }
+    .checkbox-info-table div.column-label,
+    .checkbox-info-table div.column-label .cell,
+    .checkbox-activity div.column-label,
+    .checkbox-activity div.column-label .cell {
+        width: 350px !important;
+    }
+    .table-layout-caption,
+    .table-layout-footer {
+        border: none;
+    }
+    .standards-qual-ver h3 {
+        background-color: transparent;
+        color: #000;
+        border: 2px solid #c4c5d6;
+        font-size: 1.25rem;
+    }
+    .standards-qual-ver ul li {
+        background-color: transparent;
+        color: #336;
+        border: 2px solid #336;
+        font-size: 1.25rem;
+    }
+    .print-alert {
+        font-weight: bold;
+        color: #000 !important;
+    }
+    .md-radio input[type="radio"]:checked + label::after {
+      border: 2px solid rgba(51, 122, 183, 1) !important;
+    }
+    .view-only {
+        display: none !important;
     }
 }
