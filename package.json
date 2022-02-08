@@ -25,7 +25,7 @@
     "url": "https://github.com/ccnmtl/phtcstatic/issues"
   },
   "devDependencies": {
-    "eslint": "~5.2.0",
+    "eslint": "~8.8.0",
     "eslint-plugin-security": "~1.4.0"
   },
   "dependencies": {}
