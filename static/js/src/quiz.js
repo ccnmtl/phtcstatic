@@ -1,5 +1,3 @@
-/* global alert: true */
-
 function isFormComplete($form) {
     var valid = true;
 

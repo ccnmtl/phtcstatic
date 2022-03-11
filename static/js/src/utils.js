@@ -28,20 +28,14 @@ function storageAvailable(type) {
 }
 
 function readSession(label) {
-    /* eslint-disable scanjs-rules/identifier_sessionStorage */
     if (storageAvailable('sessionStorage')) {
         return sessionStorage.getItem(label);
     }
-    /* eslint-enable scanjs-rules/identifier_sessionStorage */
     return '';
 }
 
 function writeSession(label, str) {
-    /* eslint-disable scanjs-rules/identifier_sessionStorage */
-    /* eslint-disable scanjs-rules/property_sessionStorage */
     if (storageAvailable('sessionStorage')) {
         window.sessionStorage.setItem(label, str);
     }
-    /* eslint-enable scanjs-rules/identifier_sessionStorage */
-    /* eslint-enable scanjs-rules/property_sessionStorage */
 }
