@@ -2,7 +2,7 @@ baseURL = "https://phtc.ctl.columbia.edu/"
 metaDataFormat = "yaml"
 languageCode = "en-us"
 title = "Region 2 Public Health Training Center"
-googleAnalytics = "UA-311226-27"
+googleAnalytics = "G-XN1QCGBYPR"
 copyright = "Copyright (c) 2018 Center for Teaching and Learning at Columbia University - Code licensed GNU GPLv3, content CC BY-NC-SA 4.0"
 
 [params]
